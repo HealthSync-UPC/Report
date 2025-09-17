@@ -510,9 +510,9 @@ Con base en los perfiles de usuarios que hemos supuesto, identificamos el siguie
 En este capítulo, nos centraremos en los requerimientos que necesita cumplir nuestra solución para que sea viable, y los análisis necesarios.   
 
 ## 2.1. Competidores
-1. Zebra Technologies: Líder en trazabilidad mediante RFID, códigos de barras y soluciones IoT aplicadas a la cadena de suministro médica.
-2. LogiTag Medical Solutions: Proveedor de sistemas de RFID e IoT para control de stock y monitorización de cadenas de frío en hospitales y laboratorios.
-3. Siemens Healthineers: Ofrece sistemas integrados para hospitales que incluyen gestión de suministros y equipos médicos con trazabilidad.
+1. **Zebra Technologies:** Líder en trazabilidad mediante RFID, códigos de barras y soluciones IoT aplicadas a la cadena de suministro médica.
+2. **LogiTag Medical Solutions:** Proveedor de sistemas de RFID e IoT para control de stock y monitorización de cadenas de frío en hospitales y laboratorios.
+3. **Siemens Healthineers:** Ofrece sistemas integrados para hospitales que incluyen gestión de suministros y equipos médicos con trazabilidad.
 
 ### 2.1.1. Análisis competitivo
 <table>
