@@ -1,5 +1,3 @@
-<hr>
-
 # <center>COURSE PROJECT</center>
 
 <p align="center">
@@ -65,11 +63,40 @@
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>
+        #1 – TB1 
+      </td>
+      <td>
+        #1 – TB1 
+      </td>
+      <td>
+        Ayquipa Ubaldo, Abraham Israel 
+      </td>
+      <td>
+
+        Capítulo I: Introducción
+        1.1. Startup Profile
+        1.1.1. Descripción de la Startup
+        1.1.2. Perfiles de integrantes del equipo
+        1.2. Solution Profile
+        1.2.1 Antecedentes y problemática
+        1.2.2 Lean UX Process
+        1.2.2.1. Lean UX Problem Statements
+        1.2.2.2. Lean UX Assumptions
+        1.2.2.3. Lean UX Hypothesis Statements
+        1.2.2.4. Lean UX Canvas
+        1.3. Segmentos objetivo
+        Capítulo II: Requirements Elicitation & Analysis
+        2.1. Competidores
+        2.1.1. Análisis competitivo
+        2.1.2. Estrategias y tácticas frente a competidores
+        2.2. Entrevistas
+        2.2.1. Diseño de entrevistas
+        2.2.2. Registro de entrevistas
+        2.2.3. Análisis de entrevistas 
+      </td>
     </tr>
+    
   </tbody>
 </table>
 
@@ -206,7 +233,7 @@ ABET – EAC - Student Outcome 5
       <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -236,7 +263,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TF:</b> [Acciones]</p>
       </td>
       <td>
-        <p><b>TB1:</b> [Conclusiones]</p>
+        <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
         <p><b>TP1:</b> [Conclusiones]</p>
         <p><b>TB2:</b> [Conclusiones]</p>
         <p><b>TF:</b> [Conclusiones]</p>
@@ -246,7 +273,7 @@ ABET – EAC - Student Outcome 5
       <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -276,7 +303,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TF:</b> [Acciones]</p>
       </td>
       <td>
-        <p><b>TB1:</b> [Conclusiones]</p>
+        <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
         <p><b>TP1:</b> [Conclusiones]</p>
         <p><b>TB2:</b> [Conclusiones]</p>
         <p><b>TF:</b> [Conclusiones]</p>
@@ -288,11 +315,13 @@ ABET – EAC - Student Outcome 5
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
 <table>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="" width="500px">
     </th>
     <td valign="top">
       <p><b></b></p>
@@ -301,7 +330,7 @@ ABET – EAC - Student Outcome 5
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="" width="500px">
     </th>
     <td valign="top">
       <p><b></b></p>
@@ -310,7 +339,7 @@ ABET – EAC - Student Outcome 5
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="" width="500px">
     </th>
     <td valign="top">
       <p><b></b></p>
@@ -319,7 +348,7 @@ ABET – EAC - Student Outcome 5
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="" width="500px">
     </th>
     <td valign="top">
       <p><b></b></p>
@@ -328,23 +357,154 @@ ABET – EAC - Student Outcome 5
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="./assets/images/members/abrahamAyquipa.jpeg" width="500px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Ayquipa Ubaldo, Abraham Israel</b></p>
+      <p>Soy estudiante de la carrera de ingeniería de software, actualmente cursando el 8to ciclo de carrera. Aunque soy fullstack developer, tengo más inclinación por el desarrollo frontend. Mi stack arranca con Next.js(Framework de React) + Typescript para el front y Node.js + Express.js + MongoDB para el back. Como todo buen programador, me considero un eterno estudiante, por lo que me encuentro en este momento estudiando Docker y Redis. </p>
     </td>
   </tr>
 </table>
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+### Antecedentes  
+La gestión de inventarios médicos ha sido un reto constante en el sector salud debido a la necesidad de asegurar la disponibilidad continua de insumos críticos y su adecuada conservación. Históricamente, muchos hospitales han utilizado sistemas manuales o registros digitales básicos para el control de existencias. Sin embargo, estos métodos presentan limitaciones en cuanto a precisión, trazabilidad y capacidad de respuesta ante incidencias como el desabastecimiento, el vencimiento de medicamentos o el deterioro de productos sensibles.  
+
+En los últimos años, la creciente complejidad de los servicios hospitalarios, la diversificación de insumos y las estrictas regulaciones sanitarias han generado la necesidad de adoptar tecnologías más avanzadas. El Internet of Things (IoT) ha surgido como una solución viable y eficiente, al permitir el monitoreo en tiempo real de variables críticas como temperatura, humedad, localización y niveles de stock. Esto abre la posibilidad de transformar la administración de inventarios en una gestión más proactiva, segura y transparente.  
+
+### Problemática (Método 5W y 2H)  
+Reconoceremos nuestra problemática mediante el método 5W y 2H. 
+
+- **What (¿Qué?):**  
+Existen dificultades en la administración de inventarios médicos delicados, especialmente en el monitoreo de condiciones de almacenamiento, la trazabilidad de insumos y la prevención de pérdidas por caducidad o deterioro.  
+
+- **Why (¿Por qué?):**  
+Los métodos tradicionales no permiten un control en tiempo real ni una capacidad preventiva. Esto provoca fallas en la disponibilidad, incumplimiento de normas sanitarias y riesgos para la seguridad del paciente.  
+
+- **Who (¿Quién?):**  
+El problema afecta principalmente a hospitales, clínicas, farmacias hospitalarias y laboratorios, impactando directamente a pacientes, personal médico, farmacéuticos y administradores logísticos.  
+
+- **When (¿Cuándo?):**  
+La problemática se presenta de forma continua durante la gestión diaria del inventario, desde el momento de la adquisición de insumos hasta su uso final, con puntos críticos durante el almacenamiento y transporte.  
+
+- **Where (¿Dónde?):**  
+Surge en todas las áreas vinculadas a la cadena de suministro médica, incluyendo farmacias hospitalarias, almacenes centrales, quirófanos, unidades de cuidados intensivos y centros de distribución.  
+
+- **How (¿Cómo?):**  
+Se manifiesta en forma de quiebres de stock, deterioro de insumos de cadena de frío, falta de alertas oportunas, exceso de inventario no utilizado y dificultades para coordinar con proveedores.  
+
+- **How much (¿Cuánto?):**  
+Las consecuencias tienen un alto costo económico por pérdidas de insumos, además de un impacto crítico en la atención al paciente. El gasto puede traducirse en millones anuales dependiendo del tamaño de la institución, sumado al costo intangible de una posible afectación a la salud de los pacientes.  
+
+
 ### 1.2.2. Lean UX Process
+El enfoque Lean UX se centra en comprender la propuesta de valor del modelo de negocio que sustenta nuestro proyecto, cuyo eje principal es el desarrollo de software. A lo largo de este capítulo y del documento en general, se analizan componentes esenciales de dicho enfoque.
+
+Se inicia con la formulación de los "Problem Statements", los cuales incluyen elementos como el área temática, los grupos de clientes, sus necesidades no satisfechas, las oportunidades de mejora, la estrategia general y el público objetivo inicial. En línea con la metodología Lean UX, también se incorporan las "Assumptions Statements" y las "Hypothesis Statements" como parte del proceso.
+
 #### 1.2.2.1. Lean UX Problem Statements
+### Problem Statement  
+La administración de inventarios médicos delicados en hospitales y clínicas presenta deficiencias en la trazabilidad, el monitoreo en tiempo real y la preservación de insumos críticos (como medicamentos de cadena de frío, material quirúrgico estéril y equipos de soporte vital). Esta situación genera pérdidas económicas significativas, incumplimiento de normas sanitarias y, lo más grave, riesgos directos para la seguridad del paciente.  
+
+### Dominio  
+Sector salud, enfocado en la gestión hospitalaria y la cadena de suministro médico, con atención en procesos de almacenamiento, distribución y consumo de insumos delicados.  
+
+### Segmentos de Clientes  
+- **Ecosistema del sector salud** que incluye hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, todos con la necesidad de garantizar disponibilidad, conservación, trazabilidad y cumplimiento normativo de inventarios delicados.dos en mejorar la cadena logística con mayor trazabilidad y transparencia.  
+
+### Puntos de Dolor  
+- Desabastecimiento inesperado de insumos esenciales.  
+- Pérdidas económicas por caducidad, deterioro o fallas en la cadena de frío.  
+- Falta de trazabilidad en la gestión de inventario.  
+- Incumplimiento de regulaciones sanitarias.  
+- Dificultades para coordinar con proveedores en tiempo real.  
+- Limitada visibilidad y monitoreo en áreas críticas como UCI y quirófanos.  
+
+### Visión/Estrategia  
+Implementar un ecosistema de gestión inteligente de inventarios médicos basado en IoT, que permita monitorear en tiempo real condiciones de almacenamiento (temperatura, humedad, ubicación), generar alertas tempranas, automatizar reportes y facilitar la toma de decisiones. La estrategia apunta a optimizar el uso de recursos, reducir pérdidas, fortalecer la seguridad del paciente y garantizar el cumplimiento normativo, impulsando modelos de gestión hospitalaria más transparentes y eficientes.  
+
+### Segmento Inicial  
+El proyecto se orientará inicialmente a **farmacias hospitalarias y unidades críticas (UCI y quirófanos)** de hospitales de mediana y gran escala, por ser los espacios con mayor riesgo clínico y económico debido al uso intensivo de insumos delicados.  
+
 #### 1.2.2.2. Lean UX Assumptions
+En esta parte, analizaremos las suposiciones relacionadas con nuestra solución, abarcando desde las funcionalidades que debería incorporar hasta los resultados esperados, tanto desde nuestra visión como desde la experiencia del usuario.
+
+### Features  
+- Sensores IoT para monitoreo de temperatura, humedad y ubicación en tiempo real.  
+- Plataforma digital centralizada para gestión de inventarios médicos delicados.  
+- Alertas automáticas ante desvíos en condiciones de almacenamiento o niveles críticos de stock.  
+- Reportes inteligentes y analítica predictiva para prevenir desabastecimientos.  
+- Integración con sistemas de gestión hospitalaria (ERP, HCE).  
+- Panel de control accesible desde dispositivos móviles y web.  
+
+### Business Outcomes  
+- Reducción de pérdidas económicas por caducidad, deterioro o mala gestión.  
+- Cumplimiento de normas sanitarias y regulatorias.  
+- Mejora en la eficiencia operativa y reducción de tiempos en la administración de inventarios.  
+- Fortalecimiento de la relación con proveedores mediante trazabilidad transparente.  
+- Incremento en la satisfacción y confianza de pacientes al garantizar disponibilidad de tratamientos y materiales.  
+
+### Users  
+- Farmacéuticos hospitalarios encargados del control de insumos.  
+- Personal médico y de enfermería dependiente de la disponibilidad de materiales críticos.  
+- Administradores de hospitales responsables de costos y cumplimiento normativo.  
+- Proveedores que requieren coordinación correcta con las instituciones de salud.  
+
+### User Outcomes & Benefits  
+- Disponibilidad garantizada de insumos esenciales en cualquier momento.  
+- Acceso a un sistema de alertas preventivas que facilita la toma de decisiones.  
+- Reducción del riesgo de errores médicos por falta de insumos.  
+- Ahorro de tiempo en tareas administrativas gracias a la automatización.  
+- Confianza en la conservación adecuada de medicamentos y equipos delicados.  
+
+### Business Assumptions  
+- Las instituciones de salud están dispuestas a invertir en soluciones IoT para optimizar costos a mediano y largo plazo.  
+- La capacitación del personal será suficiente para adoptar la plataforma con rapidez.  
+- Los beneficios de ahorro por reducción de pérdidas superarán la inversión inicial en infraestructura IoT.  
+- Los hospitales valorarán la solución como un diferenciador competitivo en calidad y cumplimiento regulatorio.  
+- La escalabilidad del sistema permitirá adaptarse a diferentes tamaños de instituciones (pequeñas clínicas hasta grandes hospitales).  
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usuarios, beneficios esperados y funcionalidades propuestas, es posible construir nuestras hipótesis, cada una enfocada en una característica específica que se busca desarrollar.
+
+1. Creemos que **la implementación de sensores IoT en el almacenamiento y transporte de insumos médicos** permitirá monitorear en tiempo real condiciones críticas (temperatura, humedad, ubicación), lo cual reducirá significativamente las pérdidas por deterioro o caducidad.  
+
+2. Creemos que **los farmacéuticos y administradores hospitalarios** usarán la plataforma digital para obtener reportes automáticos y alertas tempranas, lo que les permitirá optimizar el control de inventarios y prevenir desabastecimientos.  
+
+3. Creemos que **los hospitales y clínicas**, al reducir pérdidas económicas y mejorar la trazabilidad, verán un retorno de inversión positivo en un periodo de corto a mediano plazo.  
+
+4. Creemos que **la integración de la plataforma IoT con sistemas de gestión hospitalaria ya existentes (ERP/HCE)** facilitará la adopción de la solución, evitando duplicidades y reduciendo la resistencia al cambio tecnológico.  
+
+5. Creemos que **el personal de salud** (farmacéuticos, enfermeras, médicos) valorará el ahorro de tiempo en tareas administrativas gracias a la automatización, lo que incrementará su satisfacción y eficiencia operacional.  
+
+6. Creemos que **los proveedores y distribuidores de insumos médicos** adoptarán la solución al percibir un aumento en la transparencia logística y una mejor coordinación con las instituciones de salud.  
+
+7. Creemos que **la mejora en la disponibilidad y conservación de insumos delicados** impactará de manera positiva en la seguridad del paciente, aumentando la confianza y la calidad percibida del servicio hospitalario.  
+
 #### 1.2.2.4. Lean UX Canvas
+
+| **Business Problem** | Ineficiencia en la administración de inventarios médicos delicados que genera pérdidas económicas, riesgos de seguridad del paciente e incumplimiento normativo. |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Solutions** | Implementación de sensores IoT (temperatura, humedad, ubicación), plataforma digital centralizada con alertas automáticas e integración a sistemas hospitalarios (ERP/HCE). |
+| **Business Outcomes** | Reducir pérdidas por caducidad/deterioro, garantizar cumplimiento normativo, optimizar procesos logísticos, mejorar coordinación con proveedores y aumentar la seguridad del paciente. |
+
+| **Users** | **Hypotheses** | **User Outcomes & Benefits** |
+|-----------|----------------|-------------------------------|
+| Farmacéuticos hospitalarios | Creemos que usarán reportes y alertas para prevenir desabastecimientos. | Ahorran tiempo, reducen errores y mejoran la trazabilidad. |
+| Administradores hospitalarios | Creemos que verán un retorno de inversión positivo al reducir pérdidas. | Optimización de recursos y cumplimiento normativo. |
+| Personal médico/enfermería | Creemos que valorarán la disponibilidad constante de insumos. | Evitan interrupciones en la atención, garantizan seguridad del paciente. |
+| Proveedores/distribuidores | Creemos que adoptarán la solución al obtener mayor transparencia y trazabilidad. | Coordinación más eficiente y confianza en la cadena logística. |
+
+| **7. What's the most important thing we need to learn first?** | Validar si los hospitales están dispuestos a adoptar e invertir en soluciones IoT para la gestión de insumos médicos delicados. |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **8. What's the least amount of work we need to do to learn the next most important thing?** | Desarrollar un prototipo mínimo (dashboard con alertas simuladas de stock y condiciones de almacenamiento) y probarlo con usuarios clave (farmacéuticos y administradores). |  
+
 ## 1.3. Segmentos objetivo
+Con base en los perfiles de usuarios que hemos supuesto, identificamos el siguiente segmento específico del mercado a los que está orientada nuestra solución.
+
+1. **Trabajadores del sector salud:**  
+  conformado por personas que trabajan en hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, quienes comparten la necesidad de asegurar la disponibilidad, conservación adecuada, trazabilidad y cumplimiento normativo en la gestión de inventarios delicados.
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
