@@ -507,15 +507,233 @@ Con base en los perfiles de usuarios que hemos supuesto, identificamos el siguie
   conformado por personas que trabajan en hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, quienes comparten la necesidad de asegurar la disponibilidad, conservación adecuada, trazabilidad y cumplimiento normativo en la gestión de inventarios delicados.
 
 # Capítulo II: Requirements Elicitation & Analysis 
+En este capítulo, nos centraremos en los requerimientos que necesita cumplir nuestra solución para que sea viable, y los análisis necesarios.   
 
 ## 2.1. Competidores
+1. Zebra Technologies: Líder en trazabilidad mediante RFID, códigos de barras y soluciones IoT aplicadas a la cadena de suministro médica.
+2. LogiTag Medical Solutions: Proveedor de sistemas de RFID e IoT para control de stock y monitorización de cadenas de frío en hospitales y laboratorios.
+3. Siemens Healthineers: Ofrece sistemas integrados para hospitales que incluyen gestión de suministros y equipos médicos con trazabilidad.
+
 ### 2.1.1. Análisis competitivo
+<table>
+  <tr>
+    <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Identificar las características, fortalezas y debilidades de los competidores en el sector salud (gestión de inventarios con IoT) para resaltar el valor diferenciador de MediTrack.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Este análisis se realiza con el fin de detectar oportunidades de innovación y construir ventaja competitiva frente a soluciones ya consolidadas en el mercado global.</td>
+  </tr>
+  <tr>
+    <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        Zebra Technologies
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/images/competitorsLogo/zebra.jpg" alt="Zebra" width="120px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        LogiTag Medical Solutions
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/images/competitorsLogo/logitag.png" alt="LogiTag" width="120px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        Siemens Healthineers
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/images/competitorsLogo/siemens.png" alt="Siemens" width="120px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        MediTrack (nuestra solución)
+        <br>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil</p></td>
+    <td colspan="2">Overview</td>
+    <td valign="top">Soluciones globales de trazabilidad mediante RFID y códigos de barras aplicadas a cadena de suministro médico.</td>
+    <td valign="top">Proveedor especializado en RFID e IoT para inventarios hospitalarios y monitoreo de cadena de frío.</td>
+    <td valign="top">Corporación multinacional con soluciones integradas de gestión hospitalaria y equipos médicos conectados.</td>
+    <td valign="top">Plataforma IoT enfocada en administración inteligente de inventarios médicos delicados, con reportes predictivos y adaptables a hospitales medianos y grandes.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ventaja competitiva</td>
+    <td valign="top">Liderazgo global en rastreo y trazabilidad con alta precisión. Amplia adopción en diferentes industrias.</td>
+    <td valign="top">Alta especialización en salud, fuerte enfoque en cadena de frío y stock crítico hospitalario.</td>
+    <td valign="top">Integración completa con sistemas hospitalarios y reputación mundial en tecnología médica.</td>
+    <td valign="top">Agilidad, flexibilidad y costo-eficiencia, pensado específicamente para optimizar procesos hospitalarios locales y regionales con escalabilidad modular.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><p>Perfil de Marketing</p></td>
+    <td colspan="2">Mercado objetivo</td>
+    <td valign="top">Hospitales y distribuidores globales que requieren trazabilidad avanzada en logística médica.</td>
+    <td valign="top">Hospitales, clínicas y laboratorios que requieren control estricto de medicamentos sensibles.</td>
+    <td valign="top">Hospitales de gran escala y sistemas de salud con alto presupuesto que buscan digitalización total.</td>
+    <td valign="top">Hospitales, clínicas y laboratorios en mercados emergentes que buscan eficiencia, menor coste y cumplimiento normativo sin inversiones masivas.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td valign="top">Reputación global, marketing B2B y relaciones con grandes distribuidores.</td>
+    <td valign="top">Enfoque en clientes hospitalarios de nicho; ventas directas en el sector salud.</td>
+    <td valign="top">Branding global respaldado por Siemens y alianzas con gobiernos y aseguradoras de salud.</td>
+    <td valign="top">Marketing directo a hospitales y clínicas regionales, demostraciones de ROI, alianzas con entidades de salud pública y privada.</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><p>Perfil de Producto</p></td>
+    <td colspan="2">Productos & Servicios</td>
+    <td valign="top">Hardware de rastreo RFID/códigos, software de trazabilidad logística multi-industria.</td>
+    <td valign="top">Sistemas IoT especializados en salud, con control de cadena de frío y stock hospitalario crítico.</td>
+    <td valign="top">Portafolio amplio que integra desde diagnóstico hasta logística hospitalaria.</td>
+    <td valign="top">Software IoT escalable con dashboards inteligentes, alertas, analítica predictiva e integración ERP/HCE.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Precios & Costos</td>
+    <td valign="top">Costos altos, enfoque corporativo global.</td>
+    <td valign="top">Costos medios-altos, especializado para hospitales de gran capacidad.</td>
+    <td valign="top">Muy altos, soluciones premium para sistemas hospitalarios robustos.</td>
+    <td valign="top">Precios competitivos y flexibles, orientado a optimizar el retorno de inversión. Ideal para instituciones medianas y grandes con restricciones presupuestales.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">Web y móvil con fuerte soporte de hardware RFID.</td>
+    <td valign="top">Web con aplicaciones específicas en entorno hospitalario, soporte de hardware.</td>
+    <td valign="top">Sistemas integrados dentro de infraestructura hospitalaria, con soporte en software y hardware.</td>
+    <td valign="top">Plataforma web y móvil de fácil integración, acceso remoto y escalabilidad modular.</td>
+  </tr>
+  <tr>
+    <td rowspan="5"><p>Análisis SWOT</p></td>
+    <td colspan="6">Análisis de fortalezas, debilidades, oportunidades y amenazas de cada competidor con respecto a MediTrack.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Fortalezas</td>
+    <td valign="top">Liderazgo global, experiencia en trazabilidad multi-industria.</td>
+    <td valign="top">Especialización en sector salud, fuerte control de cadena de frío.</td>
+    <td valign="top">Integración hospitalaria completa y marca de prestigio mundial.</td>
+    <td valign="top">Agilidad, costos más bajos, diseño específico para mercados emergentes con dashboards predictivos.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td valign="top">Poca personalización para hospitales pequeños y medianos.</td>
+    <td valign="top">Presencia geográfica limitada; costos que excluyen a mercados emergentes.</td>
+    <td valign="top">Soluciones costosas y complejas, difícil adopción por instituciones con bajo presupuesto.</td>
+    <td valign="top">Marca nueva, menor reconocimiento internacional frente a gigantes globales.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td valign="top">Expansión en sector salud en países en desarrollo.</td>
+    <td valign="top">Mayor demanda de control de cadena de frío tras la pandemia.</td>
+    <td valign="top">Gobiernos digitalizando sistemas de salud; alianzas globales.</td>
+    <td valign="top">Demanda creciente en hospitales medianos y públicos que buscan eficiencia, digitalización y cumplimiento normativo a bajo costo.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td valign="top">Competidores especializados en salud con mayor personalización.</td>
+    <td valign="top">Gigantes globales con mayor alcance y respaldo financiero.</td>
+    <td valign="top">Soluciones más ágiles y económicas que disputen mercado emergente.</td>
+    <td valign="top">Alta competencia y barreras de adopción tecnológica; necesidad de demostrar rápido ROI.</td>
+  </tr>
+</table>
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+**Estrategia 1: Diferenciación mediante especialización en monitoreo en tiempo real**  
+Tácticas:  
+- Incorporar sensores IoT avanzados para monitorear temperatura, humedad y ubicación con precisión superior a la competencia.  
+- Desarrollar una plataforma intuitiva con alertas automáticas y reportes personalizados que faciliten la toma de decisiones rápidas.  
+- Garantizar integración fluida con sistemas hospitalarios existentes (ERP, HCE) para minimizar la resistencia al cambio.  
+
+**Estrategia 2: Competitividad en costo y escalabilidad**  
+Tácticas:  
+- Ofrecer modelos modulares y escalables adaptados a hospitales de diferentes tamaños y presupuestos, desde clínicas pequeñas hasta grandes hospitales.  
+- Implementar una estructura de precios competitiva que permita retornos de inversión claros y medibles para las instituciones de salud.  
+- Brindar opciones de implementación por fases para facilitar la adopción progresiva y reducir barreras económicas.  
+
+**Estrategia 3: Fortalecimiento de la relación con clientes y usuarios finales**  
+Tácticas:  
+- Desarrollar un servicio de atención al cliente especializado, con soporte técnico rápido y capacitación continua para el personal hospitalario.  
+- Crear programas de fidelización y acompañamiento que refuercen la confianza en la solución y fomenten el uso constante.  
+- Realizar talleres y webinars enfocados en la optimización del uso del sistema y las mejores prácticas en la gestión de inventarios delicados.  
+
+**Estrategia 4: Innovación continua y adaptación del producto**  
+Tácticas:  
+- Establecer un equipo de innovación que monitoree tendencias tecnológicas y regulatorias para asegurar actualización constante del producto.  
+- Reactivar ciclos de retroalimentación con usuarios para incorporar mejoras y nuevas funcionalidades basadas en sus necesidades reales.  
+- Investigar alianzas estratégicas con startups HealthTech para complementar la oferta con tecnologías emergentes.  
+
+**Estrategia 5: Marketing enfocado en valor y resultados medibles**  
+Tácticas:  
+- Comunicar claramente los beneficios en ahorro de costos, seguridad del paciente y cumplimiento normativo a través de casos de éxito y evidencias concretas.  
+- Participar en ferias, congresos y eventos del sector salud para posicionar la marca como referente en gestión inteligente de inventarios médicos.  
+- Generar contenido educativo y técnico que demuestre expertise y diferencie la solución frente a competidores globales.  
+
+Estas estrategias y tácticas buscan posicionar la solución como una alternativa innovadora, accesible y confiable que atienda las necesidades específicas de los clientes hospitalarios, superando tanto las limitaciones de costo como las barreras tecnológicas y operativas que presentan los competidores actuales.
+
 ## 2.2. Entrevistas
+Las entrevistas representan un recurso clave para identificar las necesidades, intereses y dificultades de los usuarios, además de permitir la validación de hipótesis y suposiciones del negocio. Mediante esta técnica, es posible recopilar información valiosa sobre las expectativas, experiencias y preferencias de los clientes respecto a productos y servicios. En el contexto de Smart Suite, las entrevistas realizadas a propietarios, gerentes y colaboradores de hoteles serán esenciales para desarrollar una solución alineada con las demandas del mercado y que aporte un valor real a sus usuarios.
+
 ### 2.2.1. Diseño de entrevistas
+En esta parte se registran las preguntas empleadas durante las entrevistas, incluyendo tanto aquellas de carácter general que aplican a todos los segmentos objetivo como las formuladas específicamente para cada uno de ellos.
+
+#### **Preguntas Generales**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Dónde vives actualmente?
+4. ¿A qué te dedicas especificamenente dentro de tu rubro?
+
+#### **Preguntas segmento 1**: Trabajadores del sector salud
+
+1. ¿Cuál es su rol específico dentro de su institución?
+
+2. ¿Cuáles son los principales retos que enfrentan actualmente para controlar y garantizar la conservación de insumos delicados, como medicamentos de cadena de frío o material quirúrgico?
+
+3. ¿Qué tecnologías o métodos utilizan actualmente para monitorear las condiciones de almacenamiento y asegurar la trazabilidad?
+
+4. ¿Con qué frecuencia se presentan pérdidas o desabastecimientos de insumos importantes y cómo impactan en la atención al paciente?
+
+5. ¿Qué beneficios cree que aportaría una solución basada en IoT que monitoree en tiempo real la temperatura, humedad y ubicación de los insumos?
+
+6. ¿Cuáles serían las principales dificultades para implementar una solución tecnológica nueva en su institución, y qué apoyo necesitarían?
+
+7. ¿Qué tan importante considera para su institución contar con reportes automáticos y alertas que faciliten la toma de decisiones en la gestión del inventario?
+
 ### 2.2.2. Registro de entrevistas
+A continuación, se documentaron todas las entrevistas llevadas a cabo para nuestra solución, organizadas por segmento objetivo y acompañadas de un resumen que resalta las observaciones y comentarios relevantes sobre el proyecto.
+
+#### **Segmento 1: Estudiantes Universitarios**
+
+**Entrevista 1:**
+
+- **Nombres:** xxxxxxxxxx
+- **Apellidos:** xxxxxxxxxx
+- **Edad:** xxxxxxxxxx
+- **Lugar de residencia:** xxxxxxxxxx, xxxxxxxxxx
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/>
+
+**Enlace de la entrevista:** []()
+**Resumen de la entrevista:**  
+xxxxxxxxxx
+
 ### 2.2.3. Análisis de entrevistas
+Para finalizar, en la sección de análisis se utilizaron métricas derivadas de las respuestas obtenidas, así como la frecuencia con la que ciertos temas fueron mencionados durante las entrevistas.
+
+#### **Análisis de Preguntas Generales**
+
+XXXXXXXXXXXXXXXXX
+
+#### **Análisis de Preguntas Especificas**
+
+XXXXXXXXXXXXXXXXX
+
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
