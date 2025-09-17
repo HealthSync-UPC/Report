@@ -676,8 +676,6 @@ Tácticas:
 Estas estrategias y tácticas buscan posicionar la solución como una alternativa innovadora, accesible y confiable que atienda las necesidades específicas de los clientes hospitalarios, superando tanto las limitaciones de costo como las barreras tecnológicas y operativas que presentan los competidores actuales.
 
 ## 2.2. Entrevistas
-Las entrevistas representan un recurso clave para identificar las necesidades, intereses y dificultades de los usuarios, además de permitir la validación de hipótesis y suposiciones del negocio. Mediante esta técnica, es posible recopilar información valiosa sobre las expectativas, experiencias y preferencias de los clientes respecto a productos y servicios. En el contexto de Smart Suite, las entrevistas realizadas a propietarios, gerentes y colaboradores de hoteles serán esenciales para desarrollar una solución alineada con las demandas del mercado y que aporte un valor real a sus usuarios.
-
 ### 2.2.1. Diseño de entrevistas
 En esta parte se registran las preguntas empleadas durante las entrevistas, incluyendo tanto aquellas de carácter general que aplican a todos los segmentos objetivo como las formuladas específicamente para cada uno de ellos.
 
