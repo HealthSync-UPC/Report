@@ -382,6 +382,23 @@ ABET – EAC - Student Outcome 5
 
 ### 4.1.1. Design-Level EventStorming
 #### 4.1.1.1. Candidate Context Discovery
+
+Aplicamos **start-with-value** (core orientado a cadena de frío y stock), **look-for-pivotal-events** y **start-with-simple** (timeline por *swimlanes* institucional, dispositivos, inventario, alertas).
+
+| Contexto candidato | Descripción (alcance del dominio) | Historias/Epics que lo sustentan |
+| --- | --- | --- |
+| **Identity & Access (IAM) + Preferencias** | Registro/login/logout, recuperación y cambio de contraseña, gestión de perfil y preferencias de UI (tema/idioma) y canales base. Emite identidad y *claims* al resto de la plataforma. | **HU002–HU007, HU009–HU010, HU029** (Épica 1) |
+| **Gobierno Institucional (Tenancy & Roles)** | Multitenancy: alta de instituciones, membresías, asignación de roles/permisos y *quotas* básicas. | **HU001, HU008** (Épica 1) |
+| **Gestión de Dispositivos IoT & Activos** | Provisión/alta de hardware, asignación a ubicaciones, salud de dispositivo, OTA segura y *store-and-forward*. Gestión de calibración. | **HU011–HU015, HU031** (Épica 2) |
+| **Telemetría & Monitoreo** | Ingesta de lecturas, configuración de umbrales por ubicación/ítem, detección de excursiones, ACK/cierre con evidencia, SLA/escalamiento y *dashboard* de riesgo. | **HU016–HU017, HU019–HU021** (Épica 3) |
+| **Notificaciones & Workflows** | Entrega multicanal (in-app/email/SMS/WhatsApp), ventanas horarias, deduplicación y orquestación de escalados. | **HU018, HU020** (Épica 3) |
+| **Inventario & Stock (FEFO y Cadena de Suministro)** | Catálogo de ítems, lotes y vencimientos; mínimos/máximos y punto de reorden; recepción con evidencia de cadena de frío; sugerencia FEFO; conteo cíclico y ajustes. | **HU022–HU027** (Épica 4) |
+| **Integraciones & Datos Maestros** | Import/Export de maestros y movimientos hacia/desde ERP/HCE. | **HU029** (Épica 5) |
+| **Reportería & Cumplimiento** | Reportes semanales de excursiones/mermas y reportes de cumplimiento normativo (GDP/guías). | **HU028, HU032** (Épica 5) |
+| **Auditoría & Analytics** | Bitácora inmutable por estudio/paciente/usuario y KPIs/series temporales para *compliance* y mejora continua. | **HU030** (Épica 5) |
+
+---
+
 #### 4.1.1.2. Domain Message Flows Modeling
 #### 4.1.1.3. Bounded Context Canvases
 
