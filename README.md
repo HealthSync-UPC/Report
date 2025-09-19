@@ -400,6 +400,53 @@ Aplicamos **start-with-value** (core orientado a cadena de frío y stock), **loo
 ---
 
 #### 4.1.1.2. Domain Message Flows Modeling
+
+**Comandos y eventos del dominio**
+
+| Comando | Evento(s) resultante(s) | Productor | Consumidor(es) |
+| --- | --- | --- | --- |
+| `RegisterUser` | `UserRegistered` | IAM | Gobierno, Auditoría |
+| `LoginUser` | `LoginSucceeded` · `LoginFailed` | IAM | Auditoría |
+| `RequestPasswordReset` | `PasswordResetRequested` | IAM | Auditoría |
+| `ChangePassword` | `PasswordChanged` | IAM | Auditoría |
+| `CreateInstitution` | `InstitutionCreated` | Gobierno | Auditoría |
+| `AddMember` | `InstitutionUserAdded` | Gobierno | IAM, Auditoría |
+| `AssignRole` | `RoleAssigned` | Gobierno | IAM, Auditoría |
+| `ProvisionDevice` | `DeviceProvisioned` | Dispositivos | Telemetría, Auditoría |
+| `AssignDeviceToLocation` | `DeviceAssignedToLocation` | Dispositivos | Telemetría, Inventario, Auditoría |
+| `UpdateFirmwareOta` | `FirmwareUpdated` · `FirmwareUpdateFailed` | Dispositivos | Auditoría |
+| `IngestTelemetry` | `TelemetryIngested` | Telemetría | Telemetría, Auditoría |
+| `SetThresholds` | `ThresholdsConfigured` | Telemetría | Auditoría |
+| *(policy)* | `ThresholdBreached` → `AlertRaised` | Telemetría | Notificaciones, Auditoría |
+| `AcknowledgeAlert` | `AlertAcknowledged` | Telemetría | Notificaciones, Auditoría |
+| `CloseAlertWithEvidence` | `AlertClosedWithEvidence` | Telemetría | Auditoría, Reportería |
+| *(policy SLA)* | `SlaEscalationRaised` | Notificaciones | Auditoría |
+| `SetNotificationPreferences` | `UserPreferencesUpdated` | IAM/Notificaciones | Auditoría |
+| `RegisterItemLot` | `ItemLotRegistered` | Inventario | Auditoría |
+| `ConfigureMinMaxReorder` | `ReorderSettingsUpdated` | Inventario | Auditoría |
+| *(policy)* | `StockLevelChanged` → `ReorderPointReached` | Inventario | Notificaciones, Integraciones, Auditoría |
+| *(policy)* | `LotExpiringSoon` → `ExpiryAlertRaised` | Inventario | Notificaciones, Auditoría |
+| `SuggestFefoPick` | `FefoSuggestionGenerated` | Inventario | Telemetría, Auditoría |
+| `ReceiveGoodsWithEvidence` | `GoodReceivedWithColdChainEvidence` | Inventario | Auditoría, Reportería |
+| `CycleCountAdjust` | `StockAdjustedAfterCycleCount` | Inventario | Auditoría, Integraciones |
+| `ScheduleCalibration` | `CalibrationScheduled` | Dispositivos | Auditoría |
+| *(policy)* | `CalibrationDue` → `CalibrationExpired` | Dispositivos | Notificaciones, Auditoría |
+| `GenerateWeeklyExcursionReport` | `WeeklyExcursionReportGenerated` | Reportería | Auditoría |
+| `GenerateComplianceReport` | `ComplianceReportGenerated` | Reportería | Auditoría, Gobierno |
+| `ImportMasterData` / `ExportMovements` | `ImportCompleted` / `ExportCompleted` | Integraciones | Auditoría |
+
+**Flujos end-to-end (Domain Storytelling)**
+
+1. **Cadena de frío y alertas** *(HU011–HU017, HU018–HU021, HU030)*  
+   *TI* da de alta un sensor (`DeviceProvisioned`) y lo asigna a *Cámara 3* (`DeviceAssignedToLocation`). Se ingesta telemetría (`TelemetryIngested`), se detecta excursión (`ThresholdBreached`) y se levanta alerta (`AlertRaised`). Farmacia hace *ACK* (`AlertAcknowledged`), interviene y sube evidencia (`AlertClosedWithEvidence`). Si no hay *ACK*, se dispara `SlaEscalationRaised`. Todo queda auditado.
+
+2. **FEFO y vencimientos** *(HU022–HU027, HU024, HU025)*  
+   Inventario registra lotes con fecha (`ItemLotRegistered`). El sistema genera `ExpiryAlertRaised` ante proximidad (30/7/1 días). En dispensación, se emite `FefoSuggestionGenerated`. Durante conteo cíclico, `StockAdjustedAfterCycleCount` corrige desvíos.
+
+3. **Recepción en frío con evidencia** *(HU026, HU030, HU028)*  
+   Logística recibe mercancía y captura fotos + T° transporte (`GoodReceivedWithColdChainEvidence`). Se agregan a reportes (`WeeklyExcursionReportGenerated`) y quedan trazas en Auditoría.
+
+
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
