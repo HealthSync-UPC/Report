@@ -466,7 +466,7 @@ A continuación, los *Bounded Contexts* priorizados con su *canvas* resumido. El
 ---
 
 ### 4.1.2. Context Mapping
-
+<img src="assets/ContextMapping.jpg"></img>
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 #### 4.1.3.2. Software Architecture Context Level Diagrams
