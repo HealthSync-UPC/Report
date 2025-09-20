@@ -545,7 +545,7 @@ En esta parte se registran las preguntas empleadas durante las entrevistas, incl
 ### 2.2.2. Registro de entrevistas
 A continuación, se documentaron todas las entrevistas llevadas a cabo para nuestra solución, organizadas por segmento objetivo y acompañadas de un resumen que resalta las observaciones y comentarios relevantes sobre el proyecto.
 
-#### **Segmento 1: Estudiantes Universitarios**
+#### **Segmento: Trabajadores del sector salud**
 
 **Entrevista 1:**
 
