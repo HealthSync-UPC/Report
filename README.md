@@ -475,15 +475,141 @@ A continuación, los *Bounded Contexts* priorizados con su *canvas* resumido. El
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
-#### 4.2.X.1. Domain Layer
-#### 4.2.X.2. Interface Layer
-#### 4.2.X.3. Application Layer
-#### 4.2.X.4. Infrastructure Layer
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-##### 4.2.X.6.2. Bounded Context Database Design Diagram
+### 4.2.1. Bounded Context: IAM + roles <Bounded Context Name>
+
+#### 4.2.1.1. Domain Layer
+### Entity
+| Nombre  | Categoría | Propósito |
+|---------|-----------|-----------|
+| Usuario | Aggregate | Representa a un usuario dentro del sistema con un rol específico. |
+
+### Atributos – Usuario
+| Nombre   | Tipo de dato | Visibilidad | Descripción |
+|----------|--------------|-------------|-------------|
+| Id       | Int          | Public      | Identificador único del usuario. |
+| Email    | String       | Public      | Correo electrónico del usuario. |
+| Password | String       | Private     | Contraseña encriptada. |
+| Rol      | Enum         | Public      | Puede ser "Administrador" o "Personal Médico". |
+| Estado   | Boolean      | Public      | Indica si la cuenta está activa o no. |
+
+---
+
+#### 4.2.1.2. Interface Layer
+#### 4.2.1.3. Application Layer
+#### 4.2.1.4. Infrastructure Layer
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+### 4.2.2. Bounded Context: Dispositivos y Telemetria/Monitoreo <Bounded Context Name>
+
+#### 4.2.2.1. Domain Layer
+### Entity
+| Nombre      | Categoría | Propósito |
+|-------------|-----------|-----------|
+| Dispositivo | Aggregate | Representa un dispositivo registrado en el sistema para monitoreo. |
+| Telemetría  | Entity    | Registra una lectura de telemetría de un dispositivo en un momento dado. |
+
+### Atributos – Dispositivo
+| Nombre        | Tipo de dato | Visibilidad | Descripción |
+|---------------|--------------|-------------|-------------|
+| Id            | Int          | Public      | Identificador único del dispositivo. |
+| Tipo          | String       | Public      | Tipo de dispositivo (sensor, monitor, etc.). |
+| Estado        | String       | Public      | Estado operativo del dispositivo. |
+| Configuración | String       | Private     | Parámetros de configuración del dispositivo. |
+
+### Atributos – Telemetría
+| Nombre    | Tipo de dato | Visibilidad | Descripción |
+|-----------|--------------|-------------|-------------|
+| Id        | Int          | Public      | Identificador de la lectura. |
+| Timestamp | DateTime     | Public      | Momento en que se generó la lectura. |
+| Métrica   | Float        | Public      | Valor de la métrica registrada. |
+| Unidad    | String       | Public      | Unidad de medida de la métrica. |
+
+---
+#### 4.2.2.2. Interface Layer
+#### 4.2.2.3. Application Layer
+#### 4.2.2.4. Infrastructure Layer
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+### 4.2.3. Bounded Context: Notificaciones <Bounded Context Name>
+
+#### 4.2.3.1. Domain Layer
+### Entity
+| Nombre       | Categoría | Propósito |
+|--------------|-----------|-----------|
+| Notificación | Aggregate | Representa un mensaje enviado a un usuario por un canal específico. |
+| Plantilla    | Entity    | Define el contenido base de una notificación (con variables dinámicas). |
+
+### Atributos – Notificación
+| Nombre       | Tipo de dato | Visibilidad | Descripción |
+|--------------|--------------|-------------|-------------|
+| Id           | Int          | Public      | Identificador único de la notificación. |
+| Destinatario | String       | Public      | Usuario o rol que recibirá la notificación. |
+| Canal        | String       | Public      | Medio de envío (Email, SMS, Push, InApp). |
+| Mensaje      | String       | Public      | Contenido de la notificación. |
+| Estado       | String       | Public      | Estado de la notificación (Enviada, Fallida, Leída). |
+
+### Atributos – Plantilla
+| Nombre    | Tipo de dato | Visibilidad | Descripción |
+|-----------|--------------|-------------|-------------|
+| Id        | Int          | Public      | Identificador de la plantilla. |
+| Tipo      | String       | Public      | Tipo de notificación (Alerta, Recordatorio, Info). |
+| Contenido | String       | Public      | Texto base con variables dinámicas. |
+
+---
+#### 4.2.3.2. Interface Layer
+#### 4.2.3.3. Application Layer
+#### 4.2.3.4. Infrastructure Layer
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+### 4.2.4. Bounded Context: Inventario <Bounded Context Name>
+
+#### 4.2.4.1. Domain Layer
+### Entity
+| Nombre         | Categoría | Propósito |
+|----------------|-----------|-----------|
+| ItemInventario | Aggregate | Representa un recurso físico en el inventario (equipo, insumo). |
+| Movimiento     | Entity    | Registra un cambio en el stock (entrada/salida/consumo). |
+| Proveedor      | Entity    | Representa un proveedor de insumos o dispositivos. |
+
+### Atributos – ItemInventario
+| Nombre    | Tipo de dato | Visibilidad | Descripción |
+|-----------|--------------|-------------|-------------|
+| Id        | Int          | Public      | Identificador único del ítem. |
+| Nombre    | String       | Public      | Nombre del recurso. |
+| Cantidad  | Int          | Public      | Stock disponible. |
+| Ubicación | String       | Public      | Lugar físico donde está almacenado. |
+| Estado    | String       | Public      | Estado (Disponible, En uso, Dañado). |
+
+### Atributos – Movimiento
+| Nombre   | Tipo de dato | Visibilidad | Descripción |
+|----------|--------------|-------------|-------------|
+| Id       | Int          | Public      | Identificador del movimiento. |
+| Tipo     | String       | Public      | Entrada, salida o consumo. |
+| Fecha    | DateTime     | Public      | Fecha del movimiento. |
+| Cantidad | Int          | Public      | Cantidad movida. |
+
+### Atributos – Proveedor
+| Nombre   | Tipo de dato | Visibilidad | Descripción |
+|----------|--------------|-------------|-------------|
+| Id       | Int          | Public      | Identificador del proveedor. |
+| Nombre   | String       | Public      | Nombre del proveedor. |
+| Contacto | String       | Public      | Información de contacto (teléfono, correo). |
+#### 4.2.4.2. Interface Layer
+#### 4.2.4.3. Application Layer
+#### 4.2.4.4. Infrastructure Layer
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
 # Capítulo V: Solution UI/UX Design
 
