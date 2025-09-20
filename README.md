@@ -67,36 +67,138 @@
         #1 – TB1 
       </td>
       <td>
-        #1 – TB1 
+        19/09/2025
       </td>
       <td>
         Ayquipa Ubaldo, Abraham Israel 
       </td>
       <td>
 
-        Capítulo I: Introducción
-        1.1. Startup Profile
-        1.1.1. Descripción de la Startup
-        1.1.2. Perfiles de integrantes del equipo
-        1.2. Solution Profile
-        1.2.1 Antecedentes y problemática
-        1.2.2 Lean UX Process
-        1.2.2.1. Lean UX Problem Statements
-        1.2.2.2. Lean UX Assumptions
-        1.2.2.3. Lean UX Hypothesis Statements
-        1.2.2.4. Lean UX Canvas
-        1.3. Segmentos objetivo
-        Capítulo II: Requirements Elicitation & Analysis
-        2.1. Competidores
-        2.1.1. Análisis competitivo
-        2.1.2. Estrategias y tácticas frente a competidores
-        2.2. Entrevistas
-        2.2.1. Diseño de entrevistas
-        2.2.2. Registro de entrevistas
-        2.2.3. Análisis de entrevistas 
+
+        - [Capítulo I: Introducción]
+        - [1.1. Startup Profile]
+        - [1.1.1. Descripción de la Startup]
+        - [1.1.2. Perfiles de integrantes del equipo]
+        - [1.2. Solution Profile]
+        - [1.2.1 Antecedentes y problemática]
+        - [1.2.2 Lean UX Process]
+        - [1.2.2.1. Lean UX Problem Statements]
+        - [1.2.2.2. Lean UX Assumptions]
+        - [1.2.2.3. Lean UX Hypothesis Statements]
+        - [1.2.2.4. Lean UX Canvas]
+        - [1.3. Segmentos objetivo]
+        [Capítulo II: Requirements Elicitation & Analysis]
+        - [2.1. Competidores]
+        - [2.1.1. Análisis competitivo]
+        - [2.1.2. Estrategias y tácticas frente a competidores]
+        - [2.2. Entrevistas]
+        - [2.2.1. Diseño de entrevistas]
+        - [2.2.2. Registro de entrevistas]
+        - [2.2.3. Análisis de entrevistas]
+
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #1 – TB1 
       </td>
-    </tr>
-    
+      <td>
+        19/09/2025
+      </td>
+      <td>
+        Durand Vera, Gianfranco Angel	
+      </td>
+      <td>
+
+        - [2.3. Needfinding]
+        - [2.3.1. User Personas]
+        - [2.3.2. User Task Matrix]
+        - [2.3.3. User Journey Mapping]
+        - [2.3.4. Empathy Mapping]
+        - [2.4. Big Picture EventStorming]
+        - [2.5. Ubiquitous Language]
+
+
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #1 – TB1 
+      </td>
+      <td>
+        19/09/2025
+      </td>
+      <td>
+        Cruz Ticona, Aarón Alejandro
+      </td>
+      <td>
+
+        -[Capítulo III: Requirements Specification]
+        - To-Be Scenario Mapping]
+        - User Stories]
+        - Product Backlog]
+        - o IV: Solution Software Design]
+        - Strategic-Level Domain-Driven Design]
+        - .1.1. Design-Level EventStorming]
+        - - [4.1.1.1. Candidate Context Discovery]
+        - - [4.1.1.2. Domain Message Flows Modeling]
+        - - [4.1.1.3. Bounded Context Canvases]
+        - .1.2. Context Mapping]
+        - .1.3. Software Architecture]
+        - - [4.1.3.1. Software Architecture System Landscape Diagram]
+        - - [4.1.3.2. Software Architecture Context Level Diagrams]
+        - - [4.1.3.2. Software Architecture Container Level Diagrams]
+        - - [4.1.3.3. Software Architecture Deployment Diagrams]
+
+
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #1 – TB1 
+      </td>
+      <td>
+        19/09/2025
+      </td>
+      <td>
+        Ticona Panduro, Estrella del Pilar
+      </td>
+      <td>
+
+        - [4.1.2. Context Mapping]
+        - [4.1.3. Software Architecture]
+        - [4.1.3.1. Software Architecture System Landscape Diagram]
+        - [4.1.3.2. Software Architecture Context Level Diagrams]
+        - [4.1.3.2. Software Architecture Container Level Diagrams]
+        - [4.1.3.3. Software Architecture Deployment Diagrams]
+        - [4.2. Tactical-Level Domain-Driven Design]
+        - [4.2.X. Bounded Context: <Bounded Context Name>]
+        - [4.2.X.1. Domain Layer](#42x1-domain-layer)
+
+
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #1 – TB1 
+      </td>
+      <td>
+        19/09/2025
+      </td>
+      <td>
+        Luza Carhuamaca Jose Adrian
+      </td>
+      <td>
+
+        - [4.2.X.2. Interface Layer]
+        - [4.2.X.3. Application Layer]
+        - [4.2.X.4. Infrastructure Layer]
+        - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams]
+        - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams]
+        - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams]
+        - [4.2.X.6.2. Bounded Context Database Design Diagram]
+
+
   </tbody>
 </table>
 
@@ -234,39 +336,21 @@ ABET – EAC - Student Outcome 5
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
         <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
       </td>
       <td>
         <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
-        <p><b>TP1:</b> [Conclusiones]</p>
-        <p><b>TB2:</b> [Conclusiones]</p>
-        <p><b>TF:</b> [Conclusiones]</p>
       </td>
     </tr>
     <tr>
@@ -274,39 +358,21 @@ ABET – EAC - Student Outcome 5
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
         <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> [Acciones]</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
       </td>
       <td>
         <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
-        <p><b>TP1:</b> [Conclusiones]</p>
-        <p><b>TB2:</b> [Conclusiones]</p>
-        <p><b>TF:</b> [Conclusiones]</p>
       </td>
     </tr>
   </tbody>
@@ -315,6 +381,17 @@ ABET – EAC - Student Outcome 5
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+HealthSync es una startup creada con el propósito de transformar la gestión de inventarios médicos en instituciones de salud. Conscientes de los desafíos que enfrentan hospitales, clínicas y centros médicos debido al desabastecimiento, las pérdidas por caducidad o la falta de trazabilidad en insumos críticos, hemos desarrollado **MediTrack**, una solución inteligente basada en **Internet of Things (IoT)**.  
+
+A través de sensores de temperatura, humedad y geolocalización, MediTrack permite monitorear en tiempo real las condiciones de almacenamiento y traslado de medicamentos, insumos quirúrgicos y equipos delicados. Los datos recolectados se integran en una plataforma digital que ofrece alertas automáticas, reportes detallados y análisis predictivos para la toma de decisiones oportunas.  
+
+Con nuestra propuesta, buscamos reducir pérdidas económicas, garantizar la seguridad del paciente y facilitar el cumplimiento de normas sanitarias, fortaleciendo así la eficiencia operativa de las instituciones de salud. HealthSync combina innovación tecnológica y compromiso con la salud pública para brindar una alternativa confiable, transparente y sostenible en la gestión hospitalaria.  
+
+## Misión
+Nuestra misión es optimizar la administración de inventarios médicos mediante soluciones basadas en IoT que garanticen la disponibilidad, conservación y trazabilidad de insumos críticos, mejorando la seguridad del paciente y la eficiencia de las instituciones de salud.  
+
+## Visión
+Aspiramos a posicionarnos como líderes en innovación para la gestión hospitalaria en Latinoamérica, reconocidos por nuestra capacidad de integrar tecnología, salud y sostenibilidad, ofreciendo soluciones inteligentes que eleven la calidad en los servicios de atención médica.  
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -324,8 +401,8 @@ ABET – EAC - Student Outcome 5
       <img src="" width="500px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Durand Vera, Gianfranco Angel</b></p>
+      <p>Soy estudiante de Ingeniería de Software, cursando el 8vo ciclo de la carrera. Aunque me desempeño como fullstack developer, mi mayor inclinación se centra en el desarrollo frontend. Manejo tecnologías como React y Next.js con TypeScript, complementadas con Node.js, Express y bases de datos NoSQL como MongoDB. Actualmente estoy reforzando mis conocimientos en DevOps, explorando herramientas como Docker y CI/CD para mejorar los despliegues y la integración de aplicaciones. Mi enfoque es crear experiencias de usuario consistentes y optimizadas, manteniendo siempre una visión integral del ciclo de desarrollo.</p>
     </td>
   </tr>
   <tr>
@@ -333,8 +410,8 @@ ABET – EAC - Student Outcome 5
       <img src="" width="500px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Cruz Ticona, Aaron Alejandro</b></p>
+      <p>Soy estudiante de Ingeniería de Software, actualmente en el 8vo ciclo de carrera. Me especializo en el desarrollo backend, con un enfoque en lenguajes como Java y Python que permiten desarrollar aplicaciones seguras, escalables y de alto rendimiento. Tengo un interés particular en las arquitecturas basadas en microservicios, por su modularidad e integración sencilla. Asimismo, me motiva la investigación de nuevas tecnologías en la nube y la aplicación de buenas prácticas de ingeniería, buscando siempre optimizar los procesos de desarrollo y aportar soluciones eficientes dentro de un equipo.</p>
     </td>
   </tr>
   <tr>
@@ -342,17 +419,17 @@ ABET – EAC - Student Outcome 5
       <img src="" width="500px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Ticona Panduro, Estrella del Pilar</b></p>
+      <p>Soy estudiante de Ingeniería de Software, actualmente en el 8vo ciclo. Mi interés está orientado al análisis de datos y la implementación de soluciones de machine learning que permitan transformar información en valor estratégico. Manejo herramientas estadísticas, Python con librerías como Pandas y Scikit-learn, y me interesa el uso de APIs para integrar modelos predictivos en aplicaciones reales. Además, me enfoco en el cumplimiento de estándares de calidad y en metodologías ágiles para gestionar proyectos, buscando entregar soluciones innovadoras que respondan a problemáticas concretas en los negocios.</p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="./assets/images/members/jose-photo.png" width="500px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Luza Carhuamaca, Jose Adrian</b></p>
+      <p>Soy estudiante de Ingeniería de Software, actualmente en el 8vo ciclo de la carrera. A lo largo de mi formación, he desarrollado un gran interés por el desarrollo backend, especialmente utilizando Python y Java, ya que considero que estos lenguajes ofrecen soluciones eficientes y escalables. Me atrae especialmente trabajar con arquitecturas de microservicios, ya que permiten una mayor modularidad, flexibilidad y escalabilidad en las aplicaciones, facilitando su mantenimiento y evolución. Además, me enfoco en la implementación de buenas prácticas de programación y metodologías ágiles, buscando siempre optimizar los procesos de desarrollo y asegurar una mejora continua en la calidad del software, adaptándome a las necesidades cambiantes del entorno tecnológico.</p>
     </td>
   </tr>
   <tr>
