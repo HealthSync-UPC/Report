@@ -549,6 +549,43 @@ A continuación, se documentaron todas las entrevistas llevadas a cabo para nues
 
 **Entrevista 1:**
 
+- **Nombres:** Ernie Fabian
+- **Apellidos:** Cossio Soto
+- **Edad:** 29
+- **Lugar de residencia:** Miraflores, Lima
+
+**Evidencia de la entrevista:**  
+
+<img src="assets/images/interviews/ErnieEntrevista.png" alt="Ernie Entrevista">
+
+
+**Enlace de la entrevista:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EZyZXwQjGWFAvmQgLvIn82sB4XdvL7Qtspq4vkSbumW2Hg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4SyDhX](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EZyZXwQjGWFAvmQgLvIn82sB4XdvL7Qtspq4vkSbumW2Hg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4SyDhX)
+
+**Resumen de la entrevista:**  
+Durante la entrevista, Ernie Cossio se presentó como un profesional enfocado en la innovación en el sector salud, especialmente en la mejora de la gestión de inventarios médicos mediante tecnologías avanzadas. Su trabajo se centra en optimizar el control de insumos críticos en hospitales y clínicas, utilizando IoT para mejorar la trazabilidad, conservación y disponibilidad de estos.
+
+En cuanto a su rol, explicó que se dedica a validar y mejorar los procesos en la gestión de insumos, identificando puntos críticos y proponiendo soluciones tecnológicas. Destacó los principales desafíos del sector, como la falta de monitoreo en tiempo real, la dependencia de registros manuales, y la dificultad para anticipar desabastecimientos y pérdidas por vencimiento o deterioro.
+
+En relación con los métodos actuales, mencionó que muchos centros de salud aún utilizan hojas de cálculo o sistemas básicos, con poca integración y capacidades limitadas de trazabilidad. La frecuencia de pérdidas y desabastecimientos es alta, lo que impacta negativamente en la seguridad del paciente, la continuidad de los tratamientos y los costos.
+
+Al evaluar una solución basada en IoT, resaltó sus beneficios como el monitoreo en tiempo real, la reducción de pérdidas, y la mejora de la trazabilidad, lo que facilita la toma de decisiones. Sin embargo, identificó desafíos como la inversión inicial, la capacitación del personal y la integración con sistemas existentes, sugiriendo que el apoyo necesario incluye soporte técnico y formación. Finalmente, destacó la importancia de los reportes automáticos y las alertas, ya que permiten una gestión preventiva y aseguran la disponibilidad de insumos en condiciones óptimas para una mejor atención al paciente.
+
+**Entrevista 2:**
+
+- **Nombres:** xxxxxxxxxx
+- **Apellidos:** xxxxxxxxxx
+- **Edad:** xxxxxxxxxx
+- **Lugar de residencia:** xxxxxxxxxx, xxxxxxxxxx
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/>
+
+**Enlace de la entrevista:** []()
+**Resumen de la entrevista:**  
+xxxxxxxxxx
+
+**Entrevista 3:**
+
 - **Nombres:** xxxxxxxxxx
 - **Apellidos:** xxxxxxxxxx
 - **Edad:** xxxxxxxxxx
