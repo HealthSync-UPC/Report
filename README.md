@@ -112,8 +112,8 @@
 - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
+- [3.1. User Stories](#31-user-stories)
+- [3.2. Impact Mapping](#32-impact-mapping)
 - [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
@@ -372,9 +372,7 @@ ABET – EAC - Student Outcome 5
 
 ## 3.1. User Stories
 
-<!-- ========================================= -->
 <!-- Epic 1: Autenticación y Gestión de Usuarios -->
-<!-- ========================================= -->
 
 <table >
   <thead>
@@ -653,9 +651,7 @@ ABET – EAC - Student Outcome 5
   </tr>
 </table>
 
-<!-- ========================================= -->
 <!-- Epic 2: Dispositivos IoT (provisión y salud) -->
-<!-- ========================================= -->
 
 <table >
   <thead>
@@ -792,9 +788,7 @@ ABET – EAC - Student Outcome 5
   </tr>
 </table>
 
-<!-- ========================================= -->
 <!-- Epic 3: Monitoreo y Alertas -->
-<!-- ========================================= -->
 
 <table >
   <thead>
@@ -958,9 +952,7 @@ ABET – EAC - Student Outcome 5
   </tr>
 </table>
 
-<!-- ========================================= -->
 <!-- Epic 4: Inventario, Lotes y FEFO -->
-<!-- ========================================= -->
 
 <table >
   <thead>
@@ -1124,9 +1116,7 @@ ABET – EAC - Student Outcome 5
   </tr>
 </table>
 
-<!-- ========================================= -->
 <!-- Epic 5: Reportes, Integración y Auditoría -->
-<!-- ========================================= -->
 
 <table >
   <thead>
@@ -2071,6 +2061,8 @@ ABET – EAC - Student Outcome 5
 
 
 ## 3.2. Impact Mapping 
+
+<img src='assests/impact_mapping.png'>
 
 ## 3.3. Product Backlog
 | Orden | User Story / Technical Story Id | Título                                                   | Descripción                                                                                                                                                       | Story Points |
