@@ -67,7 +67,7 @@
         #1 – TB1 
       </td>
       <td>
-        #1 – TB1 
+        19/09/2025
       </td>
       <td>
         Ayquipa Ubaldo, Abraham Israel 
@@ -96,6 +96,28 @@
         2.2.3. Análisis de entrevistas 
       </td>
     </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #1 – TB1 
+      </td>
+      <td>
+        19/09/2025
+      </td>
+      <td>
+        Luza Carhuamaca Jose Adrian
+      </td>
+      <td>
+
+        - [4.2.X.2. Interface Layer]
+        - [4.2.X.3. Application Layer]
+        - [4.2.X.4. Infrastructure Layer]
+        - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams]
+        - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams]
+        - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams]
+        - [4.2.X.6.2. Bounded Context Database Design Diagram]
+
     
   </tbody>
 </table>
@@ -251,7 +273,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -291,7 +313,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -348,11 +370,11 @@ ABET – EAC - Student Outcome 5
   </tr>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="./assets/images/members/jose-photo.png" width="500px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Luza Carhuamaca, Jose Adrian</b></p>
+      <p>Soy estudiante de Ingeniería de Software, actualmente en el 8vo ciclo de la carrera. A lo largo de mi formación, he desarrollado un gran interés por el desarrollo backend, especialmente utilizando Python y Java, ya que considero que estos lenguajes ofrecen soluciones eficientes y escalables. Me atrae especialmente trabajar con arquitecturas de microservicios, ya que permiten una mayor modularidad, flexibilidad y escalabilidad en las aplicaciones, facilitando su mantenimiento y evolución. Además, me enfoco en la implementación de buenas prácticas de programación y metodologías ágiles, buscando siempre optimizar los procesos de desarrollo y asegurar una mejora continua en la calidad del software, adaptándome a las necesidades cambiantes del entorno tecnológico.</p>
     </td>
   </tr>
   <tr>
