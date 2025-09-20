@@ -338,7 +338,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> [Acciones]</p>
@@ -360,7 +360,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> [Acciones]</p>
