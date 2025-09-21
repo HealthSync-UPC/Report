@@ -1048,13 +1048,122 @@ Notifications_Component.png
 | Id       | Int          | Public      | Identificador del proveedor. |
 | Nombre   | String       | Public      | Nombre del proveedor. |
 | Contacto | String       | Public      | Información de contacto (teléfono, correo). |
+
 #### 4.2.4.2. Interface Layer
+
+| **Componente**    | **Descripción**                                                  | **Endpoints/Interfaces**                                                                                                                                                                          |
+|-------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **REST APIs**     | Define los puntos de acceso para interactuar con el sistema de inventario. | - `POST /items`: Crear un nuevo ítem de inventario.<br> - `GET /items/{id}`: Obtener información de un ítem.<br> - `PUT /items/{id}`: Actualizar la información de un ítem.<br> - `POST /movements`: Registrar un nuevo movimiento.<br> - `GET /movements/{id}`: Obtener detalles de un movimiento. |
+| **Inventario**    | Gestionar los ítems de inventario.                              | - `POST /items/{id}/update`: Actualizar la cantidad o estado de un ítem.<br> - `POST /movements/{id}/create`: Registrar un movimiento (entrada/salida). |
+| **Proveedores**   | Gestionar los proveedores de insumos.                            | - `POST /suppliers`: Crear un proveedor.<br> - `GET /suppliers/{id}`: Obtener información del proveedor. |
+---
+
 #### 4.2.4.3. Application Layer
+
+### Servicios
+
+| **Componente**               | **Descripción**                                           | **Funcionalidad**                                                                                                                                                                      |
+|------------------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Servicio de Gestión de Inventario** | Gestionar los ítems de inventario.               | - Crear, actualizar y eliminar ítems del inventario.<br> - Gestionar la cantidad y ubicación de los ítems.<br> - Emitir eventos como `ItemCreated`, `ItemUpdated`. |
+| **Servicio de Movimiento**    | Gestionar los movimientos de inventario.                    | - Registrar movimientos (entrada, salida, consumo).<br> - Emitir eventos como `MovementCreated`, `MovementUpdated`. |
+| **Servicio de Proveedores**    | Gestionar los proveedores.                    | - Crear, actualizar y eliminar proveedores.<br> - Emitir eventos como `SupplierCreated`, `SupplierUpdated`. |
+
+### Funciones del Servicio
+
+1. **Gestionar Ítem de Inventario:**
+    - Validar los parámetros de entrada (nombre, cantidad, ubicación).
+    - Crear o actualizar un ítem en el inventario.
+    - Emitir evento `ItemCreated` o `ItemUpdated`.
+
+2. **Registrar Movimiento:**
+    - Validar los parámetros del movimiento (tipo, cantidad).
+    - Crear un movimiento (entrada, salida o consumo).
+    - Emitir evento `MovementCreated`.
+
+3. **Gestionar Proveedor:**
+    - Validar los parámetros del proveedor (nombre, contacto).
+    - Crear o actualizar un proveedor.
+    - Emitir evento `SupplierCreated` o `SupplierUpdated`.
+
+---
 #### 4.2.4.4. Infrastructure Layer
+
+### Repositorio – Ítem de Inventario
+
+**Nombre:** `ItemRepository`  
+**Categoría:** Repository  
+**Propósito:** Gestionar las operaciones de persistencia y consulta para los ítems de inventario.
+
+##### Métodos del Repositorio
+
+| **Nombre**               | **Tipo de retorno**              | **Visibilidad** | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| `FindByIdAsync`          | `Task<Item?>`                    | Public          | Recupera un ítem por su `Id`.                                                                             |
+| `CreateAsync`            | `Task<Item>`                     | Public          | Crea un nuevo ítem en el inventario.                                                                      |
+| `UpdateAsync`            | `Task<Item>`                     | Public          | Actualiza un ítem existente.                                                                              |
+| `DeleteAsync`            | `Task<bool>`                     | Public          | Elimina un ítem del inventario.                                                                           |
+| `FindAllAsync`           | `Task<List<Item>>`               | Public          | Lista todos los ítems del inventario.                                                                    |
+
+**Nombre:** `MovementRepository`  
+**Categoría:** Repository  
+**Propósito:** Gestionar las operaciones de persistencia y consulta para los movimientos de inventario.
+
+##### Métodos del Repositorio
+
+| **Nombre**               | **Tipo de retorno**              | **Visibilidad** | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| `FindByIdAsync`          | `Task<Movement?>`                | Public          | Recupera un movimiento por su `Id`.                                                                       |
+| `CreateAsync`            | `Task<Movement>`                 | Public          | Crea un nuevo movimiento en el inventario.                                                                 |
+| `FindAllAsync`           | `Task<List<Movement>>`           | Public          | Lista todos los movimientos realizados.                                                                  |
+
+**Nombre:** `SupplierRepository`  
+**Categoría:** Repository  
+**Propósito:** Gestionar las operaciones de persistencia y consulta para los proveedores.
+
+##### Métodos del Repositorio
+
+| **Nombre**               | **Tipo de retorno**              | **Visibilidad** | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| `FindByIdAsync`          | `Task<Supplier?>`                | Public          | Recupera un proveedor por su `Id`.                                                                        |
+| `CreateAsync`            | `Task<Supplier>`                 | Public          | Crea un nuevo proveedor.                                                                                   |
+| `UpdateAsync`            | `Task<Supplier>`                 | Public          | Actualiza un proveedor existente.                                                                         |
+| `DeleteAsync`            | `Task<bool>`                     | Public          | Elimina un proveedor.                                                                                     |
+
+**Nombre:** `ItemController`  
+**Propósito:** Exponer los endpoints de REST para la gestión de ítems de inventario.
+
+##### Métodos del Controlador
+
+| **Nombre**               | **Método HTTP**                 | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `CreateItem`             | `POST`                          | Crear un nuevo ítem en el inventario.                                                                      |
+| `GetItem`                | `GET`                           | Obtener un ítem por su `Id`.                                                                               |
+| `UpdateItem`             | `PUT`                           | Actualizar un ítem existente.                                                                              |
+| `DeleteItem`             | `DELETE`                        | Eliminar un ítem del inventario.                                                                           |
+
+**Nombre:** `SupplierController`  
+**Propósito:** Exponer los endpoints de REST para la gestión de proveedores.
+
+##### Métodos del Controlador
+
+| **Nombre**               | **Método HTTP**                 | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `CreateSupplier`         | `POST`                          | Crear un nuevo proveedor.                                                                                 |
+| `GetSupplier`            | `GET`                           | Obtener un proveedor por su `Id`.                                                                         |
+| `UpdateSupplier`         | `PUT`                           | Actualizar un proveedor existente.                                                                        |
+| `DeleteSupplier`         | `DELETE`                        | Eliminar un proveedor.                                                                                   |
+
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/diagrams/Inventory_Component.png"></img>
+
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/diagrams/Inventory_ClassDiagram.png"></img>
+
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
+<img src="assets/diagrams/Inventory_DatabaseDiagram.png"></img>
 
 # Capítulo V: Solution UI/UX Design
 
