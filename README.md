@@ -2535,3 +2535,5 @@ Notifications_Component.png
 # Bibliografía
 
 # Anexos
+
+[Landing Page:](https://meditrack-upc.vercel.app/) https://meditrack-upc.vercel.app/
