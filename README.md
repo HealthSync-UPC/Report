@@ -144,8 +144,10 @@
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
       - [**Segmento: Trabajadores del sector salud**](#segmento-trabajadores-del-sector-salud)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-      - [**Análisis de Preguntas Generales**](#análisis-de-preguntas-generales)
-      - [**Análisis de Preguntas Especificas**](#análisis-de-preguntas-especificas)
+    - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
+    - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
+    - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
+    - [Necesidades prioritarias](#necesidades-prioritarias)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -668,36 +670,75 @@ Al evaluar una solución basada en IoT, resaltó sus beneficios como el monitore
 **Evidencia de la entrevista:**  
 <img src="assets/images/interviews/KevinEntrevista.png">
 
-**Enlace de la entrevista:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/ETtC5h2QGA1LgjkZ4Q8WEIABucd5rAHsdkQ2CerG-UjGtQ?e=aMAA6j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Enlace de la entrevista:** [Lihttps://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/ETtC5h2QGA1LgjkZ4Q8WEIABucd5rAHsdkQ2CerG-UjGtQ?e=aMAA6j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3Dnk](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/ETtC5h2QGA1LgjkZ4Q8WEIABucd5rAHsdkQ2CerG-UjGtQ?e=aMAA6j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista:**  
 Kevin Pardo, el encargado de administrar y conservar medicamentos en una institución de salud en Cañete expuso que su principal reto es garantizar la correcta conservación de los insumos, especialmente aquellos que requieren una cadena de frío, ya que los equipos actuales no son del todo fiables y los métodos de control son manuales, como registros en papel y mediciones periódicas con termómetros, lo que impide detectar a tiempo fallas críticas. Desde su perspectiva, una solución de monitoreo en tiempo real a través de IoT sería de gran ayuda, pues brindaría tranquilidad al saber el estado constante de los medicamentos, permitiría reaccionar rápidamente ante cualquier anomalía, reduciría las pérdidas económicas y, en última instancia, mejoraría la calidad del servicio a los pacientes. Sin embargo, identificó como principales dificultades para su implementación el costo inicial de la tecnología y la necesidad de capacitar al personal para que se adapte a la nueva herramienta. Finalmente, Kevin subrayó la gran importancia de contar con reportes automáticos y alertas, ya que considera que serían fundamentales para tomar decisiones rápidas, prevenir el deterioro de los medicamentos y optimizar la gestión de inventario.
 
 **Entrevista 3:**
 
-- **Nombres:** xxxxxxxxxx
-- **Apellidos:** xxxxxxxxxx
-- **Edad:** xxxxxxxxxx
-- **Lugar de residencia:** xxxxxxxxxx, xxxxxxxxxx
+- **Nombres:** Natanael David
+- **Apellidos:** Soto salis
+- **Edad:** 24
+- **Lugar de residencia:** Santiago de Surco, Lima
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/>
+<img src="assets/images/interviews/NatanaelEntrevista.png">
 
-**Enlace de la entrevista:** []()
+**Enlace de la entrevista:**
+[https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS%2FABRAHAM%20AYQUIPA%20-%202DO%20SEGMENTO%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9336584c-0401-42f5-9db3-d3d03ee17a42](https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS%2FABRAHAM%20AYQUIPA%20-%202DO%20SEGMENTO%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9336584c-0401-42f5-9db3-d3d03ee17a42)  
+
 **Resumen de la entrevista:**  
-xxxxxxxxxx
+Durante la entrevista, Natanael, un joven profesional de 24 años residente en Santiago de Surco, Lima, compartió su experiencia en la gestión de insumos médicos dentro de instituciones de salud de mediana escala. Señaló que uno de los principales problemas a los que se enfrenta es la falta de visibilidad en tiempo real del estado de los medicamentos y dispositivos, lo que suele generar retrasos en la disponibilidad y complica la planificación de los recursos.
+
+Comentó que actualmente se depende de métodos manuales y sistemas poco integrados, lo que limita el control adecuado del inventario y genera riesgos tanto de desabastecimiento como de acumulación de productos próximos a vencer. En su opinión, el uso de tecnologías como IoT permitiría una supervisión mucho más eficiente, reduciendo errores humanos y asegurando una mayor confiabilidad en la gestión.
+
+Respecto a los beneficios, destacó que contar con un sistema automatizado de reportes y alertas optimizaría la toma de decisiones y garantizaría la disponibilidad oportuna de los medicamentos, lo que impactaría directamente en la seguridad y continuidad de la atención a los pacientes. No obstante, también identificó obstáculos, principalmente el costo de implementación y la resistencia inicial del personal a adoptar nuevas herramientas, por lo que considera esencial un plan de capacitación y soporte técnico constante.
+
+En conclusión, subrayó que herramientas de monitoreo en tiempo real no solo mejorarían la eficiencia operativa, sino que serían clave para brindar un servicio más seguro, confiable y humanizado en el sector salud.
 
 ### 2.2.3. Análisis de entrevistas
 Para finalizar, en la sección de análisis se utilizaron métricas derivadas de las respuestas obtenidas, así como la frecuencia con la que ciertos temas fueron mencionados durante las entrevistas.
 
-#### **Análisis de Preguntas Generales**
+### Obstáculos para la implementación
+En esta tabla se consolidan las principales dificultades que los entrevistados prevén al adoptar soluciones IoT, como la inversión inicial, la capacitación necesaria, las dificultades de integración tecnológica y la resistencia al cambio. Se detalla la ocurrencia en cada entrevista y el porcentaje de recurrencia.
 
-XXXXXXXXXXXXXXXXX
+<div style="text-align: center;">
+  <img src="assets/images/analysis/obstaculos.png" alt="Problemas Identificados">
+</div>
 
-#### **Análisis de Preguntas Especificas**
+**Interpretación**:
+La inversión inicial y la capacitación aparecen como los obstáculos más universales (100%), indicando que cualquier estrategia de implementación debe enfrentar estos retos de manera prioritaria. Los problemas de integración tecnológica y la resistencia al cambio son relevantes para algunos (66% y 33%), lo que sugiere la necesidad de acompañamiento técnico y de gestión del cambio en los proyectos de digitalización.
 
-XXXXXXXXXXXXXXXXX
+### Tabla de problemas identificados
+La tabla muestra los principales problemas que enfrentan los entrevistados en la gestión de inventarios médicos, tales como la falta de monitoreo en tiempo real, la dependencia de registros manuales, el riesgo de desabastecimiento, las pérdidas por vencimiento o deterioro, la confiabilidad de los equipos en la cadena de frío y la baja integración entre sistemas. Se indica para cada problema si fue mencionado en cada entrevista y se cuantifica su recurrencia en porcentaje.
 
+<div style="text-align: center;">
+  <img src="assets/images/analysis/problemas.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+Los problemas más críticos (falta de monitoreo, registro manual y pérdidas por vencimiento/deterioro) aparecen en todas las entrevistas (100%), lo que evidencia que son desafíos transversales en el sector. El riesgo de desabastecimiento y la baja integración son señalados por dos de los tres entrevistados (66%), y la confiabilidad de los equipos de refrigeración sólo por uno (33%). Estos resultados sugieren que la digitalización y integración de procesos son necesidades urgentes y generalizadas en la gestión actual de insumos médicos.
+
+### Beneficios esperados del IoT
+La tabla sintetiza las ventajas que los entrevistados asocian a la implementación de soluciones IoT en el sector salud, como el monitoreo en tiempo real, reducción de pérdidas económicas, mejora de la trazabilidad, mejor toma de decisiones y mayor seguridad para los pacientes. Cada beneficio se marca según su presencia en las entrevistas y su porcentaje de recurrencia.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/beneficios.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+Todos los entrevistados califican el monitoreo en tiempo real, la reducción de pérdidas, la mejor toma de decisiones y el impacto positivo en el tratamiento como beneficios clave (100%), reafirmando el potencial de estas tecnologías para transformar la administración de insumos y medicamentos. La mejora de la trazabilidad es relevante para la mayoría (66%), lo que indica una tendencia hacia procesos más transparentes y flujos de información confiables.
+
+### Necesidades prioritarias
+La última tabla enumera las necesidades más urgentes que los entrevistados consideran fundamentales para optimizar la gestión de insumos con tecnología IoT: reportes automáticos, alertas preventivas, soporte técnico constante y capacitación continua. Se exponen el grado de coincidencia y el porcentaje.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/necesidades.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+Reportes automáticos, alertas preventivas y capacitación continua reciben unanimidad (100%), mostrando que los entrevistados valoran las herramientas que promuevan prevención, control oportuno y formación del personal. El soporte técnico es importante para la mayoría (66%), lo que resalta la necesidad de servicios postventa robustos y acompañamiento durante la fase de adopción tecnológica.
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
