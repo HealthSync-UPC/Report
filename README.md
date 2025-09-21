@@ -739,7 +739,7 @@ ABET – EAC - Student Outcome 5
 
   ##### 4.2.1.6.2. Bounded Context Database Design Diagram
   <img src="assets/diagrams/IAMRoles_DatabaseDiagram.png"></img>
-
+Dispositivos_Component.png
 
 ### 4.2.2. Bounded Context: Dispositivos y Telemetria/Monitoreo <Bounded Context Name>
 
@@ -768,12 +768,110 @@ ABET – EAC - Student Outcome 5
 
 ---
 #### 4.2.2.2. Interface Layer
+
+### REST APIs
+
+- **Componente:** REST APIs  
+- **Descripción:** Define los puntos de acceso para interactuar con los dispositivos y las lecturas de telemetría.  
+- **Endpoints/Interfaces:**
+  - `POST /devices`: Crear nuevo dispositivo.
+  - `GET /devices/{id}`: Obtener información del dispositivo.
+  - `PUT /devices/{id}`: Actualizar información de un dispositivo.
+  - `POST /telemetries`: Registrar nueva lectura de telemetría.
+  - `GET /telemetries/{deviceId}`: Obtener lecturas de telemetría para un dispositivo.
+
+### Notificaciones
+
+- **Componente:** Notificaciones  
+- **Descripción:** Enviar notificaciones sobre alertas de dispositivos (por ejemplo, estado fuera de rango).  
+- **Endpoints/Interfaces:**
+  - `POST /devices/{id}/notify`: Enviar notificación si el dispositivo tiene un fallo crítico.
+
+
 #### 4.2.2.3. Application Layer
+
+### Command Services
+
+#### Servicio de Gestión de Dispositivos
+
+| Método                  | Parámetros                                     | Retorno         | Descripción                                                                 |
+|-------------------------|------------------------------------------------|------------------|------------------------------------------------------------------------------|
+| `CreateDeviceAsync`     | tipo: string, configuración: string            | Device           | Crea un nuevo dispositivo y emite `DeviceProvisioned`                       |
+| `UpdateDeviceAsync`     | id: int, estado: string, configuración: string | Device           | Actualiza dispositivo y emite `DeviceStatusUpdated`                         |
+| `DeleteDeviceAsync`     | id: int                                        | bool             | Elimina dispositivo del sistema                                             |
+
+#### Servicio de Telemetría
+
+| Método                    | Parámetros                                                  | Retorno     | Descripción                                                                 |
+|---------------------------|-------------------------------------------------------------|-------------|------------------------------------------------------------------------------|
+| `RegisterTelemetryAsync` | deviceId: int, timestamp: DateTime, métrica: float, unidad: string | Telemetry   | Registra lectura y emite `TelemetryIngested`                                |
+
+### Query Services
+
+#### Servicio de Consulta de Dispositivos
+
+| Método              | Parámetros | Retorno         | Descripción                                      |
+|---------------------|------------|------------------|--------------------------------------------------|
+| `GetDeviceByIdAsync`| id: int    | Device?          | Obtiene un dispositivo por su identificador      |
+| `GetAllDevicesAsync`| —          | List<Device>     | Lista todos los dispositivos registrados         |
+
+#### Servicio de Consulta de Telemetría
+
+| Método                     | Parámetros  | Retorno                  | Descripción                                                  |
+|----------------------------|-------------|---------------------------|--------------------------------------------------------------|
+| `GetTelemetryByDeviceIdAsync` | deviceId: int | List<Telemetry>           | Obtiene todas las lecturas de telemetría de un dispositivo   |
+| `GetLatestTelemetryAsync` | deviceId: int | Telemetry?                | Obtiene la última lectura registrada para un dispositivo     |
+
 #### 4.2.2.4. Infrastructure Layer
+
+### Repositorio – Dispositivos
+
+| Método           | Parámetros                      | Retorno         | Descripción                                      |
+|------------------|----------------------------------|------------------|--------------------------------------------------|
+| `FindByIdAsync`  | id: int                          | Device?          | Busca dispositivo por ID                         |
+| `CreateAsync`    | device: Device                   | Device           | Persiste nuevo dispositivo                       |
+| `UpdateAsync`    | device: Device                   | Device           | Actualiza dispositivo existente                  |
+| `DeleteAsync`    | id: int                          | bool             | Elimina dispositivo                              |
+| `FindAllAsync`   | —                                | List<Device>     | Lista todos los dispositivos                     |
+
+### Repositorio – Telemetría
+
+| Método                     | Parámetros                      | Retorno                  | Descripción                                                  |
+|----------------------------|----------------------------------|---------------------------|--------------------------------------------------------------|
+| `FindByDeviceIdAsync`      | deviceId: int                   | List<Telemetry>           | Obtiene lecturas por dispositivo                            |
+| `CreateAsync`              | telemetry: Telemetry            | Telemetry                 | Persiste nueva lectura de telemetría                         |
+| `FindLatestByDeviceIdAsync`| deviceId: int                   | Telemetry?                | Obtiene la última lectura registrada                         |
+
+---
+
+### DeviceController
+
+| Método         | HTTP   | Ruta                   | Parámetros de entrada                  | Retorno         | Descripción                                      |
+|----------------|--------|------------------------|----------------------------------------|------------------|--------------------------------------------------|
+| `CreateDevice` | POST   | `/devices`             | tipo, configuración                    | Device           | Crea nuevo dispositivo                           |
+| `GetDevice`    | GET    | `/devices/{id}`        | id                                     | Device?          | Consulta dispositivo por ID                      |
+| `UpdateDevice` | PUT    | `/devices/{id}`        | estado, configuración                  | Device           | Actualiza dispositivo                            |
+| `DeleteDevice` | DELETE | `/devices/{id}`        | id                                     | bool             | Elimina dispositivo                              |
+| `NotifyDevice` | POST   | `/devices/{id}/notify` | id                                     | void             | Envía alerta si hay fallo crítico                |
+
+### TelemetryController
+
+| Método                   | HTTP | Ruta                            | Parámetros de entrada                             | Retorno         | Descripción                                                  |
+|--------------------------|------|----------------------------------|---------------------------------------------------|------------------|--------------------------------------------------------------|
+| `CreateTelemetry`        | POST | `/telemetries`                  | deviceId, timestamp, métrica, unidad              | Telemetry        | Registra nueva lectura de telemetría                         |
+| `GetTelemetryByDeviceId` | GET  | `/telemetries/{deviceId}`       | deviceId                                          | List<Telemetry>  | Obtiene lecturas de telemetría por dispositivo               |
+| `GetLatestTelemetry`     | GET  | `/telemetries/{deviceId}/latest`| deviceId                                          | Telemetry?       | Obtiene la última lectura registrada para un dispositivo     |
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+  <img src="assets/diagrams/Dispositivos_Component.png"></img>
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/diagrams/Dispositivos_ClassDiagram.png"></img>
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
+<img src="assets/diagrams/Dispositivos_DatabaseDiagram.png"></img>
+Notifications_Component.png
 
 ### 4.2.3. Bounded Context: Notificaciones <Bounded Context Name>
 
@@ -802,12 +900,120 @@ ABET – EAC - Student Outcome 5
 
 ---
 #### 4.2.3.2. Interface Layer
+
+### REST APIs
+
+| **Componente**    | **Descripción**                                                  | **Endpoints/Interfaces**                                                                                                                                                                          |
+|-------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **REST APIs**     | Define los puntos de acceso para interactuar con las notificaciones. | - `POST /notifications`: Crear una nueva notificación.<br> - `GET /notifications/{id}`: Obtener información de una notificación.<br> - `POST /templates`: Crear una nueva plantilla.<br> - `GET /templates/{id}`: Obtener información de una plantilla. |
+| **Notificaciones**| Enviar notificaciones a los usuarios.                             | - `POST /notifications/{id}/send`: Enviar una notificación por el canal especificado.                                                                                                           |
+| **Plantillas**    | Gestionar las plantillas de notificación.                        | - `POST /templates`: Crear una nueva plantilla de notificación.<br> - `GET /templates/{id}`: Obtener una plantilla existente.                                                                   |
+
+---
+
 #### 4.2.3.3. Application Layer
+
+### Servicios
+
+| **Componente**               | **Descripción**                                           | **Funcionalidad**                                                                                                                                                                      |
+|------------------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Servicio de Gestión de Notificaciones** | Gestionar la creación y envío de notificaciones.               | - Crear una notificación con destino, canal y contenido.<br> - Enviar notificaciones por el canal correspondiente (Email, SMS, Push, etc.).<br> - Emitir eventos como `NotificationSent`, `NotificationFailed`. |
+| **Servicio de Plantillas**    | Gestionar las plantillas de notificación.                    | - Crear y actualizar plantillas con contenido dinámico.<br> - Asociar variables a las plantillas.<br> - Emitir eventos como `TemplateCreated`, `TemplateUpdated`. |
+
+### Funciones del Servicio
+
+1. **Crear Notificación:**
+    - Validar los parámetros de entrada (destinatario, canal, mensaje).
+    - Crear la instancia de notificación en el Domain Layer.
+    - Emitir evento `NotificationCreated`.
+    
+2. **Enviar Notificación:**
+    - Enviar la notificación por el canal especificado.
+    - Emitir evento `NotificationSent`.
+    
+3. **Crear Plantilla:**
+    - Validar los parámetros de entrada (tipo, contenido).
+    - Crear la instancia de plantilla en el Domain Layer.
+    - Emitir evento `TemplateCreated`.
+
+4. **Actualizar Plantilla:**
+    - Validar los parámetros de entrada.
+    - Actualizar la plantilla existente en el Domain Layer.
+    - Emitir evento `TemplateUpdated`.
+
+---
 #### 4.2.3.4. Infrastructure Layer
+
+#### Repositorio – Notificaciones
+
+**Nombre:** `NotificationRepository`  
+**Categoría:** Repository  
+**Propósito:** Gestionar las operaciones de persistencia y consulta para las notificaciones.
+
+#### Métodos del Repositorio
+
+| **Nombre**               | **Tipo de retorno**              | **Visibilidad** | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| `FindByIdAsync`          | `Task<Notification?>`            | Public          | Recupera una notificación por su `Id`.                                                                     |
+| `CreateAsync`            | `Task<Notification>`             | Public          | Crea una nueva notificación en la base de datos.                                                            |
+| `UpdateAsync`            | `Task<Notification>`             | Public          | Actualiza la información de una notificación existente.                                                    |
+| `DeleteAsync`            | `Task<bool>`                     | Public          | Elimina una notificación de la base de datos.                                                              |
+| `FindAllAsync`           | `Task<List<Notification>>`      | Public          | Lista todas las notificaciones registradas.                                                                |
+
+#### Repositorio - Plantilla
+
+**Nombre:** `TemplateRepository`  
+**Categoría:** Repository  
+**Propósito:** Gestionar las operaciones de persistencia y consulta para las plantillas de notificación.
+
+##### Métodos del Repositorio
+
+| **Nombre**               | **Tipo de retorno**              | **Visibilidad** | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| `FindByIdAsync`          | `Task<Template?>`                | Public          | Recupera una plantilla por su `Id`.                                                                       |
+| `CreateAsync`            | `Task<Template>`                 | Public          | Crea una nueva plantilla en la base de datos.                                                              |
+| `UpdateAsync`            | `Task<Template>`                 | Public          | Actualiza una plantilla existente.                                                                        |
+| `DeleteAsync`            | `Task<bool>`                     | Public          | Elimina una plantilla de la base de datos.                                                                |
+| `FindAllAsync`           | `Task<List<Template>>`          | Public          | Lista todas las plantillas registradas.                                                                  |
+
+#### Controlador – Notificaciones
+**Nombre:** `NotificationController`  
+**Propósito:** Exponer los endpoints de REST para la gestión de notificaciones.
+
+##### Métodos del Controlador
+
+| **Nombre**               | **Método HTTP**                 | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `CreateNotification`     | `POST`                          | Crear una nueva notificación.                                                                              |
+| `GetNotification`        | `GET`                           | Obtener una notificación por su `Id`.                                                                     |
+| `UpdateNotification`     | `PUT`                           | Actualizar una notificación existente.                                                                    |
+| `DeleteNotification`     | `DELETE`                        | Eliminar una notificación por su `Id`.                                                                    |
+| `SendNotification`       | `POST`                          | Enviar una notificación por el canal especificado.                                                        |
+
+#### Controlador – Plantillas
+
+**Nombre:** `TemplateController`  
+**Propósito:** Exponer los endpoints de REST para la gestión de plantillas de notificación.
+
+##### Métodos del Controlador
+
+| **Nombre**               | **Método HTTP**                 | **Descripción**                                                                                           |
+|--------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `CreateTemplate`         | `POST`                          | Crear una nueva plantilla.                                                                                |
+| `GetTemplate`            | `GET`                           | Obtener una plantilla por su `Id`.                                                                       |
+| `UpdateTemplate`         | `PUT`                           | Actualizar una plantilla existente.                                                                      |
+| `DeleteTemplate`         | `DELETE`                        | Eliminar una plantilla por su `Id`.                                                                      |
+
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/diagrams/Notifications_Component.png"></img>
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/diagrams/Notifications_ClassDiagram.png"></img>
+
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
+<img src="assets/diagrams/Notification_DatabaseDiagram.png"></img>
 
 ### 4.2.4. Bounded Context: Inventario <Bounded Context Name>
 
@@ -909,4 +1115,4 @@ ABET – EAC - Student Outcome 5
 
 # Bibliografía
 
-# Anexos
+# Anexos  
