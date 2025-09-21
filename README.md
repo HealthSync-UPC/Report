@@ -341,22 +341,14 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> Realice los siguientes puntos:
-        2.3. Needfinding, 
-2.3.1. User Personas, 
-2.3.2. User Task Matrix, 
-2.3.3. User Journey Mapping, 
-2.3.4. Empathy Mapping, 
-2.4. Big Picture EventStorming, 
-2.5. Ubiquitous Language.
+        <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
 </p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> Realice los siguientes puntos:
-        4.1.2. Context Mapping, 4.1.3. Software Architecture, 4.1.3.1. Software Architecture System Landscape Diagram, 4.1.3.2. Software Architecture Context Level Diagrams, 4.1.3.3. Software Architecture Container Level Diagrams,4.1.3.4. Software Architecture Deployment Diagrams,4.2. Tactical-Level Domain-Driven Design 4.2.1. Bounded Context, 4.2.1.1. Domain Layer. 
+        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas. 
  </p>
       </td>
       <td>
@@ -373,7 +365,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
