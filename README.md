@@ -590,13 +590,21 @@ ABET – EAC - Student Outcome 5
 
   ### 4.1.2. Context Mapping
   <img src="assets/ContextMapping.jpg"></img>
+
   ### 4.1.3. Software Architecture
   #### 4.1.3.1. Software Architecture System Landscape Diagram
-  #### 4.1.3.2. Software Architecture Context Level Diagrams
-  #### 4.1.3.3. Software Architecture Container Level Diagrams
-  #### 4.1.3.4. Software Architecture Deployment Diagrams
+  <img src="assets/Landscape.jpeg"></img>
 
-    ## 4.2. Tactical-Level Domain-Driven Design
+  #### 4.1.3.2. Software Architecture Context Level Diagrams
+  <img src="assets/Context_level.jpeg"></img>
+
+  #### 4.1.3.3. Software Architecture Container Level Diagrams
+  <img src="assets/Container_level.jpeg"></img>
+
+  #### 4.1.3.4. Software Architecture Deployment Diagrams
+  <img src="assets/iot.png"></img>
+
+  ## 4.2. Tactical-Level Domain-Driven Design
 
   ### 4.2.1. Bounded Context: IAM + roles <Bounded Context Name>
 
