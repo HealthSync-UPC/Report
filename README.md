@@ -159,7 +159,6 @@
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
       - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [](#)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
@@ -174,6 +173,17 @@
       - [4.2.1.2. Interface Layer](#4212-interface-layer)
       - [4.2.1.3. Application Layer](#4213-application-layer)
       - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [Repository Interface](#repository-interface)
+        - [Métodos](#métodos)
+      - [Repository Interface](#repository-interface-1)
+        - [Métodos](#métodos-1)
+      - [Repository Interface](#repository-interface-2)
+        - [Métodos](#métodos-2)
+      - [Repository Interface](#repository-interface-3)
+        - [Métodos](#métodos-3)
+        - [● Repository Interface](#-repository-interface)
+        - [Métodos](#métodos-4)
+      - [**Tecnologías/Implementación**](#tecnologíasimplementación)
       - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
@@ -184,8 +194,20 @@
     - [Atributos – Dispositivo](#atributos--dispositivo)
     - [Atributos – Telemetría](#atributos--telemetría)
       - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [REST APIs](#rest-apis)
+    - [Notificaciones](#notificaciones)
       - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [Command Services](#command-services)
+      - [Servicio de Gestión de Dispositivos](#servicio-de-gestión-de-dispositivos)
+      - [Servicio de Telemetría](#servicio-de-telemetría)
+    - [Query Services](#query-services)
+      - [Servicio de Consulta de Dispositivos](#servicio-de-consulta-de-dispositivos)
+      - [Servicio de Consulta de Telemetría](#servicio-de-consulta-de-telemetría)
       - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [Repositorio – Dispositivos](#repositorio--dispositivos)
+    - [Repositorio – Telemetría](#repositorio--telemetría)
+    - [DeviceController](#devicecontroller)
+    - [TelemetryController](#telemetrycontroller)
       - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
@@ -196,8 +218,19 @@
     - [Atributos – Notificación](#atributos--notificación)
     - [Atributos – Plantilla](#atributos--plantilla)
       - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [REST APIs](#rest-apis-1)
       - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [Servicios](#servicios)
+    - [Funciones del Servicio](#funciones-del-servicio)
       - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [Repositorio – Notificaciones](#repositorio--notificaciones)
+      - [Métodos del Repositorio](#métodos-del-repositorio)
+      - [Repositorio - Plantilla](#repositorio---plantilla)
+        - [Métodos del Repositorio](#métodos-del-repositorio-1)
+      - [Controlador – Notificaciones](#controlador--notificaciones)
+        - [Métodos del Controlador](#métodos-del-controlador)
+      - [Controlador – Plantillas](#controlador--plantillas)
+        - [Métodos del Controlador](#métodos-del-controlador-1)
       - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
@@ -209,8 +242,17 @@
     - [Atributos – Movimiento](#atributos--movimiento)
     - [Atributos – Proveedor](#atributos--proveedor)
       - [4.2.4.2. Interface Layer](#4242-interface-layer)
+  - [| **Proveedores**   | Gestionar los proveedores de insumos.                            | - `POST /suppliers`: Crear un proveedor. - `GET /suppliers/{id}`: Obtener información del proveedor. |](#-proveedores----gestionar-los-proveedores-de-insumos-------------------------------post-suppliers-crear-un-proveedor---get-suppliersid-obtener-información-del-proveedor-)
       - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [Servicios](#servicios-1)
+    - [Funciones del Servicio](#funciones-del-servicio-1)
       - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [Repositorio – Ítem de Inventario](#repositorio--ítem-de-inventario)
+        - [Métodos del Repositorio](#métodos-del-repositorio-2)
+        - [Métodos del Repositorio](#métodos-del-repositorio-3)
+        - [Métodos del Repositorio](#métodos-del-repositorio-4)
+        - [Métodos del Controlador](#métodos-del-controlador-2)
+        - [Métodos del Controlador](#métodos-del-controlador-3)
       - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
@@ -572,19 +614,15 @@ ABET – EAC - Student Outcome 5
 
   #### 4.1.1.3. Bounded Context Canvases
 
-  A continuación, los *Bounded Contexts* priorizados con su *canvas* resumido. El diseño siguió los pasos de: **Context Overview → Business Rules & Ubiquitous Language → Capabilities → Dependencies → Design Critique**.
+  A continuación, los *Bounded Contexts* priorizados con su *canvas* resumido. El diseño siguió los pasos de: **Context Overview → Business Decisions & Ubiquitous Language → Outbound Communication**.
 
-  | Contexto | Propósito | Responsabilidades principales | Entidades / Aggregates | Eventos emitidos | Interfaces (APIs/Topics) | Relaciones |
-  | --- | --- | --- | --- | --- | --- | --- |
-  | **Identity & Access (IAM) + Preferencias** | Autenticar/autorizar y gestionar perfil & preferencias de UI/canales. | Registro/login/logout; recuperación/cambio de contraseña; edición de perfil; tema/idioma; base de preferencias de notificación. | `User`, `Credential`, `Session`, `UserPreferences` | `UserRegistered`, `LoginSucceeded/LoginFailed`, `PasswordResetRequested`, `PasswordChanged`, `UserPreferencesUpdated` | REST `/auth`, `/users`; OIDC/JWT; topic `iam.*` | **Upstream** de todos (Conformist). *Shared Kernel* (ids) con Gobierno. **HU002–HU007, HU009–HU010, HU029** |
-  | **Gobierno Institucional (Tenancy & Roles)** | Multitenancy y control de acceso organizacional. | Alta de institución; altas/bajas de miembros; asignación de roles/permisos. | `Institution`, `Membership`, `Role` | `InstitutionCreated`, `InstitutionUserAdded/Removed`, `RoleAssigned` | REST `/institutions`, `/roles`; topic `gov.*` | **Customer/Supplier** con IAM/Telemetría/Inventario. **HU001, HU008** |
-  | **Gestión de Dispositivos IoT & Activos** | Ciclo de vida del hardware. | Provisión; asignación a ubicación; salud (ping/señal/batería); OTA; *store-and-forward*; planificación y vencimiento de calibración. | `Device`, `LocationBinding`, `Firmware`, `Calibration` | `DeviceProvisioned`, `DeviceAssignedToLocation`, `FirmwareUpdated`, `CalibrationScheduled`, `CalibrationExpired` | REST `/devices`; MQTT/HTTP ingest; topic `devices.*` | **Supplier** de Telemetría; **Downstream** de Gobierno. **HU011–HU015, HU031** |
-  | **Telemetría & Monitoreo** | Orquestar el ciclo *medición → detección → gestión de incidentes*. | Ingesta & validación de lecturas; configuración de umbrales; detección de excursiones; creación/ACK/cierre de alertas con evidencia; SLA/escalado; *dashboard* de riesgo/KPIs. | `TelemetryPoint`, `ThresholdProfile`, `Alert`, `Incident`, `SlaPolicy` | `TelemetryIngested`, `ThresholdsConfigured`, `ThresholdBreached`, `AlertRaised`, `AlertAcknowledged`, `AlertClosedWithEvidence`, `SlaEscalationRaised` | REST `/monitoring`, `/alerts`; topics `telemetry.*`, `alerts.*` | **Downstream** de Dispositivos; **Upstream** de Notificaciones & Auditoría. **HU016–HU017, HU019–HU021** |
-  | **Notificaciones & Workflows** | Entrega confiable y coordinada de avisos. | Suscripción a eventos; preferencias por canal/ventanas; deduplicación; priorización; escalamiento SLA; *failover* de entrega. | `Notification`, `Subscription`, `DeliveryAttempt`, `Escalation` | `NotificationSent`, `NotificationFailed`, `SlaEscalationRaised` | REST `/notify`; SMTP/SMS/Push/Webhooks; topic `notify.*` | **Downstream** de Telemetría/Inventario/Reportería; **Feeds** a Auditoría. **HU018, HU020** |
-  | **Inventario & Stock (FEFO)** | Disponibilidad, conservación y exactitud de stock. | Catálogo de ítems; lotes/vencimientos; mínimos/máximos y puntos de reorden; sugerencia FEFO; recepción con evidencia; conteo cíclico y ajustes. | `Item`, `Lot`, `Expiry`, `StockLevel`, `ReorderPolicy`, `Receipt`, `CycleCount` | `ItemLotRegistered`, `ReorderSettingsUpdated`, `ExpiryAlertRaised`, `ReorderPointReached`, `FefoSuggestionGenerated`, `GoodReceivedWithColdChainEvidence`, `StockAdjustedAfterCycleCount` | REST `/inventory`; topic `inventory.*` | **Peer** de Telemetría (vínculo a umbrales por ítem); **Upstream** de Reportería. **HU022–HU027** |
-  | **Integraciones & Datos Maestros** | Sincronía con ERP/HCE y sistemas externos. | Importar maestros; exportar movimientos/ajustes; conciliación periódica; *idempotencia*. | `ImportJob`, `ExportJob`, `Mapping` | `ImportCompleted`, `ExportCompleted` | REST `/integrations`; SFTP/HTTPS; topic `etl.*` | **Anti-Corruption Layer** con externos; **Downstream** de Inventario. **HU029** |
-  | **Reportería & Cumplimiento** | Evidencias y métricas para calidad/regulatorio. | Reporte semanal de excursiones/mermas; reportes de cumplimiento GDP/guías con evidencias y acciones correctivas. | `Report`, `ComplianceArtifact` | `WeeklyExcursionReportGenerated`, `ComplianceReportGenerated` | REST `/reports`; topic `reports.*` | **Downstream** de Telemetría/Inventario/Auditoría. **HU028, HU032** |
-  | **Auditoría & Analytics** | *Ledger* de eventos y KPIs. | Registrar cada cambio de estado (quién, cuándo, qué); consultas por estudio/ubicación/usuario; *timeseries* y agregaciones. | `AuditEntry`, `KpiSeries` | `AuditRecorded`, `UsageStatsComputed` | REST `/audit`, `/analytics`; topic `audit.*` | **Downstream** de todos; *Published Language* compartido. **HU030** |
+  <img src="assets/bounded_context_canvases_1.png"></img>
+
+  <img src="assets/bounded_context_canvases_2.png"></img>
+
+  <img src="assets/bounded_context_canvases_3.png"></img>
+
+  <img src="assets/bounded_context_canvases_4.png"></img>
 
   ---
 
