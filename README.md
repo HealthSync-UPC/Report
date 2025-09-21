@@ -400,7 +400,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
 <table>
   <tr>
     <th>
-      <img src="./assets/images/members/francooo.jpg" width="500px">
+      <img src="./assets/images/members/francooo.jpg" width="800px">
     </th>
     <td valign="top">
       <p><b>Durand Vera, Gianfranco Angel</b></p>
@@ -409,7 +409,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="assets/images/members/crnt_aaron.jpg" width="500px">
+      <img src="assets/images/members/crnt_aaron.jpg" width="800px">
     </th>
     <td valign="top">
       <p><b>Cruz Ticona, Aaron Alejandro</b></p>
@@ -418,7 +418,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="assets/images/members/Estrella_Ticona.jpeg" width="500px">
+      <img src="assets/images/members/Estrella_Ticona.jpeg" width="800px">
     </th>
     <td valign="top">
       <p><b>Ticona Panduro, Estrella del Pilar</b></p>
@@ -427,7 +427,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="./assets/images/members/jose-photo.png" width="500px">
+      <img src="./assets/images/members/jose-photo.png" width="800px">
     </th>
     <td valign="top">
       <p><b>Luza Carhuamaca, Jose Adrian</b></p>
@@ -436,7 +436,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="./assets/images/members/abrahamAyquipa.jpeg" width="500px">
+      <img src="./assets/images/members/abrahamAyquipa.jpeg" width="800px">
     </th>
     <td valign="top">
       <p><b>Ayquipa Ubaldo, Abraham Israel</b></p>
