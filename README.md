@@ -407,7 +407,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="assets/images/members/crnt_aaron.jpg" width="500px">
     </th>
     <td valign="top">
       <p><b>Cruz Ticona, Aaron Alejandro</b></p>
