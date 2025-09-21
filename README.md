@@ -371,7 +371,7 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
       </td>
       <td>
         <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
