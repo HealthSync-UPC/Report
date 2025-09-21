@@ -427,16 +427,18 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
+</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas. 
+ </p>
       </td>
       <td>
         <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
@@ -449,16 +451,16 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
       </td>
       <td>
         <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
@@ -487,16 +489,16 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
 <table>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="./assets/images/members/francooo.jpg" width="800px">
     </th>
     <td valign="top">
       <p><b>Durand Vera, Gianfranco Angel</b></p>
-      <p>Soy estudiante de Ingeniería de Software, cursando el 8vo ciclo de la carrera. Aunque me desempeño como fullstack developer, mi mayor inclinación se centra en el desarrollo frontend. Manejo tecnologías como React y Next.js con TypeScript, complementadas con Node.js, Express y bases de datos NoSQL como MongoDB. Actualmente estoy reforzando mis conocimientos en DevOps, explorando herramientas como Docker y CI/CD para mejorar los despliegues y la integración de aplicaciones. Mi enfoque es crear experiencias de usuario consistentes y optimizadas, manteniendo siempre una visión integral del ciclo de desarrollo.</p>
+      <p>Estudiante de 8vo ciclo. Me considero una persona curiosa y proactiva, apasionado por el desarrollo de software y la creación de aplicaciones que sean útiles y escalables. Me interesa aprender nuevas tecnologías y mejorar constantemente mis habilidades en proyectos tanto académicos como personales.</p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="assets/images/members/crnt_aaron.jpg" width="800px">
     </th>
     <td valign="top">
       <p><b>Cruz Ticona, Aaron Alejandro</b></p>
@@ -505,7 +507,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="assets/images/members/Estrella_Ticona.jpeg" width="800px">
     </th>
     <td valign="top">
       <p><b>Ticona Panduro, Estrella del Pilar</b></p>
@@ -514,7 +516,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="./assets/images/members/jose-photo.png" width="500px">
+      <img src="./assets/images/members/jose-photo.png" width="800px">
     </th>
     <td valign="top">
       <p><b>Luza Carhuamaca, Jose Adrian</b></p>
@@ -523,7 +525,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="./assets/images/members/abrahamAyquipa.jpeg" width="500px">
+      <img src="./assets/images/members/abrahamAyquipa.jpeg" width="800px">
     </th>
     <td valign="top">
       <p><b>Ayquipa Ubaldo, Abraham Israel</b></p>
