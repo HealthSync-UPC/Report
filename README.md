@@ -341,13 +341,23 @@ ABET – EAC - Student Outcome 5
         <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Realice los siguientes puntos:
+        2.3. Needfinding, 
+2.3.1. User Personas, 
+2.3.2. User Task Matrix, 
+2.3.3. User Journey Mapping, 
+2.3.4. Empathy Mapping, 
+2.4. Big Picture EventStorming, 
+2.5. Ubiquitous Language.
+</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Realice los siguientes puntos:
+        4.1.2. Context Mapping, 4.1.3. Software Architecture, 4.1.3.1. Software Architecture System Landscape Diagram, 4.1.3.2. Software Architecture Context Level Diagrams, 4.1.3.3. Software Architecture Container Level Diagrams,4.1.3.4. Software Architecture Deployment Diagrams,4.2. Tactical-Level Domain-Driven Design 4.2.1. Bounded Context, 4.2.1.1. Domain Layer. 
+ </p>
       </td>
       <td>
         <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
@@ -416,7 +426,7 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
   </tr>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="assets/images/members/Estrella_Ticona.jpeg" width="500px">
     </th>
     <td valign="top">
       <p><b>Ticona Panduro, Estrella del Pilar</b></p>
