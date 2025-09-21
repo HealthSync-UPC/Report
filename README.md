@@ -398,11 +398,11 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
 <table>
   <tr>
     <th>
-      <img src="" width="500px">
+      <img src="./assets/images/members/francooo.jpg" width="500px">
     </th>
     <td valign="top">
       <p><b>Durand Vera, Gianfranco Angel</b></p>
-      <p>Soy estudiante de Ingeniería de Software, cursando el 8vo ciclo de la carrera. Aunque me desempeño como fullstack developer, mi mayor inclinación se centra en el desarrollo frontend. Manejo tecnologías como React y Next.js con TypeScript, complementadas con Node.js, Express y bases de datos NoSQL como MongoDB. Actualmente estoy reforzando mis conocimientos en DevOps, explorando herramientas como Docker y CI/CD para mejorar los despliegues y la integración de aplicaciones. Mi enfoque es crear experiencias de usuario consistentes y optimizadas, manteniendo siempre una visión integral del ciclo de desarrollo.</p>
+      <p>Estudiante de 8vo ciclo. Me considero una persona curiosa y proactiva, apasionado por el desarrollo de software y la creación de aplicaciones que sean útiles y escalables. Me interesa aprender nuevas tecnologías y mejorar constantemente mis habilidades en proyectos tanto académicos como personales.</p>
     </td>
   </tr>
   <tr>
