@@ -153,7 +153,6 @@
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -742,14 +741,64 @@ Reportes automáticos, alertas preventivas y capacitación continua reciben unan
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+<img src="assets/images/Kevin Salazar.png" >
+
 ### 2.3.2. User Task Matrix
+
+La siguiente matriz organiza las **tareas clave de los usuarios** en relación con su **frecuencia** y **criticidad** para el sistema de gestión de inventario médico con IoT. Esto permite priorizar el desarrollo de funcionalidades.
+
+| **Tarea del Usuario**                     | **Descripción**                                                                 | **Frecuencia** | **Criticidad** |
+|-------------------------------------------|---------------------------------------------------------------------------------|----------------|----------------|
+| Monitorear condiciones en tiempo real      | Verificar temperatura, humedad y estado de insumos críticos desde el dashboard. | Alta           | Alta           |
+| Recibir alertas preventivas                | Notificaciones sobre fallos de equipos, riesgo de desabastecimiento o vencimiento. | Alta        | Alta           |
+| Generar reportes automáticos               | Obtener reportes diarios/semanales sobre stock, pérdidas y estado de conservación. | Media       | Alta           |
+| Registrar entrada/salida de insumos        | Controlar movimientos de inventario para mantener trazabilidad.                  | Alta           | Alta           |
+| Validar acceso autorizado                  | Garantizar que solo personal habilitado pueda acceder al área de inventario.     | Media          | Alta           |
+| Revisar historial de trazabilidad          | Consultar el ciclo de vida de un insumo (ingreso, uso, salida).                  | Media          | Media          |
+| Capacitarse en el uso del sistema          | Recibir formación para adaptarse a la herramienta IoT.                           | Baja           | Alta           |
+| Solicitar soporte técnico                  | Pedir asistencia en caso de fallos o dudas con el sistema.                       | Baja           | Media          |
+
+### Interpretación
+- **Alta frecuencia y alta criticidad**: Deben ser funcionalidades **core** en la primera versión (MVP).  
+- **Baja frecuencia pero alta criticidad**: Requieren especial atención en diseño e implementación (ej. capacitación, control de acceso).  
+- **Media criticidad**: Pueden priorizarse en fases posteriores, siempre que no afecten la seguridad del inventario.  
+
+
 ### 2.3.3. User Journey Mapping
+
+<img src="assets/images/journey.jpeg" >
+
 ### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
+
+<img src="assets/images/empathy.png" >
 
 ## 2.4. Big Picture EventStorming
 
+<img src="assets/images/event.jpg" >
+
 ## 2.5. Ubiquitous Language
+
+A continuación, se presentan los términos clave identificados a partir de las entrevistas, el análisis y los requerimientos del sistema:
+
+| **Término**                | **Definición dentro del dominio**                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------------------------|
+| **Insumo médico**          | Todo medicamento, dispositivo, material o recurso necesario para la atención en salud.             |
+| **Inventario médico**       | Conjunto organizado de insumos disponibles, con registro de cantidad, ubicación, estado y fecha.   |
+| **Cadena de frío**          | Condiciones de temperatura controlada necesarias para preservar la eficacia de medicamentos.       |
+| **Monitoreo en tiempo real**| Supervisión continua de variables (ej. temperatura, humedad, stock) con actualizaciones instantáneas. |
+| **Registro manual**         | Métodos tradicionales de anotación en papel o Excel utilizados para controlar insumos.             |
+| **Trazabilidad**            | Capacidad de rastrear el ciclo completo de un insumo: ingreso, conservación, uso y salida.         |
+| **Desabastecimiento**       | Situación en la que un insumo requerido no está disponible en el inventario.                      |
+| **Pérdida por vencimiento** | Descarte de insumos debido a que superaron su fecha de caducidad.                                  |
+| **Pérdida por deterioro**   | Insumos descartados por no cumplir con las condiciones de conservación (ej. cadena de frío rota).  |
+| **Reporte automático**      | Documento o registro generado automáticamente por el sistema que refleja el estado del inventario. |
+| **Alerta preventiva**       | Notificación inmediata ante un riesgo detectado (ej. aumento de temperatura, bajo stock).          |
+| **Soporte técnico**         | Acompañamiento especializado durante la adopción y mantenimiento del sistema IoT.                  |
+| **Capacitación continua**   | Proceso de formación para que el personal use eficazmente la solución tecnológica.                 |
+| **Dashboard**               | Panel web/móvil que centraliza métricas, reportes y alertas para la gestión de inventario.         |
+| **Acceso autorizado**       | Control de ingreso físico o digital restringido al personal habilitado para manipular insumos.     |
+| **Integración de sistemas** | Conexión entre la solución IoT y otros sistemas de información (HIS, ERP, etc.).                   |
 
 # Capítulo III: Requirements Specification
 
