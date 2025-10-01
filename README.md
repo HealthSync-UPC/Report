@@ -2554,4 +2554,4 @@ Notifications_Component.png
 
 # Anexos
 
-[Landing Page:](https://meditrack-upc.vercel.app/) https://meditrack-upc.vercel.app/
+[Landing Page:](https://meditrack-landing.netlify.app/) https://meditrack-landing.netlify.app/
