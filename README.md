@@ -48,7 +48,7 @@
 
 <b><center>Septiembre, 2025</center></b>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 <h1 align="center">Registro de versiones del Informe</h1>
 </br>
@@ -73,29 +73,26 @@
         Ayquipa Ubaldo, Abraham Israel 
       </td>
       <td>
-
-
-        - [Capítulo I: Introducción]
-        - [1.1. Startup Profile]
-        - [1.1.1. Descripción de la Startup]
-        - [1.1.2. Perfiles de integrantes del equipo]
-        - [1.2. Solution Profile]
-        - [1.2.1 Antecedentes y problemática]
-        - [1.2.2 Lean UX Process]
-        - [1.2.2.1. Lean UX Problem Statements]
-        - [1.2.2.2. Lean UX Assumptions]
-        - [1.2.2.3. Lean UX Hypothesis Statements]
-        - [1.2.2.4. Lean UX Canvas]
-        - [1.3. Segmentos objetivo]
-        [Capítulo II: Requirements Elicitation & Analysis]
-        - [2.1. Competidores]
-        - [2.1.1. Análisis competitivo]
-        - [2.1.2. Estrategias y tácticas frente a competidores]
-        - [2.2. Entrevistas]
-        - [2.2.1. Diseño de entrevistas]
-        - [2.2.2. Registro de entrevistas]
-        - [2.2.3. Análisis de entrevistas]
-
+        Capítulo I: Introducción <br/>
+        - 1.1. Startup Profile <br/>
+        - 1.1.1. Descripción de la Startup <br/>
+        - 1.1.2. Perfiles de integrantes del equipo <br/>
+        - 1.2. Solution Profile <br/>
+        - 1.2.1 Antecedentes y problemática <br/>
+        - 1.2.2 Lean UX Process<br/>
+        - 1.2.2.1. Lean UX Problem Statements <br/>
+        - 1.2.2.2. Lean UX Assumptions <br/>
+        - 1.2.2.3. Lean UX Hypothesis Statements <br/>
+        - 1.2.2.4. Lean UX Canvas<br/>
+        - 1.3. Segmentos objetivo <br/>
+        Capítulo II: Requirements Elicitation & Analysis <br/>
+        - 2.1. Competidores <br/>
+        - 2.1.1. Análisis competitivo <br/>
+        - 2.1.2. Estrategias y tácticas frente a competidores <br/>
+        - 2.2. Entrevistas <br/>
+        - 2.2.1. Diseño de entrevistas<br/>
+        - 2.2.2. Registro de entrevistas <br/>
+        - 2.2.3. Análisis de entrevistas <br/>
   </tbody>
   <tbody>
     <tr>
@@ -109,16 +106,13 @@
         Durand Vera, Gianfranco Angel	
       </td>
       <td>
-
-        - [2.3. Needfinding]
-        - [2.3.1. User Personas]
-        - [2.3.2. User Task Matrix]
-        - [2.3.3. User Journey Mapping]
-        - [2.3.4. Empathy Mapping]
-        - [2.4. Big Picture EventStorming]
-        - [2.5. Ubiquitous Language]
-
-
+        - 2.3. Needfinding <br>
+        - 2.3.1. User Personas <br>
+        - 2.3.2. User Task Matrix <br>
+        - 2.3.3. User Journey Mapping <br>
+        - 2.3.4. Empathy Mapping <br>
+        - 2.4. Big Picture EventStorming <br>
+        - 2.5. Ubiquitous Language <br>
   </tbody>
   <tbody>
     <tr>
@@ -132,25 +126,16 @@
         Cruz Ticona, Aarón Alejandro
       </td>
       <td>
-
-        -[Capítulo III: Requirements Specification]
-        - To-Be Scenario Mapping]
-        - User Stories]
-        - Product Backlog]
-        - o IV: Solution Software Design]
-        - Strategic-Level Domain-Driven Design]
-        - .1.1. Design-Level EventStorming]
-        - - [4.1.1.1. Candidate Context Discovery]
-        - - [4.1.1.2. Domain Message Flows Modeling]
-        - - [4.1.1.3. Bounded Context Canvases]
-        - .1.2. Context Mapping]
-        - .1.3. Software Architecture]
-        - - [4.1.3.1. Software Architecture System Landscape Diagram]
-        - - [4.1.3.2. Software Architecture Context Level Diagrams]
-        - - [4.1.3.2. Software Architecture Container Level Diagrams]
-        - - [4.1.3.3. Software Architecture Deployment Diagrams]
-
-
+        Capítulo III: Requirements Specification<br>
+        - 3.1. User Stories<br>
+        - 3.2. Impact Mapping<br>
+        - 3.3. Product Backlog<br>
+        Capítulo IV: Solution Software Design<br>
+        - 4.1. Strategic-Level Domain-Driven Design<br>
+        - 4.1.1. Design-Level EventStorming<br>
+        - 4.1.1.1. Candidate Context Discovery<br>
+        - 4.1.1.2. Domain Message Flows Modeling<br>
+        - 4.1.1.3. Bounded Context Canvases<br>
   </tbody>
   <tbody>
     <tr>
@@ -164,18 +149,15 @@
         Ticona Panduro, Estrella del Pilar
       </td>
       <td>
-
-        - [4.1.2. Context Mapping]
-        - [4.1.3. Software Architecture]
-        - [4.1.3.1. Software Architecture System Landscape Diagram]
-        - [4.1.3.2. Software Architecture Context Level Diagrams]
-        - [4.1.3.2. Software Architecture Container Level Diagrams]
-        - [4.1.3.3. Software Architecture Deployment Diagrams]
-        - [4.2. Tactical-Level Domain-Driven Design]
-        - [4.2.X. Bounded Context: <Bounded Context Name>]
-        - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-
-
+        - 4.1.2. Context Mapping<br>
+        - 4.1.3. Software Architecture<br>
+        - 4.1.3.1. Software Architecture System Landscape Diagram<br>
+        - 4.1.3.2. Software Architecture Context Level Diagrams<br>
+        - 4.1.3.2. Software Architecture Container Level Diagrams<br>
+        - 4.1.3.3. Software Architecture Deployment Diagrams<br>
+        - 4.2. Tactical-Level Domain-Driven Design<br>
+        - 4.2.X. Bounded Context: <Bounded Context Name><br>
+        - 4.2.X.1. Domain Layer<br>
   </tbody>
   <tbody>
     <tr>
@@ -189,22 +171,23 @@
         Luza Carhuamaca Jose Adrian
       </td>
       <td>
-
-        - [4.2.X.2. Interface Layer]
-        - [4.2.X.3. Application Layer]
-        - [4.2.X.4. Infrastructure Layer]
-        - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams]
-        - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams]
-        - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams]
-        - [4.2.X.6.2. Bounded Context Database Design Diagram]
-
-
+        - 4.2.X.2. Interface Layer <br>
+        - 4.2.X.3. Application Layer <br>
+        - 4.2.X.4. Infrastructure Layer <br>
+        - 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams <br>
+        - 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams <br>
+        - 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams <br>
+        - 4.2.X.6.2. Bounded Context Database Design Diagram <br>
   </tbody>
 </table>
 
 
 
 # Project Report Collaboration Insights
+
+**TB1:**
+
+<img src="assets/tb1-insights.png" width="800px">
 
 <br><br>
 
@@ -259,7 +242,7 @@
       - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
       - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context: IAM + roles ](#421-bounded-context-iam--roles-)
+    - [4.2.1. Bounded Context: IAM + roles](#421-bounded-context-iam--roles)
       - [4.2.1.1. Domain Layer](#4211-domain-layer)
     - [Entity](#entity)
     - [Atributos – Usuario](#atributos--usuario)
@@ -270,7 +253,7 @@
       - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
         - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-    - [4.2.2. Bounded Context: Dispositivos y Telemetria/Monitoreo ](#422-bounded-context-dispositivos-y-telemetriamonitoreo-)
+    - [4.2.2. Bounded Context: Dispositivos y Telemetria/Monitoreo](#422-bounded-context-dispositivos-y-telemetriamonitoreo)
       - [4.2.2.1. Domain Layer](#4221-domain-layer)
     - [Entity](#entity-1)
     - [Atributos – Dispositivo](#atributos--dispositivo)
@@ -282,7 +265,7 @@
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
-    - [4.2.3. Bounded Context: Notificaciones ](#423-bounded-context-notificaciones-)
+    - [4.2.3. Bounded Context: Notificaciones ](#423-bounded-context-notificaciones)
       - [4.2.3.1. Domain Layer](#4231-domain-layer)
     - [Entity](#entity-2)
     - [Atributos – Notificación](#atributos--notificación)
@@ -294,7 +277,7 @@
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-    - [4.2.4. Bounded Context: Inventario ](#424-bounded-context-inventario-)
+    - [4.2.4. Bounded Context: Inventario ](#424-bounded-context-inventario)
       - [4.2.4.1. Domain Layer](#4241-domain-layer)
     - [Entity](#entity-3)
     - [Atributos – ItemInventario](#atributos--iteminventario)
@@ -348,62 +331,15 @@
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
+
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
-          
-[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-- [5.1. Style Guidelines](#51-style-guidelines)
-    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-- [5.2. Information Architecture](#52-information-architecture)
-    - [5.2.1. Organization Systems](#521-organization-systems)
-    - [5.2.2. Labeling Systems](#522-labeling-systems)
-    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-    - [5.2.4. Searching Systems](#524-searching-systems)
-    - [5.2.5. Navigation Systems](#525-navigation-systems)
-- [5.3. Landing Page UI Design](#53-landing-page-ui-design)
-    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
-    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
-- [5.4. Applications UX/UI Design](#54-applications-uxui-design)
-    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
-    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-    - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
-    - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
-- [5.5. Applications Prototyping](#55-applications-prototyping)
-
-[Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-- [6.1. Software Configuration Management](#61-software-configuration-management)
-  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-  - [6.1.2. Source Code Management](#612-source-code-management)
-  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
-  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
-  - [6.2.X. Sprint n](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-    - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-    - [6.2.X.3. Sprint Backlog n](#62x3-sprint-backlog-n)
-    - [6.2.X.4. Development Evidence for Sprint Review](#62x4-development-evidence-for-sprint-review)
-    - [6.2.X.5. Testing Suite Evidence for Sprint Review](#62x5-testing-suite-evidence-for-sprint-review)
-    - [6.2.X.6. Execution Evidence for Sprint Review](#62x6-execution-evidence-for-sprint-review)
-    - [6.2.X.7. Services Documentation Evidence for Sprint Review](#62x7-services-documentation-evidence-for-sprint-review)
-    - [6.2.X.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence-for-sprint-review)
-    - [6.2.X.9. Team Collaboration Insights during Sprint](#62x9-team-collaboration-insights-during-sprint)
-- [6.3. Validation Interviews](#63-validation-interviews)
-  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-- [6.4. Video About-the-Product](#64-video-about-the-product)
-
-[Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
 
 [Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
+ 
 
 # Student Outcome  
 ABET – EAC - Student Outcome 5
@@ -1990,7 +1926,7 @@ A continuación, se presentan los términos clave identificados a partir de las 
 
   ## 4.2. Tactical-Level Domain-Driven Design
 
-  ### 4.2.1. Bounded Context: IAM + roles <Bounded Context Name>
+  ### 4.2.1. Bounded Context: IAM + roles
 
   #### 4.2.1.1. Domain Layer
   ### Entity
@@ -2133,7 +2069,7 @@ A continuación, se presentan los términos clave identificados a partir de las 
   <img src="assets/diagrams/IAMRoles_DatabaseDiagram.png"></img>
 Dispositivos_Component.png
 
-### 4.2.2. Bounded Context: Dispositivos y Telemetria/Monitoreo <Bounded Context Name>
+### 4.2.2. Bounded Context: Dispositivos y Telemetria/Monitoreo
 
 #### 4.2.2.1. Domain Layer
 ### Entity
@@ -2265,7 +2201,7 @@ Dispositivos_Component.png
 <img src="assets/diagrams/Dispositivos_DatabaseDiagram.png"></img>
 Notifications_Component.png
 
-### 4.2.3. Bounded Context: Notificaciones <Bounded Context Name>
+### 4.2.3. Bounded Context: Notificaciones
 
 #### 4.2.3.1. Domain Layer
 ### Entity
@@ -2407,7 +2343,7 @@ Notifications_Component.png
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 <img src="assets/diagrams/Notification_DatabaseDiagram.png"></img>
 
-### 4.2.4. Bounded Context: Inventario <Bounded Context Name>
+### 4.2.4. Bounded Context: Inventario
 
 #### 4.2.4.1. Domain Layer
 ### Entity
