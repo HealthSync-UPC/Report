@@ -2496,15 +2496,166 @@ Notifications_Component.png
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines
+Para asegurar una comunicación visual coherente y profesional en todos los aspectos del proyecto MediTrack, es fundamental contar con unas Style Guidelines. Estas directrices son aplicables a cualquier plataforma de difusión, ya sea en aplicaciones web, móviles, dashboards administrativos o material impreso/digital.
+
+En esta sección se establecen las pautas que el equipo deberá seguir para el diseño de MediTrack, definiendo elementos clave como la elección de colores, la tipografía y la estructura visual en general.
+
+El diseño tanto de la aplicación móvil, la aplicación web como de la landing page se realizará en Figma, garantizando consistencia y escalabilidad en todos los prototipos.
+
+La paleta principal estará compuesta por tonos azules y verdes, que transmiten tecnología, confianza, seguridad y salud, reforzando la misión del sistema de asegurar el control y la trazabilidad de insumos médicos.
+
 ### 5.1.1. General Style Guidelines
-### 5.1.2. Web, Mobile and IoT Style Guidelines
+**Branding**
+
+El branding de MediTrack está diseñado para generar confianza, solidez y profesionalismo, destacando el compromiso con la gestión segura y eficiente del inventario médico.
+
+La identidad visual se conecta con los valores de tecnología, seguridad y salud, usando elementos gráficos sobrios que transmiten precisión y trazabilidad.
+El objetivo es crear una imagen fuerte, clara y fácilmente reconocible para hospitales, clínicas y profesionales del sector salud.
+
+**Typography**
+
+La tipografía de MediTrack es moderna, clara y optimizada para la legibilidad en interfaces web y móviles.
+
+- **Títulos y encabezados:** Arimo – aporta modernidad, profesionalismo y jerarquía visual.
+
+- **Cuerpo de texto y elementos técnicos (como datos en dashboards, logs o alertas):** Cousine – monoespaciada, clara y precisa, ideal para transmitir exactitud en la información.
+
+El diseño tipográfico busca un balance entre seriedad y accesibilidad, transmitiendo confianza sin perder usabilidad.
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="assets/arimo.png" style="height: 500px;" />
+    <img src="assets/cousine.png" style="height: 500px;" />
+</div>
+
+**Colors**
+
+La paleta de colores de MediTrack incluye tonos azules profundos y verdes azulados, elegidos para transmitir tecnología, confianza y seguridad en la gestión del inventario médico.
+El azul representa profesionalismo y estabilidad, mientras que el verde azulado simboliza salud e innovación.
+Estos colores se combinan con un fondo blanco casi puro, que refuerza la claridad y limpieza, y con un gris muy oscuro para garantizar contraste y legibilidad.
+La paleta se usará estratégicamente para crear una interfaz armónica, accesible y confiable, tanto en aplicaciones móviles como en dashboards web.
+
+<div style="display: flex; justify-content: center;">
+    <img src="assets/colors.png" style="height: 500px;" />
+</div>
+
+**Spacing**
+
+Se ha implementado un sistema de espaciado uniforme y coherente en toda la interfaz de MediTrack para evitar la sobrecarga visual y asegurar una navegación fluida.
+Los márgenes y espacios entre componentes han sido diseñados cuidadosamente para lograr un diseño equilibrado y organizado, lo cual es esencial en entornos donde se requiere precisión y rapidez, especialmente en la gestión hospitalaria y clínica.
+
+**Tono de Comunicación**
+
+El tono de comunicación de MediTrack es profesional, informativo y confiable, dirigido a médicos, personal de salud y administradores de inventario.
+El lenguaje es claro, técnico y accesible, buscando transmitir seriedad, respaldo y conocimiento en la gestión de insumos médicos.
+El objetivo es que el usuario se sienta seguro, respaldado y bien informado, manteniendo siempre la responsabilidad y rigurosidad que exige el sector salud.
+
+## 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+**Web Style Guidelines**
+
+Estas guías definen los estándares visuales y de interacción que deben aplicarse en la aplicación web y el dashboard administrativo de MediTrack, con el fin de garantizar una experiencia de usuario clara, accesible y eficiente.  
+
+- **Simplicidad y minimalismo.**  
+  La interfaz debe ser limpia y enfocada, priorizando la visibilidad de las acciones principales relacionadas con la gestión de inventario y monitoreo ambiental. El uso de espacios en blanco es clave para mejorar la lectura y evitar sobrecarga visual.  
+
+- **Claridad y lenguaje accesible.**  
+  Los textos en menús, botones e indicadores deben ser cortos, directos y comprensibles. Se evita el uso de tecnicismos innecesarios y se garantiza que cada acción esté claramente identificada para el personal de salud y administrativo.  
+
+- **Consistencia visual y funcional.**  
+  Se mantiene coherencia en colores, tipografía, iconografía y disposición de componentes a lo largo de todas las pantallas del sistema. Esto asegura que la navegación sea intuitiva y predecible para los usuarios.  
+
+- **Acciones seguras y reversibles.**  
+  En operaciones críticas, como eliminar un registro de insumos o autorizar un acceso, se debe solicitar confirmación adicional y, en lo posible, ofrecer mecanismos de reversión (ejemplo: “deshacer” o “restaurar”).  
+
+- **Feedback inmediato al usuario.**  
+  Cada acción realizada debe generar retroalimentación visual (cambio de estado, color, ícono) o textual (mensajes de confirmación, alertas), asegurando que el usuario comprenda el resultado de su interacción.  
+
+- **Diseño responsivo y accesible.**  
+  La aplicación web se adapta correctamente a diferentes tamaños de pantalla, cumpliendo con pautas de accesibilidad (WCAG), contraste adecuado y compatibilidad con lectores de pantalla.  
+
+**Mobile Style Guidelines**
+
+El diseño de la aplicación móvil de MediTrack está orientado a la **rapidez, simplicidad y portabilidad**, considerando su uso en entornos clínicos y hospitalarios.  
+
+- **Interfaz centrada en la acción.**  
+  La navegación debe ser clara y directa, con accesos rápidos a las funciones más usadas (consultar inventario, registrar insumos, verificar condiciones ambientales).  
+
+- **Gestos táctiles intuitivos.**  
+  Los botones y componentes interactivos deben ser lo suficientemente grandes para un uso cómodo en pantallas táctiles, evitando errores en contextos donde la precisión es fundamental.  
+
+- **Consistencia visual.**  
+  Se mantiene la misma paleta de colores y tipografía que en la versión web, garantizando que el usuario tenga una experiencia coherente al cambiar de dispositivo.  
+
+- **Soporte offline.**  
+  La aplicación móvil debe permitir registrar datos incluso sin conexión, sincronizando automáticamente la información con el servidor cuando el dispositivo recupere acceso a la red.  
+
+**IoT Style Guidelines**
+
+El diseño y operación de la capa IoT de MediTrack sigue principios de **seguridad, confiabilidad y trazabilidad** en la captura y transmisión de datos críticos.  
+
+- **Privacidad y transparencia.**  
+  Los datos recopilados por los sensores IoT (ejemplo: temperatura, humedad, accesos NFC) se almacenan y transmiten únicamente con fines justificados: asegurar la calidad y seguridad del inventario médico.  
+
+- **Gestión de datos en tiempo real.**  
+  Los valores capturados por los dispositivos deben ser validados y registrados en la plataforma, generando alertas inmediatas ante condiciones fuera de rango o accesos no autorizados.  
+
+- **Seguridad por diseño.**  
+  Toda comunicación IoT se cifra en tránsito y en reposo. Los dispositivos no deben exponer interfaces vulnerables ni permitir accesos no autorizados. Además, se deben seguir buenas prácticas en la gestión de credenciales y actualizaciones de firmware.  
+
+- **Monitoreo y sostenibilidad.**  
+  Cada dispositivo debe formar parte de un inventario digital que permita rastrear su estado, ubicación y métricas de desempeño. Esto asegura trazabilidad, reduce fallos operativos y permite escalar de manera sostenible la infraestructura IoT.  
+
 
 ## 5.2. Information Architecture
+La arquitectura de información de **MediTrack** está diseñada para ofrecer una experiencia de usuario **fluida, confiable y clara** en la aplicación web, la aplicación móvil y la Landing Page.  
+El objetivo principal es que los usuarios (personal médico, administradores e instituciones) encuentren las funciones clave de la plataforma de manera **rápida y sencilla**, garantizando precisión y eficiencia en la gestión de insumos médicos.  
+
 ### 5.2.1. Organization Systems
+Para MediTrack, los esquemas de organización se adaptan al tipo de contenido y usuario:  
+
+- **Jerárquica:** En la Landing Page y dashboards principales, destacando funciones críticas como monitoreo ambiental, stock disponible y alertas.  
+- **Secuencial:** Guía al usuario en procesos paso a paso, como el registro de insumos o la validación de accesos al almacén.  
+- **Por Tópicos:** Documentación técnica, manuales y protocolos organizados por áreas (farmacia, quirófano, cuidados intensivos).  
+- **Según Audiencia:** Vistas personalizadas según rol del usuario (administrador, médico, técnico en farmacia, personal logístico).  
+
 ### 5.2.2. Labeling Systems
+El sistema de etiquetado en MediTrack prioriza la **claridad y el lenguaje estandarizado en salud**.  
+
+- Se evita el uso de jergas técnicas innecesarias.  
+- Se utilizan verbos directos como **"Registrar"**, **"Monitorear"**, **"Consultar"**, **"Alertar"**.  
+- Categorías principales con nombres claros: **"Inventario"**, **"Reportes"**, **"Alertas"**, **"Personal"**.  
+- Iconografía médica y de logística para reforzar el significado visual de cada categoría.  
+
 ### 5.2.3. SEO Tags and Meta Tags
+Para mejorar la visibilidad de MediTrack en motores de búsqueda y tiendas de aplicaciones, se definen los siguientes valores:  
+
+- **Landing Page y Web App:**  
+  - **Título:** MediTrack – Gestión inteligente de inventario médico con IoT  
+  - **Meta Descripción:** Plataforma digital que optimiza el control, conservación y trazabilidad de insumos médicos mediante IoT.  
+  - **Keywords:** salud, hospitales, IoT, gestión de inventario médico, insumos clínicos, trazabilidad médica  
+
+- **App Store Optimization (ASO):**  
+  - **Título de la App:** MediTrack  
+  - **Subtítulo:** Inventario médico inteligente  
+  - **Keywords:** inventario, hospitales, IoT, medicamentos, insumos médicos  
+  - **Descripción:** MediTrack es una app móvil que integra IoT para monitorear condiciones, controlar stock y garantizar la trazabilidad de insumos médicos en hospitales y clínicas.  
+
 ### 5.2.4. Searching Systems
+MediTrack incluye **sistemas de búsqueda avanzada** y filtros adaptados al contexto clínico:  
+
+- **Búsqueda global:** Localiza insumos por nombre, lote, código de barras o fecha de vencimiento.  
+- **Filtros personalizados:** Refinan resultados según ubicación, estado del stock, categoría de insumo o condiciones ambientales.  
+- **Sugerencias automáticas:** Autocompletado predictivo con base en términos médicos y códigos de insumos.  
+- **Resultados claros:** Visualización con etiquetas, íconos e información clave (nombre del insumo, cantidad disponible, fecha de vencimiento).  
+
 ### 5.2.5. Navigation Systems
+La navegación en MediTrack está diseñada para ser **intuitiva y segura**, con patrones comunes y accesibles en entornos médicos:  
+
+- **Navegación Inferior (App Móvil):** Acceso rápido a secciones clave como **Inicio, Inventario y Alertas**.  
+- **Menú Lateral (Web y App):** Opciones adicionales como **Reportes, Configuración, Personal, Cerrar sesión**.  
+- **Enlaces Jerárquicos:** Permiten moverse entre secciones manteniendo el contexto (ej. Inventario → Detalle de insumo).  
+- **Flujos de Usuario Optimizados:** Pasos claros en tareas críticas como registrar un insumo o validar accesos vía NFC.  
+- **Indicadores Visuales:** Breadcrumbs, resaltado de estado activo y alertas visuales para mantener informado al usuario en todo momento.
 
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
