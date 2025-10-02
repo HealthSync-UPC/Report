@@ -2659,9 +2659,13 @@ La navegación en MediTrack está diseñada para ser **intuitiva y segura**, con
 
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
+
 <img src="assets/MediTrack_Landing Page.png"></img>
+
 ### 5.3.2. Landing Page Mock-up
+
 <img src="assets/LandingPage.png"></img>
+
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
 ### 5.4.2. Applications Wireflow Diagrams
