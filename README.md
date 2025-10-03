@@ -2684,8 +2684,8 @@ Plataforma empleada tanto como para la creación de la documentación y de la La
 ### 6.1.2. Source Code Management
 La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
 
-* Organización: [https://github.com/upc-pre-202401-si729-sw51-the-coders ](https://github.com/HealthSync-UPC)
-* Repositorio de la Landing page: [https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre-202401-si729-sw51-the-coders-landing-page ](https://github.com/HealthSync-UPC/Landing-Page)
+* Organización: [https://github.com/HealthSync-UPC ](https://github.com/HealthSync-UPC)
+* Repositorio de la Landing page: [https://github.com/HealthSync-UPC/Landing-Page ](https://github.com/HealthSync-UPC/Landing-Page)
 
 Además, con el objetivo de mejorar el control sobre la creación de ramas y la implementación de cambios en el código fuente, se procedió a utilizar Gitflow.
 
