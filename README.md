@@ -229,12 +229,70 @@
 - [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+- [COURSE PROJECT](#course-project)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [Misión](#misión)
+  - [Visión](#visión)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [Antecedentes](#antecedentes)
+    - [Problemática (Método 5W y 2H)](#problemática-método-5w-y-2h)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [Problem Statement](#problem-statement)
+    - [Dominio](#dominio)
+    - [Segmentos de Clientes](#segmentos-de-clientes)
+    - [Puntos de Dolor](#puntos-de-dolor)
+    - [Visión/Estrategia](#visiónestrategia)
+    - [Segmento Inicial](#segmento-inicial)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [Features](#features)
+    - [Business Outcomes](#business-outcomes)
+    - [Users](#users)
+    - [User Outcomes \& Benefits](#user-outcomes--benefits)
+    - [Business Assumptions](#business-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [**Preguntas Generales**](#preguntas-generales)
+      - [**Preguntas segmento 1**: Trabajadores del sector salud](#preguntas-segmento-1-trabajadores-del-sector-salud)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Segmento: Trabajadores del sector salud**](#segmento-trabajadores-del-sector-salud)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
+    - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
+    - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
+    - [Necesidades prioritarias](#necesidades-prioritarias)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Interpretación](#interpretación)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
       - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [](#)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
@@ -249,6 +307,17 @@
       - [4.2.1.2. Interface Layer](#4212-interface-layer)
       - [4.2.1.3. Application Layer](#4213-application-layer)
       - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [Repository Interface](#repository-interface)
+        - [Métodos](#métodos)
+      - [Repository Interface](#repository-interface-1)
+        - [Métodos](#métodos-1)
+      - [Repository Interface](#repository-interface-2)
+        - [Métodos](#métodos-2)
+      - [Repository Interface](#repository-interface-3)
+        - [Métodos](#métodos-3)
+        - [● Repository Interface](#-repository-interface)
+        - [Métodos](#métodos-4)
+      - [**Tecnologías/Implementación**](#tecnologíasimplementación)
       - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
@@ -259,33 +328,65 @@
     - [Atributos – Dispositivo](#atributos--dispositivo)
     - [Atributos – Telemetría](#atributos--telemetría)
       - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [REST APIs](#rest-apis)
+    - [Notificaciones](#notificaciones)
       - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [Command Services](#command-services)
+      - [Servicio de Gestión de Dispositivos](#servicio-de-gestión-de-dispositivos)
+      - [Servicio de Telemetría](#servicio-de-telemetría)
+    - [Query Services](#query-services)
+      - [Servicio de Consulta de Dispositivos](#servicio-de-consulta-de-dispositivos)
+      - [Servicio de Consulta de Telemetría](#servicio-de-consulta-de-telemetría)
       - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [Repositorio – Dispositivos](#repositorio--dispositivos)
+    - [Repositorio – Telemetría](#repositorio--telemetría)
+    - [DeviceController](#devicecontroller)
+    - [TelemetryController](#telemetrycontroller)
       - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
-    - [4.2.3. Bounded Context: Notificaciones ](#423-bounded-context-notificaciones)
+    - [4.2.3. Bounded Context: Notificaciones](#423-bounded-context-notificaciones)
       - [4.2.3.1. Domain Layer](#4231-domain-layer)
     - [Entity](#entity-2)
     - [Atributos – Notificación](#atributos--notificación)
     - [Atributos – Plantilla](#atributos--plantilla)
       - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [REST APIs](#rest-apis-1)
       - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [Servicios](#servicios)
+    - [Funciones del Servicio](#funciones-del-servicio)
       - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [Repositorio – Notificaciones](#repositorio--notificaciones)
+      - [Métodos del Repositorio](#métodos-del-repositorio)
+      - [Repositorio - Plantilla](#repositorio---plantilla)
+        - [Métodos del Repositorio](#métodos-del-repositorio-1)
+      - [Controlador – Notificaciones](#controlador--notificaciones)
+        - [Métodos del Controlador](#métodos-del-controlador)
+      - [Controlador – Plantillas](#controlador--plantillas)
+        - [Métodos del Controlador](#métodos-del-controlador-1)
       - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-    - [4.2.4. Bounded Context: Inventario ](#424-bounded-context-inventario)
+    - [4.2.4. Bounded Context: Inventario](#424-bounded-context-inventario)
       - [4.2.4.1. Domain Layer](#4241-domain-layer)
     - [Entity](#entity-3)
     - [Atributos – ItemInventario](#atributos--iteminventario)
     - [Atributos – Movimiento](#atributos--movimiento)
     - [Atributos – Proveedor](#atributos--proveedor)
       - [4.2.4.2. Interface Layer](#4242-interface-layer)
+  - [| **Proveedores**   | Gestionar los proveedores de insumos.                            | - `POST /suppliers`: Crear un proveedor. - `GET /suppliers/{id}`: Obtener información del proveedor. |](#-proveedores----gestionar-los-proveedores-de-insumos-------------------------------post-suppliers-crear-un-proveedor---get-suppliersid-obtener-información-del-proveedor-)
       - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [Servicios](#servicios-1)
+    - [Funciones del Servicio](#funciones-del-servicio-1)
       - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [Repositorio – Ítem de Inventario](#repositorio--ítem-de-inventario)
+        - [Métodos del Repositorio](#métodos-del-repositorio-2)
+        - [Métodos del Repositorio](#métodos-del-repositorio-3)
+        - [Métodos del Repositorio](#métodos-del-repositorio-4)
+        - [Métodos del Controlador](#métodos-del-controlador-2)
+        - [Métodos del Controlador](#métodos-del-controlador-3)
       - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
@@ -312,9 +413,23 @@
 - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirements Management](#requirements-management)
+      - [Software Development](#software-development)
+      - [Software Deployment](#software-deployment)
+      - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
+      - [Ramas principales:](#ramas-principales)
+      - [Ramas auxiliares:](#ramas-auxiliares)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+      - [Convenciones de Commits:](#convenciones-de-commits)
+      - [Convenciones de versionado de lanzamientos](#convenciones-de-versionado-de-lanzamientos)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+      - [Acceder a Netlify y seleccionar “Import an existing project”](#acceder-a-netlify-y-seleccionar-import-an-existing-project)
+      - [Elegir la opción “Deploy with GitHub” para vincular el repositorio](#elegir-la-opción-deploy-with-github-para-vincular-el-repositorio)
+      - [Seleccionar la organización y el repositorio correspondiente](#seleccionar-la-organización-y-el-repositorio-correspondiente)
+      - [Iniciar el despliegue presionando el botón del proyecto](#iniciar-el-despliegue-presionando-el-botón-del-proyecto)
+    - [Link de nuestra landing page: https://healthsyn-landing.netlify.app](#link-de-nuestra-landing-page-httpshealthsyn-landingnetlifyapp)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.X. Sprint n](#62x-sprint-n)
       - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
@@ -331,10 +446,11 @@
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
-
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 [Bibliografía](#bibliografía)
 
@@ -2522,9 +2638,122 @@ Notifications_Component.png
 
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
+A continuación, describiremos los productos de software que hemos empleado durante el desarrollo del proyecto.
+
+#### Project Management
+
+  * Trello: https://trello.com/  
+La plataforma de Trello se empleó para la gestión de las tareas y la organización del flujo del trabajo en el proyecto. Presentándose las tareas dentro de las tarjetas en listas con el integrante encargado de realizarlas. Además, utilizamos las funcionalidades como agregar las etiquetas de colores y marcar el proceso de las tareas. De esta manera pudimos hacer seguimiento a nuestros avances en el proyecto.
+  * Notion: https://www.notion.so/  
+La plataforma de Notion fue utilizada para la colaboración de los integrantes con el proyecto. Se crearon calendarios y listas con las fechas de las reuniones del equipo. Además, se hizo uso de herramientas como comentarios y menciones para fomentar el trabajo y colaboración en equipo.
+
+#### Requirements Management
+  * Trello: https://trello.com/  
+Empleamos Trello para organizar los requisitos de la aplicación. En el que tenemos al product backlog el cual ordenamos según la prioridad aplicando Fibonacci para enumerar las historias de usuario y en otra sección organizándolas según las épicas.
+
+* Product UX/UI Design
+  * Figma: https://www.figma.com/  
+La plataforma de Figma nos ayudó a desarrollar los wireframes, mockups y prototyping del mobile applications.
+  * Miro: https://miro.com/es/  
+Miro nos fue de utilidad para poder realizar los As-Is Scenario Mapping y  To-Be Scenraio Mapping para cada uno de los segmentos objetivos.
+  * UXPressia: https://uxpressia.com/  
+La plataforma UXPressia se empleó para la creación de los User Personas, Empathy Maps, Journey Maps e Impact Maps. Hemos hecho uso de las plantillas que UXPressia nos ofrece para elaborar cada una de ellas. Nos permitió exportar lo que se realizó para incluirlo en el trabajo.
+
+#### Software Development
+
+  * Landing Page:  
+Para el desarrollo de la landing page se hará empleó de HTML5, CSS y JavaScript.
+  * Frontend Web Application:  
+Para desarrollar la aplicación web frontend, es esencial tener una comprensión sólida de los fundamentos de HTML, CSS y JavaScript. En nuestro caso, optamos por utilizar Angular como framework de JavaScript. Además, para facilitar la creación de componentes reutilizables y accesibles, decidimos emplear PrimeNG como biblioteca de componentes UI. Nuestro stack tecnológico incluye el uso del lenguaje Java con el framework Spring Boot, junto con HTML, Angular, JavaScript, CSS y una base de datos MySQL.
+
+* Software Testing
+Para las pruebas funcionales del software, tanto como de la Landing page y de la aplicación web, hemos utilizado las herramientas de desarrollo de los navegadores web siguientes: Google Chrome (https://www.google.com/chrome/), Microsoft Edge (https://www.microsoft.com/en-us/edge) y Mozilla Firefox (https://www.mozilla.org/en-US/firefox/browsers/).
+
+#### Software Deployment
+  * Netlify: https://www.netlify.com/  
+Para implementar el despliegue de la Landing Page, se llevó a cabo la conexión entre el repositorio de Github y Netlify. Esto permite que Netlify maneje automáticamente la implementación de la Landing Page cada vez que se realice una actualización en el repositorio.
+
+#### Software Documentation
+  * Google Drive: https://www.google.com/intl/es-419_pe/drive/  
+Esta plataforma fue empleada para crear documentos mediante Google Docs, el cual nos permite trabajar de manera colaborativa los informes de las entregas.
+  * Structurizr: https://structurizr.com/  
+Herramienta utilizada para la creación de diagramas C4 (diagrama de contexto, diagrama de contenedor y diagrama de componentes). Para elaborar los diagramas fue necesario utilizar una sintaxis parecida a un lenguaje de programación.
+  * GitHub: https://github.com/  
+Plataforma empleada tanto como para la creación de la documentación y de la Landing page. Nuestro eligió esta plataforma debido a que nos permite trabajar de manera colaborativa.
+
 ### 6.1.2. Source Code Management
+La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
+
+* Organización: [https://github.com/upc-pre-202401-si729-sw51-the-coders ](https://github.com/HealthSync-UPC)
+* Repositorio de la Landing page: [https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre-202401-si729-sw51-the-coders-landing-page ](https://github.com/HealthSync-UPC/Landing-Page)
+
+Además, con el objetivo de mejorar el control sobre la creación de ramas y la implementación de cambios en el código fuente, se procedió a utilizar Gitflow.
+
+De esta forma, se establecieron 2 ramas principales: main y develop.
+
+#### Ramas principales:  
+  * Rama “main”:  
+  En esta rama se almacenan las versiones oficiales de nuestro repositorio para pasarlas a producción.
+  * Rama “develop”:  
+  Esta rama se utilizará como punto de integración para las ramas de “feature”. Una vez que el  “head” sea estable y el equipo lo considere listo para el lanzamiento, se fusionará con la rama “release”.
+
+#### Ramas auxiliares:  
+  * Rama “release”:  
+  La rama “release” se emplea para la preparación del lanzamiento de una nueva versión en la rama “main” ayudando a controlar las versiones de código. Aquí se pueden solucionar errores menores y preparar los datos para la versión. Esta rama permitirá liberar a la rama “develop” de estas tareas preparatorias y evita demoras en el desarrollo mientras se prepara para el lanzamiento. 
+  * Rama “feature”:  
+  En las ramas “feature” se desarrollan las características generales que se integrarán en la rama “develop”. Estas características son aquellas funcionalidades solicitadas por los usuarios tanto en la página de inicio como en la aplicación web. Por ejemplo, la rama feature/navbar.
+  * Rama “hotfix”:  
+  Esta rama se utiliza para corregir urgentemente errores en la última versión de la rama “main” que no pueden esperar hasta el próximo lanzamiento para ser solucionados.
+
 ### 6.1.3. Source Code Style Guide & Conventions
+Utilizaremos el lenguaje de etiquetas HTML para el desarrollo principal de nuestra Landing page.
+* Utilizaremos el lenguaje CSS, que nos permitirá realizar los estilos de la estructura de nuestra Landing Page
+* Implementaremos el lenguaje de JavaScript para brindar las funcionalidades a nuestra Landing page. 
+* Utilizaremos el lenguaje Gherkin que se usará para realizar los diseños de prueba de cada historia de usuario, contando con su estructura básica. 
+
+#### Convenciones de Commits:  
+Nuestro equipo de desarrollo sigue las Convenciones de Commits, adoptando el formato de los “Conventional Commits” en su versión 1.0.0 (disponible en https://www.conventionalcommits.org/en/v1.0.0/) para garantizar una fácil comprensión de nuestros registros. Por lo tanto, nos regimos por la siguiente estructura:
+
+Donde:
+
+```<type>[scope opcional]: <description>```
+
+  * type: Indica el tipo de modificación realizada, limitado a opciones como feat, fix, docs, etc.
+  * scope: Define el alcance del cambio realizado en nuestro código.
+  * descripción: Ofrece un resumen conciso de los cambios implementados.
+
+#### Convenciones de versionado de lanzamientos
+Para la gestión de versiones, seguimos el estándar “Semantic Versioning 2.0.0”. En este formato las versiones se presentan como (X.Y.Z), con las siguientes interpretaciones: 
+  * X: Indica una versión principal que incorpora cambios incompatibles con versiones anteriores. Iniciamos en 0 durante la etapa de desarrollo inicial y transicionamos a 1 cuando la versión esté lista para su lanzamiento público. Por convención, Y y Z se reinician a 0 cuando X aumenta.
+  * Y: Representa una versión secundaria, que abarca cambios compatibles con versiones anteriores. Además, esta incluye los commits provenientes de las “release branches” cada vez que se agregan nuevas funcionalidades. Convencionalmente, Z se reinicia a 0 cuando Y aumenta.
+  * Z: Refleja parches y correcciones de errores menores, integrando commits realizados en la “rama de corrección” y fusionados con la rama principal.
+
 ### 6.1.4. Software Deployment Configuration
+#### Acceder a Netlify y seleccionar “Import an existing project”
+Ingresa a la plataforma de Netlify con tu cuenta activa. Una vez dentro del panel principal, dirígete a la opción “Import an existing project”, que permite iniciar el proceso de despliegue de un proyecto previamente desarrollado y alojado en un repositorio externo.
+
+<img src="./assets/images/softwareDeploy/importProject.png" style="display: block; margin: 0 auto;">
+
+#### Elegir la opción “Deploy with GitHub” para vincular el repositorio
+En el siguiente paso, selecciona “Deploy with GitHub” para conectar tu cuenta de GitHub con Netlify. Esta integración permite importar directamente el código fuente desde el repositorio que contiene tu proyecto.
+
+<img src="./assets/images/softwareDeploy/deployProject.png" style="display: block; margin: 0 auto;">
+
+####  Seleccionar la organización y el repositorio correspondiente
+Una vez vinculada la cuenta, el sistema mostrará las organizaciones disponibles. Selecciona la organización adecuada y dentro de ella, busca el repositorio específico del proyecto que deseas subir a producción. Luego, configura los parámetros necesarios para el despliegue, como la rama principal, comandos de build y directorio de salida.
+
+
+<img src="./assets/images/softwareDeploy/selectOrg.png" style="display: block; margin: 0 auto;">
+
+#### Iniciar el despliegue presionando el botón del proyecto
+Finalmente, revisa la configuración y presiona el botón que lleva el nombre del proyecto para iniciar el proceso de despliegue. Netlify comenzará a compilar y publicar tu aplicación automáticamente en la web.
+
+
+<img src="./assets/images/softwareDeploy/clickDeploy.png" style="display: block; margin: 0 auto;">
+
+### Link de nuestra landing page: https://healthsyn-landing.netlify.app
+
+<img src="./assets/images/softwareDeploy/landing.png" style="display: block; margin: 0 auto;">
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.X. Sprint n
