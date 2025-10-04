@@ -140,9 +140,11 @@
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
       - [**Preguntas Generales**](#preguntas-generales)
-      - [**Preguntas segmento 1**: Trabajadores del sector salud](#preguntas-segmento-1-trabajadores-del-sector-salud)
+      - [**Preguntas segmento 1**: Farmacéuticos y responsables de inventarios hospitalarios](#preguntas-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Preguntas segmento 2**: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#preguntas-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [**Segmento: Trabajadores del sector salud**](#segmento-trabajadores-del-sector-salud)
+      - [**Segmento: Farmacéuticos y responsables de inventarios hospitalarios**](#segmento-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**](#segmento-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
     - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
     - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
@@ -151,6 +153,7 @@
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Interpretación](#interpretación)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
@@ -615,7 +618,7 @@ En esta parte se registran las preguntas empleadas durante las entrevistas, incl
 3. ¿Dónde vives actualmente?
 4. ¿A qué te dedicas especificamenente dentro de tu rubro?
 
-#### **Preguntas segmento 1**: Trabajadores del sector salud
+#### **Preguntas segmento 1**: Farmacéuticos y responsables de inventarios hospitalarios
 
 1. ¿Cuál es su rol específico dentro de su institución?
 
@@ -631,10 +634,25 @@ En esta parte se registran las preguntas empleadas durante las entrevistas, incl
 
 7. ¿Qué tan importante considera para su institución contar con reportes automáticos y alertas que faciliten la toma de decisiones en la gestión del inventario?
 
+#### **Preguntas segmento 2**: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)
+1. ¿Cuál es su rol específico dentro del área clínica?
+
+2. ¿De qué manera la disponibilidad de insumos críticos impacta en su trabajo diario y en la atención al paciente?
+
+3. ¿Qué problemas experimenta respecto a la falta o desabastecimiento de insumos en situaciones de urgencia o cuidados intensivos?
+
+4. ¿Usa alguna herramienta o método para conocer el estado y disponibilidad de insumos en tiempo real?
+
+5. ¿Cómo cree que una solución que monitoree condiciones de almacenamiento en tiempo real podría mejorar su trabajo y la seguridad del paciente?
+
+5. ¿Qué desafíos visualiza en la adopción de nuevas tecnologías dentro del área clínica?
+
+6. ¿Qué tipo de información o alertas le serían más útiles para garantizar que siempre haya insumos disponibles cuando los necesite?
+
 ### 2.2.2. Registro de entrevistas
 A continuación, se documentaron todas las entrevistas llevadas a cabo para nuestra solución, organizadas por segmento objetivo y acompañadas de un resumen que resalta las observaciones y comentarios relevantes sobre el proyecto.
 
-#### **Segmento: Trabajadores del sector salud**
+#### **Segmento: Farmacéuticos y responsables de inventarios hospitalarios**
 
 **Entrevista 1:**
 
@@ -695,6 +713,59 @@ Comentó que actualmente se depende de métodos manuales y sistemas poco integra
 Respecto a los beneficios, destacó que contar con un sistema automatizado de reportes y alertas optimizaría la toma de decisiones y garantizaría la disponibilidad oportuna de los medicamentos, lo que impactaría directamente en la seguridad y continuidad de la atención a los pacientes. No obstante, también identificó obstáculos, principalmente el costo de implementación y la resistencia inicial del personal a adoptar nuevas herramientas, por lo que considera esencial un plan de capacitación y soporte técnico constante.
 
 En conclusión, subrayó que herramientas de monitoreo en tiempo real no solo mejorarían la eficiencia operativa, sino que serían clave para brindar un servicio más seguro, confiable y humanizado en el sector salud.
+
+#### **Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**
+
+**Entrevista 1:**
+
+- **Nombres:** XXXXXXXXXXXXXXX
+- **Apellidos:** XXXXXXXXXXXXXXX
+- **Edad:** XXXXXXX
+- **Lugar de residencia:** XXXXXXX, Lima
+
+**Evidencia de la entrevista:**  
+
+<img src="assets/images/interviews/.png" alt="interview">
+
+
+**Enlace de la entrevista:** [xxxxxx](xxxxxx)
+
+**Resumen de la entrevista:**  
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+**Entrevista 2:**
+
+- **Nombres:** XXXXXXXXXXXXXXX
+- **Apellidos:** XXXXXXXXXXXXXXX
+- **Edad:** XXXXXXX
+- **Lugar de residencia:** XXXXXXX, Lima
+
+**Evidencia de la entrevista:**  
+
+<img src="assets/images/interviews/.png" alt="interview">
+
+
+**Enlace de la entrevista:** [xxxxxx](xxxxxx)
+
+**Resumen de la entrevista:**  
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+**Entrevista 3:**
+
+- **Nombres:** XXXXXXXXXXXXXXX
+- **Apellidos:** XXXXXXXXXXXXXXX
+- **Edad:** XXXXXXX
+- **Lugar de residencia:** XXXXXXX, Lima
+
+**Evidencia de la entrevista:**  
+
+<img src="assets/images/interviews/.png" alt="interview">
+
+
+**Enlace de la entrevista:** [xxxxxx](xxxxxx)
+
+**Resumen de la entrevista:**  
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ### 2.2.3. Análisis de entrevistas
 Para finalizar, en la sección de análisis se utilizaron métricas derivadas de las respuestas obtenidas, así como la frecuencia con la que ciertos temas fueron mencionados durante las entrevistas.
