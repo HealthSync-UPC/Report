@@ -448,34 +448,33 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 ### Antecedentes  
-La gestión de inventarios médicos ha sido un reto constante en el sector salud debido a la necesidad de asegurar la disponibilidad continua de insumos críticos y su adecuada conservación. Históricamente, muchos hospitales han utilizado sistemas manuales o registros digitales básicos para el control de existencias. Sin embargo, estos métodos presentan limitaciones en cuanto a precisión, trazabilidad y capacidad de respuesta ante incidencias como el desabastecimiento, el vencimiento de medicamentos o el deterioro de productos sensibles.  
+La gestión de inventarios médicos ha sido un reto constante en el sector salud, especialmente para farmacéuticos y responsables de inventarios hospitalarios, quienes deben asegurar la disponibilidad continua y adecuada conservación de insumos críticos mediante registros precisos y trazables. Por otro lado, el personal médico y de enfermería en áreas críticas requiere que estos insumos estén disponibles en tiempo real para garantizar la atención continua y segura de los pacientes en UCI, quirófanos y emergencias. Históricamente, ambos segmentos han dependido de sistemas manuales o digitales básicos que presentan limitaciones para lograr una gestión proactiva y transparente.  
 
-En los últimos años, la creciente complejidad de los servicios hospitalarios, la diversificación de insumos y las estrictas regulaciones sanitarias han generado la necesidad de adoptar tecnologías más avanzadas. El Internet of Things (IoT) ha surgido como una solución viable y eficiente, al permitir el monitoreo en tiempo real de variables críticas como temperatura, humedad, localización y niveles de stock. Esto abre la posibilidad de transformar la administración de inventarios en una gestión más proactiva, segura y transparente.  
+Con el avance de la tecnología y la creciente complejidad en los servicios hospitalarios, la integración del Internet of Things (IoT) se posiciona como una solución para monitorear en tiempo real las condiciones de almacenamiento, ubicación y niveles de stock. Esto permite a farmacéuticos mejorar la eficiencia en sus procesos y al personal médico mantener la disponibilidad inmediata de insumos críticos, mejorando la seguridad del paciente y reduciendo pérdidas.
 
 ### Problemática (Método 5W y 2H)  
 Reconoceremos nuestra problemática mediante el método 5W y 2H. 
 
 - **What (¿Qué?):**  
-Existen dificultades en la administración de inventarios médicos delicados, especialmente en el monitoreo de condiciones de almacenamiento, la trazabilidad de insumos y la prevención de pérdidas por caducidad o deterioro.  
+Dificultades en la administración y monitoreo de inventarios médicos delicados que afectan la precisión, trazabilidad y disponibilidad de insumos para farmacéuticos y personal médico en áreas críticas, impidiendo una gestión eficiente y proactiva.  
 
 - **Why (¿Por qué?):**  
-Los métodos tradicionales no permiten un control en tiempo real ni una capacidad preventiva. Esto provoca fallas en la disponibilidad, incumplimiento de normas sanitarias y riesgos para la seguridad del paciente.  
+Los sistemas tradicionales no ofrecen monitoreo en tiempo real ni alertas preventivas, generando riesgos para la disponibilidad de insumos y la seguridad del paciente, además de incumplimiento en normativas sanitarias.  
 
 - **Who (¿Quién?):**  
-El problema afecta principalmente a hospitales, clínicas, farmacias hospitalarias y laboratorios, impactando directamente a pacientes, personal médico, farmacéuticos y administradores logísticos.  
+Principalmente afecta a farmacéuticos y responsables de inventarios hospitalarios así como a médicos y enfermeros en unidades críticas, quienes dependen de la correcta gestión y rápida disponibilidad de insumos.  
 
 - **When (¿Cuándo?):**  
-La problemática se presenta de forma continua durante la gestión diaria del inventario, desde el momento de la adquisición de insumos hasta su uso final, con puntos críticos durante el almacenamiento y transporte.  
+El problema ocurre constantemente durante todo el proceso de gestión de inventarios, con especial impacto en momentos críticos de almacenamiento, distribución y uso en situaciones de emergencia o intervención quirúrgica.  
 
 - **Where (¿Dónde?):**  
-Surge en todas las áreas vinculadas a la cadena de suministro médica, incluyendo farmacias hospitalarias, almacenes centrales, quirófanos, unidades de cuidados intensivos y centros de distribución.  
+En farmacias hospitalarias, almacenes centrales y en áreas críticas como UCI, quirófanos y emergencias dentro de hospitales y clínicas.  
 
 - **How (¿Cómo?):**  
-Se manifiesta en forma de quiebres de stock, deterioro de insumos de cadena de frío, falta de alertas oportunas, exceso de inventario no utilizado y dificultades para coordinar con proveedores.  
+Se evidencia en quiebres de stock, falta de alertas de vencimientos o condiciones inadecuadas, deterioro de materiales sensibles, exceso o falta de inventario, y problemas en la coordinación entre los distintos responsables de la cadena logística.  
 
 - **How much (¿Cuánto?):**  
-Las consecuencias tienen un alto costo económico por pérdidas de insumos, además de un impacto crítico en la atención al paciente. El gasto puede traducirse en millones anuales dependiendo del tamaño de la institución, sumado al costo intangible de una posible afectación a la salud de los pacientes.  
-
+Conlleva costos económicos significativos por pérdidas y desperdicios de insumos, además de un impacto potencialmente grave en la salud y atención de los pacientes, con pérdidas que pueden ascender a millones según la escala de la institución.  
 
 ### 1.2.2. Lean UX Process
 El enfoque Lean UX se centra en comprender la propuesta de valor del modelo de negocio que sustenta nuestro proyecto, cuyo eje principal es el desarrollo de software. A lo largo de este capítulo y del documento en general, se analizan componentes esenciales de dicho enfoque.
@@ -484,27 +483,29 @@ Se inicia con la formulación de los "Problem Statements", los cuales incluyen e
 
 #### 1.2.2.1. Lean UX Problem Statements
 ### Problem Statement  
-La administración de inventarios médicos delicados en hospitales y clínicas presenta deficiencias en la trazabilidad, el monitoreo en tiempo real y la preservación de insumos críticos (como medicamentos de cadena de frío, material quirúrgico estéril y equipos de soporte vital). Esta situación genera pérdidas económicas significativas, incumplimiento de normas sanitarias y, lo más grave, riesgos directos para la seguridad del paciente.  
+La administración de inventarios médicos delicados en hospitales y clínicas presenta deficiencias críticas en la trazabilidad, monitoreo en tiempo real y conservación de insumos esenciales, afectando directamente a farmacéuticos responsables de inventarios y al personal médico/enfermería en áreas críticas como UCI, quirófanos y emergencias. Estas deficiencias generan pérdidas económicas importantes, incumplimientos en normativas sanitarias y, lo más crítico, riesgos significativos para la seguridad y continuidad de la atención al paciente en situaciones de alta demanda.  
 
 ### Dominio  
-Sector salud, enfocado en la gestión hospitalaria y la cadena de suministro médico, con atención en procesos de almacenamiento, distribución y consumo de insumos delicados.  
+Sector salud, especialmente enfocado en la gestión hospitalaria y la cadena de suministro de insumos médicos sensibles, con un énfasis en procesos de almacenamiento, distribución y uso en áreas con alta criticidad clínica.  
 
 ### Segmentos de Clientes  
-- **Ecosistema del sector salud** que incluye hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, todos con la necesidad de garantizar disponibilidad, conservación, trazabilidad y cumplimiento normativo de inventarios delicados.dos en mejorar la cadena logística con mayor trazabilidad y transparencia.  
+  * Farmacéuticos y responsables de inventarios hospitalarios, quienes requieren sistemas eficientes que aseguren la precisión, trazabilidad y conservación óptima de insumos para evitar pérdidas y garantizar el cumplimiento normativo.
+
+  * Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias), que necesitan acceso inmediato y confiable a insumos críticos para salvaguardar la atención y seguridad del paciente en contextos de alta presión.
 
 ### Puntos de Dolor  
-- Desabastecimiento inesperado de insumos esenciales.  
-- Pérdidas económicas por caducidad, deterioro o fallas en la cadena de frío.  
-- Falta de trazabilidad en la gestión de inventario.  
-- Incumplimiento de regulaciones sanitarias.  
-- Dificultades para coordinar con proveedores en tiempo real.  
-- Limitada visibilidad y monitoreo en áreas críticas como UCI y quirófanos.  
+  * Quiebres inesperados en el stock de insumos esenciales que afectan la atención clínica.
+  * Pérdidas económicas debidas a fallas en la conservación, caducidad o deterioro de insumos sensibles.
+  * Falta de monitoreo en tiempo real que dificulta la toma de decisiones proactivas.
+  * Insuficiente trazabilidad que impide auditorías efectivas y cumplimiento estricto de normas.
+  * Dificultades en la coordinación rápida con proveedores y en la comunicación intra-hospitalaria.
+  * Baja visibilidad y control en áreas críticas con alta rotación y urgencia de insumos.
 
 ### Visión/Estrategia  
-Implementar un ecosistema de gestión inteligente de inventarios médicos basado en IoT, que permita monitorear en tiempo real condiciones de almacenamiento (temperatura, humedad, ubicación), generar alertas tempranas, automatizar reportes y facilitar la toma de decisiones. La estrategia apunta a optimizar el uso de recursos, reducir pérdidas, fortalecer la seguridad del paciente y garantizar el cumplimiento normativo, impulsando modelos de gestión hospitalaria más transparentes y eficientes.  
+Desarrollar e implementar un sistema integral basado en IoT para la gestión inteligente de inventarios, que permita monitorizar en tiempo real variables críticas (temperatura, humedad, ubicación y niveles de stock), emitir alertas anticipadas, automatizar informes y mejorar la comunicación entre farmacéuticos y personal clínico. Esta solución busca optimizar recursos, minimizar pérdidas, fortalecer la seguridad del paciente y cumplir rigurosamente con regulaciones, promoviendo una gestión hospitalaria más eficiente y transparente.  
 
 ### Segmento Inicial  
-El proyecto se orientará inicialmente a **farmacias hospitalarias y unidades críticas (UCI y quirófanos)** de hospitales de mediana y gran escala, por ser los espacios con mayor riesgo clínico y económico debido al uso intensivo de insumos delicados.  
+El enfoque inicial estará en farmacias hospitalarias y áreas críticas como UCI y quirófanos en hospitales medianos y grandes, debido a la alta demanda y riesgo clínico asociado al manejo de insumos delicados en estos espacios.  
 
 #### 1.2.2.2. Lean UX Assumptions
 En esta parte, analizaremos las suposiciones relacionadas con nuestra solución, abarcando desde las funcionalidades que debería incorporar hasta los resultados esperados, tanto desde nuestra visión como desde la experiencia del usuario.
@@ -525,10 +526,8 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - Incremento en la satisfacción y confianza de pacientes al garantizar disponibilidad de tratamientos y materiales.  
 
 ### Users  
-- Farmacéuticos hospitalarios encargados del control de insumos.  
-- Personal médico y de enfermería dependiente de la disponibilidad de materiales críticos.  
-- Administradores de hospitales responsables de costos y cumplimiento normativo.  
-- Proveedores que requieren coordinación correcta con las instituciones de salud.  
+- Farmacéuticos y responsables de inventarios hospitalarios que requieren herramientas precisas para control y trazabilidad.  
+- Personal médico y de enfermería en UCI, quirófanos y emergencias que dependen de la disponibilidad inmediata de insumos.
 
 ### User Outcomes & Benefits  
 - Disponibilidad garantizada de insumos esenciales en cualquier momento.  
@@ -545,21 +544,15 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - La escalabilidad del sistema permitirá adaptarse a diferentes tamaños de instituciones (pequeñas clínicas hasta grandes hospitales).  
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usuarios, beneficios esperados y funcionalidades propuestas, es posible construir nuestras hipótesis, cada una enfocada en una característica específica que se busca desarrollar.
+Aquí está la actualización de tus Lean UX Hypothesis Statements enfocados en los dos segmentos objetivos: farmacéuticos y responsables de inventarios hospitalarios, y personal médico/enfermería en áreas críticas (UCI, quirófanos, emergencias).
 
-1. Creemos que **la implementación de sensores IoT en el almacenamiento y transporte de insumos médicos** permitirá monitorear en tiempo real condiciones críticas (temperatura, humedad, ubicación), lo cual reducirá significativamente las pérdidas por deterioro o caducidad.  
-
-2. Creemos que **los farmacéuticos y administradores hospitalarios** usarán la plataforma digital para obtener reportes automáticos y alertas tempranas, lo que les permitirá optimizar el control de inventarios y prevenir desabastecimientos.  
-
-3. Creemos que **los hospitales y clínicas**, al reducir pérdidas económicas y mejorar la trazabilidad, verán un retorno de inversión positivo en un periodo de corto a mediano plazo.  
-
-4. Creemos que **la integración de la plataforma IoT con sistemas de gestión hospitalaria ya existentes (ERP/HCE)** facilitará la adopción de la solución, evitando duplicidades y reduciendo la resistencia al cambio tecnológico.  
-
-5. Creemos que **el personal de salud** (farmacéuticos, enfermeras, médicos) valorará el ahorro de tiempo en tareas administrativas gracias a la automatización, lo que incrementará su satisfacción y eficiencia operacional.  
-
-6. Creemos que **los proveedores y distribuidores de insumos médicos** adoptarán la solución al percibir un aumento en la transparencia logística y una mejor coordinación con las instituciones de salud.  
-
-7. Creemos que **la mejora en la disponibilidad y conservación de insumos delicados** impactará de manera positiva en la seguridad del paciente, aumentando la confianza y la calidad percibida del servicio hospitalario.  
+  * Creemos que la implementación de sensores IoT en áreas de almacenamiento y uso crítico de insumos médicos permitirá un monitoreo en tiempo real de condiciones esenciales (temperatura, humedad, ubicación), reduciendo significativamente las pérdidas por deterioro o caducidad, lo cual beneficiará especialmente a farmacéuticos responsables del inventario.  
+  * Creemos que farmacéuticos y administradores hospitalarios utilizarán la plataforma digital para recibir reportes automáticos y alertas tempranas, optimizando así la gestión del inventario y evitando quiebres que afecten la operación hospitalaria.  
+  * Creemos que personal médico y de enfermería en UCI, quirófanos y emergencias confiará en la solución para asegurar la disponibilidad inmediata de insumos críticos, lo que mejorará la seguridad del paciente y la eficiencia en la atención clínica.  
+  * Creemos que la integración del sistema IoT con los sistemas hospitalarios actuales (ERP, HCE) facilitará la adopción por parte de ambos segmentos, reduciendo la resistencia al cambio y evitando duplicación de labores.  
+  * Creemos que el ahorro de tiempo en tareas administrativas gracias a la automatización incrementará la satisfacción y la eficiencia operativa tanto para farmacéuticos como para el personal clínico de áreas críticas.  
+  * Creemos que la mejora en la trazabilidad y control de insumos fortalecerá la coordinación con proveedores, asegurando un suministro confiable y continuo para hospital y clínicas.  
+  * Creemos que la disponibilidad y conservación óptima de insumos delicados, lograda mediante nuestra solución, tendrá un impacto positivo directo en la seguridad del paciente y en la percepción de calidad de los servicios hospitalarios.  
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -582,8 +575,11 @@ A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usu
 ## 1.3. Segmentos objetivo
 Con base en los perfiles de usuarios que hemos supuesto, identificamos el siguiente segmento específico del mercado a los que está orientada nuestra solución.
 
-1. **Trabajadores del sector salud:**  
-  conformado por personas que trabajan en hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, quienes comparten la necesidad de asegurar la disponibilidad, conservación adecuada, trazabilidad y cumplimiento normativo en la gestión de inventarios delicados.
+  * **Farmacéuticos y responsables de inventarios hospitalarios:**  
+Este segmento incluye a los profesionales que gestionan el almacenamiento, control y distribución de insumos médicos dentro de hospitales y clínicas. Son responsables de asegurar la correcta conservación, trazabilidad y disponibilidad de medicamentos y materiales críticos, enfrentándose a desafíos relacionados con la precisión en el inventario, prevención de desabastecimientos y cumplimiento normativo. Su necesidad principal es contar con monitoreo en tiempo real y alertas automáticas para optimizar la gestión y evitar pérdidas económicas.
+
+  * **Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias):**  
+Este grupo está compuesto por médicos, enfermeros y técnicos que dependen de la disponibilidad inmediata de insumos críticos para la atención de pacientes. Su enfoque está en mantener la continuidad y seguridad en la atención, por lo cual requieren información fiable y oportuna sobre el stock, para evitar interrupciones y riesgos para los pacientes. La trazabilidad y el acceso rápido a datos son esenciales para este segmento.
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
