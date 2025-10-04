@@ -2792,7 +2792,22 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
    La prueba se realizó accediendo a la aplicación a través de la siguiente URL:
    - [http://localhost:3000/](http://localhost:3000/)
 
-4. **Evidencia visual**  
+
+
+| **Repository**   | **Branch** | **Commit ID**                             | **Commit Message**                                    | **Committed on (Date)** | **Descripción**                                                                                                    |
+|------------------|------------|-------------------------------------------|------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Landing-Page     | main       | 54ed853                                   | fix: implement internationalization for various components | Oct 2, 2025              | Implementación de internacionalización para varios componentes. Relacionado con la mejora de la UX para múltiples idiomas. |
+| Landing-Page     | main       | 2a3e28f                                   | fix: add dark mode support to footer logo             | Oct 2, 2025              | Se añadió soporte para modo oscuro en el logo del pie de página.                                                     |
+| Landing-Page     | main       | e14679f                                   | fix: standardize translation keys                    | Oct 1, 2025              | Estandarización de las claves de traducción en todos los componentes de la interfaz.                                   |
+| Landing-Page     | main       | 55a558a                                   | fix: adjust responsiveness for mobile screens         | Oct 1, 2025              | Ajustes de diseño para mejorar la compatibilidad con pantallas móviles.                                                |
+| Landing-Page     | main       | d42c8c8                                   | fix: update navigation bar styling                    | Oct 1, 2025              | Actualización de estilos en la barra de navegación para mejorar la experiencia de usuario.                           |
+| Landing-Page     | main       | fdf41a51                                  | first commit                                          | Oct 1, 2025              | Primer commit con la configuración básica del proyecto, incluyendo la estructura de carpetas y configuración inicial. |
+
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+**Evidencia visual**  
    A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo local:
 
   ![Ejecucion en WebStorm](/Report/assets/images/Sprint%201/Testing_WebStorm.png)  
@@ -2807,15 +2822,36 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
   ![Vista Contactanos Landing Page](/Report/assets/images/Sprint%201/Evidencia3_Landing.png)  
   *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
 
-  | **Commit ID**                             | **Commit Message**                                               | **Fecha**          | **Descripción**                                                   |
-|------------------------------------------|------------------------------------------------------------------|--------------------|-------------------------------------------------------------------|
-| 54ed85334b496223af2bf9e7137de04548cb190a | fix: implement internationalization for various components      | Oct 2, 2025        | Implementación de la internacionalización para varios componentes, mejorando la compatibilidad con diferentes idiomas en la aplicación. |
-
-
-
-#### 6.2.1.6. Execution Evidence for Sprint Review
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+### Software Deployment Evidence for Sprint Review
+
+En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netlify**, una plataforma de despliegue continuo para aplicaciones web. Los pasos realizados durante este Sprint incluyen la configuración del repositorio, la elección del nombre del proyecto, la configuración de rutas y otras configuraciones necesarias, y la confirmación del éxito del despliegue. A continuación, se detallan los pasos seguidos durante el proceso:
+
+1. **Elección del Repositorio**  
+   En primer lugar, se seleccionó el repositorio desde el que se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración.
+   ![Elección del Repositorio]( /Report/assets/images/Sprint%201/DeployLanding1.png )  
+   *Descripción: Selección del repositorio en la plataforma de Netlify.*
+
+2. **Elección del Nombre del Proyecto**  
+   A continuación, se asignó un nombre único para el proyecto en Netlify. Este nombre será el utilizado en la URL pública del despliegue.
+   ![Elección del Nombre]( /Report/assets/images/Sprint%201/DeployLanding2.png )  
+   *Descripción: Elección del nombre del proyecto en Netlify para su despliegue.*
+
+3. **Configuración de Rutas y Otras Opciones**  
+   En este paso, se configuraron las rutas necesarias y otras opciones relevantes para el despliegue, como las variables de entorno y la configuración de compilación.
+   ![Configuración de Rutas y Opciones]( /Report/assets/images/Sprint%201/DeployLanding3.png )  
+   *Descripción: Configuración de las rutas y otras opciones necesarias para el despliegue exitoso.*
+
+4. **Confirmación del Éxito del Despliegue**  
+   Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue y se verificó que todo se realizó correctamente, lo cual se mostró como un éxito en la interfaz de Netlify.
+   ![Éxito del Despliegue]( /Report/assets/images/Sprint%201/DeployLanding4.png )  
+   *Descripción: Mensaje de éxito que confirma que el despliegue fue exitoso en Netlify.*
+
+Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de la **Landing Page** en **Netlify** durante este Sprint.
+
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews
