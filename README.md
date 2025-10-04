@@ -2807,6 +2807,11 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
   ![Vista Contactanos Landing Page](/Report/assets/images/Sprint%201/Evidencia3_Landing.png)  
   *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
 
+  | **Commit ID**                             | **Commit Message**                                               | **Fecha**          | **Descripción**                                                   |
+|------------------------------------------|------------------------------------------------------------------|--------------------|-------------------------------------------------------------------|
+| 54ed85334b496223af2bf9e7137de04548cb190a | fix: implement internationalization for various components      | Oct 2, 2025        | Implementación de la internacionalización para varios componentes, mejorando la compatibilidad con diferentes idiomas en la aplicación. |
+
+
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
