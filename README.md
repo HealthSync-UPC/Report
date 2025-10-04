@@ -2756,11 +2756,11 @@ Finalmente, revisa la configuración y presiona el botón que lleva el nombre de
 <img src="./assets/images/softwareDeploy/landing.png" style="display: block; margin: 0 auto;">
 
 ## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n
-#### 6.2.X.2. Aspect Leaders and Collaborators
-#### 6.2.X.3. Sprint Backlog n
-#### 6.2.X.4. Development Evidence for Sprint Review
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning n
+#### 6.2.1.2. Aspect Leaders and Collaborators
+#### 6.2.1.3. Sprint Backlog n
+#### 6.2.1.4. Development Evidence for Sprint Review
 
 | **Repository**        | **Branch**          | **Commit ID** | **Commit Message**                                    | **Committed on (Date)** |
 |-----------------------|---------------------|---------------|------------------------------------------------------|-------------------------|
@@ -2772,11 +2772,46 @@ Finalmente, revisa la configuración y presiona el botón que lleva el nombre de
 | Landing-Page          | main                | fdf41a51      | first commit                                          | Oct 1, 2025              |
 
 
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review
-#### 6.2.X.6. Execution Evidence for Sprint Review
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review
-#### 6.2.X.9. Team Collaboration Insights during Sprint
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Para realizar las pruebas correspondientes a la funcionalidad implementada, seguimos estos pasos:
+
+1. **Instalación de dependencias**  
+   Se ejecutó el siguiente comando para instalar todas las dependencias necesarias del proyecto:
+   ```bash
+   npm install
+   ```
+
+2. **Ejecutar el servidor de desarrollo**  
+   Después de la instalación de las dependencias, se ejecutó el siguiente comando para iniciar el servidor en modo de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+3. **Acceso a la aplicación**  
+   La prueba se realizó accediendo a la aplicación a través de la siguiente URL:
+   - [http://localhost:3000/](http://localhost:3000/)
+
+4. **Evidencia visual**  
+   A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo local:
+
+  ![Ejecucion en WebStorm](/Report/assets/images/Sprint%201/Testing_WebStorm.png)  
+  *Evidencia de la ejecución de la aplicación en WebStorm, mostrando el servidor en modo de desarrollo y los logs de la consola.*
+
+  ![Vista inicial Landing Page](/Report/assets/images/Sprint%201/Evidencia1_Landing.png)  
+  *Captura de la vista inicial de la Landing Page, mostrando la interfaz de usuario cargada correctamente en el navegador.*
+
+  ![Vista IoT Landing Page](/Report/assets/images/Sprint%201/Evidencia2_Landing.png)  
+  *Vista de la sección de IoT de la Landing Page, validando que la funcionalidad para mostrar productos o servicios relacionados con IoT esté operativa.*
+
+  ![Vista Contactanos Landing Page](/Report/assets/images/Sprint%201/Evidencia3_Landing.png)  
+  *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+#### 6.2.1.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
