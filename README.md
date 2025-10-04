@@ -2761,6 +2761,17 @@ Finalmente, revisa la configuración y presiona el botón que lleva el nombre de
 #### 6.2.X.2. Aspect Leaders and Collaborators
 #### 6.2.X.3. Sprint Backlog n
 #### 6.2.X.4. Development Evidence for Sprint Review
+
+| **Repository**        | **Branch**          | **Commit ID** | **Commit Message**                                    | **Committed on (Date)** |
+|-----------------------|---------------------|---------------|------------------------------------------------------|-------------------------|
+| Landing-Page          | main                | 54ed853       | fix: implement internationalization for various components | Oct 2, 2025              |
+| Landing-Page          | main                | 2a3e28f       | fix: implement internationalization for contact form and company info | Oct 2, 2025              |
+| Landing-Page          | main                | e14679f       | fix: add dark mode support to footer logo             | Oct 1, 2025              |
+| Landing-Page          | main                | 55a558a       | fix: standardize translation keys to use double quotes | Oct 1, 2025              |
+| Landing-Page          | main                | d42c8c8       | fix: change output directory from 'build' to 'dist'   | Oct 1, 2025              |
+| Landing-Page          | main                | fdf41a51      | first commit                                          | Oct 1, 2025              |
+
+
 #### 6.2.X.5. Testing Suite Evidence for Sprint Review
 #### 6.2.X.6. Execution Evidence for Sprint Review
 #### 6.2.X.7. Services Documentation Evidence for Sprint Review
