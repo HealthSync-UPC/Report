@@ -431,16 +431,16 @@
       - [Iniciar el despliegue presionando el botón del proyecto](#iniciar-el-despliegue-presionando-el-botón-del-proyecto)
     - [Link de nuestra landing page: https://healthsyn-landing.netlify.app](#link-de-nuestra-landing-page-httpshealthsyn-landingnetlifyapp)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
-    - [6.2.X. Sprint n](#62x-sprint-n)
-      - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-      - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-      - [6.2.X.3. Sprint Backlog n](#62x3-sprint-backlog-n)
-      - [6.2.X.4. Development Evidence for Sprint Review](#62x4-development-evidence-for-sprint-review)
-      - [6.2.X.5. Testing Suite Evidence for Sprint Review](#62x5-testing-suite-evidence-for-sprint-review)
-      - [6.2.X.6. Execution Evidence for Sprint Review](#62x6-execution-evidence-for-sprint-review)
-      - [6.2.X.7. Services Documentation Evidence for Sprint Review](#62x7-services-documentation-evidence-for-sprint-review)
-      - [6.2.X.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence-for-sprint-review)
-      - [6.2.X.9. Team Collaboration Insights during Sprint](#62x9-team-collaboration-insights-during-sprint)
+    - [6.2.1 Sprint 1.](#621-sprint-1)
+      - [6.2.1.1 Sprint Planning 1.](#6211-sprint-planning-1)
+      - [6.2.1.3 Sprint Backlog 1.](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+    - [Software Deployment Evidence for Sprint Review](#software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -2756,10 +2756,73 @@ Finalmente, revisa la configuración y presiona el botón que lleva el nombre de
 <img src="./assets/images/softwareDeploy/landing.png" style="display: block; margin: 0 auto;">
 
 ## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.1. Sprint 1
-#### 6.2.1.1. Sprint Planning n
-#### 6.2.1.2. Aspect Leaders and Collaborators
-#### 6.2.1.3. Sprint Backlog n
+### 6.2.1 Sprint 1.
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el **Sprint 1**, enfocado en el desarrollo de la **landing page** de nuestra plataforma de cadena de frío e inventario FEFO con IoT para clínicas/hospitales. Se detalla el progreso tangible y funcional, incluyendo diseño, desarrollo y funcionalidades implementadas, así como la colaboración del equipo, métodos de comunicación (daily breve y canal de chat) y herramientas empleadas (repositorio Git y tablero de tareas). Además, se incluye información sobre la planificación del sprint, el backlog de tareas y evidencia de avance.
+
+---
+
+#### 6.2.1.1 Sprint Planning 1.
+
+En el **Sprint Planning 1**, se definió el alcance del MVP de la landing, los criterios de calidad (accesibilidad y performance base) y se priorizaron historias del **Epic 6: Experiencia de Usuario (Landing & Front-End)**: **HU033–HU039**.
+
+| **Sprint #**                      | Sprint 1                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    | Construir y publicar un landing MVP que comunique la propuesta de valor, cuente con navegación clara, formulario de contacto (leads), metadatos SEO básicos, analítica y estándares mínimos de accesibilidad/performance.                                                                                                                                            |
+| **Date**                          | 07 de octubre de 2025                                                                                                                                                                                                                                                                                                                                                 |
+| **Time**                          | 21:30 horas (GMT-5)                                                                                                                                                                                                                                                                                                                                                   |
+| **Location**                      | Modalidad remota                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By**                   | Equipo del Proyecto (Producto Cadena de Frío IoT)                                                                                                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)** | Product Owner, UX/UI Lead, Front-End Lead, QA Lead, Front-End Devs                                                                                                                                                                                                                                                                                                   |
+| **Sprint 0 Review Summary**       | No aplica (primer sprint).                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Retrospective Summary**| Se priorizó la landing page. Se acordó desplegar y usar imágenes optimizadas. Se habilitó validación de formularios en cliente. Se realizó deploy a entorno público usando Netlify.                                               |
+| **Sprint Goal & User Stories**    | **Goal:** Publicar landing MVP funcional.<br>**Historias:** HU033 (Landing), HU034 (Header/Nav), HU035 (Footer), HU036 (Value/Features), HU037 (Formulario), HU038 (SEO/OG), HU039 (Accesibilidad).                                                                                                                               |
+| **Sprint Velocity 1**             | 20                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sum of Story Points**           | 28 (HU033=5, HU034=3, HU035=2, HU036=5, HU037=5, HU038=3, HU039=5)                                                                                                                                                                                                                                                                                                     |
+
+---
+
+6.2.1.2  Aspect Leaders and Collaborators.
+
+| Team Member                                | GitHub Username | Landing Page | Frontend | Backend | IoT |
+|--------------------------------------------|-----------------|--------------|----------|---------|-----|
+| Cruz Ticona, Aaron Alejandro               | AaronAlejandrou            | **C**        | **C**    | -       | -   |
+| Ayquipa Ubaldo, Abraham Israel             | abrahamayquipa           | **C**        | -   | -       | -   |
+| Luza Carhuamaca, Jose Adrian               | Adrianluza1           | -            | **C**    | -   | -   |
+| Durand Vera, Gianfranco Angel              | FrancoDurand             | -            | **L**        | -   | - |
+| Ticona Panduro, Estrella del Pilar         | Estrella-ticona            | **L**        | **C**    | -       | -   |
+
+*Leyenda: **L** = Leader, **C** = Collaborator, **-** = No participación en el sprint.*
+
+#### 6.2.1.3 Sprint Backlog 1.
+
+**Link del Trello:**  
+Link: https://trello.com/invite/b/68e5c340ab38cc001da13a66/ATTI0adc4dbd76797a8850f7ca7d4f37b28407D0CB1C/meditrack
+
+**Vista del Sprint Backlog en Trello:**  
+![trelloSprint1.png](assets/trello-image.png)
+
+---
+
+| **Sprint #** | **Sprint 1** |   |   |   |   |   |   |
+|--------------|--------------|---|---|---|---|---|---|
+| **User Story** | **Work-item / Task** |   |   |   |   |   |   |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation hours** | **Assigned To** | **Status To-do / In-Process / To-Review / Done** |
+| **E6-HU033** | Landing pública | **T1** | Estructura base y Hero | Crear el diseño base y la sección principal con título, texto y botón. | 4h | Front-End Dev | Done |
+| **E6-HU033** | Landing pública | **T2** | CTA a Contacto | Hacer que el botón lleve al formulario de contacto. | 1h | Front-End Dev | Done |
+| **E6-HU034** | Header y navegación | **T3** | Header y Menú | Poner un encabezado con menú a las secciones y que se mantenga visible. | 3h | Front-End Dev | Done |
+| **E6-HU034** | Header y navegación | **T4** | Navegación responsiva | Hacer que el menú funcione bien en celular y con teclado. | 2h | Front-End Dev | Done |
+| **E6-HU036** | Propuesta de valor y funciones | **T5** | Sección de valor | Escribir y mostrar 3–6 beneficios del producto. | 2h | UX/UI + Content | Done |
+| **E6-HU036** | Propuesta de valor y funciones | **T6** | Tarjetas de funciones | Crear tarjetas con icono, título y texto corto. | 3h | Front-End Dev | Done |
+| **E6-HU037** | Formulario de contacto/lead | **T7** | Formulario y validaciones | Formulario con nombre, email y mensaje; validar y mostrar errores simples. | 3h | Front-End Dev | Done |
+| **E6-HU037** | Formulario de contacto/lead | **T8** | Protección contra spam | Agregar protección básica contra envíos automáticos. | 1h | Front-End Dev | Done |
+| **E6-HU035** | Footer institucional | **T9** | Footer y enlaces | Añadir pie de página con enlaces legales y redes sociales. | 2h | Front-End Dev | Done |
+| **E6-HU038** | SEO y metadatos | **T10** | Metadatos | Agregar título y descripción para buscadores y redes. | 2h | Front-End Dev | Done |
+| **E6-HU038** | SEO y metadatos | **T11** | Archivos SEO | Crear y servir /sitemap.xml y /robots.txt. | 2h | Front-End Dev | Done |
+| **E6-HU039** | Accesibilidad base | **T12** | Foco y etiquetas | Hacer visible el foco y poner etiquetas en controles; avisos de error claros. | 2h | Front-End Dev + QA | To-Review |
+| **E6-HU039** | Accesibilidad base | **T13** | Contraste y teclado | Revisar contraste y que todo se pueda usar con teclado. | 2h | QA Lead | In-Process |
+
+
 #### 6.2.1.4. Development Evidence for Sprint Review
 
 | **Repository**        | **Branch**          | **Commit ID** | **Commit Message**                                    | **Committed on (Date)** |
