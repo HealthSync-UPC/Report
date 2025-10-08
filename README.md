@@ -1350,48 +1350,6 @@ ABET – EAC - Student Outcome 5
   <td>6</td>
 </tr>
 
-<tr>
-  <td>E6-HU041</td>
-  <td>Analítica (page views + eventos CTA)</td>
-  <td>
-    <strong>Como</strong> negocio,<br>
-    <strong>Quiero</strong> medir visitas y clics en CTA,<br>
-    <strong>Para</strong> evaluar conversión
-  </td>
-  <td>
-    <strong>Escenario 1: Page view</strong><br>
-    <strong>Dado</strong> el script de analítica,<br>
-    <strong>Cuando</strong> cargo la página,<br>
-    <strong>Entonces</strong> se emite evento de <code>page_view</code> con ruta y referrer.<br><br>
-    <strong>Escenario 2: Evento CTA</strong><br>
-    <strong>Dado</strong> el botón principal,<br>
-    <strong>Cuando</strong> el usuario hace clic,<br>
-    <strong>Entonces</strong> se registra <code>event: cta_click</code> con etiqueta de ubicación.
-  </td>
-  <td>6</td>
-</tr>
-
-<tr>
-  <td>E6-HU042</td>
-  <td>Performance Web Vitals (LCP/CLS/TBT)</td>
-  <td>
-    <strong>Como</strong> visitante móvil,<br>
-    <strong>Quiero</strong> una carga rápida y estable,<br>
-    <strong>Para</strong> tener una buena experiencia
-  </td>
-  <td>
-    <strong>Escenario 1: Web Vitals</strong><br>
-    <strong>Dado</strong> la primera carga móvil,<br>
-    <strong>Cuando</strong> mido el sitio,<br>
-    <strong>Entonces</strong> LCP ≤ 2.5s y CLS ≤ 0.1 (objetivo).<br><br>
-    <strong>Escenario 2: Imágenes</strong><br>
-    <strong>Dado</strong> imágenes optimizadas,<br>
-    <strong>Cuando</strong> renderiza la página,<br>
-    <strong>Entonces</strong> se usan formatos modernos y <code>loading="lazy"</code>.
-  </td>
-  <td>6</td>
-</tr>
-
 </tbody>
 </table>
 
@@ -1436,6 +1394,13 @@ ABET – EAC - Student Outcome 5
 | 30    | HU028                           | Reporte semanal de excursiones y mermas                  | Como calidad, quiero un reporte semanal con % fuera de rango y mermas en S/. para auditorías y mejora continua.                                                    | 3            |
 | 31    | HU031                           | Gestión de calibración de sensores                       | Como ingeniería clínica, quiero registrar certificados y alertas de vencimiento de calibración para asegurar precisión de medición.                                | 5            |
 | 32    | HU032                           | Reporte de cumplimiento normativo (GDP/guías)            | Como calidad, quiero generar un informe con evidencias de cadena de frío y acciones correctivas para presentar en inspecciones regulatorias.                       | 8            |
+| 33    | HU033                           | Landing pública (estructura + hero + CTA)                | Como visitante, quiero ver un landing claro con un bloque principal (hero) y un botón de acción para entender rápido el valor y solicitar contacto/demos.               | 5            |
+| 34    | HU034                           | Header y navegación                                      | Como visitante, quiero un encabezado con navegación sencilla para moverme entre secciones sin perderme.                                                                  | 3            |
+| 35    | HU035                           | Footer institucional (legal/redes/contacto)              | Como visitante, quiero ver datos legales y enlaces de contacto/redes para validar confianza y comunicarme.                                                               | 2            |
+| 36    | HU036                           | Propuesta de valor & Features                            | Como visitante, quiero entender beneficios y características clave para evaluar si la plataforma resuelve mi problema.                                                   | 5            |
+| 37    | HU037                           | Formulario de contacto/lead (anti-spam)                  | Como visitante, quiero enviar mis datos de contacto para solicitar una demo o que me contacten, evitando envíos de bots (honeypot/rate limit).                           | 5            |
+| 38    | HU038                           | SEO y metadatos (OG/Twitter, sitemap, robots)            | Como responsable de marketing, quiero metadatos y archivos SEO para mejorar indexación y previsualizaciones.                                                             | 3            |
+| 39    | HU039                           | Accesibilidad base (WCAG AA mínima)                      | Como usuario con diversidad funcional, quiero navegar con teclado y lectores de pantalla para acceder sin barreras.                                                      | 5            |
 
 # Capítulo IV: Solution Software Design
 
