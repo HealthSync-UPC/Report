@@ -1179,6 +1179,224 @@ ABET – EAC - Student Outcome 5
 </table>
 
 
+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 18%" />
+<col style="width: 30%" />
+<col style="width: 30%" />
+<col style="width: 11%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Epic / Story ID</td>
+<td>Título</td>
+<td>Descripción</td>
+<td>Criterios de Aceptación</td>
+<td>Relación Epic ID</td>
+</tr>
+
+<tr>
+  <td colspan="5" style="padding: 15px; ">
+    <strong>Epic 6: Experiencia de Usuario (Landing &amp; Front-End)</strong>
+  </td>
+</tr>
+
+<tr>
+  <td>E6-HU033</td>
+  <td>Landing pública (estructura + hero + CTA)</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> ver un landing claro con un bloque principal (hero) y un botón de acción,<br>
+    <strong>Para</strong> entender rápido el valor y solicitar contacto/demos
+  </td>
+  <td>
+    <strong>Escenario 1: Carga inicial</strong><br>
+    <strong>Dado</strong> que ingreso al dominio público,<br>
+    <strong>Cuando</strong> se carga la página,<br>
+    <strong>Entonces</strong> veo un hero con titular, subtítulo y CTA visible sobre el primer scroll.<br><br>
+    <strong>Escenario 2: CTA navegable</strong><br>
+    <strong>Dado</strong> que hago clic en el CTA,<br>
+    <strong>Cuando</strong> interactúo,<br>
+    <strong>Entonces</strong> soy dirigido al formulario o sección de contacto.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU034</td>
+  <td>Header y navegación</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> un encabezado con navegación sencilla,<br>
+    <strong>Para</strong> moverme entre secciones sin perderme
+  </td>
+  <td>
+    <strong>Escenario 1: Navegación</strong><br>
+    <strong>Dado</strong> el menú en el header,<br>
+    <strong>Cuando</strong> hago clic en una sección,<br>
+    <strong>Entonces</strong> el sitio navega/realiza scroll correcto a la sección.<br><br>
+    <strong>Escenario 2: Sticky</strong><br>
+    <strong>Dado</strong> que hago scroll,<br>
+    <strong>Cuando</strong> me desplazo hacia abajo,<br>
+    <strong>Entonces</strong> el header permanece accesible (sticky) en mobile/desktop.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU035</td>
+  <td>Footer institucional (legal/redes/contacto)</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> ver datos legales y enlaces de contacto/redes,<br>
+    <strong>Para</strong> validar confianza y comunicarme
+  </td>
+  <td>
+    <strong>Escenario 1: Legales</strong><br>
+    <strong>Dado</strong> el footer,<br>
+    <strong>Cuando</strong> lo reviso,<br>
+    <strong>Entonces</strong> encuentro enlaces a Términos, Privacidad y Contacto.<br><br>
+    <strong>Escenario 2: Redes</strong><br>
+    <strong>Dado</strong> los iconos de redes,<br>
+    <strong>Cuando</strong> hago clic,<br>
+    <strong>Entonces</strong> abren en nueva pestaña los perfiles oficiales.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU036</td>
+  <td>Propuesta de valor &amp; Features</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> entender beneficios y características clave,<br>
+    <strong>Para</strong> evaluar si la plataforma resuelve mi problema
+  </td>
+  <td>
+    <strong>Escenario 1: Sección de valor</strong><br>
+    <strong>Dado</strong> la sección “Por qué nosotros”,<br>
+    <strong>Cuando</strong> la visualizo,<br>
+    <strong>Entonces</strong> veo 3–6 bullets claros de beneficios.<br><br>
+    <strong>Escenario 2: Features</strong><br>
+    <strong>Dado</strong> la sección “Características”,<br>
+    <strong>Cuando</strong> la reviso,<br>
+    <strong>Entonces</strong> veo tarjetas con icono, título y breve descripción.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU037</td>
+  <td>Formulario de contacto/lead (anti-spam)</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> enviar mis datos de contacto,<br>
+    <strong>Para</strong> solicitar una demo o que me contacten
+  </td>
+  <td>
+    <strong>Escenario 1: Envío válido</strong><br>
+    <strong>Dado</strong> que completo nombre, email y mensaje válidos,<br>
+    <strong>Cuando</strong> envío el formulario,<br>
+    <strong>Entonces</strong> veo confirmación de envío en pantalla.<br><br>
+    <strong>Escenario 2: Anti-spam</strong><br>
+    <strong>Dado</strong> el honeypot/rate limit activo,<br>
+    <strong>Cuando</strong> un bot intenta enviar,<br>
+    <strong>Entonces</strong> la solicitud se rechaza sin afectar la UX.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU038</td>
+  <td>SEO y metadatos (OG/Twitter, sitemap, robots)</td>
+  <td>
+    <strong>Como</strong> responsable de marketing,<br>
+    <strong>Quiero</strong> metadatos y archivos SEO,<br>
+    <strong>Para</strong> mejorar indexación y previsualizaciones
+  </td>
+  <td>
+    <strong>Escenario 1: Metadatos</strong><br>
+    <strong>Dado</strong> el head del documento,<br>
+    <strong>Cuando</strong> inspecciono,<br>
+    <strong>Entonces</strong> existen title, meta description, OG y Twitter Cards.<br><br>
+    <strong>Escenario 2: Sitemap/robots</strong><br>
+    <strong>Dado</strong> el dominio,<br>
+    <strong>Cuando</strong> accedo a <code>/sitemap.xml</code> y <code>/robots.txt</code>,<br>
+    <strong>Entonces</strong> ambos recursos se sirven correctamente.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU039</td>
+  <td>Accesibilidad base (WCAG AA mínima)</td>
+  <td>
+    <strong>Como</strong> usuario con diversidad funcional,<br>
+    <strong>Quiero</strong> navegar con teclado y lectores de pantalla,<br>
+    <strong>Para</strong> acceder sin barreras
+  </td>
+  <td>
+    <strong>Escenario 1: Teclado</strong><br>
+    <strong>Dado</strong> el sitio,<br>
+    <strong>Cuando</strong> navego con teclado,<br>
+    <strong>Entonces</strong> puedo acceder a todos los enlaces/inputs con focus visible.<br><br>
+    <strong>Escenario 2: Lectores</strong><br>
+    <strong>Dado</strong> un lector de pantalla,<br>
+    <strong>Cuando</strong> anuncia los elementos,<br>
+    <strong>Entonces</strong> los controles tienen labels/roles apropiados.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU041</td>
+  <td>Analítica (page views + eventos CTA)</td>
+  <td>
+    <strong>Como</strong> negocio,<br>
+    <strong>Quiero</strong> medir visitas y clics en CTA,<br>
+    <strong>Para</strong> evaluar conversión
+  </td>
+  <td>
+    <strong>Escenario 1: Page view</strong><br>
+    <strong>Dado</strong> el script de analítica,<br>
+    <strong>Cuando</strong> cargo la página,<br>
+    <strong>Entonces</strong> se emite evento de <code>page_view</code> con ruta y referrer.<br><br>
+    <strong>Escenario 2: Evento CTA</strong><br>
+    <strong>Dado</strong> el botón principal,<br>
+    <strong>Cuando</strong> el usuario hace clic,<br>
+    <strong>Entonces</strong> se registra <code>event: cta_click</code> con etiqueta de ubicación.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU042</td>
+  <td>Performance Web Vitals (LCP/CLS/TBT)</td>
+  <td>
+    <strong>Como</strong> visitante móvil,<br>
+    <strong>Quiero</strong> una carga rápida y estable,<br>
+    <strong>Para</strong> tener una buena experiencia
+  </td>
+  <td>
+    <strong>Escenario 1: Web Vitals</strong><br>
+    <strong>Dado</strong> la primera carga móvil,<br>
+    <strong>Cuando</strong> mido el sitio,<br>
+    <strong>Entonces</strong> LCP ≤ 2.5s y CLS ≤ 0.1 (objetivo).<br><br>
+    <strong>Escenario 2: Imágenes</strong><br>
+    <strong>Dado</strong> imágenes optimizadas,<br>
+    <strong>Cuando</strong> renderiza la página,<br>
+    <strong>Entonces</strong> se usan formatos modernos y <code>loading="lazy"</code>.
+  </td>
+  <td>6</td>
+</tr>
+
+</tbody>
+</table>
+
+
+
 ## 3.2. Impact Mapping 
 
 <img src='assests/impact_mapping.png'>
