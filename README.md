@@ -2739,7 +2739,7 @@ wireframe/
 
 **Iot Device**
 
-<img src="assets/iot.png"></img>
+<img src="assets/IoTdevice.png"></img>
 
 **Monitoring**
 
