@@ -718,17 +718,16 @@ En conclusión, subrayó que herramientas de monitoreo en tiempo real no solo me
 
 **Entrevista 1:**
 
-- **Nombres:** XXXXXXXXXXXXXXX
-- **Apellidos:** XXXXXXXXXXXXXXX
-- **Edad:** XXXXXXX
-- **Lugar de residencia:** XXXXXXX, Lima
+- **Nombres:** Alejandra Lucia
+- **Apellidos:** Neyra Yataco
+- **Edad:** 25
+- **Lugar de residencia:** Jesus Maria, Lima
 
 **Evidencia de la entrevista:**  
 
-<img src="assets/images/interviews/.png" alt="interview">
+<img src="assets/images/interviews/AlejandraEntrevista.png" alt="interview">
 
-
-**Enlace de la entrevista:** [xxxxxx](xxxxxx)
+**Enlace de la entrevista:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EYQE0i8S1nFJuO3SKhMHKQUB-G4zONyzGiTNW7HVRmUohw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g2k1K5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EYQE0i8S1nFJuO3SKhMHKQUB-G4zONyzGiTNW7HVRmUohw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g2k1K5)
 
 **Resumen de la entrevista:**  
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
