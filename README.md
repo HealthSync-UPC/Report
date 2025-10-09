@@ -2681,7 +2681,7 @@ La navegación en MediTrack está diseñada para ser **intuitiva y segura**, con
 
 **Iot Device**
 
-<img src="assets/wireframe/iot.png"></img>
+<img src="assets/wireframe/IoT.png"></img>
 
 **Monitoring**
 
@@ -2711,11 +2711,11 @@ La navegación en MediTrack está diseñada para ser **intuitiva y segura**, con
 <img src="assets/wireframe/Settings.png"></img>
 
 <img src="assets/wireframe/Settings2.png"></img>
-wireframe/
+
 <img src="assets/wireframe/Settings3.png"></img>
-wireframe/
+
 <img src="assets/wireframe/Settings4.png"></img>
-wireframe/
+
 <img src="assets/wireframe/Settings5.png"></img>
 
 <img src="assets/wireframe/Settings6.png"></img>
