@@ -2668,8 +2668,116 @@ La navegación en MediTrack está diseñada para ser **intuitiva y segura**, con
 
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
+**Login** 
+<img src="assets/wireframe/signin.png"></img>
+
+**Register** 
+
+<img src="assets/wireframe/signin.png"></img>
+
+**Dashboard**
+
+<img src="assets/wireframe/dashboard.png"></img>
+
+**Iot Device**
+
+<img src="assets/wireframe/iot.png"></img>
+
+**Monitoring**
+
+<img src="assets/wireframe/monitoring.png"></img>
+
+**Alerts**
+
+<img src="assets/wireframe/alerts.png"></img>
+
+**Inventory**
+ 
+ <img src="assets/wireframe/invetory.png"></img>
+
+ **Reports**
+
+ <img src="assets/wireframe/reports.png"></img>
+
+**Options**
+<img src="assets/wireframe/options.png"></img>
+
+**Profile**
+
+<img src="assets/wireframe/Profile.png"></img>
+
+**Settings**
+
+<img src="assets/wireframe/Settings.png"></img>
+
+<img src="assets/wireframe/Settings2.png"></img>
+wireframe/
+<img src="assets/wireframe/Settings3.png"></img>
+wireframe/
+<img src="assets/wireframe/Settings4.png"></img>
+wireframe/
+<img src="assets/wireframe/Settings5.png"></img>
+
+<img src="assets/wireframe/Settings6.png"></img>
+
+**Exit**
+<img src="assets/wireframe/salid.png"></img>
+
 ### 5.4.2. Applications Wireflow Diagrams
 ### 5.4.3. Applications Mock-ups
+
+**Login** 
+<img src="assets/signin.png"></img>
+
+**Register** 
+
+<img src="assets/signup.png"></img>
+
+**Dashboard**
+
+<img src="assets/dashboard.png"></img>
+
+**Iot Device**
+
+<img src="assets/iot.png"></img>
+
+**Monitoring**
+
+<img src="assets/monitoring.png"></img>
+
+**Alerts**
+
+<img src="assets/alerts.png"></img>
+
+**Inventory**
+ 
+ <img src="assets/invetory.png"></img>
+
+ **Reports**
+
+ <img src="assets/reports.png"></img>
+
+**Options**
+<img src="assets/options.png"></img>
+
+**Profile**
+
+<img src="assets/Profile.png"></img>
+
+**Settings**
+
+<img src="assets/Settings.png"></img>
+
+<img src="assets/Settings2.png"></img>
+
+<img src="assets/Settings3.png"></img>
+
+<img src="assets/Settings4.png"></img>
+
+<img src="assets/Settings5.png"></img>
+
+<img src="assets/Settings6.png"></img>
+
 ### 5.4.4. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
