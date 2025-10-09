@@ -2781,7 +2781,7 @@ wireframe/
 ### 5.4.4. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
-
+<img src="assets/diagrama.png"></img>
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
