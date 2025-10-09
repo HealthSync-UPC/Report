@@ -2724,6 +2724,61 @@ La navegación en MediTrack está diseñada para ser **intuitiva y segura**, con
 <img src="assets/wireframe/salid.png"></img>
 
 ### 5.4.2. Applications Wireflow Diagrams
+
+**User goal: Login**
+
+El usuario ingresa su correo y contraseña para acceder al panel principal. El sistema valida las credenciales y aplica políticas de sesión o segundo factor (2FA) según el rol o nivel de seguridad. En caso de error, se muestra retroalimentación clara.
+
+
+**User goal: Register**
+
+El usuario (personal medico y enfermeria en áreas criticas y  ) completa los campos requeridos (datos, correo, contraseña, institución, etc.). El sistema valida la información, crea la cuenta y envía un correo de verificación para activar el acceso.
+
+
+**User goal: Dashboard**
+
+Muestra un panel con indicadores clave (KPIs), alertas recientes, estado de dispositivos IoT, inventario, y accesos directos a módulos como Monitoring, Inventory y Reports. Es la pantalla inicial tras iniciar sesión.
+
+
+**User goal: IoT Device**
+
+El usuario puede dar de alta dispositivos, asignarlos a ubicaciones, ver su estado de conexión (ping, señal), ejecutar actualizaciones OTA, y revisar el buffer de datos en caso de fallos de red
+
+
+**User goal: Monitoring**
+
+Presenta lecturas en vivo, permite configurar umbrales y activar alertas automáticas cuando los valores salen del rango definido. Muestra indicadores visuales de estado (verde/amarillo/rojo) y mapas de riesgo. 
+
+
+**User goal: Alerts**
+
+El usuario puede visualizar alertas activas, aceptarlas (ACK), cerrarlas con evidencia (foto o nota), y consultar su historial. Incluye funciones de notificación multicanal y escalamiento por SLA.
+
+
+**User goal: Inventory** 
+
+Permite registrar productos y lotes, registrar recepciones con evidencia, verificar vencimientos próximos, sugerir reposiciones automáticas y registrar ajustes de inventario con bitácora de auditoría.
+
+
+**User goal: Reports**
+
+Incluye reportes semanales de excursiones y mermas, bitácoras de auditoría, reportes de calibración de sensores, y exportación/importación de datos. Se pueden filtrar por área, fecha y tipo, y exportar en CSV o PDF.
+
+
+**User goal: Profile**
+
+Permite modificar datos básicos, subir foto, cambiar contraseña o credenciales, y ver información del rol asignado. Facilita mantener la información siempre actualizada.
+
+
+**User goal: Settings**
+
+Contiene submódulos especializados:
+-  Thresholds: definir límites de T°/HR y ventanas de tolerancia.
+- Notifications: configurar canales (web, email, SMS, WhatsApp) y horarios silenciosos.
+- Users: gestión de usuarios, roles y permisos (RBAC).
+- Security: políticas de sesión, 2FA, bloqueo por IP o vencimiento de contraseña.
+
+
 ### 5.4.3. Applications Mock-ups
 
 **Login** 
