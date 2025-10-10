@@ -438,6 +438,7 @@ ABET – EAC - Student Outcome 5
       </td>
       <td>
         <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
+        <p><b>TP1:</b> El grupo demostró la capacidad de trabajar en equipo y liderar de manera conjunta, integrando ideas y esfuerzos individuales para lograr un proyecto cohesionado y bien coordinado. Cada miembro aportó desde su área, colaborando y comunicándose efectivamente para alcanzar los objetivos del grupo.</p>
       </td>
     </tr>
     <tr>
@@ -462,6 +463,7 @@ ABET – EAC - Student Outcome 5
       </td>
       <td>
         <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
+        <p><b>TP1:</b> El grupo mostró la capacidad de crear un entorno colaborativo e inclusivo, integrando la investigación de cada miembro para establecer metas claras, planificar tareas y desarrollar una solución tecnológica alineada con las necesidades del sector de jardinería inteligente. Gracias a la colaboración y al enfoque en objetivos comunes, el equipo pudo diseñar un sistema aplicable, eficiente y centrado en el usuario.</p>
       </td>
     </tr>
   </tbody>
