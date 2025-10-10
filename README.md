@@ -730,7 +730,7 @@ ABET – EAC - Student Outcome 5
     <strong>Cuando</strong> el enlace se restablece,<br>
     <strong>Entonces</strong> el nodo reenvía lecturas pendientes en orden.<br><br>
     <strong>Escenario 2: Marcas de tiempo preservadas</strong><br>
-    <strong>Dado</strong> que se almacenaron lecturas en buffer,<br>
+    <strong>Dado</strong> que se almacenaron lecturas en buffer,<br>  
     <strong>Cuando</strong> se procesan en el backend,<br>
     <strong>Entonces</strong> conservan su timestamp original.
   </td>
@@ -1358,6 +1358,8 @@ ABET – EAC - Student Outcome 5
 ## 3.2. Impact Mapping 
 
 <img src='assests/impact_mapping.png'>
+
+<img src='assests/impact_mapping2.png'>
 
 ## 3.3. Product Backlog
 | Orden | User Story / Technical Story Id | Título                                                   | Descripción                                                                                                                                                       | Story Points |
