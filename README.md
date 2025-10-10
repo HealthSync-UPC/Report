@@ -179,6 +179,110 @@
         - 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams <br>
         - 4.2.X.6.2. Bounded Context Database Design Diagram <br>
   </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Ayquipa Ubaldo, Abraham Israel 
+      </td>
+      <td>
+        - 6.1. Software Configuration Management.<br>
+        - 6.1.1. Software Development Environment Configuration.<br>
+        - 6.1.2. Source Code Management.<br>
+        - 6.1.3. Source Code Style Guide & Conventions.<br>
+        - 6.1.4. Software Deployment Configuration.<br>
+        - 6.2. Landing Page, Services & Applications Implementation.<br>
+        - Correcion Cap I y Cap II
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Durand Vera, Gianfranco Angel	
+      </td>
+      <td>
+        - 5.1. Style Guidelines.<br>
+        - 5.1.1. General Style Guidelines.<br>
+        - 5.1.2. Web, Mobile and IoT Style Guidelines.<br>
+        - 5.2. Information Architecture.<br>
+        - 5.2.1. Organization Systems.<br>
+        - 5.2.2. Labeling Systems.<br>
+        - 5.2.3. SEO Tags and Meta Tags<br>
+        - 5.2.4. Searching Systems.<br>
+        - 5.2.5. Navigation Systems.<br>
+        - Despliegue Backend<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Cruz Ticona, Aarón Alejandro
+      </td>
+      <td>
+        - 6.2.1. Sprint 1<br>
+        - 6.2.1.1. Sprint Planning 1.<br>
+        - 6.2.1.2. Aspect Leaders and Collaborators.<br>
+        - 6.2.1.3. Sprint Backlog 1.<br>
+        - Correcion Cap I y Cap II<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Ticona Panduro, Estrella del Pilar
+      </td>
+      <td>
+        - 5.3. Landing Page UI Design.<br>
+        - 5.3.1. Landing Page Wireframe.<br>
+        - 5.3.2. Landing Page Mock-up.<br>
+        - 5.4. Applications UX/UI Design.<br>
+        - 5.4.1. Applications Wireframes.<br>
+        - 5.4.2. Applications Wireflow Diagrams.<br>
+        - 5.4.2. Applications Mock-ups.<br>
+        - 5.4.3. Applications User Flow Diagrams.<br>
+        - 5.5. Applications Prototyping.<br>
+        - Despliegue Frontend<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Luza Carhuamaca Jose Adrian
+      </td>
+      <td>
+        - 6.2.1.4. Development Evidence for Sprint Review.<br>
+        - 6.2.1.5. Testing Suite Evidence for Sprint Review.<br>
+        - 6.2.1.6. Execution Evidence for Sprint Review.<br>
+        - 6.2.1.7. Services Documentation Evidence for Sprint Review.<br>
+        - 6.2.1.8. Software Deployment Evidence for Sprint Review.<br>
+        - 6.2.1.9. Team Collaboration Insights during Sprint.<br>
+        - Correcion Cap I y Cap II<br>
+  </tbody>
 </table>
 
 
@@ -480,24 +584,31 @@ ABET – EAC - Student Outcome 5
       <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
+        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.
+        <p><b>TP1:</b> En mi rol, me enfoco en trabajar de manera conjunta con el equipo, promoviendo un liderazgo colaborativo. Durante el proceso de implementación de la página de aterrizaje, servicios y aplicaciones, me aseguré de que cada miembro del equipo tuviera las herramientas y la información necesarias para desempeñar sus funciones de manera eficiente. Además, coordiné estrechamente con otros miembros para garantizar que las tareas se completaran a tiempo, proporcionando orientación y apoyo cuando fuera necesario.</p>        
+        </p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
+        <p><b>TP1:</b> Me esfuerzo por promover un liderazgo compartido, facilitando la interacción entre los miembros del equipo durante la planificación del sprint y el establecimiento de las tareas a seguir. Me aseguré de que todas las voces fueran escuchadas y que las decisiones importantes se tomaran de forma colaborativa, manteniendo siempre el enfoque en los objetivos del sprint. Esto permitió que cada miembro sintiera que tenía un papel activo en el proceso, lo que favoreció un ambiente de trabajo más cohesivo.</p>   
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
+        <p><b>TP1:</b> En esta entrega, se desarrolló la landing page, priorizando la usabilidad y la claridad en la presentación de los objetivos del sistema. Además, se avanzó significativamente en el frontend de la aplicación, integrando de manera coherente los componentes existentes, y se llevó a cabo el despliegue de todos los elementos, asegurando su correcto funcionamiento en el entorno correspondiente.
 </p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
+        <p><b>TP1:</b> Me aseguré de que el equipo tuviera las evidencias necesarias para la revisión del sprint, trabajando estrechamente con todos para garantizar que los desarrollos y las pruebas fueran documentados de manera precisa y completa. Fomenté un liderazgo colaborativo al involucrar a cada miembro en el proceso de recolección de evidencia, ayudando a solucionar problemas y optimizando el flujo de trabajo del equipo para cumplir con los plazos establecidos.</p>        
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas. 
+        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.
+        <p><b>TP1:</b> En el TP1, contribuí activamente al desarrollo de una aplicación web siguiendo la metodología Scrum, colaborando con el equipo en el diseño y revisión de componentes clave. Implementé funcionalidades básicas para comprender en profundidad el flujo de trabajo y la arquitectura general del proyecto. 
  </p>
       </td>
       <td>
         <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
+        <p><b>TP1:</b> El grupo demostró la capacidad de trabajar en equipo y liderar de manera conjunta, integrando ideas y esfuerzos individuales para lograr un proyecto cohesionado y bien coordinado. Cada miembro aportó desde su área, colaborando y comunicándose efectivamente para alcanzar los objetivos del grupo.</p>
       </td>
     </tr>
     <tr>
@@ -505,21 +616,27 @@ ABET – EAC - Student Outcome 5
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
         <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
+        <p><b>TP1:</b> Al crear un entorno inclusivo y colaborativo, establezco metas claras y aseguro que cada miembro esté alineado con los objetivos del proyecto. Planifiqué las tareas en conjunto con el equipo, asegurándome de que todos entendieran el alcance y los plazos. Al trabajar en equipo, busqué mantener un ambiente donde todos pudieran aportar sus ideas, lo que nos permitió cumplir con los objetivos establecidos de manera efectiva.</p>         
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
+        <p><b>TP1:</b> A lo largo del sprint, fui responsable de crear un entorno inclusivo y de establecer metas claras para todos. Planifiqué las tareas de manera estratégica, desglosando el trabajo en pasos alcanzables y organizando las prioridades para asegurar que todos los objetivos se cumplieran. Asegurándome de que todos supieran lo que se esperaba de ellos, el equipo pudo trabajar con eficiencia y cumplir los objetivos del sprint con éxito.</p>          
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
+        <p><b>TP1:</b> Para esta entrega, participé en la planificación y creación de wireframes y wireflows, coordinando con el equipo para definir objetivos y plazos. Se utilizó un tablero Kanban para monitorear el progreso y garantizar la entrega organizada de los entregables visuales.</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
+        <p><b>TP1:</b> Al planificar y documentar las evidencias para la revisión del sprint, me aseguré de que el entorno de trabajo fuera inclusivo y transparente. Establecí metas claras para la recolección de las pruebas y me aseguré de que todos los miembros supieran qué tareas debían completar para contribuir al proceso. Esto permitió al equipo cumplir con los objetivos de la revisión del sprint de manera efectiva y sin contratiempos.</p>        
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
+        <p><b>TP1:</b> Durante esta fase, participé en la generación de ideas y en la creación inicial del frontend de la aplicación. Colaboré en el diseño de la interfaz y en la implementación de funcionalidades base, estableciendo la estructura visual del sistema. El seguimiento se realizó mediante indicadores y reuniones periódicas, asegurando el cumplimiento de los plazos.</p>
       </td>
       <td>
         <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
+        <p><b>TP1:</b> El grupo mostró la capacidad de crear un entorno colaborativo e inclusivo, integrando la investigación de cada miembro para establecer metas claras, planificar tareas y desarrollar una solución tecnológica alineada con las necesidades del sector de jardinería inteligente. Gracias a la colaboración y al enfoque en objetivos comunes, el equipo pudo diseñar un sistema aplicable, eficiente y centrado en el usuario.</p>
       </td>
     </tr>
   </tbody>
@@ -593,34 +710,33 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 ### Antecedentes  
-La gestión de inventarios médicos ha sido un reto constante en el sector salud debido a la necesidad de asegurar la disponibilidad continua de insumos críticos y su adecuada conservación. Históricamente, muchos hospitales han utilizado sistemas manuales o registros digitales básicos para el control de existencias. Sin embargo, estos métodos presentan limitaciones en cuanto a precisión, trazabilidad y capacidad de respuesta ante incidencias como el desabastecimiento, el vencimiento de medicamentos o el deterioro de productos sensibles.  
+La gestión de inventarios médicos ha sido un reto constante en el sector salud, especialmente para farmacéuticos y responsables de inventarios hospitalarios, quienes deben asegurar la disponibilidad continua y adecuada conservación de insumos críticos mediante registros precisos y trazables. Por otro lado, el personal médico y de enfermería en áreas críticas requiere que estos insumos estén disponibles en tiempo real para garantizar la atención continua y segura de los pacientes en UCI, quirófanos y emergencias. Históricamente, ambos segmentos han dependido de sistemas manuales o digitales básicos que presentan limitaciones para lograr una gestión proactiva y transparente.  
 
-En los últimos años, la creciente complejidad de los servicios hospitalarios, la diversificación de insumos y las estrictas regulaciones sanitarias han generado la necesidad de adoptar tecnologías más avanzadas. El Internet of Things (IoT) ha surgido como una solución viable y eficiente, al permitir el monitoreo en tiempo real de variables críticas como temperatura, humedad, localización y niveles de stock. Esto abre la posibilidad de transformar la administración de inventarios en una gestión más proactiva, segura y transparente.  
+Con el avance de la tecnología y la creciente complejidad en los servicios hospitalarios, la integración del Internet of Things (IoT) se posiciona como una solución para monitorear en tiempo real las condiciones de almacenamiento, ubicación y niveles de stock. Esto permite a farmacéuticos mejorar la eficiencia en sus procesos y al personal médico mantener la disponibilidad inmediata de insumos críticos, mejorando la seguridad del paciente y reduciendo pérdidas.
 
 ### Problemática (Método 5W y 2H)  
 Reconoceremos nuestra problemática mediante el método 5W y 2H. 
 
 - **What (¿Qué?):**  
-Existen dificultades en la administración de inventarios médicos delicados, especialmente en el monitoreo de condiciones de almacenamiento, la trazabilidad de insumos y la prevención de pérdidas por caducidad o deterioro.  
+Dificultades en la administración y monitoreo de inventarios médicos delicados que afectan la precisión, trazabilidad y disponibilidad de insumos para farmacéuticos y personal médico en áreas críticas, impidiendo una gestión eficiente y proactiva.  
 
 - **Why (¿Por qué?):**  
-Los métodos tradicionales no permiten un control en tiempo real ni una capacidad preventiva. Esto provoca fallas en la disponibilidad, incumplimiento de normas sanitarias y riesgos para la seguridad del paciente.  
+Los sistemas tradicionales no ofrecen monitoreo en tiempo real ni alertas preventivas, generando riesgos para la disponibilidad de insumos y la seguridad del paciente, además de incumplimiento en normativas sanitarias.  
 
 - **Who (¿Quién?):**  
-El problema afecta principalmente a hospitales, clínicas, farmacias hospitalarias y laboratorios, impactando directamente a pacientes, personal médico, farmacéuticos y administradores logísticos.  
+Principalmente afecta a farmacéuticos y responsables de inventarios hospitalarios así como a médicos y enfermeros en unidades críticas, quienes dependen de la correcta gestión y rápida disponibilidad de insumos.  
 
 - **When (¿Cuándo?):**  
-La problemática se presenta de forma continua durante la gestión diaria del inventario, desde el momento de la adquisición de insumos hasta su uso final, con puntos críticos durante el almacenamiento y transporte.  
+El problema ocurre constantemente durante todo el proceso de gestión de inventarios, con especial impacto en momentos críticos de almacenamiento, distribución y uso en situaciones de emergencia o intervención quirúrgica.  
 
 - **Where (¿Dónde?):**  
-Surge en todas las áreas vinculadas a la cadena de suministro médica, incluyendo farmacias hospitalarias, almacenes centrales, quirófanos, unidades de cuidados intensivos y centros de distribución.  
+En farmacias hospitalarias, almacenes centrales y en áreas críticas como UCI, quirófanos y emergencias dentro de hospitales y clínicas.  
 
 - **How (¿Cómo?):**  
-Se manifiesta en forma de quiebres de stock, deterioro de insumos de cadena de frío, falta de alertas oportunas, exceso de inventario no utilizado y dificultades para coordinar con proveedores.  
+Se evidencia en quiebres de stock, falta de alertas de vencimientos o condiciones inadecuadas, deterioro de materiales sensibles, exceso o falta de inventario, y problemas en la coordinación entre los distintos responsables de la cadena logística.  
 
 - **How much (¿Cuánto?):**  
-Las consecuencias tienen un alto costo económico por pérdidas de insumos, además de un impacto crítico en la atención al paciente. El gasto puede traducirse en millones anuales dependiendo del tamaño de la institución, sumado al costo intangible de una posible afectación a la salud de los pacientes.  
-
+Conlleva costos económicos significativos por pérdidas y desperdicios de insumos, además de un impacto potencialmente grave en la salud y atención de los pacientes, con pérdidas que pueden ascender a millones según la escala de la institución.  
 
 ### 1.2.2. Lean UX Process
 El enfoque Lean UX se centra en comprender la propuesta de valor del modelo de negocio que sustenta nuestro proyecto, cuyo eje principal es el desarrollo de software. A lo largo de este capítulo y del documento en general, se analizan componentes esenciales de dicho enfoque.
@@ -629,27 +745,29 @@ Se inicia con la formulación de los "Problem Statements", los cuales incluyen e
 
 #### 1.2.2.1. Lean UX Problem Statements
 ### Problem Statement  
-La administración de inventarios médicos delicados en hospitales y clínicas presenta deficiencias en la trazabilidad, el monitoreo en tiempo real y la preservación de insumos críticos (como medicamentos de cadena de frío, material quirúrgico estéril y equipos de soporte vital). Esta situación genera pérdidas económicas significativas, incumplimiento de normas sanitarias y, lo más grave, riesgos directos para la seguridad del paciente.  
+La administración de inventarios médicos delicados en hospitales y clínicas presenta deficiencias críticas en la trazabilidad, monitoreo en tiempo real y conservación de insumos esenciales, afectando directamente a farmacéuticos responsables de inventarios y al personal médico/enfermería en áreas críticas como UCI, quirófanos y emergencias. Estas deficiencias generan pérdidas económicas importantes, incumplimientos en normativas sanitarias y, lo más crítico, riesgos significativos para la seguridad y continuidad de la atención al paciente en situaciones de alta demanda.  
 
 ### Dominio  
-Sector salud, enfocado en la gestión hospitalaria y la cadena de suministro médico, con atención en procesos de almacenamiento, distribución y consumo de insumos delicados.  
+Sector salud, especialmente enfocado en la gestión hospitalaria y la cadena de suministro de insumos médicos sensibles, con un énfasis en procesos de almacenamiento, distribución y uso en áreas con alta criticidad clínica.  
 
 ### Segmentos de Clientes  
-- **Ecosistema del sector salud** que incluye hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, todos con la necesidad de garantizar disponibilidad, conservación, trazabilidad y cumplimiento normativo de inventarios delicados.dos en mejorar la cadena logística con mayor trazabilidad y transparencia.  
+  * Farmacéuticos y responsables de inventarios hospitalarios, quienes requieren sistemas eficientes que aseguren la precisión, trazabilidad y conservación óptima de insumos para evitar pérdidas y garantizar el cumplimiento normativo.
+
+  * Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias), que necesitan acceso inmediato y confiable a insumos críticos para salvaguardar la atención y seguridad del paciente en contextos de alta presión.
 
 ### Puntos de Dolor  
-- Desabastecimiento inesperado de insumos esenciales.  
-- Pérdidas económicas por caducidad, deterioro o fallas en la cadena de frío.  
-- Falta de trazabilidad en la gestión de inventario.  
-- Incumplimiento de regulaciones sanitarias.  
-- Dificultades para coordinar con proveedores en tiempo real.  
-- Limitada visibilidad y monitoreo en áreas críticas como UCI y quirófanos.  
+  * Quiebres inesperados en el stock de insumos esenciales que afectan la atención clínica.
+  * Pérdidas económicas debidas a fallas en la conservación, caducidad o deterioro de insumos sensibles.
+  * Falta de monitoreo en tiempo real que dificulta la toma de decisiones proactivas.
+  * Insuficiente trazabilidad que impide auditorías efectivas y cumplimiento estricto de normas.
+  * Dificultades en la coordinación rápida con proveedores y en la comunicación intra-hospitalaria.
+  * Baja visibilidad y control en áreas críticas con alta rotación y urgencia de insumos.
 
 ### Visión/Estrategia  
-Implementar un ecosistema de gestión inteligente de inventarios médicos basado en IoT, que permita monitorear en tiempo real condiciones de almacenamiento (temperatura, humedad, ubicación), generar alertas tempranas, automatizar reportes y facilitar la toma de decisiones. La estrategia apunta a optimizar el uso de recursos, reducir pérdidas, fortalecer la seguridad del paciente y garantizar el cumplimiento normativo, impulsando modelos de gestión hospitalaria más transparentes y eficientes.  
+Desarrollar e implementar un sistema integral basado en IoT para la gestión inteligente de inventarios, que permita monitorizar en tiempo real variables críticas (temperatura, humedad, ubicación y niveles de stock), emitir alertas anticipadas, automatizar informes y mejorar la comunicación entre farmacéuticos y personal clínico. Esta solución busca optimizar recursos, minimizar pérdidas, fortalecer la seguridad del paciente y cumplir rigurosamente con regulaciones, promoviendo una gestión hospitalaria más eficiente y transparente.  
 
 ### Segmento Inicial  
-El proyecto se orientará inicialmente a **farmacias hospitalarias y unidades críticas (UCI y quirófanos)** de hospitales de mediana y gran escala, por ser los espacios con mayor riesgo clínico y económico debido al uso intensivo de insumos delicados.  
+El enfoque inicial estará en farmacias hospitalarias y áreas críticas como UCI y quirófanos en hospitales medianos y grandes, debido a la alta demanda y riesgo clínico asociado al manejo de insumos delicados en estos espacios.  
 
 #### 1.2.2.2. Lean UX Assumptions
 En esta parte, analizaremos las suposiciones relacionadas con nuestra solución, abarcando desde las funcionalidades que debería incorporar hasta los resultados esperados, tanto desde nuestra visión como desde la experiencia del usuario.
@@ -670,10 +788,8 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - Incremento en la satisfacción y confianza de pacientes al garantizar disponibilidad de tratamientos y materiales.  
 
 ### Users  
-- Farmacéuticos hospitalarios encargados del control de insumos.  
-- Personal médico y de enfermería dependiente de la disponibilidad de materiales críticos.  
-- Administradores de hospitales responsables de costos y cumplimiento normativo.  
-- Proveedores que requieren coordinación correcta con las instituciones de salud.  
+- Farmacéuticos y responsables de inventarios hospitalarios que requieren herramientas precisas para control y trazabilidad.  
+- Personal médico y de enfermería en UCI, quirófanos y emergencias que dependen de la disponibilidad inmediata de insumos.
 
 ### User Outcomes & Benefits  
 - Disponibilidad garantizada de insumos esenciales en cualquier momento.  
@@ -690,21 +806,15 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - La escalabilidad del sistema permitirá adaptarse a diferentes tamaños de instituciones (pequeñas clínicas hasta grandes hospitales).  
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usuarios, beneficios esperados y funcionalidades propuestas, es posible construir nuestras hipótesis, cada una enfocada en una característica específica que se busca desarrollar.
+Aquí está la actualización de tus Lean UX Hypothesis Statements enfocados en los dos segmentos objetivos: farmacéuticos y responsables de inventarios hospitalarios, y personal médico/enfermería en áreas críticas (UCI, quirófanos, emergencias).
 
-1. Creemos que **la implementación de sensores IoT en el almacenamiento y transporte de insumos médicos** permitirá monitorear en tiempo real condiciones críticas (temperatura, humedad, ubicación), lo cual reducirá significativamente las pérdidas por deterioro o caducidad.  
-
-2. Creemos que **los farmacéuticos y administradores hospitalarios** usarán la plataforma digital para obtener reportes automáticos y alertas tempranas, lo que les permitirá optimizar el control de inventarios y prevenir desabastecimientos.  
-
-3. Creemos que **los hospitales y clínicas**, al reducir pérdidas económicas y mejorar la trazabilidad, verán un retorno de inversión positivo en un periodo de corto a mediano plazo.  
-
-4. Creemos que **la integración de la plataforma IoT con sistemas de gestión hospitalaria ya existentes (ERP/HCE)** facilitará la adopción de la solución, evitando duplicidades y reduciendo la resistencia al cambio tecnológico.  
-
-5. Creemos que **el personal de salud** (farmacéuticos, enfermeras, médicos) valorará el ahorro de tiempo en tareas administrativas gracias a la automatización, lo que incrementará su satisfacción y eficiencia operacional.  
-
-6. Creemos que **los proveedores y distribuidores de insumos médicos** adoptarán la solución al percibir un aumento en la transparencia logística y una mejor coordinación con las instituciones de salud.  
-
-7. Creemos que **la mejora en la disponibilidad y conservación de insumos delicados** impactará de manera positiva en la seguridad del paciente, aumentando la confianza y la calidad percibida del servicio hospitalario.  
+  * Creemos que la implementación de sensores IoT en áreas de almacenamiento y uso crítico de insumos médicos permitirá un monitoreo en tiempo real de condiciones esenciales (temperatura, humedad, ubicación), reduciendo significativamente las pérdidas por deterioro o caducidad, lo cual beneficiará especialmente a farmacéuticos responsables del inventario.  
+  * Creemos que farmacéuticos y administradores hospitalarios utilizarán la plataforma digital para recibir reportes automáticos y alertas tempranas, optimizando así la gestión del inventario y evitando quiebres que afecten la operación hospitalaria.  
+  * Creemos que personal médico y de enfermería en UCI, quirófanos y emergencias confiará en la solución para asegurar la disponibilidad inmediata de insumos críticos, lo que mejorará la seguridad del paciente y la eficiencia en la atención clínica.  
+  * Creemos que la integración del sistema IoT con los sistemas hospitalarios actuales (ERP, HCE) facilitará la adopción por parte de ambos segmentos, reduciendo la resistencia al cambio y evitando duplicación de labores.  
+  * Creemos que el ahorro de tiempo en tareas administrativas gracias a la automatización incrementará la satisfacción y la eficiencia operativa tanto para farmacéuticos como para el personal clínico de áreas críticas.  
+  * Creemos que la mejora en la trazabilidad y control de insumos fortalecerá la coordinación con proveedores, asegurando un suministro confiable y continuo para hospital y clínicas.  
+  * Creemos que la disponibilidad y conservación óptima de insumos delicados, lograda mediante nuestra solución, tendrá un impacto positivo directo en la seguridad del paciente y en la percepción de calidad de los servicios hospitalarios.  
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -727,8 +837,11 @@ A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usu
 ## 1.3. Segmentos objetivo
 Con base en los perfiles de usuarios que hemos supuesto, identificamos el siguiente segmento específico del mercado a los que está orientada nuestra solución.
 
-1. **Trabajadores del sector salud:**  
-  conformado por personas que trabajan en hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, quienes comparten la necesidad de asegurar la disponibilidad, conservación adecuada, trazabilidad y cumplimiento normativo en la gestión de inventarios delicados.
+  * **Farmacéuticos y responsables de inventarios hospitalarios:**  
+Este segmento incluye a los profesionales que gestionan el almacenamiento, control y distribución de insumos médicos dentro de hospitales y clínicas. Son responsables de asegurar la correcta conservación, trazabilidad y disponibilidad de medicamentos y materiales críticos, enfrentándose a desafíos relacionados con la precisión en el inventario, prevención de desabastecimientos y cumplimiento normativo. Su necesidad principal es contar con monitoreo en tiempo real y alertas automáticas para optimizar la gestión y evitar pérdidas económicas.
+
+  * **Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias):**  
+Este grupo está compuesto por médicos, enfermeros y técnicos que dependen de la disponibilidad inmediata de insumos críticos para la atención de pacientes. Su enfoque está en mantener la continuidad y seguridad en la atención, por lo cual requieren información fiable y oportuna sobre el stock, para evitar interrupciones y riesgos para los pacientes. La trazabilidad y el acceso rápido a datos son esenciales para este segmento.
 
 # Capítulo II: Requirements Elicitation & Analysis 
 En este capítulo, nos centraremos en los requerimientos que necesita cumplir nuestra solución para que sea viable, y los análisis necesarios.   
