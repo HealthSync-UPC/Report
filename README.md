@@ -2873,16 +2873,16 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
 **Evidencia visual**  
    A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo local:
 
-  ![Ejecucion en WebStorm](/Report/assets/images/Sprint%201/Testing_WebStorm.png)  
+  ![Ejecucion en WebStorm](/assets/images/Sprint%201/Testing_WebStorm.png)
   *Evidencia de la ejecución de la aplicación en WebStorm, mostrando el servidor en modo de desarrollo y los logs de la consola.*
 
-  ![Vista inicial Landing Page](/Report/assets/images/Sprint%201/Evidencia1_Landing.png)  
+  ![Vista inicial Landing Page](/assets/images/Sprint%201/Evidencia1_Landing.png)  
   *Captura de la vista inicial de la Landing Page, mostrando la interfaz de usuario cargada correctamente en el navegador.*
 
-  ![Vista IoT Landing Page](/Report/assets/images/Sprint%201/Evidencia2_Landing.png)  
+  ![Vista IoT Landing Page](/assets/images/Sprint%201/Evidencia2_Landing.png)  
   *Vista de la sección de IoT de la Landing Page, validando que la funcionalidad para mostrar productos o servicios relacionados con IoT esté operativa.*
 
-  ![Vista Contactanos Landing Page](/Report/assets/images/Sprint%201/Evidencia3_Landing.png)  
+  ![Vista Contactanos Landing Page](/assets/images/Sprint%201/Evidencia3_Landing.png)  
   *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
@@ -2981,22 +2981,22 @@ En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netli
 
 1. **Elección del Repositorio**  
    En primer lugar, se seleccionó el repositorio desde el que se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración.
-   ![Elección del Repositorio]( /Report/assets/images/Sprint%201/DeployLanding1.png )  
+   ![Elección del Repositorio]( /assets/images/Sprint%201/DeployLanding1.png )  
    *Descripción: Selección del repositorio en la plataforma de Netlify.*
 
 2. **Elección del Nombre del Proyecto**  
    A continuación, se asignó un nombre único para el proyecto en Netlify. Este nombre será el utilizado en la URL pública del despliegue.
-   ![Elección del Nombre]( /Report/assets/images/Sprint%201/DeployLanding2.png )  
+   ![Elección del Nombre]( /assets/images/Sprint%201/DeployLanding2.png )  
    *Descripción: Elección del nombre del proyecto en Netlify para su despliegue.*
 
 3. **Configuración de Rutas y Otras Opciones**  
    En este paso, se configuraron las rutas necesarias y otras opciones relevantes para el despliegue, como las variables de entorno y la configuración de compilación.
-   ![Configuración de Rutas y Opciones]( /Report/assets/images/Sprint%201/DeployLanding3.png )  
+   ![Configuración de Rutas y Opciones]( /assets/images/Sprint%201/DeployLanding3.png )  
    *Descripción: Configuración de las rutas y otras opciones necesarias para el despliegue exitoso.*
 
 4. **Confirmación del Éxito del Despliegue**  
    Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue y se verificó que todo se realizó correctamente, lo cual se mostró como un éxito en la interfaz de Netlify.
-   ![Éxito del Despliegue]( /Report/assets/images/Sprint%201/DeployLanding4.png )  
+   ![Éxito del Despliegue]( /assets/images/Sprint%201/DeployLanding4.png )  
    *Descripción: Mensaje de éxito que confirma que el despliegue fue exitoso en Netlify.*
 
 Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de la **Landing Page** en **Netlify** durante este Sprint.
