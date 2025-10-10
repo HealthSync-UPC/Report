@@ -418,10 +418,13 @@ ABET – EAC - Student Outcome 5
       <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
+        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.
+        <p><b>TP1:</b> En mi rol, me enfoco en trabajar de manera conjunta con el equipo, promoviendo un liderazgo colaborativo. Durante el proceso de implementación de la página de aterrizaje, servicios y aplicaciones, me aseguré de que cada miembro del equipo tuviera las herramientas y la información necesarias para desempeñar sus funciones de manera eficiente. Además, coordiné estrechamente con otros miembros para garantizar que las tareas se completaran a tiempo, proporcionando orientación y apoyo cuando fuera necesario.</p>        
+        </p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
+        <p><b>TP1:</b> Me esfuerzo por promover un liderazgo compartido, facilitando la interacción entre los miembros del equipo durante la planificación del sprint y el establecimiento de las tareas a seguir. Me aseguré de que todas las voces fueran escuchadas y que las decisiones importantes se tomaran de forma colaborativa, manteniendo siempre el enfoque en los objetivos del sprint. Esto permitió que cada miembro sintiera que tenía un papel activo en el proceso, lo que favoreció un ambiente de trabajo más cohesivo.</p>   
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
@@ -430,6 +433,7 @@ ABET – EAC - Student Outcome 5
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
+        <p><b>TP1:</b> Me aseguré de que el equipo tuviera las evidencias necesarias para la revisión del sprint, trabajando estrechamente con todos para garantizar que los desarrollos y las pruebas fueran documentados de manera precisa y completa. Fomenté un liderazgo colaborativo al involucrar a cada miembro en el proceso de recolección de evidencia, ayudando a solucionar problemas y optimizando el flujo de trabajo del equipo para cumplir con los plazos establecidos.</p>        
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.
@@ -446,9 +450,11 @@ ABET – EAC - Student Outcome 5
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
         <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
+        <p><b>TP1:</b> Al crear un entorno inclusivo y colaborativo, establezco metas claras y aseguro que cada miembro esté alineado con los objetivos del proyecto. Planifiqué las tareas en conjunto con el equipo, asegurándome de que todos entendieran el alcance y los plazos. Al trabajar en equipo, busqué mantener un ambiente donde todos pudieran aportar sus ideas, lo que nos permitió cumplir con los objetivos establecidos de manera efectiva.</p>         
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
+        <p><b>TP1:</b> A lo largo del sprint, fui responsable de crear un entorno inclusivo y de establecer metas claras para todos. Planifiqué las tareas de manera estratégica, desglosando el trabajo en pasos alcanzables y organizando las prioridades para asegurar que todos los objetivos se cumplieran. Asegurándome de que todos supieran lo que se esperaba de ellos, el equipo pudo trabajar con eficiencia y cumplir los objetivos del sprint con éxito.</p>          
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
@@ -456,6 +462,7 @@ ABET – EAC - Student Outcome 5
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
+        <p><b>TP1:</b> Al planificar y documentar las evidencias para la revisión del sprint, me aseguré de que el entorno de trabajo fuera inclusivo y transparente. Establecí metas claras para la recolección de las pruebas y me aseguré de que todos los miembros supieran qué tareas debían completar para contribuir al proceso. Esto permitió al equipo cumplir con los objetivos de la revisión del sprint de manera efectiva y sin contratiempos.</p>        
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
