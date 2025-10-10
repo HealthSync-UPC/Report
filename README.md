@@ -179,6 +179,110 @@
         - 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams <br>
         - 4.2.X.6.2. Bounded Context Database Design Diagram <br>
   </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Ayquipa Ubaldo, Abraham Israel 
+      </td>
+      <td>
+        - 6.1. Software Configuration Management.<br>
+        - 6.1.1. Software Development Environment Configuration.<br>
+        - 6.1.2. Source Code Management.<br>
+        - 6.1.3. Source Code Style Guide & Conventions.<br>
+        - 6.1.4. Software Deployment Configuration.<br>
+        - 6.2. Landing Page, Services & Applications Implementation.<br>
+        - Correcion Cap I y Cap II
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Durand Vera, Gianfranco Angel	
+      </td>
+      <td>
+        - 5.1. Style Guidelines.<br>
+        - 5.1.1. General Style Guidelines.<br>
+        - 5.1.2. Web, Mobile and IoT Style Guidelines.<br>
+        - 5.2. Information Architecture.<br>
+        - 5.2.1. Organization Systems.<br>
+        - 5.2.2. Labeling Systems.<br>
+        - 5.2.3. SEO Tags and Meta Tags<br>
+        - 5.2.4. Searching Systems.<br>
+        - 5.2.5. Navigation Systems.<br>
+        - Despliegue Backend<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Cruz Ticona, Aarón Alejandro
+      </td>
+      <td>
+        - 6.2.1. Sprint 1<br>
+        - 6.2.1.1. Sprint Planning 1.<br>
+        - 6.2.1.2. Aspect Leaders and Collaborators.<br>
+        - 6.2.1.3. Sprint Backlog 1.<br>
+        - Correcion Cap I y Cap II<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Ticona Panduro, Estrella del Pilar
+      </td>
+      <td>
+        - 5.3. Landing Page UI Design.<br>
+        - 5.3.1. Landing Page Wireframe.<br>
+        - 5.3.2. Landing Page Mock-up.<br>
+        - 5.4. Applications UX/UI Design.<br>
+        - 5.4.1. Applications Wireframes.<br>
+        - 5.4.2. Applications Wireflow Diagrams.<br>
+        - 5.4.2. Applications Mock-ups.<br>
+        - 5.4.3. Applications User Flow Diagrams.<br>
+        - 5.5. Applications Prototyping.<br>
+        - Despliegue Frontend<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Luza Carhuamaca Jose Adrian
+      </td>
+      <td>
+        - 6.2.1.4. Development Evidence for Sprint Review.<br>
+        - 6.2.1.5. Testing Suite Evidence for Sprint Review.<br>
+        - 6.2.1.6. Execution Evidence for Sprint Review.<br>
+        - 6.2.1.7. Services Documentation Evidence for Sprint Review.<br>
+        - 6.2.1.8. Software Deployment Evidence for Sprint Review.<br>
+        - 6.2.1.9. Team Collaboration Insights during Sprint.<br>
+        - Correcion Cap I y Cap II<br>
+  </tbody>
 </table>
 
 
@@ -229,12 +333,77 @@
 - [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+- [COURSE PROJECT](#course-project)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [Misión](#misión)
+  - [Visión](#visión)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [Antecedentes](#antecedentes)
+    - [Problemática (Método 5W y 2H)](#problemática-método-5w-y-2h)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [Problem Statement](#problem-statement)
+    - [Dominio](#dominio)
+    - [Segmentos de Clientes](#segmentos-de-clientes)
+    - [Puntos de Dolor](#puntos-de-dolor)
+    - [Visión/Estrategia](#visiónestrategia)
+    - [Segmento Inicial](#segmento-inicial)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [Features](#features)
+    - [Business Outcomes](#business-outcomes)
+    - [Users](#users)
+    - [User Outcomes \& Benefits](#user-outcomes--benefits)
+    - [Business Assumptions](#business-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [**Preguntas Generales**](#preguntas-generales)
+      - [**Preguntas segmento 1**: Farmacéuticos y responsables de inventarios hospitalarios](#preguntas-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Preguntas segmento 2**: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#preguntas-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Segmento: Farmacéuticos y responsables de inventarios hospitalarios**](#segmento-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**](#segmento-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [Análisis segmento 1: Farmacéuticos y responsables de inventarios hospitalarios](#análisis-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+    - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
+    - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
+    - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
+    - [Necesidades prioritarias](#necesidades-prioritarias)
+  - [Análisis segmento 2: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#análisis-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [Problemas operativos actuales](#problemas-operativos-actuales)
+    - [Necesidades tecnológicas y funcionales](#necesidades-tecnológicas-y-funcionales)
+    - [Impacto esperado en la atención médica](#impacto-esperado-en-la-atención-médica)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Interpretación](#interpretación)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
       - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [](#)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
@@ -249,6 +418,17 @@
       - [4.2.1.2. Interface Layer](#4212-interface-layer)
       - [4.2.1.3. Application Layer](#4213-application-layer)
       - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [Repository Interface](#repository-interface)
+        - [Métodos](#métodos)
+      - [Repository Interface](#repository-interface-1)
+        - [Métodos](#métodos-1)
+      - [Repository Interface](#repository-interface-2)
+        - [Métodos](#métodos-2)
+      - [Repository Interface](#repository-interface-3)
+        - [Métodos](#métodos-3)
+        - [● Repository Interface](#-repository-interface)
+        - [Métodos](#métodos-4)
+      - [**Tecnologías/Implementación**](#tecnologíasimplementación)
       - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
@@ -259,33 +439,65 @@
     - [Atributos – Dispositivo](#atributos--dispositivo)
     - [Atributos – Telemetría](#atributos--telemetría)
       - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [REST APIs](#rest-apis)
+    - [Notificaciones](#notificaciones)
       - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [Command Services](#command-services)
+      - [Servicio de Gestión de Dispositivos](#servicio-de-gestión-de-dispositivos)
+      - [Servicio de Telemetría](#servicio-de-telemetría)
+    - [Query Services](#query-services)
+      - [Servicio de Consulta de Dispositivos](#servicio-de-consulta-de-dispositivos)
+      - [Servicio de Consulta de Telemetría](#servicio-de-consulta-de-telemetría)
       - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [Repositorio – Dispositivos](#repositorio--dispositivos)
+    - [Repositorio – Telemetría](#repositorio--telemetría)
+    - [DeviceController](#devicecontroller)
+    - [TelemetryController](#telemetrycontroller)
       - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
-    - [4.2.3. Bounded Context: Notificaciones ](#423-bounded-context-notificaciones)
+    - [4.2.3. Bounded Context: Notificaciones](#423-bounded-context-notificaciones)
       - [4.2.3.1. Domain Layer](#4231-domain-layer)
     - [Entity](#entity-2)
     - [Atributos – Notificación](#atributos--notificación)
     - [Atributos – Plantilla](#atributos--plantilla)
       - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [REST APIs](#rest-apis-1)
       - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [Servicios](#servicios)
+    - [Funciones del Servicio](#funciones-del-servicio)
       - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [Repositorio – Notificaciones](#repositorio--notificaciones)
+      - [Métodos del Repositorio](#métodos-del-repositorio)
+      - [Repositorio - Plantilla](#repositorio---plantilla)
+        - [Métodos del Repositorio](#métodos-del-repositorio-1)
+      - [Controlador – Notificaciones](#controlador--notificaciones)
+        - [Métodos del Controlador](#métodos-del-controlador)
+      - [Controlador – Plantillas](#controlador--plantillas)
+        - [Métodos del Controlador](#métodos-del-controlador-1)
       - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-    - [4.2.4. Bounded Context: Inventario ](#424-bounded-context-inventario)
+    - [4.2.4. Bounded Context: Inventario](#424-bounded-context-inventario)
       - [4.2.4.1. Domain Layer](#4241-domain-layer)
     - [Entity](#entity-3)
     - [Atributos – ItemInventario](#atributos--iteminventario)
     - [Atributos – Movimiento](#atributos--movimiento)
     - [Atributos – Proveedor](#atributos--proveedor)
       - [4.2.4.2. Interface Layer](#4242-interface-layer)
+  - [| **Proveedores**   | Gestionar los proveedores de insumos.                            | - `POST /suppliers`: Crear un proveedor. - `GET /suppliers/{id}`: Obtener información del proveedor. |](#-proveedores----gestionar-los-proveedores-de-insumos-------------------------------post-suppliers-crear-un-proveedor---get-suppliersid-obtener-información-del-proveedor-)
       - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [Servicios](#servicios-1)
+    - [Funciones del Servicio](#funciones-del-servicio-1)
       - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [Repositorio – Ítem de Inventario](#repositorio--ítem-de-inventario)
+        - [Métodos del Repositorio](#métodos-del-repositorio-2)
+        - [Métodos del Repositorio](#métodos-del-repositorio-3)
+        - [Métodos del Repositorio](#métodos-del-repositorio-4)
+        - [Métodos del Controlador](#métodos-del-controlador-2)
+        - [Métodos del Controlador](#métodos-del-controlador-3)
       - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
@@ -312,29 +524,44 @@
 - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirements Management](#requirements-management)
+      - [Software Development](#software-development)
+      - [Software Deployment](#software-deployment)
+      - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
+      - [Ramas principales:](#ramas-principales)
+      - [Ramas auxiliares:](#ramas-auxiliares)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+      - [Convenciones de Commits:](#convenciones-de-commits)
+      - [Convenciones de versionado de lanzamientos](#convenciones-de-versionado-de-lanzamientos)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+      - [Acceder a Netlify y seleccionar “Import an existing project”](#acceder-a-netlify-y-seleccionar-import-an-existing-project)
+      - [Elegir la opción “Deploy with GitHub” para vincular el repositorio](#elegir-la-opción-deploy-with-github-para-vincular-el-repositorio)
+      - [Seleccionar la organización y el repositorio correspondiente](#seleccionar-la-organización-y-el-repositorio-correspondiente)
+      - [Iniciar el despliegue presionando el botón del proyecto](#iniciar-el-despliegue-presionando-el-botón-del-proyecto)
+    - [Link de nuestra landing page: https://healthsyn-landing.netlify.app](#link-de-nuestra-landing-page-httpshealthsyn-landingnetlifyapp)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
-    - [6.2.X. Sprint n](#62x-sprint-n)
-      - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-      - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-      - [6.2.X.3. Sprint Backlog n](#62x3-sprint-backlog-n)
-      - [6.2.X.4. Development Evidence for Sprint Review](#62x4-development-evidence-for-sprint-review)
-      - [6.2.X.5. Testing Suite Evidence for Sprint Review](#62x5-testing-suite-evidence-for-sprint-review)
-      - [6.2.X.6. Execution Evidence for Sprint Review](#62x6-execution-evidence-for-sprint-review)
-      - [6.2.X.7. Services Documentation Evidence for Sprint Review](#62x7-services-documentation-evidence-for-sprint-review)
-      - [6.2.X.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence-for-sprint-review)
-      - [6.2.X.9. Team Collaboration Insights during Sprint](#62x9-team-collaboration-insights-during-sprint)
+    - [6.2.1 Sprint 1.](#621-sprint-1)
+      - [6.2.1.1 Sprint Planning 1.](#6211-sprint-planning-1)
+      - [6.2.1.3 Sprint Backlog 1.](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+    - [Software Deployment Evidence for Sprint Review](#software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
-
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 [Bibliografía](#bibliografía)
 
@@ -357,24 +584,31 @@ ABET – EAC - Student Outcome 5
       <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
+        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.
+        <p><b>TP1:</b> En mi rol, me enfoco en trabajar de manera conjunta con el equipo, promoviendo un liderazgo colaborativo. Durante el proceso de implementación de la página de aterrizaje, servicios y aplicaciones, me aseguré de que cada miembro del equipo tuviera las herramientas y la información necesarias para desempeñar sus funciones de manera eficiente. Además, coordiné estrechamente con otros miembros para garantizar que las tareas se completaran a tiempo, proporcionando orientación y apoyo cuando fuera necesario.</p>        
+        </p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
+        <p><b>TP1:</b> Me esfuerzo por promover un liderazgo compartido, facilitando la interacción entre los miembros del equipo durante la planificación del sprint y el establecimiento de las tareas a seguir. Me aseguré de que todas las voces fueran escuchadas y que las decisiones importantes se tomaran de forma colaborativa, manteniendo siempre el enfoque en los objetivos del sprint. Esto permitió que cada miembro sintiera que tenía un papel activo en el proceso, lo que favoreció un ambiente de trabajo más cohesivo.</p>   
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
+        <p><b>TP1:</b> En esta entrega, se desarrolló la landing page, priorizando la usabilidad y la claridad en la presentación de los objetivos del sistema. Además, se avanzó significativamente en el frontend de la aplicación, integrando de manera coherente los componentes existentes, y se llevó a cabo el despliegue de todos los elementos, asegurando su correcto funcionamiento en el entorno correspondiente.
 </p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
+        <p><b>TP1:</b> Me aseguré de que el equipo tuviera las evidencias necesarias para la revisión del sprint, trabajando estrechamente con todos para garantizar que los desarrollos y las pruebas fueran documentados de manera precisa y completa. Fomenté un liderazgo colaborativo al involucrar a cada miembro en el proceso de recolección de evidencia, ayudando a solucionar problemas y optimizando el flujo de trabajo del equipo para cumplir con los plazos establecidos.</p>        
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas. 
+        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.
+        <p><b>TP1:</b> En el TP1, contribuí activamente al desarrollo de una aplicación web siguiendo la metodología Scrum, colaborando con el equipo en el diseño y revisión de componentes clave. Implementé funcionalidades básicas para comprender en profundidad el flujo de trabajo y la arquitectura general del proyecto. 
  </p>
       </td>
       <td>
         <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
+        <p><b>TP1:</b> El grupo demostró la capacidad de trabajar en equipo y liderar de manera conjunta, integrando ideas y esfuerzos individuales para lograr un proyecto cohesionado y bien coordinado. Cada miembro aportó desde su área, colaborando y comunicándose efectivamente para alcanzar los objetivos del grupo.</p>
       </td>
     </tr>
     <tr>
@@ -382,21 +616,27 @@ ABET – EAC - Student Outcome 5
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
         <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
+        <p><b>TP1:</b> Al crear un entorno inclusivo y colaborativo, establezco metas claras y aseguro que cada miembro esté alineado con los objetivos del proyecto. Planifiqué las tareas en conjunto con el equipo, asegurándome de que todos entendieran el alcance y los plazos. Al trabajar en equipo, busqué mantener un ambiente donde todos pudieran aportar sus ideas, lo que nos permitió cumplir con los objetivos establecidos de manera efectiva.</p>         
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
+        <p><b>TP1:</b> A lo largo del sprint, fui responsable de crear un entorno inclusivo y de establecer metas claras para todos. Planifiqué las tareas de manera estratégica, desglosando el trabajo en pasos alcanzables y organizando las prioridades para asegurar que todos los objetivos se cumplieran. Asegurándome de que todos supieran lo que se esperaba de ellos, el equipo pudo trabajar con eficiencia y cumplir los objetivos del sprint con éxito.</p>          
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
+        <p><b>TP1:</b> Para esta entrega, participé en la planificación y creación de wireframes y wireflows, coordinando con el equipo para definir objetivos y plazos. Se utilizó un tablero Kanban para monitorear el progreso y garantizar la entrega organizada de los entregables visuales.</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
+        <p><b>TP1:</b> Al planificar y documentar las evidencias para la revisión del sprint, me aseguré de que el entorno de trabajo fuera inclusivo y transparente. Establecí metas claras para la recolección de las pruebas y me aseguré de que todos los miembros supieran qué tareas debían completar para contribuir al proceso. Esto permitió al equipo cumplir con los objetivos de la revisión del sprint de manera efectiva y sin contratiempos.</p>        
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
+        <p><b>TP1:</b> Durante esta fase, participé en la generación de ideas y en la creación inicial del frontend de la aplicación. Colaboré en el diseño de la interfaz y en la implementación de funcionalidades base, estableciendo la estructura visual del sistema. El seguimiento se realizó mediante indicadores y reuniones periódicas, asegurando el cumplimiento de los plazos.</p>
       </td>
       <td>
         <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
+        <p><b>TP1:</b> El grupo mostró la capacidad de crear un entorno colaborativo e inclusivo, integrando la investigación de cada miembro para establecer metas claras, planificar tareas y desarrollar una solución tecnológica alineada con las necesidades del sector de jardinería inteligente. Gracias a la colaboración y al enfoque en objetivos comunes, el equipo pudo diseñar un sistema aplicable, eficiente y centrado en el usuario.</p>
       </td>
     </tr>
   </tbody>
@@ -470,34 +710,33 @@ Aspiramos a posicionarnos como líderes en innovación para la gestión hospital
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 ### Antecedentes  
-La gestión de inventarios médicos ha sido un reto constante en el sector salud debido a la necesidad de asegurar la disponibilidad continua de insumos críticos y su adecuada conservación. Históricamente, muchos hospitales han utilizado sistemas manuales o registros digitales básicos para el control de existencias. Sin embargo, estos métodos presentan limitaciones en cuanto a precisión, trazabilidad y capacidad de respuesta ante incidencias como el desabastecimiento, el vencimiento de medicamentos o el deterioro de productos sensibles.  
+La gestión de inventarios médicos ha sido un reto constante en el sector salud, especialmente para farmacéuticos y responsables de inventarios hospitalarios, quienes deben asegurar la disponibilidad continua y adecuada conservación de insumos críticos mediante registros precisos y trazables. Por otro lado, el personal médico y de enfermería en áreas críticas requiere que estos insumos estén disponibles en tiempo real para garantizar la atención continua y segura de los pacientes en UCI, quirófanos y emergencias. Históricamente, ambos segmentos han dependido de sistemas manuales o digitales básicos que presentan limitaciones para lograr una gestión proactiva y transparente.  
 
-En los últimos años, la creciente complejidad de los servicios hospitalarios, la diversificación de insumos y las estrictas regulaciones sanitarias han generado la necesidad de adoptar tecnologías más avanzadas. El Internet of Things (IoT) ha surgido como una solución viable y eficiente, al permitir el monitoreo en tiempo real de variables críticas como temperatura, humedad, localización y niveles de stock. Esto abre la posibilidad de transformar la administración de inventarios en una gestión más proactiva, segura y transparente.  
+Con el avance de la tecnología y la creciente complejidad en los servicios hospitalarios, la integración del Internet of Things (IoT) se posiciona como una solución para monitorear en tiempo real las condiciones de almacenamiento, ubicación y niveles de stock. Esto permite a farmacéuticos mejorar la eficiencia en sus procesos y al personal médico mantener la disponibilidad inmediata de insumos críticos, mejorando la seguridad del paciente y reduciendo pérdidas.
 
 ### Problemática (Método 5W y 2H)  
 Reconoceremos nuestra problemática mediante el método 5W y 2H. 
 
 - **What (¿Qué?):**  
-Existen dificultades en la administración de inventarios médicos delicados, especialmente en el monitoreo de condiciones de almacenamiento, la trazabilidad de insumos y la prevención de pérdidas por caducidad o deterioro.  
+Dificultades en la administración y monitoreo de inventarios médicos delicados que afectan la precisión, trazabilidad y disponibilidad de insumos para farmacéuticos y personal médico en áreas críticas, impidiendo una gestión eficiente y proactiva.  
 
 - **Why (¿Por qué?):**  
-Los métodos tradicionales no permiten un control en tiempo real ni una capacidad preventiva. Esto provoca fallas en la disponibilidad, incumplimiento de normas sanitarias y riesgos para la seguridad del paciente.  
+Los sistemas tradicionales no ofrecen monitoreo en tiempo real ni alertas preventivas, generando riesgos para la disponibilidad de insumos y la seguridad del paciente, además de incumplimiento en normativas sanitarias.  
 
 - **Who (¿Quién?):**  
-El problema afecta principalmente a hospitales, clínicas, farmacias hospitalarias y laboratorios, impactando directamente a pacientes, personal médico, farmacéuticos y administradores logísticos.  
+Principalmente afecta a farmacéuticos y responsables de inventarios hospitalarios así como a médicos y enfermeros en unidades críticas, quienes dependen de la correcta gestión y rápida disponibilidad de insumos.  
 
 - **When (¿Cuándo?):**  
-La problemática se presenta de forma continua durante la gestión diaria del inventario, desde el momento de la adquisición de insumos hasta su uso final, con puntos críticos durante el almacenamiento y transporte.  
+El problema ocurre constantemente durante todo el proceso de gestión de inventarios, con especial impacto en momentos críticos de almacenamiento, distribución y uso en situaciones de emergencia o intervención quirúrgica.  
 
 - **Where (¿Dónde?):**  
-Surge en todas las áreas vinculadas a la cadena de suministro médica, incluyendo farmacias hospitalarias, almacenes centrales, quirófanos, unidades de cuidados intensivos y centros de distribución.  
+En farmacias hospitalarias, almacenes centrales y en áreas críticas como UCI, quirófanos y emergencias dentro de hospitales y clínicas.  
 
 - **How (¿Cómo?):**  
-Se manifiesta en forma de quiebres de stock, deterioro de insumos de cadena de frío, falta de alertas oportunas, exceso de inventario no utilizado y dificultades para coordinar con proveedores.  
+Se evidencia en quiebres de stock, falta de alertas de vencimientos o condiciones inadecuadas, deterioro de materiales sensibles, exceso o falta de inventario, y problemas en la coordinación entre los distintos responsables de la cadena logística.  
 
 - **How much (¿Cuánto?):**  
-Las consecuencias tienen un alto costo económico por pérdidas de insumos, además de un impacto crítico en la atención al paciente. El gasto puede traducirse en millones anuales dependiendo del tamaño de la institución, sumado al costo intangible de una posible afectación a la salud de los pacientes.  
-
+Conlleva costos económicos significativos por pérdidas y desperdicios de insumos, además de un impacto potencialmente grave en la salud y atención de los pacientes, con pérdidas que pueden ascender a millones según la escala de la institución.  
 
 ### 1.2.2. Lean UX Process
 El enfoque Lean UX se centra en comprender la propuesta de valor del modelo de negocio que sustenta nuestro proyecto, cuyo eje principal es el desarrollo de software. A lo largo de este capítulo y del documento en general, se analizan componentes esenciales de dicho enfoque.
@@ -506,27 +745,29 @@ Se inicia con la formulación de los "Problem Statements", los cuales incluyen e
 
 #### 1.2.2.1. Lean UX Problem Statements
 ### Problem Statement  
-La administración de inventarios médicos delicados en hospitales y clínicas presenta deficiencias en la trazabilidad, el monitoreo en tiempo real y la preservación de insumos críticos (como medicamentos de cadena de frío, material quirúrgico estéril y equipos de soporte vital). Esta situación genera pérdidas económicas significativas, incumplimiento de normas sanitarias y, lo más grave, riesgos directos para la seguridad del paciente.  
+La administración de inventarios médicos delicados en hospitales y clínicas presenta deficiencias críticas en la trazabilidad, monitoreo en tiempo real y conservación de insumos esenciales, afectando directamente a farmacéuticos responsables de inventarios y al personal médico/enfermería en áreas críticas como UCI, quirófanos y emergencias. Estas deficiencias generan pérdidas económicas importantes, incumplimientos en normativas sanitarias y, lo más crítico, riesgos significativos para la seguridad y continuidad de la atención al paciente en situaciones de alta demanda.  
 
 ### Dominio  
-Sector salud, enfocado en la gestión hospitalaria y la cadena de suministro médico, con atención en procesos de almacenamiento, distribución y consumo de insumos delicados.  
+Sector salud, especialmente enfocado en la gestión hospitalaria y la cadena de suministro de insumos médicos sensibles, con un énfasis en procesos de almacenamiento, distribución y uso en áreas con alta criticidad clínica.  
 
 ### Segmentos de Clientes  
-- **Ecosistema del sector salud** que incluye hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, todos con la necesidad de garantizar disponibilidad, conservación, trazabilidad y cumplimiento normativo de inventarios delicados.dos en mejorar la cadena logística con mayor trazabilidad y transparencia.  
+  * Farmacéuticos y responsables de inventarios hospitalarios, quienes requieren sistemas eficientes que aseguren la precisión, trazabilidad y conservación óptima de insumos para evitar pérdidas y garantizar el cumplimiento normativo.
+
+  * Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias), que necesitan acceso inmediato y confiable a insumos críticos para salvaguardar la atención y seguridad del paciente en contextos de alta presión.
 
 ### Puntos de Dolor  
-- Desabastecimiento inesperado de insumos esenciales.  
-- Pérdidas económicas por caducidad, deterioro o fallas en la cadena de frío.  
-- Falta de trazabilidad en la gestión de inventario.  
-- Incumplimiento de regulaciones sanitarias.  
-- Dificultades para coordinar con proveedores en tiempo real.  
-- Limitada visibilidad y monitoreo en áreas críticas como UCI y quirófanos.  
+  * Quiebres inesperados en el stock de insumos esenciales que afectan la atención clínica.
+  * Pérdidas económicas debidas a fallas en la conservación, caducidad o deterioro de insumos sensibles.
+  * Falta de monitoreo en tiempo real que dificulta la toma de decisiones proactivas.
+  * Insuficiente trazabilidad que impide auditorías efectivas y cumplimiento estricto de normas.
+  * Dificultades en la coordinación rápida con proveedores y en la comunicación intra-hospitalaria.
+  * Baja visibilidad y control en áreas críticas con alta rotación y urgencia de insumos.
 
 ### Visión/Estrategia  
-Implementar un ecosistema de gestión inteligente de inventarios médicos basado en IoT, que permita monitorear en tiempo real condiciones de almacenamiento (temperatura, humedad, ubicación), generar alertas tempranas, automatizar reportes y facilitar la toma de decisiones. La estrategia apunta a optimizar el uso de recursos, reducir pérdidas, fortalecer la seguridad del paciente y garantizar el cumplimiento normativo, impulsando modelos de gestión hospitalaria más transparentes y eficientes.  
+Desarrollar e implementar un sistema integral basado en IoT para la gestión inteligente de inventarios, que permita monitorizar en tiempo real variables críticas (temperatura, humedad, ubicación y niveles de stock), emitir alertas anticipadas, automatizar informes y mejorar la comunicación entre farmacéuticos y personal clínico. Esta solución busca optimizar recursos, minimizar pérdidas, fortalecer la seguridad del paciente y cumplir rigurosamente con regulaciones, promoviendo una gestión hospitalaria más eficiente y transparente.  
 
 ### Segmento Inicial  
-El proyecto se orientará inicialmente a **farmacias hospitalarias y unidades críticas (UCI y quirófanos)** de hospitales de mediana y gran escala, por ser los espacios con mayor riesgo clínico y económico debido al uso intensivo de insumos delicados.  
+El enfoque inicial estará en farmacias hospitalarias y áreas críticas como UCI y quirófanos en hospitales medianos y grandes, debido a la alta demanda y riesgo clínico asociado al manejo de insumos delicados en estos espacios.  
 
 #### 1.2.2.2. Lean UX Assumptions
 En esta parte, analizaremos las suposiciones relacionadas con nuestra solución, abarcando desde las funcionalidades que debería incorporar hasta los resultados esperados, tanto desde nuestra visión como desde la experiencia del usuario.
@@ -547,10 +788,8 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - Incremento en la satisfacción y confianza de pacientes al garantizar disponibilidad de tratamientos y materiales.  
 
 ### Users  
-- Farmacéuticos hospitalarios encargados del control de insumos.  
-- Personal médico y de enfermería dependiente de la disponibilidad de materiales críticos.  
-- Administradores de hospitales responsables de costos y cumplimiento normativo.  
-- Proveedores que requieren coordinación correcta con las instituciones de salud.  
+- Farmacéuticos y responsables de inventarios hospitalarios que requieren herramientas precisas para control y trazabilidad.  
+- Personal médico y de enfermería en UCI, quirófanos y emergencias que dependen de la disponibilidad inmediata de insumos.
 
 ### User Outcomes & Benefits  
 - Disponibilidad garantizada de insumos esenciales en cualquier momento.  
@@ -567,21 +806,15 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - La escalabilidad del sistema permitirá adaptarse a diferentes tamaños de instituciones (pequeñas clínicas hasta grandes hospitales).  
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usuarios, beneficios esperados y funcionalidades propuestas, es posible construir nuestras hipótesis, cada una enfocada en una característica específica que se busca desarrollar.
+Aquí está la actualización de tus Lean UX Hypothesis Statements enfocados en los dos segmentos objetivos: farmacéuticos y responsables de inventarios hospitalarios, y personal médico/enfermería en áreas críticas (UCI, quirófanos, emergencias).
 
-1. Creemos que **la implementación de sensores IoT en el almacenamiento y transporte de insumos médicos** permitirá monitorear en tiempo real condiciones críticas (temperatura, humedad, ubicación), lo cual reducirá significativamente las pérdidas por deterioro o caducidad.  
-
-2. Creemos que **los farmacéuticos y administradores hospitalarios** usarán la plataforma digital para obtener reportes automáticos y alertas tempranas, lo que les permitirá optimizar el control de inventarios y prevenir desabastecimientos.  
-
-3. Creemos que **los hospitales y clínicas**, al reducir pérdidas económicas y mejorar la trazabilidad, verán un retorno de inversión positivo en un periodo de corto a mediano plazo.  
-
-4. Creemos que **la integración de la plataforma IoT con sistemas de gestión hospitalaria ya existentes (ERP/HCE)** facilitará la adopción de la solución, evitando duplicidades y reduciendo la resistencia al cambio tecnológico.  
-
-5. Creemos que **el personal de salud** (farmacéuticos, enfermeras, médicos) valorará el ahorro de tiempo en tareas administrativas gracias a la automatización, lo que incrementará su satisfacción y eficiencia operacional.  
-
-6. Creemos que **los proveedores y distribuidores de insumos médicos** adoptarán la solución al percibir un aumento en la transparencia logística y una mejor coordinación con las instituciones de salud.  
-
-7. Creemos que **la mejora en la disponibilidad y conservación de insumos delicados** impactará de manera positiva en la seguridad del paciente, aumentando la confianza y la calidad percibida del servicio hospitalario.  
+  * Creemos que la implementación de sensores IoT en áreas de almacenamiento y uso crítico de insumos médicos permitirá un monitoreo en tiempo real de condiciones esenciales (temperatura, humedad, ubicación), reduciendo significativamente las pérdidas por deterioro o caducidad, lo cual beneficiará especialmente a farmacéuticos responsables del inventario.  
+  * Creemos que farmacéuticos y administradores hospitalarios utilizarán la plataforma digital para recibir reportes automáticos y alertas tempranas, optimizando así la gestión del inventario y evitando quiebres que afecten la operación hospitalaria.  
+  * Creemos que personal médico y de enfermería en UCI, quirófanos y emergencias confiará en la solución para asegurar la disponibilidad inmediata de insumos críticos, lo que mejorará la seguridad del paciente y la eficiencia en la atención clínica.  
+  * Creemos que la integración del sistema IoT con los sistemas hospitalarios actuales (ERP, HCE) facilitará la adopción por parte de ambos segmentos, reduciendo la resistencia al cambio y evitando duplicación de labores.  
+  * Creemos que el ahorro de tiempo en tareas administrativas gracias a la automatización incrementará la satisfacción y la eficiencia operativa tanto para farmacéuticos como para el personal clínico de áreas críticas.  
+  * Creemos que la mejora en la trazabilidad y control de insumos fortalecerá la coordinación con proveedores, asegurando un suministro confiable y continuo para hospital y clínicas.  
+  * Creemos que la disponibilidad y conservación óptima de insumos delicados, lograda mediante nuestra solución, tendrá un impacto positivo directo en la seguridad del paciente y en la percepción de calidad de los servicios hospitalarios.  
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -604,8 +837,11 @@ A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usu
 ## 1.3. Segmentos objetivo
 Con base en los perfiles de usuarios que hemos supuesto, identificamos el siguiente segmento específico del mercado a los que está orientada nuestra solución.
 
-1. **Trabajadores del sector salud:**  
-  conformado por personas que trabajan en hospitales y clínicas (públicas y privadas), farmacias hospitalarias, laboratorios y proveedores/distribuidores de insumos médicos, quienes comparten la necesidad de asegurar la disponibilidad, conservación adecuada, trazabilidad y cumplimiento normativo en la gestión de inventarios delicados.
+  * **Farmacéuticos y responsables de inventarios hospitalarios:**  
+Este segmento incluye a los profesionales que gestionan el almacenamiento, control y distribución de insumos médicos dentro de hospitales y clínicas. Son responsables de asegurar la correcta conservación, trazabilidad y disponibilidad de medicamentos y materiales críticos, enfrentándose a desafíos relacionados con la precisión en el inventario, prevención de desabastecimientos y cumplimiento normativo. Su necesidad principal es contar con monitoreo en tiempo real y alertas automáticas para optimizar la gestión y evitar pérdidas económicas.
+
+  * **Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias):**  
+Este grupo está compuesto por médicos, enfermeros y técnicos que dependen de la disponibilidad inmediata de insumos críticos para la atención de pacientes. Su enfoque está en mantener la continuidad y seguridad en la atención, por lo cual requieren información fiable y oportuna sobre el stock, para evitar interrupciones y riesgos para los pacientes. La trazabilidad y el acceso rápido a datos son esenciales para este segmento.
 
 # Capítulo II: Requirements Elicitation & Analysis 
 En este capítulo, nos centraremos en los requerimientos que necesita cumplir nuestra solución para que sea viable, y los análisis necesarios.   
@@ -787,7 +1023,7 @@ En esta parte se registran las preguntas empleadas durante las entrevistas, incl
 3. ¿Dónde vives actualmente?
 4. ¿A qué te dedicas especificamenente dentro de tu rubro?
 
-#### **Preguntas segmento 1**: Trabajadores del sector salud
+#### **Preguntas segmento 1**: Farmacéuticos y responsables de inventarios hospitalarios
 
 1. ¿Cuál es su rol específico dentro de su institución?
 
@@ -803,10 +1039,25 @@ En esta parte se registran las preguntas empleadas durante las entrevistas, incl
 
 7. ¿Qué tan importante considera para su institución contar con reportes automáticos y alertas que faciliten la toma de decisiones en la gestión del inventario?
 
+#### **Preguntas segmento 2**: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)
+1. ¿Cuál es su rol específico dentro del área clínica?
+
+2. ¿De qué manera la disponibilidad de insumos críticos impacta en su trabajo diario y en la atención al paciente?
+
+3. ¿Qué problemas experimenta respecto a la falta o desabastecimiento de insumos en situaciones de urgencia o cuidados intensivos?
+
+4. ¿Usa alguna herramienta o método para conocer el estado y disponibilidad de insumos en tiempo real?
+
+5. ¿Cómo cree que una solución que monitoree condiciones de almacenamiento en tiempo real podría mejorar su trabajo y la seguridad del paciente?
+
+5. ¿Qué desafíos visualiza en la adopción de nuevas tecnologías dentro del área clínica?
+
+6. ¿Qué tipo de información o alertas le serían más útiles para garantizar que siempre haya insumos disponibles cuando los necesite?
+
 ### 2.2.2. Registro de entrevistas
 A continuación, se documentaron todas las entrevistas llevadas a cabo para nuestra solución, organizadas por segmento objetivo y acompañadas de un resumen que resalta las observaciones y comentarios relevantes sobre el proyecto.
 
-#### **Segmento: Trabajadores del sector salud**
+#### **Segmento: Farmacéuticos y responsables de inventarios hospitalarios**
 
 **Entrevista 1:**
 
@@ -868,8 +1119,68 @@ Respecto a los beneficios, destacó que contar con un sistema automatizado de re
 
 En conclusión, subrayó que herramientas de monitoreo en tiempo real no solo mejorarían la eficiencia operativa, sino que serían clave para brindar un servicio más seguro, confiable y humanizado en el sector salud.
 
+#### **Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**
+
+**Entrevista 1:**
+
+- **Nombres:** Alejandra Lucia
+- **Apellidos:** Neyra Yataco
+- **Edad:** 25
+- **Lugar de residencia:** Jesus Maria, Lima
+
+**Evidencia de la entrevista:**  
+
+<img src="assets/images/interviews/AlejandraEntrevista.png" alt="interview">
+
+**Enlace de la entrevista:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EYQE0i8S1nFJuO3SKhMHKQUB-G4zONyzGiTNW7HVRmUohw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g2k1K5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EYQE0i8S1nFJuO3SKhMHKQUB-G4zONyzGiTNW7HVRmUohw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g2k1K5)
+
+**Resumen de la entrevista:**  
+La entrevistada es una enfermera de 25 años que reside en Jesús María y trabaja en la Unidad de Cuidados Intensivos (UCI) para adultos en un hospital. Sus principales responsabilidades incluyen la administración de medicamentos, el monitoreo constante de pacientes críticos y el manejo de equipos médicos especializados. Señala que, en su entorno laboral, no siempre cuentan con un sistema digital disponible para registrar y controlar el uso de insumos, lo que puede generar desorganización, duplicidad de tareas o pérdida de información relevante. Por ello, considera que una aplicación diseñada para el monitoreo de medicamentos y equipos sería una herramienta valiosa para optimizar los procesos, mejorar la trazabilidad y reducir errores humanos. Sin embargo, también expresa cierta preocupación sobre la adopción de este tipo de tecnología entre el personal del hospital, ya que muchos de sus colegas podrían mostrar resistencia al cambio, ya sea por falta de capacitación, desconfianza en lo digital o por estar acostumbrados a métodos tradicionales. A pesar de ello, cree que con una adecuada implementación y acompañamiento, la herramienta podría tener un impacto positivo en la calidad del servicio y en la eficiencia del trabajo diario.
+
+**Entrevista 2:**
+
+- **Nombres:** Nadal Sebastian
+- **Apellidos:** Morales
+- **Edad:** 24
+- **Lugar de residencia:** Surco, Lima
+
+**Evidencia de la entrevista:**  
+
+<img src="assets/images/interviews/NadalEntrevista.png" alt="interview">
+
+
+**Enlace de la entrevista:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EZhVLkh-u6hAnBtHDIA3U1MB3PGtTIIEMkzN0RAoQZPwoQ?e=xZjuYh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EZhVLkh-u6hAnBtHDIA3U1MB3PGtTIIEMkzN0RAoQZPwoQ?e=xZjuYh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista:**  
+Bajo la perspectiva de Nadal Morales, practicante de medicina en Surco, el mayor desafío es la conservación de insumos sensibles como los de cadena de frío, pues los equipos no son confiables y el control es manual con papel, impidiendo detectar fallos a tiempo. Él cree que una solución de monitoreo en tiempo real con IoT es vital para asegurar la calidad y la seguridad del paciente, ya que permitiría reaccionar de inmediato, reducir pérdidas y dar tranquilidad. Los únicos obstáculos serían el costo inicial y la capacitación del personal, destacando que las alertas automáticas y reportes son esenciales para la toma de decisiones y la gestión óptima.
+
+**Entrevista 3:**
+
+- **Nombres:** Luis JeanPierre
+- **Apellidos:** Espejo
+- **Edad:** 19
+- **Lugar de residencia:** Santiago de Surco, Lima
+
+**Evidencia de la entrevista:**  
+
+<img src="assets/images/interviews/entrevistaLuis.png" alt="interview">
+
+
+**Enlace de la entrevista:** [https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2Fentrevista%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E19d6c1be-cc49-4112-b1bd-bf8574e38649](https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2Fentrevista%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E19d6c1be-cc49-4112-b1bd-bf8574e38649)
+
+**Resumen de la entrevista:**  
+Luis JeanPierre Espejo, un joven de 19 años residente en Santiago de Surco, cursa estudios técnicos en enfermería y realiza sus prácticas en el área de emergencias de un hospital público. Durante la entrevista, comentó que su día a día está lleno de presión y que la rapidez en la atención es clave. Mencionó que uno de los mayores retos es la falta de visibilidad sobre el stock de insumos, lo que en ocasiones retrasa procedimientos y genera ansiedad en el personal médico.
+
+Luis explicó que, en emergencias, no disponer de materiales como guantes, jeringas o catéteres en el momento preciso puede significar la diferencia entre una atención inmediata o un riesgo para el paciente. Señaló que suelen depender de llamadas o mensajes entre áreas para confirmar la disponibilidad de insumos, lo cual consume tiempo valioso. “En esos segundos, el paciente sigue esperando”, recalcó con preocupación.
+
+En cuanto a la gestión de la información, comentó que no existe un sistema centralizado o visual que les permita conocer el stock en tiempo real. Según su experiencia, muchas veces los reportes se actualizan de forma manual o con retraso, lo que genera confusión. Luis resaltó que contar con una plataforma accesible y confiable sería de gran ayuda para reducir los errores humanos y mejorar la coordinación entre enfermería, farmacia y almacén.
+
+Finalmente, Luis reflexionó sobre la importancia de la trazabilidad y la transparencia en la gestión de insumos. Considera que, si el personal tuviera acceso rápido a datos verificados, se podrían evitar pérdidas, desperdicios y demoras en la atención. “Nosotros no pedimos tecnología por lujo, sino porque puede salvar vidas”, afirmó con convicción, subrayando la necesidad de soluciones digitales que faciliten la continuidad y seguridad del trabajo en áreas críticas.
+
 ### 2.2.3. Análisis de entrevistas
 Para finalizar, en la sección de análisis se utilizaron métricas derivadas de las respuestas obtenidas, así como la frecuencia con la que ciertos temas fueron mencionados durante las entrevistas.
+
+## Análisis segmento 1: Farmacéuticos y responsables de inventarios hospitalarios
 
 ### Obstáculos para la implementación
 En esta tabla se consolidan las principales dificultades que los entrevistados prevén al adoptar soluciones IoT, como la inversión inicial, la capacitación necesaria, las dificultades de integración tecnológica y la resistencia al cambio. Se detalla la ocurrencia en cada entrevista y el porcentaje de recurrencia.
@@ -911,10 +1222,46 @@ La última tabla enumera las necesidades más urgentes que los entrevistados con
 **Interpretación**:
 Reportes automáticos, alertas preventivas y capacitación continua reciben unanimidad (100%), mostrando que los entrevistados valoran las herramientas que promuevan prevención, control oportuno y formación del personal. El soporte técnico es importante para la mayoría (66%), lo que resalta la necesidad de servicios postventa robustos y acompañamiento durante la fase de adopción tecnológica.
 
+## Análisis segmento 2: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)
+
+### Problemas operativos actuales
+A partir de las entrevistas se identifican las principales fallas en la gestión de insumos médicos, tales como el control manual, la falta de trazabilidad y la desorganización interna. Estas limitaciones impactan directamente en la atención al paciente y en la eficiencia del personal.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/segmento2grafico1.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+Los tres entrevistados coinciden en que los procesos manuales generan demoras y errores. La ausencia de sistemas centralizados y confiables (66%) se consolida como el problema más grave, evidenciando la urgencia de implementar soluciones digitales que optimicen la trazabilidad y la coordinación interna.
+
+### Necesidades tecnológicas y funcionales
+Se resumen las funciones más valoradas por los entrevistados respecto a una posible herramienta digital: trazabilidad, monitoreo en tiempo real, generación de alertas y reportes automáticos. Estas características se consideran esenciales para mejorar la toma de decisiones y la seguridad del paciente.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/segmento2grafico2.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+La trazabilidad y el monitoreo en tiempo real destacan como las funcionalidades más demandadas (66%), lo que refuerza la importancia de un sistema que integre alertas y reportes para la gestión eficiente. Los entrevistados asocian estas herramientas con una atención más segura y reactiva.
+
+### Impacto esperado en la atención médica
+Los entrevistados coincidieron en que la implementación de una solución tecnológica podría mejorar la seguridad del paciente, reducir errores humanos y optimizar la coordinación entre áreas. También se observa un consenso en que la digitalización permitiría ahorrar tiempo y evitar pérdidas de insumos críticos.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/segmento2grafico3.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+La seguridad del paciente aparece como el beneficio más universal (100%), reflejando una necesidad transversal en entornos críticos como UCI y emergencias. La mejora de la trazabilidad (66%) y la eficiencia colaborativa (66%) confirman que los profesionales perciben la tecnología no como un reemplazo, sino como un aliado clave en la atención hospitalaria.
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
 <img src="assets/images/Kevin Salazar.png" >
+
+<br>
+
+<img src="assets/images/Dra. Laura Méndez.png">
 
 ### 2.3.2. User Task Matrix
 
@@ -941,9 +1288,13 @@ La siguiente matriz organiza las **tareas clave de los usuarios** en relación c
 
 <img src="assets/images/journey.jpeg" >
 
+<img src="assets/images/journey2.png" >
+
 ### 2.3.4. Empathy Mapping
 
 <img src="assets/images/empathy.png" >
+
+<img src="assets/images/LorenaSanchezEmpathy.png" >
 
 ## 2.4. Big Picture EventStorming
 
@@ -1334,7 +1685,7 @@ A continuación, se presentan los términos clave identificados a partir de las 
     <strong>Cuando</strong> el enlace se restablece,<br>
     <strong>Entonces</strong> el nodo reenvía lecturas pendientes en orden.<br><br>
     <strong>Escenario 2: Marcas de tiempo preservadas</strong><br>
-    <strong>Dado</strong> que se almacenaron lecturas en buffer,<br>
+    <strong>Dado</strong> que se almacenaron lecturas en buffer,<br>  
     <strong>Cuando</strong> se procesan en el backend,<br>
     <strong>Entonces</strong> conservan su timestamp original.
   </td>
@@ -1783,9 +2134,187 @@ A continuación, se presentan los términos clave identificados a partir de las 
 </table>
 
 
+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 18%" />
+<col style="width: 30%" />
+<col style="width: 30%" />
+<col style="width: 11%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Epic / Story ID</td>
+<td>Título</td>
+<td>Descripción</td>
+<td>Criterios de Aceptación</td>
+<td>Relación Epic ID</td>
+</tr>
+
+<tr>
+  <td colspan="5" style="padding: 15px; ">
+    <strong>Epic 6: Experiencia de Usuario (Landing &amp; Front-End)</strong>
+  </td>
+</tr>
+
+<tr>
+  <td>E6-HU033</td>
+  <td>Landing pública (estructura + hero + CTA)</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> ver un landing claro con un bloque principal (hero) y un botón de acción,<br>
+    <strong>Para</strong> entender rápido el valor y solicitar contacto/demos
+  </td>
+  <td>
+    <strong>Escenario 1: Carga inicial</strong><br>
+    <strong>Dado</strong> que ingreso al dominio público,<br>
+    <strong>Cuando</strong> se carga la página,<br>
+    <strong>Entonces</strong> veo un hero con titular, subtítulo y CTA visible sobre el primer scroll.<br><br>
+    <strong>Escenario 2: CTA navegable</strong><br>
+    <strong>Dado</strong> que hago clic en el CTA,<br>
+    <strong>Cuando</strong> interactúo,<br>
+    <strong>Entonces</strong> soy dirigido al formulario o sección de contacto.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU034</td>
+  <td>Header y navegación</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> un encabezado con navegación sencilla,<br>
+    <strong>Para</strong> moverme entre secciones sin perderme
+  </td>
+  <td>
+    <strong>Escenario 1: Navegación</strong><br>
+    <strong>Dado</strong> el menú en el header,<br>
+    <strong>Cuando</strong> hago clic en una sección,<br>
+    <strong>Entonces</strong> el sitio navega/realiza scroll correcto a la sección.<br><br>
+    <strong>Escenario 2: Sticky</strong><br>
+    <strong>Dado</strong> que hago scroll,<br>
+    <strong>Cuando</strong> me desplazo hacia abajo,<br>
+    <strong>Entonces</strong> el header permanece accesible (sticky) en mobile/desktop.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU035</td>
+  <td>Footer institucional (legal/redes/contacto)</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> ver datos legales y enlaces de contacto/redes,<br>
+    <strong>Para</strong> validar confianza y comunicarme
+  </td>
+  <td>
+    <strong>Escenario 1: Legales</strong><br>
+    <strong>Dado</strong> el footer,<br>
+    <strong>Cuando</strong> lo reviso,<br>
+    <strong>Entonces</strong> encuentro enlaces a Términos, Privacidad y Contacto.<br><br>
+    <strong>Escenario 2: Redes</strong><br>
+    <strong>Dado</strong> los iconos de redes,<br>
+    <strong>Cuando</strong> hago clic,<br>
+    <strong>Entonces</strong> abren en nueva pestaña los perfiles oficiales.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU036</td>
+  <td>Propuesta de valor &amp; Features</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> entender beneficios y características clave,<br>
+    <strong>Para</strong> evaluar si la plataforma resuelve mi problema
+  </td>
+  <td>
+    <strong>Escenario 1: Sección de valor</strong><br>
+    <strong>Dado</strong> la sección “Por qué nosotros”,<br>
+    <strong>Cuando</strong> la visualizo,<br>
+    <strong>Entonces</strong> veo 3–6 bullets claros de beneficios.<br><br>
+    <strong>Escenario 2: Features</strong><br>
+    <strong>Dado</strong> la sección “Características”,<br>
+    <strong>Cuando</strong> la reviso,<br>
+    <strong>Entonces</strong> veo tarjetas con icono, título y breve descripción.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU037</td>
+  <td>Formulario de contacto/lead (anti-spam)</td>
+  <td>
+    <strong>Como</strong> visitante,<br>
+    <strong>Quiero</strong> enviar mis datos de contacto,<br>
+    <strong>Para</strong> solicitar una demo o que me contacten
+  </td>
+  <td>
+    <strong>Escenario 1: Envío válido</strong><br>
+    <strong>Dado</strong> que completo nombre, email y mensaje válidos,<br>
+    <strong>Cuando</strong> envío el formulario,<br>
+    <strong>Entonces</strong> veo confirmación de envío en pantalla.<br><br>
+    <strong>Escenario 2: Anti-spam</strong><br>
+    <strong>Dado</strong> el honeypot/rate limit activo,<br>
+    <strong>Cuando</strong> un bot intenta enviar,<br>
+    <strong>Entonces</strong> la solicitud se rechaza sin afectar la UX.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU038</td>
+  <td>SEO y metadatos (OG/Twitter, sitemap, robots)</td>
+  <td>
+    <strong>Como</strong> responsable de marketing,<br>
+    <strong>Quiero</strong> metadatos y archivos SEO,<br>
+    <strong>Para</strong> mejorar indexación y previsualizaciones
+  </td>
+  <td>
+    <strong>Escenario 1: Metadatos</strong><br>
+    <strong>Dado</strong> el head del documento,<br>
+    <strong>Cuando</strong> inspecciono,<br>
+    <strong>Entonces</strong> existen title, meta description, OG y Twitter Cards.<br><br>
+    <strong>Escenario 2: Sitemap/robots</strong><br>
+    <strong>Dado</strong> el dominio,<br>
+    <strong>Cuando</strong> accedo a <code>/sitemap.xml</code> y <code>/robots.txt</code>,<br>
+    <strong>Entonces</strong> ambos recursos se sirven correctamente.
+  </td>
+  <td>6</td>
+</tr>
+
+<tr>
+  <td>E6-HU039</td>
+  <td>Accesibilidad base (WCAG AA mínima)</td>
+  <td>
+    <strong>Como</strong> usuario con diversidad funcional,<br>
+    <strong>Quiero</strong> navegar con teclado y lectores de pantalla,<br>
+    <strong>Para</strong> acceder sin barreras
+  </td>
+  <td>
+    <strong>Escenario 1: Teclado</strong><br>
+    <strong>Dado</strong> el sitio,<br>
+    <strong>Cuando</strong> navego con teclado,<br>
+    <strong>Entonces</strong> puedo acceder a todos los enlaces/inputs con focus visible.<br><br>
+    <strong>Escenario 2: Lectores</strong><br>
+    <strong>Dado</strong> un lector de pantalla,<br>
+    <strong>Cuando</strong> anuncia los elementos,<br>
+    <strong>Entonces</strong> los controles tienen labels/roles apropiados.
+  </td>
+  <td>6</td>
+</tr>
+
+</tbody>
+</table>
+
+
+
 ## 3.2. Impact Mapping 
 
 <img src='assests/impact_mapping.png'>
+
+<img src='assests/impact_mapping2.png'>
 
 ## 3.3. Product Backlog
 | Orden | User Story / Technical Story Id | Título                                                   | Descripción                                                                                                                                                       | Story Points |
@@ -1822,6 +2351,13 @@ A continuación, se presentan los términos clave identificados a partir de las 
 | 30    | HU028                           | Reporte semanal de excursiones y mermas                  | Como calidad, quiero un reporte semanal con % fuera de rango y mermas en S/. para auditorías y mejora continua.                                                    | 3            |
 | 31    | HU031                           | Gestión de calibración de sensores                       | Como ingeniería clínica, quiero registrar certificados y alertas de vencimiento de calibración para asegurar precisión de medición.                                | 5            |
 | 32    | HU032                           | Reporte de cumplimiento normativo (GDP/guías)            | Como calidad, quiero generar un informe con evidencias de cadena de frío y acciones correctivas para presentar en inspecciones regulatorias.                       | 8            |
+| 33    | HU033                           | Landing pública (estructura + hero + CTA)                | Como visitante, quiero ver un landing claro con un bloque principal (hero) y un botón de acción para entender rápido el valor y solicitar contacto/demos.               | 5            |
+| 34    | HU034                           | Header y navegación                                      | Como visitante, quiero un encabezado con navegación sencilla para moverme entre secciones sin perderme.                                                                  | 3            |
+| 35    | HU035                           | Footer institucional (legal/redes/contacto)              | Como visitante, quiero ver datos legales y enlaces de contacto/redes para validar confianza y comunicarme.                                                               | 2            |
+| 36    | HU036                           | Propuesta de valor & Features                            | Como visitante, quiero entender beneficios y características clave para evaluar si la plataforma resuelve mi problema.                                                   | 5            |
+| 37    | HU037                           | Formulario de contacto/lead (anti-spam)                  | Como visitante, quiero enviar mis datos de contacto para solicitar una demo o que me contacten, evitando envíos de bots (honeypot/rate limit).                           | 5            |
+| 38    | HU038                           | SEO y metadatos (OG/Twitter, sitemap, robots)            | Como responsable de marketing, quiero metadatos y archivos SEO para mejorar indexación y previsualizaciones.                                                             | 3            |
+| 39    | HU039                           | Accesibilidad base (WCAG AA mínima)                      | Como usuario con diversidad funcional, quiero navegar con teclado y lectores de pantalla para acceder sin barreras.                                                      | 5            |
 
   # Capítulo IV: Solution Software Design
 
@@ -2496,47 +3032,754 @@ Notifications_Component.png
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines
+Para asegurar una comunicación visual coherente y profesional en todos los aspectos del proyecto MediTrack, es fundamental contar con unas Style Guidelines. Estas directrices son aplicables a cualquier plataforma de difusión, ya sea en aplicaciones web, móviles, dashboards administrativos o material impreso/digital.
+
+En esta sección se establecen las pautas que el equipo deberá seguir para el diseño de MediTrack, definiendo elementos clave como la elección de colores, la tipografía y la estructura visual en general.
+
+El diseño tanto de la aplicación móvil, la aplicación web como de la landing page se realizará en Figma, garantizando consistencia y escalabilidad en todos los prototipos.
+
+La paleta principal estará compuesta por tonos azules y verdes, que transmiten tecnología, confianza, seguridad y salud, reforzando la misión del sistema de asegurar el control y la trazabilidad de insumos médicos.
+
 ### 5.1.1. General Style Guidelines
-### 5.1.2. Web, Mobile and IoT Style Guidelines
+**Branding**
+
+El branding de MediTrack está diseñado para generar confianza, solidez y profesionalismo, destacando el compromiso con la gestión segura y eficiente del inventario médico.
+
+La identidad visual se conecta con los valores de tecnología, seguridad y salud, usando elementos gráficos sobrios que transmiten precisión y trazabilidad.
+El objetivo es crear una imagen fuerte, clara y fácilmente reconocible para hospitales, clínicas y profesionales del sector salud.
+
+**Typography**
+
+La tipografía de MediTrack es moderna, clara y optimizada para la legibilidad en interfaces web y móviles.
+
+- **Títulos y encabezados:** Arimo – aporta modernidad, profesionalismo y jerarquía visual.
+
+- **Cuerpo de texto y elementos técnicos (como datos en dashboards, logs o alertas):** Cousine – monoespaciada, clara y precisa, ideal para transmitir exactitud en la información.
+
+El diseño tipográfico busca un balance entre seriedad y accesibilidad, transmitiendo confianza sin perder usabilidad.
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="assets/arimo.png" style="height: 500px;" />
+    <img src="assets/cousine.png" style="height: 500px;" />
+</div>
+
+**Colors**
+
+La paleta de colores de MediTrack incluye tonos azules profundos y verdes azulados, elegidos para transmitir tecnología, confianza y seguridad en la gestión del inventario médico.
+El azul representa profesionalismo y estabilidad, mientras que el verde azulado simboliza salud e innovación.
+Estos colores se combinan con un fondo blanco casi puro, que refuerza la claridad y limpieza, y con un gris muy oscuro para garantizar contraste y legibilidad.
+La paleta se usará estratégicamente para crear una interfaz armónica, accesible y confiable, tanto en aplicaciones móviles como en dashboards web.
+
+<div style="display: flex; justify-content: center;">
+    <img src="assets/colors.png" style="height: 500px;" />
+</div>
+
+**Spacing**
+
+Se ha implementado un sistema de espaciado uniforme y coherente en toda la interfaz de MediTrack para evitar la sobrecarga visual y asegurar una navegación fluida.
+Los márgenes y espacios entre componentes han sido diseñados cuidadosamente para lograr un diseño equilibrado y organizado, lo cual es esencial en entornos donde se requiere precisión y rapidez, especialmente en la gestión hospitalaria y clínica.
+
+**Tono de Comunicación**
+
+El tono de comunicación de MediTrack es profesional, informativo y confiable, dirigido a médicos, personal de salud y administradores de inventario.
+El lenguaje es claro, técnico y accesible, buscando transmitir seriedad, respaldo y conocimiento en la gestión de insumos médicos.
+El objetivo es que el usuario se sienta seguro, respaldado y bien informado, manteniendo siempre la responsabilidad y rigurosidad que exige el sector salud.
+
+## 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+**Web Style Guidelines**
+
+Estas guías definen los estándares visuales y de interacción que deben aplicarse en la aplicación web y el dashboard administrativo de MediTrack, con el fin de garantizar una experiencia de usuario clara, accesible y eficiente.  
+
+- **Simplicidad y minimalismo.**  
+  La interfaz debe ser limpia y enfocada, priorizando la visibilidad de las acciones principales relacionadas con la gestión de inventario y monitoreo ambiental. El uso de espacios en blanco es clave para mejorar la lectura y evitar sobrecarga visual.  
+
+- **Claridad y lenguaje accesible.**  
+  Los textos en menús, botones e indicadores deben ser cortos, directos y comprensibles. Se evita el uso de tecnicismos innecesarios y se garantiza que cada acción esté claramente identificada para el personal de salud y administrativo.  
+
+- **Consistencia visual y funcional.**  
+  Se mantiene coherencia en colores, tipografía, iconografía y disposición de componentes a lo largo de todas las pantallas del sistema. Esto asegura que la navegación sea intuitiva y predecible para los usuarios.  
+
+- **Acciones seguras y reversibles.**  
+  En operaciones críticas, como eliminar un registro de insumos o autorizar un acceso, se debe solicitar confirmación adicional y, en lo posible, ofrecer mecanismos de reversión (ejemplo: “deshacer” o “restaurar”).  
+
+- **Feedback inmediato al usuario.**  
+  Cada acción realizada debe generar retroalimentación visual (cambio de estado, color, ícono) o textual (mensajes de confirmación, alertas), asegurando que el usuario comprenda el resultado de su interacción.  
+
+- **Diseño responsivo y accesible.**  
+  La aplicación web se adapta correctamente a diferentes tamaños de pantalla, cumpliendo con pautas de accesibilidad (WCAG), contraste adecuado y compatibilidad con lectores de pantalla.  
+
+**Mobile Style Guidelines**
+
+El diseño de la aplicación móvil de MediTrack está orientado a la **rapidez, simplicidad y portabilidad**, considerando su uso en entornos clínicos y hospitalarios.  
+
+- **Interfaz centrada en la acción.**  
+  La navegación debe ser clara y directa, con accesos rápidos a las funciones más usadas (consultar inventario, registrar insumos, verificar condiciones ambientales).  
+
+- **Gestos táctiles intuitivos.**  
+  Los botones y componentes interactivos deben ser lo suficientemente grandes para un uso cómodo en pantallas táctiles, evitando errores en contextos donde la precisión es fundamental.  
+
+- **Consistencia visual.**  
+  Se mantiene la misma paleta de colores y tipografía que en la versión web, garantizando que el usuario tenga una experiencia coherente al cambiar de dispositivo.  
+
+- **Soporte offline.**  
+  La aplicación móvil debe permitir registrar datos incluso sin conexión, sincronizando automáticamente la información con el servidor cuando el dispositivo recupere acceso a la red.  
+
+**IoT Style Guidelines**
+
+El diseño y operación de la capa IoT de MediTrack sigue principios de **seguridad, confiabilidad y trazabilidad** en la captura y transmisión de datos críticos.  
+
+- **Privacidad y transparencia.**  
+  Los datos recopilados por los sensores IoT (ejemplo: temperatura, humedad, accesos NFC) se almacenan y transmiten únicamente con fines justificados: asegurar la calidad y seguridad del inventario médico.  
+
+- **Gestión de datos en tiempo real.**  
+  Los valores capturados por los dispositivos deben ser validados y registrados en la plataforma, generando alertas inmediatas ante condiciones fuera de rango o accesos no autorizados.  
+
+- **Seguridad por diseño.**  
+  Toda comunicación IoT se cifra en tránsito y en reposo. Los dispositivos no deben exponer interfaces vulnerables ni permitir accesos no autorizados. Además, se deben seguir buenas prácticas en la gestión de credenciales y actualizaciones de firmware.  
+
+- **Monitoreo y sostenibilidad.**  
+  Cada dispositivo debe formar parte de un inventario digital que permita rastrear su estado, ubicación y métricas de desempeño. Esto asegura trazabilidad, reduce fallos operativos y permite escalar de manera sostenible la infraestructura IoT.  
+
 
 ## 5.2. Information Architecture
+La arquitectura de información de **MediTrack** está diseñada para ofrecer una experiencia de usuario **fluida, confiable y clara** en la aplicación web, la aplicación móvil y la Landing Page.  
+El objetivo principal es que los usuarios (personal médico, administradores e instituciones) encuentren las funciones clave de la plataforma de manera **rápida y sencilla**, garantizando precisión y eficiencia en la gestión de insumos médicos.  
+
 ### 5.2.1. Organization Systems
+Para MediTrack, los esquemas de organización se adaptan al tipo de contenido y usuario:  
+
+- **Jerárquica:** En la Landing Page y dashboards principales, destacando funciones críticas como monitoreo ambiental, stock disponible y alertas.  
+- **Secuencial:** Guía al usuario en procesos paso a paso, como el registro de insumos o la validación de accesos al almacén.  
+- **Por Tópicos:** Documentación técnica, manuales y protocolos organizados por áreas (farmacia, quirófano, cuidados intensivos).  
+- **Según Audiencia:** Vistas personalizadas según rol del usuario (administrador, médico, técnico en farmacia, personal logístico).  
+
 ### 5.2.2. Labeling Systems
+El sistema de etiquetado en MediTrack prioriza la **claridad y el lenguaje estandarizado en salud**.  
+
+- Se evita el uso de jergas técnicas innecesarias.  
+- Se utilizan verbos directos como **"Registrar"**, **"Monitorear"**, **"Consultar"**, **"Alertar"**.  
+- Categorías principales con nombres claros: **"Inventario"**, **"Reportes"**, **"Alertas"**, **"Personal"**.  
+- Iconografía médica y de logística para reforzar el significado visual de cada categoría.  
+
 ### 5.2.3. SEO Tags and Meta Tags
+Para mejorar la visibilidad de MediTrack en motores de búsqueda y tiendas de aplicaciones, se definen los siguientes valores:  
+
+- **Landing Page y Web App:**  
+  - **Título:** MediTrack – Gestión inteligente de inventario médico con IoT  
+  - **Meta Descripción:** Plataforma digital que optimiza el control, conservación y trazabilidad de insumos médicos mediante IoT.  
+  - **Keywords:** salud, hospitales, IoT, gestión de inventario médico, insumos clínicos, trazabilidad médica  
+
+- **App Store Optimization (ASO):**  
+  - **Título de la App:** MediTrack  
+  - **Subtítulo:** Inventario médico inteligente  
+  - **Keywords:** inventario, hospitales, IoT, medicamentos, insumos médicos  
+  - **Descripción:** MediTrack es una app móvil que integra IoT para monitorear condiciones, controlar stock y garantizar la trazabilidad de insumos médicos en hospitales y clínicas.  
+
 ### 5.2.4. Searching Systems
+MediTrack incluye **sistemas de búsqueda avanzada** y filtros adaptados al contexto clínico:  
+
+- **Búsqueda global:** Localiza insumos por nombre, lote, código de barras o fecha de vencimiento.  
+- **Filtros personalizados:** Refinan resultados según ubicación, estado del stock, categoría de insumo o condiciones ambientales.  
+- **Sugerencias automáticas:** Autocompletado predictivo con base en términos médicos y códigos de insumos.  
+- **Resultados claros:** Visualización con etiquetas, íconos e información clave (nombre del insumo, cantidad disponible, fecha de vencimiento).  
+
 ### 5.2.5. Navigation Systems
+La navegación en MediTrack está diseñada para ser **intuitiva y segura**, con patrones comunes y accesibles en entornos médicos:  
+
+- **Navegación Inferior (App Móvil):** Acceso rápido a secciones clave como **Inicio, Inventario y Alertas**.  
+- **Menú Lateral (Web y App):** Opciones adicionales como **Reportes, Configuración, Personal, Cerrar sesión**.  
+- **Enlaces Jerárquicos:** Permiten moverse entre secciones manteniendo el contexto (ej. Inventario → Detalle de insumo).  
+- **Flujos de Usuario Optimizados:** Pasos claros en tareas críticas como registrar un insumo o validar accesos vía NFC.  
+- **Indicadores Visuales:** Breadcrumbs, resaltado de estado activo y alertas visuales para mantener informado al usuario en todo momento.
 
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
+
+<img src="assets/MediTrack_Landing Page.png"></img>
+
 ### 5.3.2. Landing Page Mock-up
+
+<img src="assets/LandingPage.png"></img>
 
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
+**Login** 
+<img src="assets/wireframe/signin.png"></img>
+
+**Register** 
+
+<img src="assets/wireframe/signin.png"></img>
+
+**Dashboard**
+
+<img src="assets/wireframe/dashboard.png"></img>
+
+**Iot Device**
+
+<img src="assets/wireframe/IoT.png"></img>
+
+**Monitoring**
+
+<img src="assets/wireframe/monitoring.png"></img>
+
+**Alerts**
+
+<img src="assets/wireframe/alerts.png"></img>
+
+**Inventory**
+ 
+ <img src="assets/wireframe/invetory.png"></img>
+
+ **Reports**
+
+ <img src="assets/wireframe/reports.png"></img>
+
+**Options**
+<img src="assets/wireframe/options.png"></img>
+
+**Profile**
+
+<img src="assets/wireframe/Profile.png"></img>
+
+**Settings**
+
+<img src="assets/wireframe/Settings.png"></img>
+
+<img src="assets/wireframe/Settings2.png"></img>
+
+<img src="assets/wireframe/Settings3.png"></img>
+
+<img src="assets/wireframe/Settings4.png"></img>
+
+<img src="assets/wireframe/Settings5.png"></img>
+
+<img src="assets/wireframe/Settings6.png"></img>
+
+**Exit**
+<img src="assets/wireframe/salid.png"></img>
+
 ### 5.4.2. Applications Wireflow Diagrams
+
+**User goal: Login**
+
+El usuario ingresa su correo y contraseña para acceder al panel principal. El sistema valida las credenciales y aplica políticas de sesión o segundo factor (2FA) según el rol o nivel de seguridad. En caso de error, se muestra retroalimentación clara.
+
+<img src="assets/diagramaswire/register.png"></img>
+
+**User goal: Register**
+
+El usuario completa los campos requeridos (datos, correo, contraseña, institución, etc.). El sistema valida la información, crea la cuenta y envía un correo de verificación para activar el acceso.
+
+<img src="assets/diagramaswire/register.png"></img>
+
+**User goal: Navegación en la aplicación**
+
+El usuario inicia desde el Dashboard principal, donde visualiza el estado general de dispositivos, alertas e inventarios. Desde esta vista central, puede navegar hacia los distintos módulos del sistema mediante el menú lateral o accesos rápidos.
+
+<img src="assets/diagramaswire/Navegacion-en-la-app.png"></img>
+
+**User Goal: Añadir dispositivo IoT**
+
+El usuario accede al módulo “IoT Devices” desde el menú lateral.
+En esta vista puede observar el estado actual de los sensores existentes (en línea, desconectados, batería baja, etc.).
+
+<img src="assets/diagramaswire/Añadir-dispositivo-IoT.png"></img>
+
+**User Goal: Navegación en Settings**
+
+El usuario recorre y configura todas las opciones del sistema (thresholds, notifications, users, devices, integrations, security) desde un mismo flujo, con una transición fluida entre secciones, sin perder contexto ni estado de los formularios.
+
+<img src="assets/diagramaswire/Navegacion-en-settings.png"></img>
+
+**User Goal: Registrar usuario**
+
+El administrador institucional o jefe de área técnica necesita registrar nuevos miembros del personal (médicos, enfermeros, técnicos o supervisores) en la plataforma para otorgarles acceso controlado a los módulos del sistema.
+Este proceso permite mantener la trazabilidad y el control de permisos según funciones y jerarquías hospitalarias.
+
+<img src="assets/diagramaswire/Registrar-usuario.png"></img>
+
 ### 5.4.3. Applications Mock-ups
+
+**Login** 
+<img src="assets/signin.png"></img>
+
+**Register** 
+
+<img src="assets/signup.png"></img>
+
+**Dashboard**
+
+<img src="assets/dashboard.png"></img>
+
+**Iot Device**
+
+<img src="assets/IoTdevice.png"></img>
+
+**Monitoring**
+
+<img src="assets/monitoring.png"></img>
+
+**Alerts**
+
+<img src="assets/alerts.png"></img>
+
+**Inventory**
+ 
+ <img src="assets/invetory.png"></img>
+
+ **Reports**
+
+ <img src="assets/reports.png"></img>
+
+**Options**
+<img src="assets/options.png"></img>
+
+**Profile**
+
+<img src="assets/Profile.png"></img>
+
+**Settings**
+
+<img src="assets/Settings.png"></img>
+
+<img src="assets/Settings2.png"></img>
+
+<img src="assets/Settings3.png"></img>
+
+<img src="assets/Settings4.png"></img>
+
+<img src="assets/Settings5.png"></img>
+
+<img src="assets/Settings6.png"></img>
+
 ### 5.4.4. Applications User Flow Diagrams
+**User goal: Login**
+
+El usuario ingresa su correo y contraseña para acceder al panel principal. El sistema valida las credenciales y aplica políticas de sesión o segundo factor (2FA) según el rol o nivel de seguridad. En caso de error, se muestra retroalimentación clara.
+
+<img src="assets/diagramasmock/register.png"></img>
+
+**User goal: Register**
+
+El usuario completa los campos requeridos (datos, correo, contraseña, institución, etc.). El sistema valida la información, crea la cuenta y envía un correo de verificación para activar el acceso.
+
+<img src="assets/diagramasmock/register.png"></img>
+
+**User goal: Navegación en la aplicación**
+
+El usuario inicia desde el Dashboard principal, donde visualiza el estado general de dispositivos, alertas e inventarios. Desde esta vista central, puede navegar hacia los distintos módulos del sistema mediante el menú lateral o accesos rápidos.
+
+<img src="assets/diagramasmock/Navegacion-en-la-app.png"></img>
+
+**User Goal: Añadir dispositivo IoT**
+
+El usuario accede al módulo “IoT Devices” desde el menú lateral.
+En esta vista puede observar el estado actual de los sensores existentes (en línea, desconectados, batería baja, etc.).
+
+<img src="assets/diagramasmock/Añadir-dispositivo-IoT.png"></img>
+
+**User Goal: Navegación en Settings**
+
+El usuario recorre y configura todas las opciones del sistema (thresholds, notifications, users, devices, integrations, security) desde un mismo flujo, con una transición fluida entre secciones, sin perder contexto ni estado de los formularios.
+
+<img src="assets/diagramasmock/Navegacion-en-settings.png"></img>
+
+**User Goal: Registrar usuario**
+
+El administrador institucional o jefe de área técnica necesita registrar nuevos miembros del personal (médicos, enfermeros, técnicos o supervisores) en la plataforma para otorgarles acceso controlado a los módulos del sistema.
+Este proceso permite mantener la trazabilidad y el control de permisos según funciones y jerarquías hospitalarias.
+
+<img src="assets/diagramasmock/Registrar-usuario.png"></img>
+
 
 ## 5.5. Applications Prototyping
+<img src="assets/diagrama.png"></img>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq 
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
+A continuación, describiremos los productos de software que hemos empleado durante el desarrollo del proyecto.
+
+#### Project Management
+
+  * Trello: https://trello.com/  
+La plataforma de Trello se empleó para la gestión de las tareas y la organización del flujo del trabajo en el proyecto. Presentándose las tareas dentro de las tarjetas en listas con el integrante encargado de realizarlas. Además, utilizamos las funcionalidades como agregar las etiquetas de colores y marcar el proceso de las tareas. De esta manera pudimos hacer seguimiento a nuestros avances en el proyecto.
+  * Notion: https://www.notion.so/  
+La plataforma de Notion fue utilizada para la colaboración de los integrantes con el proyecto. Se crearon calendarios y listas con las fechas de las reuniones del equipo. Además, se hizo uso de herramientas como comentarios y menciones para fomentar el trabajo y colaboración en equipo.
+
+#### Requirements Management
+  * Trello: https://trello.com/  
+Empleamos Trello para organizar los requisitos de la aplicación. En el que tenemos al product backlog el cual ordenamos según la prioridad aplicando Fibonacci para enumerar las historias de usuario y en otra sección organizándolas según las épicas.
+
+* Product UX/UI Design
+  * Figma: https://www.figma.com/  
+La plataforma de Figma nos ayudó a desarrollar los wireframes, mockups y prototyping del mobile applications.
+  * Miro: https://miro.com/es/  
+Miro nos fue de utilidad para poder realizar los As-Is Scenario Mapping y  To-Be Scenraio Mapping para cada uno de los segmentos objetivos.
+  * UXPressia: https://uxpressia.com/  
+La plataforma UXPressia se empleó para la creación de los User Personas, Empathy Maps, Journey Maps e Impact Maps. Hemos hecho uso de las plantillas que UXPressia nos ofrece para elaborar cada una de ellas. Nos permitió exportar lo que se realizó para incluirlo en el trabajo.
+
+#### Software Development
+
+  * Landing Page:  
+Para el desarrollo de la landing page se hará empleó de HTML5, CSS y JavaScript.
+  * Frontend Web Application:  
+Para desarrollar la aplicación web frontend, es esencial tener una comprensión sólida de los fundamentos de HTML, CSS y JavaScript. En nuestro caso, optamos por utilizar Angular como framework de JavaScript. Además, para facilitar la creación de componentes reutilizables y accesibles, decidimos emplear PrimeNG como biblioteca de componentes UI. Nuestro stack tecnológico incluye el uso del lenguaje Java con el framework Spring Boot, junto con HTML, Angular, JavaScript, CSS y una base de datos MySQL.
+
+* Software Testing
+Para las pruebas funcionales del software, tanto como de la Landing page y de la aplicación web, hemos utilizado las herramientas de desarrollo de los navegadores web siguientes: Google Chrome (https://www.google.com/chrome/), Microsoft Edge (https://www.microsoft.com/en-us/edge) y Mozilla Firefox (https://www.mozilla.org/en-US/firefox/browsers/).
+
+#### Software Deployment
+  * Netlify: https://www.netlify.com/  
+Para implementar el despliegue de la Landing Page, se llevó a cabo la conexión entre el repositorio de Github y Netlify. Esto permite que Netlify maneje automáticamente la implementación de la Landing Page cada vez que se realice una actualización en el repositorio.
+
+#### Software Documentation
+  * Google Drive: https://www.google.com/intl/es-419_pe/drive/  
+Esta plataforma fue empleada para crear documentos mediante Google Docs, el cual nos permite trabajar de manera colaborativa los informes de las entregas.
+  * Structurizr: https://structurizr.com/  
+Herramienta utilizada para la creación de diagramas C4 (diagrama de contexto, diagrama de contenedor y diagrama de componentes). Para elaborar los diagramas fue necesario utilizar una sintaxis parecida a un lenguaje de programación.
+  * GitHub: https://github.com/  
+Plataforma empleada tanto como para la creación de la documentación y de la Landing page. Nuestro eligió esta plataforma debido a que nos permite trabajar de manera colaborativa.
+
 ### 6.1.2. Source Code Management
+La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
+
+* Organización: [https://github.com/HealthSync-UPC ](https://github.com/HealthSync-UPC)
+* Repositorio de la Landing page: [https://github.com/HealthSync-UPC/Landing-Page ](https://github.com/HealthSync-UPC/Landing-Page)
+
+Además, con el objetivo de mejorar el control sobre la creación de ramas y la implementación de cambios en el código fuente, se procedió a utilizar Gitflow.
+
+De esta forma, se establecieron 2 ramas principales: main y develop.
+
+#### Ramas principales:  
+  * Rama “main”:  
+  En esta rama se almacenan las versiones oficiales de nuestro repositorio para pasarlas a producción.
+  * Rama “develop”:  
+  Esta rama se utilizará como punto de integración para las ramas de “feature”. Una vez que el  “head” sea estable y el equipo lo considere listo para el lanzamiento, se fusionará con la rama “release”.
+
+#### Ramas auxiliares:  
+  * Rama “release”:  
+  La rama “release” se emplea para la preparación del lanzamiento de una nueva versión en la rama “main” ayudando a controlar las versiones de código. Aquí se pueden solucionar errores menores y preparar los datos para la versión. Esta rama permitirá liberar a la rama “develop” de estas tareas preparatorias y evita demoras en el desarrollo mientras se prepara para el lanzamiento. 
+  * Rama “feature”:  
+  En las ramas “feature” se desarrollan las características generales que se integrarán en la rama “develop”. Estas características son aquellas funcionalidades solicitadas por los usuarios tanto en la página de inicio como en la aplicación web. Por ejemplo, la rama feature/navbar.
+  * Rama “hotfix”:  
+  Esta rama se utiliza para corregir urgentemente errores en la última versión de la rama “main” que no pueden esperar hasta el próximo lanzamiento para ser solucionados.
+
 ### 6.1.3. Source Code Style Guide & Conventions
+Utilizaremos el lenguaje de etiquetas HTML para el desarrollo principal de nuestra Landing page.
+* Utilizaremos el lenguaje CSS, que nos permitirá realizar los estilos de la estructura de nuestra Landing Page
+* Implementaremos el lenguaje de JavaScript para brindar las funcionalidades a nuestra Landing page. 
+* Utilizaremos el lenguaje Gherkin que se usará para realizar los diseños de prueba de cada historia de usuario, contando con su estructura básica. 
+
+#### Convenciones de Commits:  
+Nuestro equipo de desarrollo sigue las Convenciones de Commits, adoptando el formato de los “Conventional Commits” en su versión 1.0.0 (disponible en https://www.conventionalcommits.org/en/v1.0.0/) para garantizar una fácil comprensión de nuestros registros. Por lo tanto, nos regimos por la siguiente estructura:
+
+Donde:
+
+```<type>[scope opcional]: <description>```
+
+  * type: Indica el tipo de modificación realizada, limitado a opciones como feat, fix, docs, etc.
+  * scope: Define el alcance del cambio realizado en nuestro código.
+  * descripción: Ofrece un resumen conciso de los cambios implementados.
+
+#### Convenciones de versionado de lanzamientos
+Para la gestión de versiones, seguimos el estándar “Semantic Versioning 2.0.0”. En este formato las versiones se presentan como (X.Y.Z), con las siguientes interpretaciones: 
+  * X: Indica una versión principal que incorpora cambios incompatibles con versiones anteriores. Iniciamos en 0 durante la etapa de desarrollo inicial y transicionamos a 1 cuando la versión esté lista para su lanzamiento público. Por convención, Y y Z se reinician a 0 cuando X aumenta.
+  * Y: Representa una versión secundaria, que abarca cambios compatibles con versiones anteriores. Además, esta incluye los commits provenientes de las “release branches” cada vez que se agregan nuevas funcionalidades. Convencionalmente, Z se reinicia a 0 cuando Y aumenta.
+  * Z: Refleja parches y correcciones de errores menores, integrando commits realizados en la “rama de corrección” y fusionados con la rama principal.
+
 ### 6.1.4. Software Deployment Configuration
+#### Acceder a Netlify y seleccionar “Import an existing project”
+Ingresa a la plataforma de Netlify con tu cuenta activa. Una vez dentro del panel principal, dirígete a la opción “Import an existing project”, que permite iniciar el proceso de despliegue de un proyecto previamente desarrollado y alojado en un repositorio externo.
+
+<img src="./assets/images/softwareDeploy/importProject.png" style="display: block; margin: 0 auto;">
+
+#### Elegir la opción “Deploy with GitHub” para vincular el repositorio
+En el siguiente paso, selecciona “Deploy with GitHub” para conectar tu cuenta de GitHub con Netlify. Esta integración permite importar directamente el código fuente desde el repositorio que contiene tu proyecto.
+
+<img src="./assets/images/softwareDeploy/deployProject.png" style="display: block; margin: 0 auto;">
+
+####  Seleccionar la organización y el repositorio correspondiente
+Una vez vinculada la cuenta, el sistema mostrará las organizaciones disponibles. Selecciona la organización adecuada y dentro de ella, busca el repositorio específico del proyecto que deseas subir a producción. Luego, configura los parámetros necesarios para el despliegue, como la rama principal, comandos de build y directorio de salida.
+
+
+<img src="./assets/images/softwareDeploy/selectOrg.png" style="display: block; margin: 0 auto;">
+
+#### Iniciar el despliegue presionando el botón del proyecto
+Finalmente, revisa la configuración y presiona el botón que lleva el nombre del proyecto para iniciar el proceso de despliegue. Netlify comenzará a compilar y publicar tu aplicación automáticamente en la web.
+
+
+<img src="./assets/images/softwareDeploy/clickDeploy.png" style="display: block; margin: 0 auto;">
+
+### Link de nuestra landing page: https://healthsyn-landing.netlify.app
+
+<img src="./assets/images/softwareDeploy/landing.png" style="display: block; margin: 0 auto;">
 
 ## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n
-#### 6.2.X.2. Aspect Leaders and Collaborators
-#### 6.2.X.3. Sprint Backlog n
-#### 6.2.X.4. Development Evidence for Sprint Review
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review
-#### 6.2.X.6. Execution Evidence for Sprint Review
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review
-#### 6.2.X.9. Team Collaboration Insights during Sprint
+### 6.2.1 Sprint 1.
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el **Sprint 1**, enfocado en el desarrollo de la **landing page** de nuestra plataforma de cadena de frío e inventario FEFO con IoT para clínicas/hospitales. Se detalla el progreso tangible y funcional, incluyendo diseño, desarrollo y funcionalidades implementadas, así como la colaboración del equipo, métodos de comunicación (daily breve y canal de chat) y herramientas empleadas (repositorio Git y tablero de tareas). Además, se incluye información sobre la planificación del sprint, el backlog de tareas y evidencia de avance.
+
+---
+
+#### 6.2.1.1 Sprint Planning 1.
+
+En el **Sprint Planning 1**, se definió el alcance del MVP de la landing, los criterios de calidad (accesibilidad y performance base) y se priorizaron historias del **Epic 6: Experiencia de Usuario (Landing & Front-End)**: **HU033–HU039**.
+
+| **Sprint #**                      | Sprint 1                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    | Construir y publicar un landing MVP que comunique la propuesta de valor, cuente con navegación clara, formulario de contacto (leads), metadatos SEO básicos, analítica y estándares mínimos de accesibilidad/performance.                                                                                                                                            |
+| **Date**                          | 07 de octubre de 2025                                                                                                                                                                                                                                                                                                                                                 |
+| **Time**                          | 21:30 horas (GMT-5)                                                                                                                                                                                                                                                                                                                                                   |
+| **Location**                      | Modalidad remota                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By**                   | Equipo del Proyecto (Producto Cadena de Frío IoT)                                                                                                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)** | Product Owner, UX/UI Lead, Front-End Lead, QA Lead, Front-End Devs                                                                                                                                                                                                                                                                                                   |
+| **Sprint 0 Review Summary**       | No aplica (primer sprint).                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Retrospective Summary**| Se priorizó la landing page. Se acordó desplegar y usar imágenes optimizadas. Se habilitó validación de formularios en cliente. Se realizó deploy a entorno público usando Netlify.                                               |
+| **Sprint Goal & User Stories**    | **Goal:** Publicar landing MVP funcional.<br>**Historias:** HU033 (Landing), HU034 (Header/Nav), HU035 (Footer), HU036 (Value/Features), HU037 (Formulario), HU038 (SEO/OG), HU039 (Accesibilidad).                                                                                                                               |
+| **Sprint Velocity 1**             | 20                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sum of Story Points**           | 28 (HU033=5, HU034=3, HU035=2, HU036=5, HU037=5, HU038=3, HU039=5)                                                                                                                                                                                                                                                                                                     |
+
+---
+
+6.2.1.2  Aspect Leaders and Collaborators.
+
+| Team Member                                | GitHub Username | Landing Page | Frontend | Backend | IoT |
+|--------------------------------------------|-----------------|--------------|----------|---------|-----|
+| Cruz Ticona, Aaron Alejandro               | AaronAlejandrou            | **C**        | **C**    | -       | -   |
+| Ayquipa Ubaldo, Abraham Israel             | abrahamayquipa           | **C**        | -   | -       | -   |
+| Luza Carhuamaca, Jose Adrian               | Adrianluza1           | -            | **C**    | -   | -   |
+| Durand Vera, Gianfranco Angel              | FrancoDurand             | -            | **L**        | -   | - |
+| Ticona Panduro, Estrella del Pilar         | Estrella-ticona            | **L**        | **C**    | -       | -   |
+
+*Leyenda: **L** = Leader, **C** = Collaborator, **-** = No participación en el sprint.*
+
+#### 6.2.1.3 Sprint Backlog 1.
+
+**Link del Trello:**  
+Link: https://trello.com/invite/b/68e5c340ab38cc001da13a66/ATTI0adc4dbd76797a8850f7ca7d4f37b28407D0CB1C/meditrack
+
+**Vista del Sprint Backlog en Trello:**  
+![trelloSprint1.png](assets/trello-image.png)
+
+---
+
+| **Sprint #** | **Sprint 1** |   |   |   |   |   |   |
+|--------------|--------------|---|---|---|---|---|---|
+| **User Story** | **Work-item / Task** |   |   |   |   |   |   |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation hours** | **Assigned To** | **Status To-do / In-Process / To-Review / Done** |
+| **E6-HU033** | Landing pública | **T1** | Estructura base y Hero | Crear el diseño base y la sección principal con título, texto y botón. | 4h | Front-End Dev | Done |
+| **E6-HU033** | Landing pública | **T2** | CTA a Contacto | Hacer que el botón lleve al formulario de contacto. | 1h | Front-End Dev | Done |
+| **E6-HU034** | Header y navegación | **T3** | Header y Menú | Poner un encabezado con menú a las secciones y que se mantenga visible. | 3h | Front-End Dev | Done |
+| **E6-HU034** | Header y navegación | **T4** | Navegación responsiva | Hacer que el menú funcione bien en celular y con teclado. | 2h | Front-End Dev | Done |
+| **E6-HU036** | Propuesta de valor y funciones | **T5** | Sección de valor | Escribir y mostrar 3–6 beneficios del producto. | 2h | UX/UI + Content | Done |
+| **E6-HU036** | Propuesta de valor y funciones | **T6** | Tarjetas de funciones | Crear tarjetas con icono, título y texto corto. | 3h | Front-End Dev | Done |
+| **E6-HU037** | Formulario de contacto/lead | **T7** | Formulario y validaciones | Formulario con nombre, email y mensaje; validar y mostrar errores simples. | 3h | Front-End Dev | Done |
+| **E6-HU037** | Formulario de contacto/lead | **T8** | Protección contra spam | Agregar protección básica contra envíos automáticos. | 1h | Front-End Dev | Done |
+| **E6-HU035** | Footer institucional | **T9** | Footer y enlaces | Añadir pie de página con enlaces legales y redes sociales. | 2h | Front-End Dev | Done |
+| **E6-HU038** | SEO y metadatos | **T10** | Metadatos | Agregar título y descripción para buscadores y redes. | 2h | Front-End Dev | Done |
+| **E6-HU038** | SEO y metadatos | **T11** | Archivos SEO | Crear y servir /sitemap.xml y /robots.txt. | 2h | Front-End Dev | Done |
+| **E6-HU039** | Accesibilidad base | **T12** | Foco y etiquetas | Hacer visible el foco y poner etiquetas en controles; avisos de error claros. | 2h | Front-End Dev + QA | To-Review |
+| **E6-HU039** | Accesibilidad base | **T13** | Contraste y teclado | Revisar contraste y que todo se pueda usar con teclado. | 2h | QA Lead | In-Process |
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+| **Repository**        | **Branch**          | **Commit ID** | **Commit Message**                                    | **Committed on (Date)** |
+|-----------------------|---------------------|---------------|------------------------------------------------------|-------------------------|
+| Landing-Page          | main                | 54ed853       | fix: implement internationalization for various components | Oct 2, 2025              |
+| Landing-Page          | main                | 2a3e28f       | fix: implement internationalization for contact form and company info | Oct 2, 2025              |
+| Landing-Page          | main                | e14679f       | fix: add dark mode support to footer logo             | Oct 1, 2025              |
+| Landing-Page          | main                | 55a558a       | fix: standardize translation keys to use double quotes | Oct 1, 2025              |
+| Landing-Page          | main                | d42c8c8       | fix: change output directory from 'build' to 'dist'   | Oct 1, 2025              |
+| Landing-Page          | main                | fdf41a51      | first commit                                          | Oct 1, 2025              |
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Para realizar las pruebas correspondientes a la funcionalidad implementada, seguimos estos pasos:
+
+1. **Instalación de dependencias**  
+   Se ejecutó el siguiente comando para instalar todas las dependencias necesarias del proyecto:
+   ```bash
+   npm install
+   ```
+
+2. **Ejecutar el servidor de desarrollo**  
+   Después de la instalación de las dependencias, se ejecutó el siguiente comando para iniciar el servidor en modo de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+3. **Acceso a la aplicación**  
+   La prueba se realizó accediendo a la aplicación a través de la siguiente URL:
+   - [http://localhost:3000/](http://localhost:3000/)
+
+
+
+| **Repository**   | **Branch** | **Commit ID**                             | **Commit Message**                                    | **Committed on (Date)** | **Descripción**                                                                                                    |
+|------------------|------------|-------------------------------------------|------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Landing-Page     | main       | 54ed853                                   | fix: implement internationalization for various components | Oct 2, 2025              | Implementación de internacionalización para varios componentes. Relacionado con la mejora de la UX para múltiples idiomas. |
+| Landing-Page     | main       | 2a3e28f                                   | fix: add dark mode support to footer logo             | Oct 2, 2025              | Se añadió soporte para modo oscuro en el logo del pie de página.                                                     |
+| Landing-Page     | main       | e14679f                                   | fix: standardize translation keys                    | Oct 1, 2025              | Estandarización de las claves de traducción en todos los componentes de la interfaz.                                   |
+| Landing-Page     | main       | 55a558a                                   | fix: adjust responsiveness for mobile screens         | Oct 1, 2025              | Ajustes de diseño para mejorar la compatibilidad con pantallas móviles.                                                |
+| Landing-Page     | main       | d42c8c8                                   | fix: update navigation bar styling                    | Oct 1, 2025              | Actualización de estilos en la barra de navegación para mejorar la experiencia de usuario.                           |
+| Landing-Page     | main       | fdf41a51                                  | first commit                                          | Oct 1, 2025              | Primer commit con la configuración básica del proyecto, incluyendo la estructura de carpetas y configuración inicial. |
+
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+**Evidencia visual**  
+   A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo local:
+
+  ![Ejecucion en WebStorm](/assets/images/Sprint%201/Testing_WebStorm.png)
+  *Evidencia de la ejecución de la aplicación en WebStorm, mostrando el servidor en modo de desarrollo y los logs de la consola.*
+
+  ![Vista inicial Landing Page](/assets/images/Sprint%201/Evidencia1_Landing.png)  
+  *Captura de la vista inicial de la Landing Page, mostrando la interfaz de usuario cargada correctamente en el navegador.*
+
+  ![Vista IoT Landing Page](/assets/images/Sprint%201/Evidencia2_Landing.png)  
+  *Vista de la sección de IoT de la Landing Page, validando que la funcionalidad para mostrar productos o servicios relacionados con IoT esté operativa.*
+
+  ![Vista Contactanos Landing Page](/assets/images/Sprint%201/Evidencia3_Landing.png)  
+  *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+#### Introducción al Sprint
+Durante este Sprint se ha completado la **documentación de los endpoints** relacionados con la **autenticación de usuarios** y la **gestión de perfiles**, utilizando la especificación OpenAPI para facilitar la integración y comprensión de las funcionalidades disponibles en la plataforma.
+
+Los siguientes endpoints han sido implementados y documentados, permitiendo a los usuarios interactuar de manera eficiente con la plataforma para el registro, inicio de sesión y gestión de perfiles.
+
+---
+
+## Tabla de Endpoints Documentados
+
+| **Endpoint**                           | **Acción HTTP** | **Descripción**                              | **Parámetros**                              | **Response**                                       | **Enlace a la Documentación** |
+|----------------------------------------|-----------------|----------------------------------------------|---------------------------------------------|---------------------------------------------------|------------------------------|
+| `/api/v1/auth/verify-totp`             | `POST`          | Verificar código TOTP (autenticación 2FA)    | `totp_code` (string)                        | `200 OK: {"message": "Success"}`                   | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-up`                 | `POST`          | Registrar un nuevo usuario                   | `email`, `password` (string), `name` (string) | `201 Created: {"user_id": "12345", "message": "User created successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-in`                 | `POST`          | Iniciar sesión de usuario                    | `email`, `password` (string)                | `200 OK: {"token": "JWT_token"}`                   | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/generate-qr`             | `POST`          | Generar QR para usuario                      | `user_id` (string)                          | `200 OK: {"qr_url": "url_to_qr_code"}`             | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles`                     | `GET`           | Obtener perfil del usuario                   | `user_id` (string, optional)                | `200 OK: {"user_id": "12345", "name": "John Doe"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles`                     | `POST`          | Crear o actualizar perfil de usuario         | `user_id`, `name`, `email` (strings)        | `200 OK: {"message": "Profile updated successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+
+---
+
+## Explicación de cada Endpoint:
+
+### 1. `/api/v1/auth/verify-totp`
+- **Acción:** `POST`
+- **Descripción:** Verifica el código TOTP ingresado para completar la autenticación de dos factores (2FA).
+- **Parámetros:** 
+  - `totp_code`: El código temporal de un solo uso generado por el usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el código es válido, se devuelve un mensaje de éxito.
+  
+### 2. `/api/v1/auth/sign-up`
+- **Acción:** `POST`
+- **Descripción:** Registra un nuevo usuario en el sistema.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario.
+  - `password`: Contraseña para la cuenta del usuario.
+  - `name`: Nombre completo del usuario.
+- **Respuesta:** 
+  - `201 Created`: Si el registro es exitoso, se devuelve el ID del usuario creado junto con un mensaje de éxito.
+
+### 3. `/api/v1/auth/sign-in`
+- **Acción:** `POST`
+- **Descripción:** Permite al usuario iniciar sesión en el sistema.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario.
+  - `password`: Contraseña del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el inicio de sesión es exitoso, se devuelve un token JWT para la sesión.
+
+### 4. `/api/v1/auth/generate-qr`
+- **Acción:** `POST`
+- **Descripción:** Genera un código QR para la autenticación del usuario (por ejemplo, para 2FA).
+- **Parámetros:** 
+  - `user_id`: El ID del usuario para el cual se generará el código QR.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve la URL del código QR generado.
+
+### 5. `/api/v1/profiles`
+- **Acción:** `GET`
+- **Descripción:** Obtiene el perfil del usuario, con la posibilidad de obtener la información de un usuario específico.
+- **Parámetros:** 
+  - `user_id` (opcional): El ID del usuario para obtener su perfil específico.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve un objeto con los detalles del perfil del usuario.
+
+### 6. `/api/v1/profiles`
+- **Acción:** `POST`
+- **Descripción:** Crea o actualiza el perfil de un usuario.
+- **Parámetros:** 
+  - `user_id`: ID del usuario.
+  - `name`: Nombre del usuario.
+  - `email`: Correo electrónico del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si la actualización o creación del perfil es exitosa, se devuelve un mensaje confirmando la operación.
+
+---
+
+## Repositorio y Commits:
+- **Repositorio:** [HealthSync-UPC/Backend](https://github.com/HealthSync-UPC/Backend)
+- **Commits relevantes:**
+  - **Commit ID:** `852d1a9` (Implementación de funcionalidad de creación de perfil de usuario)
+  - **Commit ID:** `b27afd5` (Implementación de la autenticación de usuarios)
+  - **Commit ID:** `dc6178a` (Merge de rama 'iam' a dev)
+  - **Commit ID:** `982dd8` (Corrección de uso de contraseña en la generación de QR)
+  - **Commit ID:** `dbac81` (Autenticación de usuario y 2FA)
+
+---
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netlify**, una plataforma de despliegue continuo para aplicaciones web. Los pasos realizados durante este Sprint incluyen la configuración del repositorio, la elección del nombre del proyecto, la configuración de rutas y otras configuraciones necesarias, y la confirmación del éxito del despliegue. A continuación, se detallan los pasos seguidos durante el proceso:
+
+1. **Elección del Repositorio**  
+   En primer lugar, se seleccionó el repositorio desde el que se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración.
+   ![Elección del Repositorio]( /assets/images/Sprint%201/DeployLanding1.png )  
+   *Descripción: Selección del repositorio en la plataforma de Netlify.*
+
+2. **Elección del Nombre del Proyecto**  
+   A continuación, se asignó un nombre único para el proyecto en Netlify. Este nombre será el utilizado en la URL pública del despliegue.
+   ![Elección del Nombre]( /assets/images/Sprint%201/DeployLanding2.png )  
+   *Descripción: Elección del nombre del proyecto en Netlify para su despliegue.*
+
+3. **Configuración de Rutas y Otras Opciones**  
+   En este paso, se configuraron las rutas necesarias y otras opciones relevantes para el despliegue, como las variables de entorno y la configuración de compilación.
+   ![Configuración de Rutas y Opciones]( /assets/images/Sprint%201/DeployLanding3.png )  
+   *Descripción: Configuración de las rutas y otras opciones necesarias para el despliegue exitoso.*
+
+4. **Confirmación del Éxito del Despliegue**  
+   Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue y se verificó que todo se realizó correctamente, lo cual se mostró como un éxito en la interfaz de Netlify.
+   ![Éxito del Despliegue]( /assets/images/Sprint%201/DeployLanding4.png )  
+   *Descripción: Mensaje de éxito que confirma que el despliegue fue exitoso en Netlify.*
+
+Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de la **Landing Page** en **Netlify** durante este Sprint.
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Presentamos los trabajos realizados en los distintos repositorios
+
+Repositorio Reporte
+![Reporte Commits]( /assets/images/commits/Reporte1.png )  
+
+Repositorio BackEnd
+![BackEnd Commits]( /assets/images/commits/Backend1.png )  
+
+Repositorio FrontEnd
+![FrontEnd Commits]( /assets/images/commits/Frontend1.png )  
+
+Repositorio Landingpage
+![Landinpage Commits]( /assets/images/commits/Landingpage1.png )  
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
@@ -2555,3 +3798,9 @@ Notifications_Component.png
 # Anexos
 
 [Landing Page:](https://meditrack-landing.netlify.app/) https://meditrack-landing.netlify.app/
+
+[Figma:](https://www.figma.com/design/7Xvqtwl2sjgOCJvguM4Rfv/MediTrack_landing?node-id=0-1&t=521Art5bhkeEmmQy-1) https://www.figma.com/design/7Xvqtwl2sjgOCJvguM4Rfv/MediTrack_landing?node-id=0-1&t=521Art5bhkeEmmQy-1
+ 
+[Front end:](https://meditrack-front.netlify.app/) https://meditrack-front.netlify.app/ 
+
+[Back end:](https://meditrack.azurewebsites.net/swagger-ui/index.html) https://meditrack.azurewebsites.net/swagger-ui/index.html 
