@@ -843,6 +843,8 @@ La siguiente matriz organiza las **tareas clave de los usuarios** en relación c
 
 <img src="assets/images/journey.jpeg" >
 
+<img src="assets/images/journey2.png" >
+
 ### 2.3.4. Empathy Mapping
 
 <img src="assets/images/empathy.png" >
