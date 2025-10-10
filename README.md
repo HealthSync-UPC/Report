@@ -3003,6 +3003,20 @@ Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
+Presentamos los trabajos realizados en los distintos repositorios
+
+Repositorio Reporte
+![Reporte Commits]( /assets/images/commits/Reporte1.png )  
+
+Repositorio BackEnd
+![BackEnd Commits]( /assets/images/commits/Backend1.png )  
+
+Repositorio FrontEnd
+![FrontEnd Commits]( /assets/images/commits/Frontend1.png )  
+
+Repositorio Landingpage
+![Landinpage Commits]( /assets/images/commits/Landingpage1.png )  
+
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 ### 6.3.2. Registro de Entrevistas
