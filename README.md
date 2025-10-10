@@ -146,10 +146,15 @@
       - [**Segmento: Farmacéuticos y responsables de inventarios hospitalarios**](#segmento-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
       - [**Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**](#segmento-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [Análisis segmento 1: Farmacéuticos y responsables de inventarios hospitalarios](#análisis-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
     - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
     - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
     - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
     - [Necesidades prioritarias](#necesidades-prioritarias)
+  - [Análisis segmento 2: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#análisis-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [Problemas operativos actuales](#problemas-operativos-actuales)
+    - [Necesidades tecnológicas y funcionales](#necesidades-tecnológicas-y-funcionales)
+    - [Impacto esperado en la atención médica](#impacto-esperado-en-la-atención-médica)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -744,30 +749,38 @@ La entrevistada es una enfermera de 25 años que reside en Jesús María y traba
 <img src="assets/images/interviews/NadalEntrevista.png" alt="interview">
 
 
-**Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EZhVLkh-u6hAnBtHDIA3U1MB3PGtTIIEMkzN0RAoQZPwoQ?e=xZjuYh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Enlace de la entrevista:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EZhVLkh-u6hAnBtHDIA3U1MB3PGtTIIEMkzN0RAoQZPwoQ?e=xZjuYh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EZhVLkh-u6hAnBtHDIA3U1MB3PGtTIIEMkzN0RAoQZPwoQ?e=xZjuYh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista:**  
 Bajo la perspectiva de Nadal Morales, practicante de medicina en Surco, el mayor desafío es la conservación de insumos sensibles como los de cadena de frío, pues los equipos no son confiables y el control es manual con papel, impidiendo detectar fallos a tiempo. Él cree que una solución de monitoreo en tiempo real con IoT es vital para asegurar la calidad y la seguridad del paciente, ya que permitiría reaccionar de inmediato, reducir pérdidas y dar tranquilidad. Los únicos obstáculos serían el costo inicial y la capacitación del personal, destacando que las alertas automáticas y reportes son esenciales para la toma de decisiones y la gestión óptima.
 
 **Entrevista 3:**
 
-- **Nombres:** XXXXXXXXXXXXXXX
-- **Apellidos:** XXXXXXXXXXXXXXX
-- **Edad:** XXXXXXX
-- **Lugar de residencia:** XXXXXXX, Lima
+- **Nombres:** Luis JeanPierre
+- **Apellidos:** Espejo
+- **Edad:** 19
+- **Lugar de residencia:** Santiago de Surco, Lima
 
 **Evidencia de la entrevista:**  
 
-<img src="assets/images/interviews/.png" alt="interview">
+<img src="assets/images/interviews/entrevistaLuis.png" alt="interview">
 
 
-**Enlace de la entrevista:** [xxxxxx](xxxxxx)
+**Enlace de la entrevista:** [https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2Fentrevista%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E19d6c1be-cc49-4112-b1bd-bf8574e38649](https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2Fentrevista%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E19d6c1be-cc49-4112-b1bd-bf8574e38649)
 
 **Resumen de la entrevista:**  
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Luis JeanPierre Espejo, un joven de 19 años residente en Santiago de Surco, cursa estudios técnicos en enfermería y realiza sus prácticas en el área de emergencias de un hospital público. Durante la entrevista, comentó que su día a día está lleno de presión y que la rapidez en la atención es clave. Mencionó que uno de los mayores retos es la falta de visibilidad sobre el stock de insumos, lo que en ocasiones retrasa procedimientos y genera ansiedad en el personal médico.
+
+Luis explicó que, en emergencias, no disponer de materiales como guantes, jeringas o catéteres en el momento preciso puede significar la diferencia entre una atención inmediata o un riesgo para el paciente. Señaló que suelen depender de llamadas o mensajes entre áreas para confirmar la disponibilidad de insumos, lo cual consume tiempo valioso. “En esos segundos, el paciente sigue esperando”, recalcó con preocupación.
+
+En cuanto a la gestión de la información, comentó que no existe un sistema centralizado o visual que les permita conocer el stock en tiempo real. Según su experiencia, muchas veces los reportes se actualizan de forma manual o con retraso, lo que genera confusión. Luis resaltó que contar con una plataforma accesible y confiable sería de gran ayuda para reducir los errores humanos y mejorar la coordinación entre enfermería, farmacia y almacén.
+
+Finalmente, Luis reflexionó sobre la importancia de la trazabilidad y la transparencia en la gestión de insumos. Considera que, si el personal tuviera acceso rápido a datos verificados, se podrían evitar pérdidas, desperdicios y demoras en la atención. “Nosotros no pedimos tecnología por lujo, sino porque puede salvar vidas”, afirmó con convicción, subrayando la necesidad de soluciones digitales que faciliten la continuidad y seguridad del trabajo en áreas críticas.
 
 ### 2.2.3. Análisis de entrevistas
 Para finalizar, en la sección de análisis se utilizaron métricas derivadas de las respuestas obtenidas, así como la frecuencia con la que ciertos temas fueron mencionados durante las entrevistas.
+
+## Análisis segmento 1: Farmacéuticos y responsables de inventarios hospitalarios
 
 ### Obstáculos para la implementación
 En esta tabla se consolidan las principales dificultades que los entrevistados prevén al adoptar soluciones IoT, como la inversión inicial, la capacitación necesaria, las dificultades de integración tecnológica y la resistencia al cambio. Se detalla la ocurrencia en cada entrevista y el porcentaje de recurrencia.
@@ -809,6 +822,38 @@ La última tabla enumera las necesidades más urgentes que los entrevistados con
 **Interpretación**:
 Reportes automáticos, alertas preventivas y capacitación continua reciben unanimidad (100%), mostrando que los entrevistados valoran las herramientas que promuevan prevención, control oportuno y formación del personal. El soporte técnico es importante para la mayoría (66%), lo que resalta la necesidad de servicios postventa robustos y acompañamiento durante la fase de adopción tecnológica.
 
+## Análisis segmento 2: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)
+
+### Problemas operativos actuales
+A partir de las entrevistas se identifican las principales fallas en la gestión de insumos médicos, tales como el control manual, la falta de trazabilidad y la desorganización interna. Estas limitaciones impactan directamente en la atención al paciente y en la eficiencia del personal.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/segmento2grafico1.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+Los tres entrevistados coinciden en que los procesos manuales generan demoras y errores. La ausencia de sistemas centralizados y confiables (66%) se consolida como el problema más grave, evidenciando la urgencia de implementar soluciones digitales que optimicen la trazabilidad y la coordinación interna.
+
+### Necesidades tecnológicas y funcionales
+Se resumen las funciones más valoradas por los entrevistados respecto a una posible herramienta digital: trazabilidad, monitoreo en tiempo real, generación de alertas y reportes automáticos. Estas características se consideran esenciales para mejorar la toma de decisiones y la seguridad del paciente.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/segmento2grafico2.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+La trazabilidad y el monitoreo en tiempo real destacan como las funcionalidades más demandadas (66%), lo que refuerza la importancia de un sistema que integre alertas y reportes para la gestión eficiente. Los entrevistados asocian estas herramientas con una atención más segura y reactiva.
+
+### Impacto esperado en la atención médica
+Los entrevistados coincidieron en que la implementación de una solución tecnológica podría mejorar la seguridad del paciente, reducir errores humanos y optimizar la coordinación entre áreas. También se observa un consenso en que la digitalización permitiría ahorrar tiempo y evitar pérdidas de insumos críticos.
+
+<div style="text-align: center;">
+  <img src="assets/images/analysis/segmento2grafico3.png" alt="Problemas Identificados">
+</div>
+
+**Interpretación**:
+La seguridad del paciente aparece como el beneficio más universal (100%), reflejando una necesidad transversal en entornos críticos como UCI y emergencias. La mejora de la trazabilidad (66%) y la eficiencia colaborativa (66%) confirman que los profesionales perciben la tecnología no como un reemplazo, sino como un aliado clave en la atención hospitalaria.
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
@@ -848,6 +893,8 @@ La siguiente matriz organiza las **tareas clave de los usuarios** en relación c
 ### 2.3.4. Empathy Mapping
 
 <img src="assets/images/empathy.png" >
+
+<img src="assets/images/LorenaSanchezEmpathy.png" >
 
 ## 2.4. Big Picture EventStorming
 
