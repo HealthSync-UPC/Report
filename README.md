@@ -2901,4 +2901,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJ
 [Landing Page:](https://meditrack-landing.netlify.app/) https://meditrack-landing.netlify.app/
 
 [Figma:](https://www.figma.com/design/7Xvqtwl2sjgOCJvguM4Rfv/MediTrack_landing?node-id=0-1&t=521Art5bhkeEmmQy-1) https://www.figma.com/design/7Xvqtwl2sjgOCJvguM4Rfv/MediTrack_landing?node-id=0-1&t=521Art5bhkeEmmQy-1
+ 
+[Front end:](https://meditrack-front.netlify.app/) https://meditrack-front.netlify.app/ 
 
+[Back end:](https://meditrack.azurewebsites.net/swagger-ui/index.html) https://meditrack.azurewebsites.net/swagger-ui/index.html 
