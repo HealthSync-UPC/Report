@@ -3415,7 +3415,7 @@ Este proceso permite mantener la trazabilidad y el control de permisos según fu
 ## 5.5. Applications Prototyping
 <img src="assets/diagrama.png"></img>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq 
+[Video:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq) https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq 
 
 <div style="page-break-after: always;"></div>
 
@@ -3766,22 +3766,22 @@ En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netli
 
 1. **Elección del Repositorio**  
    En primer lugar, se seleccionó el repositorio desde el que se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración.
-   ![Elección del Repositorio]( /assets/images/Sprint%201/DeployLanding1.png )  
+   ![Elección del Repositorio](./assets/images/Sprint%201/DeployLanding1.png )  
    *Descripción: Selección del repositorio en la plataforma de Netlify.*
 
 2. **Elección del Nombre del Proyecto**  
    A continuación, se asignó un nombre único para el proyecto en Netlify. Este nombre será el utilizado en la URL pública del despliegue.
-   ![Elección del Nombre]( /assets/images/Sprint%201/DeployLanding2.png )  
+   ![Elección del Nombre](./assets/images/Sprint%201/DeployLanding2.png )  
    *Descripción: Elección del nombre del proyecto en Netlify para su despliegue.*
 
 3. **Configuración de Rutas y Otras Opciones**  
    En este paso, se configuraron las rutas necesarias y otras opciones relevantes para el despliegue, como las variables de entorno y la configuración de compilación.
-   ![Configuración de Rutas y Opciones]( /assets/images/Sprint%201/DeployLanding3.png )  
+   ![Configuración de Rutas y Opciones](./assets/images/Sprint%201/DeployLanding3.png )  
    *Descripción: Configuración de las rutas y otras opciones necesarias para el despliegue exitoso.*
 
 4. **Confirmación del Éxito del Despliegue**  
    Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue y se verificó que todo se realizó correctamente, lo cual se mostró como un éxito en la interfaz de Netlify.
-   ![Éxito del Despliegue]( /assets/images/Sprint%201/DeployLanding4.png )  
+   ![Éxito del Despliegue](./assets/images/Sprint%201/DeployLanding4.png )  
    *Descripción: Mensaje de éxito que confirma que el despliegue fue exitoso en Netlify.*
 
 Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de la **Landing Page** en **Netlify** durante este Sprint.
@@ -3791,16 +3791,16 @@ Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de
 Presentamos los trabajos realizados en los distintos repositorios
 
 Repositorio Reporte
-![Reporte Commits]( /assets/images/commits/Reporte1.png )  
+![Reporte Commits](./assets/images/commits/Reporte1.png )  
 
 Repositorio BackEnd
-![BackEnd Commits]( /assets/images/commits/Backend1.png )  
+![BackEnd Commits](./assets/images/commits/Backend1.png )  
 
 Repositorio FrontEnd
-![FrontEnd Commits]( /assets/images/commits/Frontend1.png )  
+![FrontEnd Commits](./assets/images/commits/Frontend1.png )  
 
 Repositorio Landingpage
-![Landinpage Commits]( /assets/images/commits/Landingpage1.png )  
+![Landinpage Commits](./assets/images/commits/Landingpage1.png )  
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
@@ -3834,6 +3834,24 @@ Repositorio Landingpage
 ## Video About-the-Team
 
 # Bibliografía
+
+- Lee, I., & Lee, K. (2015). The Internet of Things (IoT): Applications, investments, and challenges for enterprises. Business Horizons, 58(4), 431-440. https://doi.org/10.1016/j.bushor.2015.03.008
+
+- Riaño, D., & Hussain, A. (2017). IoT-based monitoring of medical supplies in healthcare institutions. Journal of Medical Systems, 41(12), 194. https://doi.org/10.1007/s10916-017-0841-1
+
+- Zebra Technologies. (2025). Healthcare solutions: RFID and IoT in hospitals. Zebra Technologies. https://www.zebra.com/us/en/solutions/healthcare.html
+
+- Siemens Healthineers. (2025). Hospital supply chain and inventory management solutions. Siemens. https://www.siemens-healthineers.com/solutions
+
+- LogiTag Medical Solutions. (2025). IoT and RFID solutions for medical inventory management. LogiTag. https://www.logitag.com/medical-solutions
+
+- Gothelf, J., & Seiden, J. (2016). Lean UX: Designing great products with agile teams (2nd ed.). O’Reilly Media.
+
+- Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). Value proposition design: How to create products and services customers want. Wiley.
+
+- Fathalla, M., & Elhoseny, M. (2020). IoT-based smart healthcare systems: Challenges and future directions. IEEE Access, 8, 172536–172549. https://doi.org/10.1109/ACCESS.2020.3025165
+
+- Ministerio de Salud del Perú. (2023). Guía de buenas prácticas para gestión de inventarios hospitalarios. Lima: Minsa. https://www.gob.pe/minsa
 
 # Anexos
 
