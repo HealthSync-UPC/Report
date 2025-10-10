@@ -2741,27 +2741,27 @@ El usuario completa los campos requeridos (datos, correo, contraseña, instituci
 
 El usuario inicia desde el Dashboard principal, donde visualiza el estado general de dispositivos, alertas e inventarios. Desde esta vista central, puede navegar hacia los distintos módulos del sistema mediante el menú lateral o accesos rápidos.
 
-<img src="assets/diagramaswire/Navegacion en la app.png"></img>
+<img src="assets/diagramaswire/Navegacion-en-la-app.png"></img>
 
 **User Goal: Añadir dispositivo IoT**
 
 El usuario accede al módulo “IoT Devices” desde el menú lateral.
 En esta vista puede observar el estado actual de los sensores existentes (en línea, desconectados, batería baja, etc.).
 
-<img src="assets/diagramaswire/Añadir dispositivo IoT.png"></img>
+<img src="assets/diagramaswire/Añadir-dispositivo-IoT.png"></img>
 
 **User Goal: Navegación en Settings**
 
 El usuario recorre y configura todas las opciones del sistema (thresholds, notifications, users, devices, integrations, security) desde un mismo flujo, con una transición fluida entre secciones, sin perder contexto ni estado de los formularios.
 
-<img src="assets/diagramaswire/Navegacion en settings.png"></img>
+<img src="assets/diagramaswire/Navegacion-en-settings.png"></img>
 
 **User Goal: Registrar usuario**
 
 El administrador institucional o jefe de área técnica necesita registrar nuevos miembros del personal (médicos, enfermeros, técnicos o supervisores) en la plataforma para otorgarles acceso controlado a los módulos del sistema.
 Este proceso permite mantener la trazabilidad y el control de permisos según funciones y jerarquías hospitalarias.
 
-<img src="assets/diagramaswire/Registrar usuario.png"></img>
+<img src="assets/diagramaswire/Registrar-usuario.png"></img>
 
 ### 5.4.3. Applications Mock-ups
 
@@ -2834,27 +2834,27 @@ El usuario completa los campos requeridos (datos, correo, contraseña, instituci
 
 El usuario inicia desde el Dashboard principal, donde visualiza el estado general de dispositivos, alertas e inventarios. Desde esta vista central, puede navegar hacia los distintos módulos del sistema mediante el menú lateral o accesos rápidos.
 
-<img src="assets/diagramasmock/Navegacion en la app.png"></img>
+<img src="assets/diagramasmock/Navegacion-en-la-app.png"></img>
 
 **User Goal: Añadir dispositivo IoT**
 
 El usuario accede al módulo “IoT Devices” desde el menú lateral.
 En esta vista puede observar el estado actual de los sensores existentes (en línea, desconectados, batería baja, etc.).
 
-<img src="assets/diagramasmock/Añadir dispositivo IoT.png"></img>
+<img src="assets/diagramasmock/Añadir-dispositivo-IoT.png"></img>
 
 **User Goal: Navegación en Settings**
 
 El usuario recorre y configura todas las opciones del sistema (thresholds, notifications, users, devices, integrations, security) desde un mismo flujo, con una transición fluida entre secciones, sin perder contexto ni estado de los formularios.
 
-<img src="assets/diagramasmock/Navegacion en settings.png"></img>
+<img src="assets/diagramasmock/Navegacion-en-settings.png"></img>
 
 **User Goal: Registrar usuario**
 
 El administrador institucional o jefe de área técnica necesita registrar nuevos miembros del personal (médicos, enfermeros, técnicos o supervisores) en la plataforma para otorgarles acceso controlado a los módulos del sistema.
 Este proceso permite mantener la trazabilidad y el control de permisos según funciones y jerarquías hospitalarias.
 
-<img src="assets/diagramasmock/Registrar usuario.png"></img>
+<img src="assets/diagramasmock/Registrar-usuario.png"></img>
 
 
 ## 5.5. Applications Prototyping
