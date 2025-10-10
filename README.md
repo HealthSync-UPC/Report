@@ -73,29 +73,26 @@
         Ayquipa Ubaldo, Abraham Israel 
       </td>
       <td>
-
-
-        - [Capítulo I: Introducción]
-        - [1.1. Startup Profile]
-        - [1.1.1. Descripción de la Startup]
-        - [1.1.2. Perfiles de integrantes del equipo]
-        - [1.2. Solution Profile]
-        - [1.2.1 Antecedentes y problemática]
-        - [1.2.2 Lean UX Process]
-        - [1.2.2.1. Lean UX Problem Statements]
-        - [1.2.2.2. Lean UX Assumptions]
-        - [1.2.2.3. Lean UX Hypothesis Statements]
-        - [1.2.2.4. Lean UX Canvas]
-        - [1.3. Segmentos objetivo]
-        [Capítulo II: Requirements Elicitation & Analysis]
-        - [2.1. Competidores]
-        - [2.1.1. Análisis competitivo]
-        - [2.1.2. Estrategias y tácticas frente a competidores]
-        - [2.2. Entrevistas]
-        - [2.2.1. Diseño de entrevistas]
-        - [2.2.2. Registro de entrevistas]
-        - [2.2.3. Análisis de entrevistas]
-
+        Capítulo I: Introducción <br/>
+        - 1.1. Startup Profile <br/>
+        - 1.1.1. Descripción de la Startup <br/>
+        - 1.1.2. Perfiles de integrantes del equipo <br/>
+        - 1.2. Solution Profile <br/>
+        - 1.2.1 Antecedentes y problemática <br/>
+        - 1.2.2 Lean UX Process<br/>
+        - 1.2.2.1. Lean UX Problem Statements <br/>
+        - 1.2.2.2. Lean UX Assumptions <br/>
+        - 1.2.2.3. Lean UX Hypothesis Statements <br/>
+        - 1.2.2.4. Lean UX Canvas<br/>
+        - 1.3. Segmentos objetivo <br/>
+        Capítulo II: Requirements Elicitation & Analysis <br/>
+        - 2.1. Competidores <br/>
+        - 2.1.1. Análisis competitivo <br/>
+        - 2.1.2. Estrategias y tácticas frente a competidores <br/>
+        - 2.2. Entrevistas <br/>
+        - 2.2.1. Diseño de entrevistas<br/>
+        - 2.2.2. Registro de entrevistas <br/>
+        - 2.2.3. Análisis de entrevistas <br/>
   </tbody>
   <tbody>
     <tr>
@@ -109,16 +106,13 @@
         Durand Vera, Gianfranco Angel	
       </td>
       <td>
-
-        - [2.3. Needfinding]
-        - [2.3.1. User Personas]
-        - [2.3.2. User Task Matrix]
-        - [2.3.3. User Journey Mapping]
-        - [2.3.4. Empathy Mapping]
-        - [2.4. Big Picture EventStorming]
-        - [2.5. Ubiquitous Language]
-
-
+        - 2.3. Needfinding <br>
+        - 2.3.1. User Personas <br>
+        - 2.3.2. User Task Matrix <br>
+        - 2.3.3. User Journey Mapping <br>
+        - 2.3.4. Empathy Mapping <br>
+        - 2.4. Big Picture EventStorming <br>
+        - 2.5. Ubiquitous Language <br>
   </tbody>
   <tbody>
     <tr>
@@ -132,25 +126,16 @@
         Cruz Ticona, Aarón Alejandro
       </td>
       <td>
-
-        -[Capítulo III: Requirements Specification]
-        - To-Be Scenario Mapping]
-        - User Stories]
-        - Product Backlog]
-        - o IV: Solution Software Design]
-        - Strategic-Level Domain-Driven Design]
-        - .1.1. Design-Level EventStorming]
-        - - [4.1.1.1. Candidate Context Discovery]
-        - - [4.1.1.2. Domain Message Flows Modeling]
-        - - [4.1.1.3. Bounded Context Canvases]
-        - .1.2. Context Mapping]
-        - .1.3. Software Architecture]
-        - - [4.1.3.1. Software Architecture System Landscape Diagram]
-        - - [4.1.3.2. Software Architecture Context Level Diagrams]
-        - - [4.1.3.2. Software Architecture Container Level Diagrams]
-        - - [4.1.3.3. Software Architecture Deployment Diagrams]
-
-
+        Capítulo III: Requirements Specification<br>
+        - 3.1. User Stories<br>
+        - 3.2. Impact Mapping<br>
+        - 3.3. Product Backlog<br>
+        Capítulo IV: Solution Software Design<br>
+        - 4.1. Strategic-Level Domain-Driven Design<br>
+        - 4.1.1. Design-Level EventStorming<br>
+        - 4.1.1.1. Candidate Context Discovery<br>
+        - 4.1.1.2. Domain Message Flows Modeling<br>
+        - 4.1.1.3. Bounded Context Canvases<br>
   </tbody>
   <tbody>
     <tr>
@@ -164,18 +149,15 @@
         Ticona Panduro, Estrella del Pilar
       </td>
       <td>
-
-        - [4.1.2. Context Mapping]
-        - [4.1.3. Software Architecture]
-        - [4.1.3.1. Software Architecture System Landscape Diagram]
-        - [4.1.3.2. Software Architecture Context Level Diagrams]
-        - [4.1.3.2. Software Architecture Container Level Diagrams]
-        - [4.1.3.3. Software Architecture Deployment Diagrams]
-        - [4.2. Tactical-Level Domain-Driven Design]
-        - [4.2.X. Bounded Context: <Bounded Context Name>]
-        - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-
-
+        - 4.1.2. Context Mapping<br>
+        - 4.1.3. Software Architecture<br>
+        - 4.1.3.1. Software Architecture System Landscape Diagram<br>
+        - 4.1.3.2. Software Architecture Context Level Diagrams<br>
+        - 4.1.3.2. Software Architecture Container Level Diagrams<br>
+        - 4.1.3.3. Software Architecture Deployment Diagrams<br>
+        - 4.2. Tactical-Level Domain-Driven Design<br>
+        - 4.2.X. Bounded Context: <Bounded Context Name><br>
+        - 4.2.X.1. Domain Layer<br>
   </tbody>
   <tbody>
     <tr>
@@ -189,16 +171,117 @@
         Luza Carhuamaca Jose Adrian
       </td>
       <td>
-
-        - [4.2.X.2. Interface Layer]
-        - [4.2.X.3. Application Layer]
-        - [4.2.X.4. Infrastructure Layer]
-        - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams]
-        - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams]
-        - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams]
-        - [4.2.X.6.2. Bounded Context Database Design Diagram]
-
-
+        - 4.2.X.2. Interface Layer <br>
+        - 4.2.X.3. Application Layer <br>
+        - 4.2.X.4. Infrastructure Layer <br>
+        - 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams <br>
+        - 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams <br>
+        - 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams <br>
+        - 4.2.X.6.2. Bounded Context Database Design Diagram <br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Ayquipa Ubaldo, Abraham Israel 
+      </td>
+      <td>
+        - 6.1. Software Configuration Management.<br>
+        - 6.1.1. Software Development Environment Configuration.<br>
+        - 6.1.2. Source Code Management.<br>
+        - 6.1.3. Source Code Style Guide & Conventions.<br>
+        - 6.1.4. Software Deployment Configuration.<br>
+        - 6.2. Landing Page, Services & Applications Implementation.<br>
+        - Correcion Cap I y Cap II
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Durand Vera, Gianfranco Angel	
+      </td>
+      <td>
+        - 5.1. Style Guidelines.<br>
+        - 5.1.1. General Style Guidelines.<br>
+        - 5.1.2. Web, Mobile and IoT Style Guidelines.<br>
+        - 5.2. Information Architecture.<br>
+        - 5.2.1. Organization Systems.<br>
+        - 5.2.2. Labeling Systems.<br>
+        - 5.2.3. SEO Tags and Meta Tags<br>
+        - 5.2.4. Searching Systems.<br>
+        - 5.2.5. Navigation Systems.<br>
+        - Despliegue Backend<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Cruz Ticona, Aarón Alejandro
+      </td>
+      <td>
+        - 6.2.1. Sprint 1<br>
+        - 6.2.1.1. Sprint Planning 1.<br>
+        - 6.2.1.2. Aspect Leaders and Collaborators.<br>
+        - 6.2.1.3. Sprint Backlog 1.<br>
+        - Correcion Cap I y Cap II<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Ticona Panduro, Estrella del Pilar
+      </td>
+      <td>
+        - 5.3. Landing Page UI Design.<br>
+        - 5.3.1. Landing Page Wireframe.<br>
+        - 5.3.2. Landing Page Mock-up.<br>
+        - 5.4. Applications UX/UI Design.<br>
+        - 5.4.1. Applications Wireframes.<br>
+        - 5.4.2. Applications Wireflow Diagrams.<br>
+        - 5.4.2. Applications Mock-ups.<br>
+        - 5.4.3. Applications User Flow Diagrams.<br>
+        - 5.5. Applications Prototyping.<br>
+        - Despliegue Frontend<br>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>
+        #2 – TP1 
+      </td>
+      <td>
+        09/10/2025
+      </td>
+      <td>
+        Luza Carhuamaca Jose Adrian
+      </td>
+      <td>
+        - 6.2.1.4. Development Evidence for Sprint Review.<br>
+        - 6.2.1.5. Testing Suite Evidence for Sprint Review.<br>
+        - 6.2.1.6. Execution Evidence for Sprint Review.<br>
+        - 6.2.1.7. Services Documentation Evidence for Sprint Review.<br>
+        - 6.2.1.8. Software Deployment Evidence for Sprint Review.<br>
+        - 6.2.1.9. Team Collaboration Insights during Sprint.<br>
+        - Correcion Cap I y Cap II<br>
   </tbody>
 </table>
 
