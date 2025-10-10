@@ -734,20 +734,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 **Entrevista 2:**
 
-- **Nombres:** XXXXXXXXXXXXXXX
-- **Apellidos:** XXXXXXXXXXXXXXX
-- **Edad:** XXXXXXX
-- **Lugar de residencia:** XXXXXXX, Lima
+- **Nombres:** Nadal Sebastian
+- **Apellidos:** Morales
+- **Edad:** 24
+- **Lugar de residencia:** Surco, Lima
 
 **Evidencia de la entrevista:**  
 
-<img src="assets/images/interviews/.png" alt="interview">
+<img src="assets/images/interviews/NadalEntrevista.png" alt="interview">
 
 
-**Enlace de la entrevista:** [xxxxxx](xxxxxx)
+**Enlace de la entrevista:** [Link]([xxxxxx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EZhVLkh-u6hAnBtHDIA3U1MB3PGtTIIEMkzN0RAoQZPwoQ?e=xZjuYh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
 
 **Resumen de la entrevista:**  
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Bajo la perspectiva de Nadal Morales, practicante de medicina en Surco, el mayor desafío es la conservación de insumos sensibles como los de cadena de frío, pues los equipos no son confiables y el control es manual con papel, impidiendo detectar fallos a tiempo. Él cree que una solución de monitoreo en tiempo real con IoT es vital para asegurar la calidad y la seguridad del paciente, ya que permitiría reaccionar de inmediato, reducir pérdidas y dar tranquilidad. Los únicos obstáculos serían el costo inicial y la capacitación del personal, destacando que las alertas automáticas y reportes son esenciales para la toma de decisiones y la gestión óptima.
 
 **Entrevista 3:**
 
