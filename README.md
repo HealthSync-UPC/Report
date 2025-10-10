@@ -293,7 +293,15 @@
 
 <img src="assets/tb1-insights.png" width="800px">
 
+<br>
+
+**TP1:**
+
+<img src="assets/tp1-insights.png" width="800px">
+
 <br><br>
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 [Student Outcome](#student-outcome)
@@ -566,7 +574,8 @@
 [Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
- 
+
+<div style="page-break-after: always;"></div>
 
 # Student Outcome  
 ABET – EAC - Student Outcome 5
@@ -641,6 +650,8 @@ ABET – EAC - Student Outcome 5
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -842,6 +853,8 @@ Este segmento incluye a los profesionales que gestionan el almacenamiento, contr
 
   * **Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias):**  
 Este grupo está compuesto por médicos, enfermeros y técnicos que dependen de la disponibilidad inmediata de insumos críticos para la atención de pacientes. Su enfoque está en mantener la continuidad y seguridad en la atención, por lo cual requieren información fiable y oportuna sobre el stock, para evitar interrupciones y riesgos para los pacientes. La trazabilidad y el acceso rápido a datos son esenciales para este segmento.
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis 
 En este capítulo, nos centraremos en los requerimientos que necesita cumplir nuestra solución para que sea viable, y los análisis necesarios.   
@@ -1322,6 +1335,8 @@ A continuación, se presentan los términos clave identificados a partir de las 
 | **Dashboard**               | Panel web/móvil que centraliza métricas, reportes y alertas para la gestión de inventario.         |
 | **Acceso autorizado**       | Control de ingreso físico o digital restringido al personal habilitado para manipular insumos.     |
 | **Integración de sistemas** | Conexión entre la solución IoT y otros sistemas de información (HIS, ERP, etc.).                   |
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -2359,6 +2374,8 @@ A continuación, se presentan los términos clave identificados a partir de las 
 | 38    | HU038                           | SEO y metadatos (OG/Twitter, sitemap, robots)            | Como responsable de marketing, quiero metadatos y archivos SEO para mejorar indexación y previsualizaciones.                                                             | 3            |
 | 39    | HU039                           | Accesibilidad base (WCAG AA mínima)                      | Como usuario con diversidad funcional, quiero navegar con teclado y lectores de pantalla para acceder sin barreras.                                                      | 5            |
 
+<div style="page-break-after: always;"></div>
+
   # Capítulo IV: Solution Software Design
 
   ## 4.1. Strategic-Level Domain-Driven Design
@@ -3029,6 +3046,8 @@ Notifications_Component.png
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 <img src="assets/diagrams/Inventory_DatabaseDiagram.png"></img>
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines
@@ -3397,6 +3416,8 @@ Este proceso permite mantener la trazabilidad y el control de permisos según fu
 <img src="assets/diagrama.png"></img>
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq 
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -3788,8 +3809,27 @@ Repositorio Landingpage
 
 ## 6.4. Video About-the-Product
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones
 ## Conclusiones y recomendaciones
+
+## Conclusiones
+
+- El problema está claramente definido: los hospitales y clínicas necesitan monitoreo en tiempo real y trazabilidad de insumos sensibles (cadena de frío, vencimientos), lo cual impacta directamente en la seguridad del paciente y genera pérdidas económicas.
+- El enfoque basado en IoT (sensores de temperatura, humedad y ubicación + plataforma central) es adecuado y coherente con los beneficios esperados, incluyendo alertas, reportes y analítica predictiva.
+- Las entrevistas y análisis realizados muestran consenso en priorizar alertas automáticas, generación de reportes y capacitación del personal; los principales obstáculos identificados son el costo inicial y la resistencia al cambio.
+- El proyecto presenta una estructura sólida de requisitos: las **user stories**, **epics** y el **backlog** están bien detallados, lo que facilita la planificación de un MVP con funcionalidades centrales como monitorización, alertas y gestión de inventario.
+- La estrategia competitiva definida, basada en especialización, modularidad y atención al cliente, es válida; sin embargo, se requiere evidenciar el ROI y casos de uso para reducir la barrera de adopción de la solución.
+
+## Recomendaciones
+
+1. **Priorizar un MVP claro y pequeño**: incluir un panel con monitoreo básico, alertas por umbrales y registro de lotes/vencimientos para entregar valor rápido a los farmacéuticos y demostrar ROI.
+2. **Diseñar un plan de implementación por fases** y piloto en una unidad específica (p. ej., farmacia hospitalaria o UCI), que incluya capacitación y soporte técnico para reducir la resistencia al cambio.
+3. **Incluir métricas de impacto desde el inicio**, como reducción de mermas, tiempo de respuesta a alertas y número de quiebres de stock, para generar evidencia cuantitativa que facilite la venta y adopción de la solución.
+4. **Ofrecer modelos de precios modulares** (pago por dispositivo o suscripción por módulos) y opciones de implementación por fases para mitigar la barrera del costo inicial.
+5. **Fortalecer integraciones con sistemas hospitalarios** (ERP/HCE) y documentar flujos de datos para facilitar la adopción y demostrar compatibilidad.
+6. **Preparar material de comunicación** que incluya casos de uso, demos con datos reales del piloto y guías de usuario, apoyando al equipo de ventas y clientes en la validación y escalado de la solución.
 
 ## Video About-the-Team
 
