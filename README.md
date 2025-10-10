@@ -814,6 +814,10 @@ Reportes automáticos, alertas preventivas y capacitación continua reciben unan
 
 <img src="assets/images/Kevin Salazar.png" >
 
+<br>
+
+<img src="assets/images/Dra. Laura Méndez.png">
+
 ### 2.3.2. User Task Matrix
 
 La siguiente matriz organiza las **tareas clave de los usuarios** en relación con su **frecuencia** y **criticidad** para el sistema de gestión de inventario médico con IoT. Esto permite priorizar el desarrollo de funcionalidades.
