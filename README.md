@@ -229,12 +229,70 @@
 - [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+- [COURSE PROJECT](#course-project)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [Misión](#misión)
+  - [Visión](#visión)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [Antecedentes](#antecedentes)
+    - [Problemática (Método 5W y 2H)](#problemática-método-5w-y-2h)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [Problem Statement](#problem-statement)
+    - [Dominio](#dominio)
+    - [Segmentos de Clientes](#segmentos-de-clientes)
+    - [Puntos de Dolor](#puntos-de-dolor)
+    - [Visión/Estrategia](#visiónestrategia)
+    - [Segmento Inicial](#segmento-inicial)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [Features](#features)
+    - [Business Outcomes](#business-outcomes)
+    - [Users](#users)
+    - [User Outcomes \& Benefits](#user-outcomes--benefits)
+    - [Business Assumptions](#business-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [**Preguntas Generales**](#preguntas-generales)
+      - [**Preguntas segmento 1**: Trabajadores del sector salud](#preguntas-segmento-1-trabajadores-del-sector-salud)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Segmento: Trabajadores del sector salud**](#segmento-trabajadores-del-sector-salud)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
+    - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
+    - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
+    - [Necesidades prioritarias](#necesidades-prioritarias)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Interpretación](#interpretación)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
       - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [](#)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
@@ -249,6 +307,17 @@
       - [4.2.1.2. Interface Layer](#4212-interface-layer)
       - [4.2.1.3. Application Layer](#4213-application-layer)
       - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [Repository Interface](#repository-interface)
+        - [Métodos](#métodos)
+      - [Repository Interface](#repository-interface-1)
+        - [Métodos](#métodos-1)
+      - [Repository Interface](#repository-interface-2)
+        - [Métodos](#métodos-2)
+      - [Repository Interface](#repository-interface-3)
+        - [Métodos](#métodos-3)
+        - [● Repository Interface](#-repository-interface)
+        - [Métodos](#métodos-4)
+      - [**Tecnologías/Implementación**](#tecnologíasimplementación)
       - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
@@ -259,33 +328,65 @@
     - [Atributos – Dispositivo](#atributos--dispositivo)
     - [Atributos – Telemetría](#atributos--telemetría)
       - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [REST APIs](#rest-apis)
+    - [Notificaciones](#notificaciones)
       - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [Command Services](#command-services)
+      - [Servicio de Gestión de Dispositivos](#servicio-de-gestión-de-dispositivos)
+      - [Servicio de Telemetría](#servicio-de-telemetría)
+    - [Query Services](#query-services)
+      - [Servicio de Consulta de Dispositivos](#servicio-de-consulta-de-dispositivos)
+      - [Servicio de Consulta de Telemetría](#servicio-de-consulta-de-telemetría)
       - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [Repositorio – Dispositivos](#repositorio--dispositivos)
+    - [Repositorio – Telemetría](#repositorio--telemetría)
+    - [DeviceController](#devicecontroller)
+    - [TelemetryController](#telemetrycontroller)
       - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
-    - [4.2.3. Bounded Context: Notificaciones ](#423-bounded-context-notificaciones)
+    - [4.2.3. Bounded Context: Notificaciones](#423-bounded-context-notificaciones)
       - [4.2.3.1. Domain Layer](#4231-domain-layer)
     - [Entity](#entity-2)
     - [Atributos – Notificación](#atributos--notificación)
     - [Atributos – Plantilla](#atributos--plantilla)
       - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [REST APIs](#rest-apis-1)
       - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [Servicios](#servicios)
+    - [Funciones del Servicio](#funciones-del-servicio)
       - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [Repositorio – Notificaciones](#repositorio--notificaciones)
+      - [Métodos del Repositorio](#métodos-del-repositorio)
+      - [Repositorio - Plantilla](#repositorio---plantilla)
+        - [Métodos del Repositorio](#métodos-del-repositorio-1)
+      - [Controlador – Notificaciones](#controlador--notificaciones)
+        - [Métodos del Controlador](#métodos-del-controlador)
+      - [Controlador – Plantillas](#controlador--plantillas)
+        - [Métodos del Controlador](#métodos-del-controlador-1)
       - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-    - [4.2.4. Bounded Context: Inventario ](#424-bounded-context-inventario)
+    - [4.2.4. Bounded Context: Inventario](#424-bounded-context-inventario)
       - [4.2.4.1. Domain Layer](#4241-domain-layer)
     - [Entity](#entity-3)
     - [Atributos – ItemInventario](#atributos--iteminventario)
     - [Atributos – Movimiento](#atributos--movimiento)
     - [Atributos – Proveedor](#atributos--proveedor)
       - [4.2.4.2. Interface Layer](#4242-interface-layer)
+  - [| **Proveedores**   | Gestionar los proveedores de insumos.                            | - `POST /suppliers`: Crear un proveedor. - `GET /suppliers/{id}`: Obtener información del proveedor. |](#-proveedores----gestionar-los-proveedores-de-insumos-------------------------------post-suppliers-crear-un-proveedor---get-suppliersid-obtener-información-del-proveedor-)
       - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [Servicios](#servicios-1)
+    - [Funciones del Servicio](#funciones-del-servicio-1)
       - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [Repositorio – Ítem de Inventario](#repositorio--ítem-de-inventario)
+        - [Métodos del Repositorio](#métodos-del-repositorio-2)
+        - [Métodos del Repositorio](#métodos-del-repositorio-3)
+        - [Métodos del Repositorio](#métodos-del-repositorio-4)
+        - [Métodos del Controlador](#métodos-del-controlador-2)
+        - [Métodos del Controlador](#métodos-del-controlador-3)
       - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
@@ -312,29 +413,44 @@
 - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirements Management](#requirements-management)
+      - [Software Development](#software-development)
+      - [Software Deployment](#software-deployment)
+      - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
+      - [Ramas principales:](#ramas-principales)
+      - [Ramas auxiliares:](#ramas-auxiliares)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+      - [Convenciones de Commits:](#convenciones-de-commits)
+      - [Convenciones de versionado de lanzamientos](#convenciones-de-versionado-de-lanzamientos)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+      - [Acceder a Netlify y seleccionar “Import an existing project”](#acceder-a-netlify-y-seleccionar-import-an-existing-project)
+      - [Elegir la opción “Deploy with GitHub” para vincular el repositorio](#elegir-la-opción-deploy-with-github-para-vincular-el-repositorio)
+      - [Seleccionar la organización y el repositorio correspondiente](#seleccionar-la-organización-y-el-repositorio-correspondiente)
+      - [Iniciar el despliegue presionando el botón del proyecto](#iniciar-el-despliegue-presionando-el-botón-del-proyecto)
+    - [Link de nuestra landing page: https://healthsyn-landing.netlify.app](#link-de-nuestra-landing-page-httpshealthsyn-landingnetlifyapp)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
-    - [6.2.X. Sprint n](#62x-sprint-n)
-      - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-      - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-      - [6.2.X.3. Sprint Backlog n](#62x3-sprint-backlog-n)
-      - [6.2.X.4. Development Evidence for Sprint Review](#62x4-development-evidence-for-sprint-review)
-      - [6.2.X.5. Testing Suite Evidence for Sprint Review](#62x5-testing-suite-evidence-for-sprint-review)
-      - [6.2.X.6. Execution Evidence for Sprint Review](#62x6-execution-evidence-for-sprint-review)
-      - [6.2.X.7. Services Documentation Evidence for Sprint Review](#62x7-services-documentation-evidence-for-sprint-review)
-      - [6.2.X.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence-for-sprint-review)
-      - [6.2.X.9. Team Collaboration Insights during Sprint](#62x9-team-collaboration-insights-during-sprint)
+    - [6.2.1 Sprint 1.](#621-sprint-1)
+      - [6.2.1.1 Sprint Planning 1.](#6211-sprint-planning-1)
+      - [6.2.1.3 Sprint Backlog 1.](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+    - [Software Deployment Evidence for Sprint Review](#software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
-
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 [Bibliografía](#bibliografía)
 
@@ -2866,21 +2982,384 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJ
 
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
+A continuación, describiremos los productos de software que hemos empleado durante el desarrollo del proyecto.
+
+#### Project Management
+
+  * Trello: https://trello.com/  
+La plataforma de Trello se empleó para la gestión de las tareas y la organización del flujo del trabajo en el proyecto. Presentándose las tareas dentro de las tarjetas en listas con el integrante encargado de realizarlas. Además, utilizamos las funcionalidades como agregar las etiquetas de colores y marcar el proceso de las tareas. De esta manera pudimos hacer seguimiento a nuestros avances en el proyecto.
+  * Notion: https://www.notion.so/  
+La plataforma de Notion fue utilizada para la colaboración de los integrantes con el proyecto. Se crearon calendarios y listas con las fechas de las reuniones del equipo. Además, se hizo uso de herramientas como comentarios y menciones para fomentar el trabajo y colaboración en equipo.
+
+#### Requirements Management
+  * Trello: https://trello.com/  
+Empleamos Trello para organizar los requisitos de la aplicación. En el que tenemos al product backlog el cual ordenamos según la prioridad aplicando Fibonacci para enumerar las historias de usuario y en otra sección organizándolas según las épicas.
+
+* Product UX/UI Design
+  * Figma: https://www.figma.com/  
+La plataforma de Figma nos ayudó a desarrollar los wireframes, mockups y prototyping del mobile applications.
+  * Miro: https://miro.com/es/  
+Miro nos fue de utilidad para poder realizar los As-Is Scenario Mapping y  To-Be Scenraio Mapping para cada uno de los segmentos objetivos.
+  * UXPressia: https://uxpressia.com/  
+La plataforma UXPressia se empleó para la creación de los User Personas, Empathy Maps, Journey Maps e Impact Maps. Hemos hecho uso de las plantillas que UXPressia nos ofrece para elaborar cada una de ellas. Nos permitió exportar lo que se realizó para incluirlo en el trabajo.
+
+#### Software Development
+
+  * Landing Page:  
+Para el desarrollo de la landing page se hará empleó de HTML5, CSS y JavaScript.
+  * Frontend Web Application:  
+Para desarrollar la aplicación web frontend, es esencial tener una comprensión sólida de los fundamentos de HTML, CSS y JavaScript. En nuestro caso, optamos por utilizar Angular como framework de JavaScript. Además, para facilitar la creación de componentes reutilizables y accesibles, decidimos emplear PrimeNG como biblioteca de componentes UI. Nuestro stack tecnológico incluye el uso del lenguaje Java con el framework Spring Boot, junto con HTML, Angular, JavaScript, CSS y una base de datos MySQL.
+
+* Software Testing
+Para las pruebas funcionales del software, tanto como de la Landing page y de la aplicación web, hemos utilizado las herramientas de desarrollo de los navegadores web siguientes: Google Chrome (https://www.google.com/chrome/), Microsoft Edge (https://www.microsoft.com/en-us/edge) y Mozilla Firefox (https://www.mozilla.org/en-US/firefox/browsers/).
+
+#### Software Deployment
+  * Netlify: https://www.netlify.com/  
+Para implementar el despliegue de la Landing Page, se llevó a cabo la conexión entre el repositorio de Github y Netlify. Esto permite que Netlify maneje automáticamente la implementación de la Landing Page cada vez que se realice una actualización en el repositorio.
+
+#### Software Documentation
+  * Google Drive: https://www.google.com/intl/es-419_pe/drive/  
+Esta plataforma fue empleada para crear documentos mediante Google Docs, el cual nos permite trabajar de manera colaborativa los informes de las entregas.
+  * Structurizr: https://structurizr.com/  
+Herramienta utilizada para la creación de diagramas C4 (diagrama de contexto, diagrama de contenedor y diagrama de componentes). Para elaborar los diagramas fue necesario utilizar una sintaxis parecida a un lenguaje de programación.
+  * GitHub: https://github.com/  
+Plataforma empleada tanto como para la creación de la documentación y de la Landing page. Nuestro eligió esta plataforma debido a que nos permite trabajar de manera colaborativa.
+
 ### 6.1.2. Source Code Management
+La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
+
+* Organización: [https://github.com/HealthSync-UPC ](https://github.com/HealthSync-UPC)
+* Repositorio de la Landing page: [https://github.com/HealthSync-UPC/Landing-Page ](https://github.com/HealthSync-UPC/Landing-Page)
+
+Además, con el objetivo de mejorar el control sobre la creación de ramas y la implementación de cambios en el código fuente, se procedió a utilizar Gitflow.
+
+De esta forma, se establecieron 2 ramas principales: main y develop.
+
+#### Ramas principales:  
+  * Rama “main”:  
+  En esta rama se almacenan las versiones oficiales de nuestro repositorio para pasarlas a producción.
+  * Rama “develop”:  
+  Esta rama se utilizará como punto de integración para las ramas de “feature”. Una vez que el  “head” sea estable y el equipo lo considere listo para el lanzamiento, se fusionará con la rama “release”.
+
+#### Ramas auxiliares:  
+  * Rama “release”:  
+  La rama “release” se emplea para la preparación del lanzamiento de una nueva versión en la rama “main” ayudando a controlar las versiones de código. Aquí se pueden solucionar errores menores y preparar los datos para la versión. Esta rama permitirá liberar a la rama “develop” de estas tareas preparatorias y evita demoras en el desarrollo mientras se prepara para el lanzamiento. 
+  * Rama “feature”:  
+  En las ramas “feature” se desarrollan las características generales que se integrarán en la rama “develop”. Estas características son aquellas funcionalidades solicitadas por los usuarios tanto en la página de inicio como en la aplicación web. Por ejemplo, la rama feature/navbar.
+  * Rama “hotfix”:  
+  Esta rama se utiliza para corregir urgentemente errores en la última versión de la rama “main” que no pueden esperar hasta el próximo lanzamiento para ser solucionados.
+
 ### 6.1.3. Source Code Style Guide & Conventions
+Utilizaremos el lenguaje de etiquetas HTML para el desarrollo principal de nuestra Landing page.
+* Utilizaremos el lenguaje CSS, que nos permitirá realizar los estilos de la estructura de nuestra Landing Page
+* Implementaremos el lenguaje de JavaScript para brindar las funcionalidades a nuestra Landing page. 
+* Utilizaremos el lenguaje Gherkin que se usará para realizar los diseños de prueba de cada historia de usuario, contando con su estructura básica. 
+
+#### Convenciones de Commits:  
+Nuestro equipo de desarrollo sigue las Convenciones de Commits, adoptando el formato de los “Conventional Commits” en su versión 1.0.0 (disponible en https://www.conventionalcommits.org/en/v1.0.0/) para garantizar una fácil comprensión de nuestros registros. Por lo tanto, nos regimos por la siguiente estructura:
+
+Donde:
+
+```<type>[scope opcional]: <description>```
+
+  * type: Indica el tipo de modificación realizada, limitado a opciones como feat, fix, docs, etc.
+  * scope: Define el alcance del cambio realizado en nuestro código.
+  * descripción: Ofrece un resumen conciso de los cambios implementados.
+
+#### Convenciones de versionado de lanzamientos
+Para la gestión de versiones, seguimos el estándar “Semantic Versioning 2.0.0”. En este formato las versiones se presentan como (X.Y.Z), con las siguientes interpretaciones: 
+  * X: Indica una versión principal que incorpora cambios incompatibles con versiones anteriores. Iniciamos en 0 durante la etapa de desarrollo inicial y transicionamos a 1 cuando la versión esté lista para su lanzamiento público. Por convención, Y y Z se reinician a 0 cuando X aumenta.
+  * Y: Representa una versión secundaria, que abarca cambios compatibles con versiones anteriores. Además, esta incluye los commits provenientes de las “release branches” cada vez que se agregan nuevas funcionalidades. Convencionalmente, Z se reinicia a 0 cuando Y aumenta.
+  * Z: Refleja parches y correcciones de errores menores, integrando commits realizados en la “rama de corrección” y fusionados con la rama principal.
+
 ### 6.1.4. Software Deployment Configuration
+#### Acceder a Netlify y seleccionar “Import an existing project”
+Ingresa a la plataforma de Netlify con tu cuenta activa. Una vez dentro del panel principal, dirígete a la opción “Import an existing project”, que permite iniciar el proceso de despliegue de un proyecto previamente desarrollado y alojado en un repositorio externo.
+
+<img src="./assets/images/softwareDeploy/importProject.png" style="display: block; margin: 0 auto;">
+
+#### Elegir la opción “Deploy with GitHub” para vincular el repositorio
+En el siguiente paso, selecciona “Deploy with GitHub” para conectar tu cuenta de GitHub con Netlify. Esta integración permite importar directamente el código fuente desde el repositorio que contiene tu proyecto.
+
+<img src="./assets/images/softwareDeploy/deployProject.png" style="display: block; margin: 0 auto;">
+
+####  Seleccionar la organización y el repositorio correspondiente
+Una vez vinculada la cuenta, el sistema mostrará las organizaciones disponibles. Selecciona la organización adecuada y dentro de ella, busca el repositorio específico del proyecto que deseas subir a producción. Luego, configura los parámetros necesarios para el despliegue, como la rama principal, comandos de build y directorio de salida.
+
+
+<img src="./assets/images/softwareDeploy/selectOrg.png" style="display: block; margin: 0 auto;">
+
+#### Iniciar el despliegue presionando el botón del proyecto
+Finalmente, revisa la configuración y presiona el botón que lleva el nombre del proyecto para iniciar el proceso de despliegue. Netlify comenzará a compilar y publicar tu aplicación automáticamente en la web.
+
+
+<img src="./assets/images/softwareDeploy/clickDeploy.png" style="display: block; margin: 0 auto;">
+
+### Link de nuestra landing page: https://healthsyn-landing.netlify.app
+
+<img src="./assets/images/softwareDeploy/landing.png" style="display: block; margin: 0 auto;">
 
 ## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n
-#### 6.2.X.2. Aspect Leaders and Collaborators
-#### 6.2.X.3. Sprint Backlog n
-#### 6.2.X.4. Development Evidence for Sprint Review
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review
-#### 6.2.X.6. Execution Evidence for Sprint Review
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review
-#### 6.2.X.9. Team Collaboration Insights during Sprint
+### 6.2.1 Sprint 1.
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el **Sprint 1**, enfocado en el desarrollo de la **landing page** de nuestra plataforma de cadena de frío e inventario FEFO con IoT para clínicas/hospitales. Se detalla el progreso tangible y funcional, incluyendo diseño, desarrollo y funcionalidades implementadas, así como la colaboración del equipo, métodos de comunicación (daily breve y canal de chat) y herramientas empleadas (repositorio Git y tablero de tareas). Además, se incluye información sobre la planificación del sprint, el backlog de tareas y evidencia de avance.
+
+---
+
+#### 6.2.1.1 Sprint Planning 1.
+
+En el **Sprint Planning 1**, se definió el alcance del MVP de la landing, los criterios de calidad (accesibilidad y performance base) y se priorizaron historias del **Epic 6: Experiencia de Usuario (Landing & Front-End)**: **HU033–HU039**.
+
+| **Sprint #**                      | Sprint 1                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    | Construir y publicar un landing MVP que comunique la propuesta de valor, cuente con navegación clara, formulario de contacto (leads), metadatos SEO básicos, analítica y estándares mínimos de accesibilidad/performance.                                                                                                                                            |
+| **Date**                          | 07 de octubre de 2025                                                                                                                                                                                                                                                                                                                                                 |
+| **Time**                          | 21:30 horas (GMT-5)                                                                                                                                                                                                                                                                                                                                                   |
+| **Location**                      | Modalidad remota                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By**                   | Equipo del Proyecto (Producto Cadena de Frío IoT)                                                                                                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)** | Product Owner, UX/UI Lead, Front-End Lead, QA Lead, Front-End Devs                                                                                                                                                                                                                                                                                                   |
+| **Sprint 0 Review Summary**       | No aplica (primer sprint).                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Retrospective Summary**| Se priorizó la landing page. Se acordó desplegar y usar imágenes optimizadas. Se habilitó validación de formularios en cliente. Se realizó deploy a entorno público usando Netlify.                                               |
+| **Sprint Goal & User Stories**    | **Goal:** Publicar landing MVP funcional.<br>**Historias:** HU033 (Landing), HU034 (Header/Nav), HU035 (Footer), HU036 (Value/Features), HU037 (Formulario), HU038 (SEO/OG), HU039 (Accesibilidad).                                                                                                                               |
+| **Sprint Velocity 1**             | 20                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sum of Story Points**           | 28 (HU033=5, HU034=3, HU035=2, HU036=5, HU037=5, HU038=3, HU039=5)                                                                                                                                                                                                                                                                                                     |
+
+---
+
+6.2.1.2  Aspect Leaders and Collaborators.
+
+| Team Member                                | GitHub Username | Landing Page | Frontend | Backend | IoT |
+|--------------------------------------------|-----------------|--------------|----------|---------|-----|
+| Cruz Ticona, Aaron Alejandro               | AaronAlejandrou            | **C**        | **C**    | -       | -   |
+| Ayquipa Ubaldo, Abraham Israel             | abrahamayquipa           | **C**        | -   | -       | -   |
+| Luza Carhuamaca, Jose Adrian               | Adrianluza1           | -            | **C**    | -   | -   |
+| Durand Vera, Gianfranco Angel              | FrancoDurand             | -            | **L**        | -   | - |
+| Ticona Panduro, Estrella del Pilar         | Estrella-ticona            | **L**        | **C**    | -       | -   |
+
+*Leyenda: **L** = Leader, **C** = Collaborator, **-** = No participación en el sprint.*
+
+#### 6.2.1.3 Sprint Backlog 1.
+
+**Link del Trello:**  
+Link: https://trello.com/invite/b/68e5c340ab38cc001da13a66/ATTI0adc4dbd76797a8850f7ca7d4f37b28407D0CB1C/meditrack
+
+**Vista del Sprint Backlog en Trello:**  
+![trelloSprint1.png](assets/trello-image.png)
+
+---
+
+| **Sprint #** | **Sprint 1** |   |   |   |   |   |   |
+|--------------|--------------|---|---|---|---|---|---|
+| **User Story** | **Work-item / Task** |   |   |   |   |   |   |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation hours** | **Assigned To** | **Status To-do / In-Process / To-Review / Done** |
+| **E6-HU033** | Landing pública | **T1** | Estructura base y Hero | Crear el diseño base y la sección principal con título, texto y botón. | 4h | Front-End Dev | Done |
+| **E6-HU033** | Landing pública | **T2** | CTA a Contacto | Hacer que el botón lleve al formulario de contacto. | 1h | Front-End Dev | Done |
+| **E6-HU034** | Header y navegación | **T3** | Header y Menú | Poner un encabezado con menú a las secciones y que se mantenga visible. | 3h | Front-End Dev | Done |
+| **E6-HU034** | Header y navegación | **T4** | Navegación responsiva | Hacer que el menú funcione bien en celular y con teclado. | 2h | Front-End Dev | Done |
+| **E6-HU036** | Propuesta de valor y funciones | **T5** | Sección de valor | Escribir y mostrar 3–6 beneficios del producto. | 2h | UX/UI + Content | Done |
+| **E6-HU036** | Propuesta de valor y funciones | **T6** | Tarjetas de funciones | Crear tarjetas con icono, título y texto corto. | 3h | Front-End Dev | Done |
+| **E6-HU037** | Formulario de contacto/lead | **T7** | Formulario y validaciones | Formulario con nombre, email y mensaje; validar y mostrar errores simples. | 3h | Front-End Dev | Done |
+| **E6-HU037** | Formulario de contacto/lead | **T8** | Protección contra spam | Agregar protección básica contra envíos automáticos. | 1h | Front-End Dev | Done |
+| **E6-HU035** | Footer institucional | **T9** | Footer y enlaces | Añadir pie de página con enlaces legales y redes sociales. | 2h | Front-End Dev | Done |
+| **E6-HU038** | SEO y metadatos | **T10** | Metadatos | Agregar título y descripción para buscadores y redes. | 2h | Front-End Dev | Done |
+| **E6-HU038** | SEO y metadatos | **T11** | Archivos SEO | Crear y servir /sitemap.xml y /robots.txt. | 2h | Front-End Dev | Done |
+| **E6-HU039** | Accesibilidad base | **T12** | Foco y etiquetas | Hacer visible el foco y poner etiquetas en controles; avisos de error claros. | 2h | Front-End Dev + QA | To-Review |
+| **E6-HU039** | Accesibilidad base | **T13** | Contraste y teclado | Revisar contraste y que todo se pueda usar con teclado. | 2h | QA Lead | In-Process |
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+| **Repository**        | **Branch**          | **Commit ID** | **Commit Message**                                    | **Committed on (Date)** |
+|-----------------------|---------------------|---------------|------------------------------------------------------|-------------------------|
+| Landing-Page          | main                | 54ed853       | fix: implement internationalization for various components | Oct 2, 2025              |
+| Landing-Page          | main                | 2a3e28f       | fix: implement internationalization for contact form and company info | Oct 2, 2025              |
+| Landing-Page          | main                | e14679f       | fix: add dark mode support to footer logo             | Oct 1, 2025              |
+| Landing-Page          | main                | 55a558a       | fix: standardize translation keys to use double quotes | Oct 1, 2025              |
+| Landing-Page          | main                | d42c8c8       | fix: change output directory from 'build' to 'dist'   | Oct 1, 2025              |
+| Landing-Page          | main                | fdf41a51      | first commit                                          | Oct 1, 2025              |
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Para realizar las pruebas correspondientes a la funcionalidad implementada, seguimos estos pasos:
+
+1. **Instalación de dependencias**  
+   Se ejecutó el siguiente comando para instalar todas las dependencias necesarias del proyecto:
+   ```bash
+   npm install
+   ```
+
+2. **Ejecutar el servidor de desarrollo**  
+   Después de la instalación de las dependencias, se ejecutó el siguiente comando para iniciar el servidor en modo de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+3. **Acceso a la aplicación**  
+   La prueba se realizó accediendo a la aplicación a través de la siguiente URL:
+   - [http://localhost:3000/](http://localhost:3000/)
+
+
+
+| **Repository**   | **Branch** | **Commit ID**                             | **Commit Message**                                    | **Committed on (Date)** | **Descripción**                                                                                                    |
+|------------------|------------|-------------------------------------------|------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Landing-Page     | main       | 54ed853                                   | fix: implement internationalization for various components | Oct 2, 2025              | Implementación de internacionalización para varios componentes. Relacionado con la mejora de la UX para múltiples idiomas. |
+| Landing-Page     | main       | 2a3e28f                                   | fix: add dark mode support to footer logo             | Oct 2, 2025              | Se añadió soporte para modo oscuro en el logo del pie de página.                                                     |
+| Landing-Page     | main       | e14679f                                   | fix: standardize translation keys                    | Oct 1, 2025              | Estandarización de las claves de traducción en todos los componentes de la interfaz.                                   |
+| Landing-Page     | main       | 55a558a                                   | fix: adjust responsiveness for mobile screens         | Oct 1, 2025              | Ajustes de diseño para mejorar la compatibilidad con pantallas móviles.                                                |
+| Landing-Page     | main       | d42c8c8                                   | fix: update navigation bar styling                    | Oct 1, 2025              | Actualización de estilos en la barra de navegación para mejorar la experiencia de usuario.                           |
+| Landing-Page     | main       | fdf41a51                                  | first commit                                          | Oct 1, 2025              | Primer commit con la configuración básica del proyecto, incluyendo la estructura de carpetas y configuración inicial. |
+
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+**Evidencia visual**  
+   A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo local:
+
+  ![Ejecucion en WebStorm](/assets/images/Sprint%201/Testing_WebStorm.png)
+  *Evidencia de la ejecución de la aplicación en WebStorm, mostrando el servidor en modo de desarrollo y los logs de la consola.*
+
+  ![Vista inicial Landing Page](/assets/images/Sprint%201/Evidencia1_Landing.png)  
+  *Captura de la vista inicial de la Landing Page, mostrando la interfaz de usuario cargada correctamente en el navegador.*
+
+  ![Vista IoT Landing Page](/assets/images/Sprint%201/Evidencia2_Landing.png)  
+  *Vista de la sección de IoT de la Landing Page, validando que la funcionalidad para mostrar productos o servicios relacionados con IoT esté operativa.*
+
+  ![Vista Contactanos Landing Page](/assets/images/Sprint%201/Evidencia3_Landing.png)  
+  *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+#### Introducción al Sprint
+Durante este Sprint se ha completado la **documentación de los endpoints** relacionados con la **autenticación de usuarios** y la **gestión de perfiles**, utilizando la especificación OpenAPI para facilitar la integración y comprensión de las funcionalidades disponibles en la plataforma.
+
+Los siguientes endpoints han sido implementados y documentados, permitiendo a los usuarios interactuar de manera eficiente con la plataforma para el registro, inicio de sesión y gestión de perfiles.
+
+---
+
+## Tabla de Endpoints Documentados
+
+| **Endpoint**                           | **Acción HTTP** | **Descripción**                              | **Parámetros**                              | **Response**                                       | **Enlace a la Documentación** |
+|----------------------------------------|-----------------|----------------------------------------------|---------------------------------------------|---------------------------------------------------|------------------------------|
+| `/api/v1/auth/verify-totp`             | `POST`          | Verificar código TOTP (autenticación 2FA)    | `totp_code` (string)                        | `200 OK: {"message": "Success"}`                   | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-up`                 | `POST`          | Registrar un nuevo usuario                   | `email`, `password` (string), `name` (string) | `201 Created: {"user_id": "12345", "message": "User created successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-in`                 | `POST`          | Iniciar sesión de usuario                    | `email`, `password` (string)                | `200 OK: {"token": "JWT_token"}`                   | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/generate-qr`             | `POST`          | Generar QR para usuario                      | `user_id` (string)                          | `200 OK: {"qr_url": "url_to_qr_code"}`             | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles`                     | `GET`           | Obtener perfil del usuario                   | `user_id` (string, optional)                | `200 OK: {"user_id": "12345", "name": "John Doe"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles`                     | `POST`          | Crear o actualizar perfil de usuario         | `user_id`, `name`, `email` (strings)        | `200 OK: {"message": "Profile updated successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+
+---
+
+## Explicación de cada Endpoint:
+
+### 1. `/api/v1/auth/verify-totp`
+- **Acción:** `POST`
+- **Descripción:** Verifica el código TOTP ingresado para completar la autenticación de dos factores (2FA).
+- **Parámetros:** 
+  - `totp_code`: El código temporal de un solo uso generado por el usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el código es válido, se devuelve un mensaje de éxito.
+  
+### 2. `/api/v1/auth/sign-up`
+- **Acción:** `POST`
+- **Descripción:** Registra un nuevo usuario en el sistema.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario.
+  - `password`: Contraseña para la cuenta del usuario.
+  - `name`: Nombre completo del usuario.
+- **Respuesta:** 
+  - `201 Created`: Si el registro es exitoso, se devuelve el ID del usuario creado junto con un mensaje de éxito.
+
+### 3. `/api/v1/auth/sign-in`
+- **Acción:** `POST`
+- **Descripción:** Permite al usuario iniciar sesión en el sistema.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario.
+  - `password`: Contraseña del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el inicio de sesión es exitoso, se devuelve un token JWT para la sesión.
+
+### 4. `/api/v1/auth/generate-qr`
+- **Acción:** `POST`
+- **Descripción:** Genera un código QR para la autenticación del usuario (por ejemplo, para 2FA).
+- **Parámetros:** 
+  - `user_id`: El ID del usuario para el cual se generará el código QR.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve la URL del código QR generado.
+
+### 5. `/api/v1/profiles`
+- **Acción:** `GET`
+- **Descripción:** Obtiene el perfil del usuario, con la posibilidad de obtener la información de un usuario específico.
+- **Parámetros:** 
+  - `user_id` (opcional): El ID del usuario para obtener su perfil específico.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve un objeto con los detalles del perfil del usuario.
+
+### 6. `/api/v1/profiles`
+- **Acción:** `POST`
+- **Descripción:** Crea o actualiza el perfil de un usuario.
+- **Parámetros:** 
+  - `user_id`: ID del usuario.
+  - `name`: Nombre del usuario.
+  - `email`: Correo electrónico del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si la actualización o creación del perfil es exitosa, se devuelve un mensaje confirmando la operación.
+
+---
+
+## Repositorio y Commits:
+- **Repositorio:** [HealthSync-UPC/Backend](https://github.com/HealthSync-UPC/Backend)
+- **Commits relevantes:**
+  - **Commit ID:** `852d1a9` (Implementación de funcionalidad de creación de perfil de usuario)
+  - **Commit ID:** `b27afd5` (Implementación de la autenticación de usuarios)
+  - **Commit ID:** `dc6178a` (Merge de rama 'iam' a dev)
+  - **Commit ID:** `982dd8` (Corrección de uso de contraseña en la generación de QR)
+  - **Commit ID:** `dbac81` (Autenticación de usuario y 2FA)
+
+---
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netlify**, una plataforma de despliegue continuo para aplicaciones web. Los pasos realizados durante este Sprint incluyen la configuración del repositorio, la elección del nombre del proyecto, la configuración de rutas y otras configuraciones necesarias, y la confirmación del éxito del despliegue. A continuación, se detallan los pasos seguidos durante el proceso:
+
+1. **Elección del Repositorio**  
+   En primer lugar, se seleccionó el repositorio desde el que se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración.
+   ![Elección del Repositorio]( /assets/images/Sprint%201/DeployLanding1.png )  
+   *Descripción: Selección del repositorio en la plataforma de Netlify.*
+
+2. **Elección del Nombre del Proyecto**  
+   A continuación, se asignó un nombre único para el proyecto en Netlify. Este nombre será el utilizado en la URL pública del despliegue.
+   ![Elección del Nombre]( /assets/images/Sprint%201/DeployLanding2.png )  
+   *Descripción: Elección del nombre del proyecto en Netlify para su despliegue.*
+
+3. **Configuración de Rutas y Otras Opciones**  
+   En este paso, se configuraron las rutas necesarias y otras opciones relevantes para el despliegue, como las variables de entorno y la configuración de compilación.
+   ![Configuración de Rutas y Opciones]( /assets/images/Sprint%201/DeployLanding3.png )  
+   *Descripción: Configuración de las rutas y otras opciones necesarias para el despliegue exitoso.*
+
+4. **Confirmación del Éxito del Despliegue**  
+   Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue y se verificó que todo se realizó correctamente, lo cual se mostró como un éxito en la interfaz de Netlify.
+   ![Éxito del Despliegue]( /assets/images/Sprint%201/DeployLanding4.png )  
+   *Descripción: Mensaje de éxito que confirma que el despliegue fue exitoso en Netlify.*
+
+Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de la **Landing Page** en **Netlify** durante este Sprint.
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Presentamos los trabajos realizados en los distintos repositorios
+
+Repositorio Reporte
+![Reporte Commits]( /assets/images/commits/Reporte1.png )  
+
+Repositorio BackEnd
+![BackEnd Commits]( /assets/images/commits/Backend1.png )  
+
+Repositorio FrontEnd
+![FrontEnd Commits]( /assets/images/commits/Frontend1.png )  
+
+Repositorio Landingpage
+![Landinpage Commits]( /assets/images/commits/Landingpage1.png )  
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
