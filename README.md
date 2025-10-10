@@ -2886,9 +2886,96 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
   *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
-#### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
-### Software Deployment Evidence for Sprint Review
+#### Introducción al Sprint
+Durante este Sprint se ha completado la **documentación de los endpoints** relacionados con la **autenticación de usuarios** y la **gestión de perfiles**, utilizando la especificación OpenAPI para facilitar la integración y comprensión de las funcionalidades disponibles en la plataforma.
+
+Los siguientes endpoints han sido implementados y documentados, permitiendo a los usuarios interactuar de manera eficiente con la plataforma para el registro, inicio de sesión y gestión de perfiles.
+
+---
+
+## Tabla de Endpoints Documentados
+
+| **Endpoint**                           | **Acción HTTP** | **Descripción**                              | **Parámetros**                              | **Response**                                       | **Enlace a la Documentación** |
+|----------------------------------------|-----------------|----------------------------------------------|---------------------------------------------|---------------------------------------------------|------------------------------|
+| `/api/v1/auth/verify-totp`             | `POST`          | Verificar código TOTP (autenticación 2FA)    | `totp_code` (string)                        | `200 OK: {"message": "Success"}`                   | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-up`                 | `POST`          | Registrar un nuevo usuario                   | `email`, `password` (string), `name` (string) | `201 Created: {"user_id": "12345", "message": "User created successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-in`                 | `POST`          | Iniciar sesión de usuario                    | `email`, `password` (string)                | `200 OK: {"token": "JWT_token"}`                   | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/generate-qr`             | `POST`          | Generar QR para usuario                      | `user_id` (string)                          | `200 OK: {"qr_url": "url_to_qr_code"}`             | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles`                     | `GET`           | Obtener perfil del usuario                   | `user_id` (string, optional)                | `200 OK: {"user_id": "12345", "name": "John Doe"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles`                     | `POST`          | Crear o actualizar perfil de usuario         | `user_id`, `name`, `email` (strings)        | `200 OK: {"message": "Profile updated successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+
+---
+
+## Explicación de cada Endpoint:
+
+### 1. `/api/v1/auth/verify-totp`
+- **Acción:** `POST`
+- **Descripción:** Verifica el código TOTP ingresado para completar la autenticación de dos factores (2FA).
+- **Parámetros:** 
+  - `totp_code`: El código temporal de un solo uso generado por el usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el código es válido, se devuelve un mensaje de éxito.
+  
+### 2. `/api/v1/auth/sign-up`
+- **Acción:** `POST`
+- **Descripción:** Registra un nuevo usuario en el sistema.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario.
+  - `password`: Contraseña para la cuenta del usuario.
+  - `name`: Nombre completo del usuario.
+- **Respuesta:** 
+  - `201 Created`: Si el registro es exitoso, se devuelve el ID del usuario creado junto con un mensaje de éxito.
+
+### 3. `/api/v1/auth/sign-in`
+- **Acción:** `POST`
+- **Descripción:** Permite al usuario iniciar sesión en el sistema.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario.
+  - `password`: Contraseña del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el inicio de sesión es exitoso, se devuelve un token JWT para la sesión.
+
+### 4. `/api/v1/auth/generate-qr`
+- **Acción:** `POST`
+- **Descripción:** Genera un código QR para la autenticación del usuario (por ejemplo, para 2FA).
+- **Parámetros:** 
+  - `user_id`: El ID del usuario para el cual se generará el código QR.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve la URL del código QR generado.
+
+### 5. `/api/v1/profiles`
+- **Acción:** `GET`
+- **Descripción:** Obtiene el perfil del usuario, con la posibilidad de obtener la información de un usuario específico.
+- **Parámetros:** 
+  - `user_id` (opcional): El ID del usuario para obtener su perfil específico.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve un objeto con los detalles del perfil del usuario.
+
+### 6. `/api/v1/profiles`
+- **Acción:** `POST`
+- **Descripción:** Crea o actualiza el perfil de un usuario.
+- **Parámetros:** 
+  - `user_id`: ID del usuario.
+  - `name`: Nombre del usuario.
+  - `email`: Correo electrónico del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si la actualización o creación del perfil es exitosa, se devuelve un mensaje confirmando la operación.
+
+---
+
+## Repositorio y Commits:
+- **Repositorio:** [HealthSync-UPC/Backend](https://github.com/HealthSync-UPC/Backend)
+- **Commits relevantes:**
+  - **Commit ID:** `852d1a9` (Implementación de funcionalidad de creación de perfil de usuario)
+  - **Commit ID:** `b27afd5` (Implementación de la autenticación de usuarios)
+  - **Commit ID:** `dc6178a` (Merge de rama 'iam' a dev)
+  - **Commit ID:** `982dd8` (Corrección de uso de contraseña en la generación de QR)
+  - **Commit ID:** `dbac81` (Autenticación de usuario y 2FA)
+
+---
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
 En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netlify**, una plataforma de despliegue continuo para aplicaciones web. Los pasos realizados durante este Sprint incluyen la configuración del repositorio, la elección del nombre del proyecto, la configuración de rutas y otras configuraciones necesarias, y la confirmación del éxito del despliegue. A continuación, se detallan los pasos seguidos durante el proceso:
 
@@ -2913,7 +3000,6 @@ En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netli
    *Descripción: Mensaje de éxito que confirma que el despliegue fue exitoso en Netlify.*
 
 Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de la **Landing Page** en **Netlify** durante este Sprint.
-
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
