@@ -342,13 +342,15 @@ ABET – EAC - Student Outcome 5
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
+        <p><b>TP1:</b> En esta entrega, se desarrolló la landing page, priorizando la usabilidad y la claridad en la presentación de los objetivos del sistema. Además, se avanzó significativamente en el frontend de la aplicación, integrando de manera coherente los componentes existentes, y se llevó a cabo el despliegue de todos los elementos, asegurando su correcto funcionamiento en el entorno correspondiente.
 </p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas. 
+        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.
+        <p><b>TP1:</b> En el TP1, contribuí activamente al desarrollo de una aplicación web siguiendo la metodología Scrum, colaborando con el equipo en el diseño y revisión de componentes clave. Implementé funcionalidades básicas para comprender en profundidad el flujo de trabajo y la arquitectura general del proyecto. 
  </p>
       </td>
       <td>
@@ -366,12 +368,14 @@ ABET – EAC - Student Outcome 5
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
+        <p><b>TP1:</b> Para esta entrega, participé en la planificación y creación de wireframes y wireflows, coordinando con el equipo para definir objetivos y plazos. Se utilizó un tablero Kanban para monitorear el progreso y garantizar la entrega organizada de los entregables visuales.</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
+        <p><b>TP1:</b> Durante esta fase, participé en la generación de ideas y en la creación inicial del frontend de la aplicación. Colaboré en el diseño de la interfaz y en la implementación de funcionalidades base, estableciendo la estructura visual del sistema. El seguimiento se realizó mediante indicadores y reuniones periódicas, asegurando el cumplimiento de los plazos.</p>
       </td>
       <td>
         <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
