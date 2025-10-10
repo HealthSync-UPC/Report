@@ -2859,6 +2859,9 @@ Este proceso permite mantener la trazabilidad y el control de permisos según fu
 
 ## 5.5. Applications Prototyping
 <img src="assets/diagrama.png"></img>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq 
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
