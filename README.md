@@ -3658,16 +3658,16 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
 **Evidencia visual**  
    A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo local:
 
-  ![Ejecucion en WebStorm]( /assets/images/Sprint%201/Testing_WebStorm.png )
+  ![Ejecucion en WebStorm](./assets/images/Sprint%201/Testing_WebStorm.png)
   *Evidencia de la ejecución de la aplicación en WebStorm, mostrando el servidor en modo de desarrollo y los logs de la consola.*
 
-  ![Vista inicial Landing Page]( /assets/images/Sprint%201/Evidencia1_Landing.png )  
+  ![Vista inicial Landing Page](./assets/images/Sprint%201/Evidencia1_Landing.png)  
   *Captura de la vista inicial de la Landing Page, mostrando la interfaz de usuario cargada correctamente en el navegador.*
 
-  ![Vista IoT Landing Page]( /assets/images/Sprint%201/Evidencia2_Landing.png )  
+  ![Vista IoT Landing Page](./assets/images/Sprint%201/Evidencia2_Landing.png)  
   *Vista de la sección de IoT de la Landing Page, validando que la funcionalidad para mostrar productos o servicios relacionados con IoT esté operativa.*
 
-  ![Vista Contactanos Landing Page]( /assets/images/Sprint%201/Evidencia3_Landing.png )  
+  ![Vista Contactanos Landing Page](./assets/images/Sprint%201/Evidencia3_Landing.png)  
   *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
