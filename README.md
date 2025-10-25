@@ -2782,7 +2782,7 @@ En el **Sprint Planning 1**, se definió el alcance del MVP de la landing, los c
 
 ---
 
-6.2.1.2  Aspect Leaders and Collaborators.
+#### 6.2.1.2  Aspect Leaders and Collaborators.
 
 | Team Member                                | GitHub Username | Landing Page | Frontend | Backend | IoT |
 |--------------------------------------------|-----------------|--------------|----------|---------|-----|
@@ -3016,6 +3016,17 @@ Repositorio FrontEnd
 
 Repositorio Landingpage
 ![Landinpage Commits]( /assets/images/commits/Landingpage1.png )  
+
+### 6.2.2 Sprint 2.
+#### 6.2.2.1 Sprint Planning 2.
+#### 6.2.2.2 Aspect Leaders and Collaborators.
+#### 6.2.2.3 Sprint Backlog 2.
+#### 6.2.2.4. Development Evidence for Sprint Review
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+#### 6.2.2.6. Execution Evidence for Sprint Review
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+#### 6.2.2.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
