@@ -3030,8 +3030,165 @@ Repositorio Landingpage
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
+
+**Objetivo**  
+Validar problemas, necesidades y condiciones de operación para la gestión y uso de insumos/medicamentos en entornos de salud, identificando dolores, barreras de adopción y criterios de éxito para una solución digital/IoT.
+
+**Alcance y Segmentos**  
+- **S1 – Farmacia/Inventarios:** farmacéuticos, técnicos y responsables de almacén hospitalario.  
+- **S2 – Áreas Críticas:** personal médico/enfermería en UCI, quirófano y emergencias.
+
+**Tipo de entrevista**  
+- Semiestructurada (10–30 min), 1 a 1, preguntas abiertas, con grabación (previo consentimiento).
+
+**Buenas prácticas**  
+- Hacer preguntas **abiertas** y de **una en una**; evitar inducir respuestas.  
+- Profundizar con “¿puedes darme un ejemplo reciente?” y “¿qué pasó luego?”.  
+- Levantar datos demográficos **mínimos** (rol, años de experiencia, turno, sede).  
+- Registrar **evidencias**: enlace al video, timestamps y una captura (screenshot).  
+- Anonimizar: no almacenar datos sensibles ni información identificable innecesaria.
+
+---
+
+### Guion de preguntas
+
+> **Nota:** Iniciar con rapport y explicar propósito, duración y uso de la información.
+
+**A. Generales (para ambos segmentos)**  
+1. ¿Cuál es su **rol** y cuántos **años de experiencia** tiene?  
+2. Descríbame un **día típico** respecto a insumos/medicamentos.  
+3. ¿Qué **problemas recientes** recuerda (quiebres de stock, caducidad, cadena de frío, trazabilidad, comunicación)?  
+4. ¿Qué **indicadores** monitorea (p. ej., quiebres, merma, tiempos de reposición, eventos adversos relacionados)?  
+5. ¿Qué **sistemas** usan hoy (ERP/HCE/Excel/otros)? ¿Qué **limitaciones** tienen?  
+6. ¿Cómo se **comunican** entre áreas (farmacia–UCI–quirófano–proveedores) y qué suele fallar?  
+7. ¿Qué **alertas** serían realmente **accionables** (qué, a quién, cuándo y por qué canal)?  
+8. Si pudiera **automatizar** algo hoy, ¿qué sería y por qué?  
+9. ¿Qué **barreras** ve para adoptar una solución digital/IoT (TI, costo, capacitación, normas, resistencia)?  
+10. ¿Cómo luce el **éxito** en 3–6 meses (KPIs/mejoras concretas)?
+
+**B. Específicas S1 – Farmacia/Inventarios**  
+1. ¿Cómo gestionan **caducidades** y **temperatura/humedad**?  
+2. ¿Dónde están los **puntos ciegos** de **trazabilidad**?  
+3. ¿Cómo detectan **sobre/substock** y con qué **frecuencia** ocurre?  
+4. ¿Qué **reportes** exigen auditorías/comités y cuánto tardan en generarlos?  
+5. ¿Con qué **proveedores** se integran?  
+6. ¿Qué **normas/regulaciones** impactan  y cómo evidencian cumplimiento?  
+7. ¿Qué **SLA** internos manejan para reposición?  
+8. ¿Cómo sería su **dashboard ideal** ?  
+9. ¿Qué **notificaciones** requieren?  
+10. Priorice **3 funcionalidades** imprescindibles de una plataforma de inventarios/IoT.
+
+**C. Específicas S2 – UCI/Quirófano/Emergencias**  
+1. ¿Qué insumos **críticos** faltan con más frecuencia y en qué **escenarios**?  
+2. ¿Cómo afecta al **flujo clínico** una ruptura de stock durante un turno/procedimiento?  
+3. ¿Qué **tiempo objetivo** requieren para reposición a pie de cama/sala?  
+4. ¿Qué **alertas en tiempo real** serían útiles durante procedimientos (contenido, prioridad, canal)?  
+5. ¿Qué **visibilidad** necesitan (ubicación, cantidad, lote, cadena de frío) y en qué **pantallas**?  
+6. ¿Cómo documentan **trazabilidad** ante eventos adversos o quejas?  
+7. ¿Qué **canal** prefieren para alertas (app móvil, panel sala, correo, mensajería corporativa)?  
+8. ¿Qué **integraciones** con HCE/órdenes médicas ayudarían más?  
+9. ¿Qué **métricas** mejorarían seguridad del paciente (tiempo a reposición, cancelaciones, desperdicio)?  
+10. Priorice **3 funciones** que resolverían su mayor dolor hoy.
+
+**Cierre**  
+- ¿Hay algo que **no preguntamos** y debería saber?  
+- ¿Autoriza que lo contactemos para **probar prototipos**?  
+
 ### 6.3.2. Registro de Entrevistas
+
+#### Segmento: Trabajadores del sector salud Farmacia/Inventarios 
+
+**Entrevista 1:**  
+- **Nombres:**  
+- **Apellidos:**  
+- **Edad:**  
+- **Rol/Área:**  
+- **Lugar de residencia (distrito/ciudad):**
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/ENTREVISTA_01.png" alt="Screenshot ENTREVISTA_01">
+
+**Enlace del video (editado único) y timing:**  
+- URL: https://…  
+- Tiempo: HH:MM:SS – HH:MM:SS
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/tareas: …  
+- Problemas: …   
+- Alertas/datos críticos: …  
+- Barreras: …  
+
+---
+
+**Entrevista 2:**  
+- **Nombres:**  
+- **Apellidos:**  
+- **Edad:**  
+- **Rol/Área:**  
+- **Lugar de residencia (distrito/ciudad):**
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/ENTREVISTA_02.png" alt="Screenshot ENTREVISTA_02">
+
+**Enlace del video (editado único) y timing:**  
+- URL: https://…  
+- Tiempo: HH:MM:SS – HH:MM:SS
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/tareas: …  
+- Problemas: …   
+- Alertas/datos críticos: …  
+- Barreras: …  
+
+---
+#### Segmento: Trabajadores del sector salud UCI/Quirófano/Emergencias
+
+**Entrevista 3:**  
+- **Nombres:**  
+- **Apellidos:**  
+- **Edad:**  
+- **Rol/Área:**  
+- **Lugar de residencia (distrito/ciudad):**
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/ENTREVISTA_03.png" alt="Screenshot ENTREVISTA_03">
+
+**Enlace del video (editado único) y timing:**  
+- URL: https://…  
+- Tiempo: HH:MM:SS – HH:MM:SS
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/tareas: …  
+- Problemas: …   
+- Alertas/datos críticos: …  
+- Barreras: …  
+
+---
+
+**Entrevista 4:**  
+- **Nombres:**  
+- **Apellidos:**  
+- **Edad:**  
+- **Rol/Área:**  
+- **Lugar de residencia (distrito/ciudad):**
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/ENTREVISTA_04.png" alt="Screenshot ENTREVISTA_04">
+
+**Enlace del video (editado único) y timing:**  
+- URL: https://…  
+- Tiempo: HH:MM:SS – HH:MM:SS
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/tareas: …  
+- Problemas: …   
+- Alertas/datos críticos: …  
+- Barreras: …  
+
 ### 6.3.3. Evaluaciones según heurísticas
+
+**Trazabilidad a supuestos/hipótesis:**  
+- Hypothesis/Assumption → (confirma/parcial/refuta)
 
 ## 6.4. Video About-the-Product
 
