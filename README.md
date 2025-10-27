@@ -3064,7 +3064,6 @@ Validar problemas, necesidades y condiciones de operación para la gestión y us
 7. ¿Qué **alertas** serían realmente **accionables** (qué, a quién, cuándo y por qué canal)?  
 8. Si pudiera **automatizar** algo hoy, ¿qué sería y por qué?  
 9. ¿Qué **barreras** ve para adoptar una solución digital/IoT (TI, costo, capacitación, normas, resistencia)?  
-10. ¿Cómo luce el **éxito** en 3–6 meses (KPIs/mejoras concretas)?
 
 **B. Específicas S1 – Farmacia/Inventarios**  
 1. ¿Cómo gestionan **caducidades** y **temperatura/humedad**?  
@@ -3073,10 +3072,9 @@ Validar problemas, necesidades y condiciones de operación para la gestión y us
 4. ¿Qué **reportes** exigen auditorías/comités y cuánto tardan en generarlos?  
 5. ¿Con qué **proveedores** se integran?  
 6. ¿Qué **normas/regulaciones** impactan  y cómo evidencian cumplimiento?  
-7. ¿Qué **SLA** internos manejan para reposición?  
-8. ¿Cómo sería su **dashboard ideal** ?  
-9. ¿Qué **notificaciones** requieren?  
-10. Priorice **3 funcionalidades** imprescindibles de una plataforma de inventarios/IoT.
+7. ¿Cómo sería su **dashboard ideal** ?  
+8. ¿Qué **notificaciones** requieren?  
+9. Priorice **3 funcionalidades** imprescindibles de una plataforma de inventarios/IoT.
 
 **C. Específicas S2 – UCI/Quirófano/Emergencias**  
 1. ¿Qué insumos **críticos** faltan con más frecuencia y en qué **escenarios**?  
