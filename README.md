@@ -3029,68 +3029,82 @@ Repositorio Landingpage
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews
-### 6.3.1. Diseño de Entrevistas
+# 6.3.1. Diseño de Entrevistas (Versión enfocada en Landing Page y Front-End)
 
-**Objetivo**  
-Validar problemas, necesidades y condiciones de operación para la gestión y uso de insumos/medicamentos en entornos de salud, identificando dolores, barreras de adopción y criterios de éxito para una solución digital/IoT.
-
-**Alcance y Segmentos**  
-- **S1 – Farmacia/Inventarios:** farmacéuticos, técnicos y responsables de almacén hospitalario.  
-- **S2 – Áreas Críticas:** personal médico/enfermería en UCI, quirófano y emergencias.
-
-**Tipo de entrevista**  
-- Semiestructurada (10–30 min), 1 a 1, preguntas abiertas, con grabación (previo consentimiento).
-
-**Buenas prácticas**  
-- Hacer preguntas **abiertas** y de **una en una**; evitar inducir respuestas.  
-- Profundizar con “¿puedes darme un ejemplo reciente?” y “¿qué pasó luego?”.  
-- Levantar datos demográficos **mínimos** (rol, años de experiencia, turno, sede).  
-- Registrar **evidencias**: enlace al video, timestamps y una captura (screenshot).  
-- Anonimizar: no almacenar datos sensibles ni información identificable innecesaria.
+## **Objetivo**  
+Validar la usabilidad, claridad y adecuación visual del prototipo digital (landing page y front-end), identificando puntos de mejora en navegación, contenido, alertas y experiencia de usuario para los distintos perfiles del entorno hospitalario.
 
 ---
 
-### Guion de preguntas
+## **Alcance y Segmentos**  
+- **S1 – Farmacia/Inventarios:** farmacéuticos, técnicos y responsables de almacén hospitalario.  
+- **S2 – Áreas Críticas:** personal médico/enfermería en UCI, quirófano y emergencias.
 
-> **Nota:** Iniciar con rapport y explicar propósito, duración y uso de la información.
+---
 
-**A. Generales (para ambos segmentos)**  
-1. ¿Cuál es su **rol** y cuántos **años de experiencia** tiene?  
-2. Descríbame un **día típico** respecto a insumos/medicamentos.  
-3. ¿Qué **problemas recientes** recuerda (quiebres de stock, caducidad, cadena de frío, trazabilidad, comunicación)?  
-4. ¿Qué **indicadores** monitorea (p. ej., quiebres, merma, tiempos de reposición, eventos adversos relacionados)?  
-5. ¿Qué **sistemas** usan hoy (ERP/HCE/Excel/otros)? ¿Qué **limitaciones** tienen?  
-6. ¿Cómo se **comunican** entre áreas (farmacia–UCI–quirófano–proveedores) y qué suele fallar?  
-7. ¿Qué **alertas** serían realmente **accionables** (qué, a quién, cuándo y por qué canal)?  
-8. Si pudiera **automatizar** algo hoy, ¿qué sería y por qué?  
-9. ¿Qué **barreras** ve para adoptar una solución digital/IoT (TI, costo, capacitación, normas, resistencia)?  
+## **Tipo de entrevista**  
+- Semiestructurada (10–15 min), 1 a 1, centrada en observación del uso del prototipo, con grabación previa autorización.
 
-**B. Específicas S1 – Farmacia/Inventarios**  
-1. ¿Cómo gestionan **caducidades** y **temperatura/humedad**?  
-2. ¿Dónde están los **puntos ciegos** de **trazabilidad**?  
-3. ¿Cómo detectan **sobre/substock** y con qué **frecuencia** ocurre?  
-4. ¿Qué **reportes** exigen auditorías/comités y cuánto tardan en generarlos?  
-5. ¿Con qué **proveedores** se integran?  
-6. ¿Qué **normas/regulaciones** impactan  y cómo evidencian cumplimiento?  
-7. ¿Cómo sería su **dashboard ideal** ?  
-8. ¿Qué **notificaciones** requieren?  
-9. Priorice **3 funcionalidades** imprescindibles de una plataforma de inventarios/IoT.
+---
 
-**C. Específicas S2 – UCI/Quirófano/Emergencias**  
-1. ¿Qué insumos **críticos** faltan con más frecuencia y en qué **escenarios**?  
-2. ¿Cómo afecta al **flujo clínico** una ruptura de stock durante un turno/procedimiento?  
-3. ¿Qué **tiempo objetivo** requieren para reposición a pie de cama/sala?  
-4. ¿Qué **alertas en tiempo real** serían útiles durante procedimientos (contenido, prioridad, canal)?  
-5. ¿Qué **visibilidad** necesitan (ubicación, cantidad, lote, cadena de frío) y en qué **pantallas**?  
-6. ¿Cómo documentan **trazabilidad** ante eventos adversos o quejas?  
-7. ¿Qué **canal** prefieren para alertas (app móvil, panel sala, correo, mensajería corporativa)?  
-8. ¿Qué **integraciones** con HCE/órdenes médicas ayudarían más?  
-9. ¿Qué **métricas** mejorarían seguridad del paciente (tiempo a reposición, cancelaciones, desperdicio)?  
-10. Priorice **3 funciones** que resolverían su mayor dolor hoy.
+## **Buenas prácticas**  
+- Formular preguntas **cortas y abiertas**; evitar inducir respuestas.  
+- Solicitar ejemplos o comentarios sobre secciones específicas de la interfaz.  
+- Registrar **impresiones visuales y de navegación** (capturas o timestamps).  
+- Evitar recopilar datos personales o información sensible.
 
-**Cierre**  
-- ¿Hay algo que **no preguntamos** y debería saber?  
-- ¿Autoriza que lo contactemos para **probar prototipos**?  
+---
+
+## **Guion de preguntas**
+
+> **Nota:** Iniciar con una breve introducción explicando propósito, duración y uso de la retroalimentación.
+
+### **A. Generales (para ambos segmentos)**  
+1. ¿Qué impresión le genera la página al ingresar?  
+2. ¿Entendió de inmediato para qué sirve la plataforma?  
+3. ¿La navegación entre secciones le resultó clara y rápida?  
+4. ¿Los colores, íconos o textos le parecen adecuados para su trabajo?  
+5. ¿En qué parte sintió confusión o falta de información?  
+6. ¿Qué le pareció la ubicación de botones y menús principales?  
+7. ¿Qué cambiaría para que la página sea más intuitiva?  
+8. Si tuviera que usarla en su turno, ¿qué le facilitaría o dificultaría?
+
+---
+
+### **B. Segmento S1 – Farmacia/Inventarios**  
+1. ¿La vista principal le permite ubicar fácilmente productos o alertas críticas?  
+2. ¿Entendió cómo se muestran los estados de stock y caducidad?  
+3. ¿Las alertas visuales (colores, íconos) le resultan claras?  
+4. ¿Qué información le gustaría ver en el panel o dashboard inicial?  
+5. ¿Qué notificaciones le resultarían útiles (vencimiento, sobrestock, fallos de temperatura)?  
+6. ¿Qué tres funciones considera indispensables en la pantalla de inventarios?
+
+---
+
+### **C. Segmento S2 – Áreas Críticas (UCI / Quirófano / Emergencias)**  
+1. ¿Identificó fácilmente los insumos disponibles y su ubicación?  
+2. ¿Las alertas de stock o reposición se perciben rápido durante la simulación?  
+3. ¿Qué tipo de alerta o canal (panel, app, correo) preferiría?  
+4. ¿Qué información necesita ver en tiempo real durante un procedimiento?  
+5. ¿El diseño visual le ayudaría a reducir retrasos o errores?  
+6. ¿Qué tres funciones mejorarían su flujo de trabajo desde la interfaz?
+
+---
+
+### **Cierre**  
+- ¿Qué parte del diseño mejoraría primero?  
+- ¿Le gustaría participar en pruebas de la siguiente versión del prototipo?
+
+---
+
+**Formato de registro sugerido:**  
+- **Entrevista n.º:**  
+- **Segmento:** S1 / S2  
+- **Rol:**  
+- **Evidencia:** enlace a video / screenshot  
+- **Resumen de hallazgos:**  
+- **Sugerencias de mejora visual o funcional:**
+
 
 ### 6.3.2. Registro de Entrevistas
 
