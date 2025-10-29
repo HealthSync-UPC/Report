@@ -3097,39 +3097,32 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 
 ---
 
-**Formato de registro sugerido:**  
-- **Entrevista n.º:**  
-- **Segmento:** S1 / S2  
-- **Rol:**  
-- **Evidencia:** enlace a video / screenshot  
-- **Resumen de hallazgos:**  
-- **Sugerencias de mejora visual o funcional:**
-
-
 ### 6.3.2. Registro de Entrevistas
 
 #### Segmento: Trabajadores del sector salud Farmacia/Inventarios 
 
 **Entrevista 1:**  
-- **Nombres:**  
-- **Apellidos:**  
-- **Edad:**  
-- **Rol/Área:**  
-- **Lugar de residencia (distrito/ciudad):**
+- **Nombres:** Ernie Fabian
+- **Apellidos:**  Cossio Soto
+- **Edad:** 29
+- **Rol/Área:**  Profesional enfocado en la innovación en el sector salud
+- **Lugar de residencia (distrito/ciudad):** Miraflores, Lima
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/ENTREVISTA_01.png" alt="Screenshot ENTREVISTA_01">
+<img src="assets/ENTREVISTA1.png" alt="Screenshot ENTREVISTA_01">
 
 **Enlace del video (editado único) y timing:**  
-- URL: https://…  
-- Tiempo: HH:MM:SS – HH:MM:SS
+- URL: [https://…  ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EZC9szeFrZtMupL4tsGKpXsBT-lMubVWCdIKNAI1WW7nSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ye5lRZ)
+- Tiempo: 9:49
 
 **Resumen de la entrevista (8–12 líneas):**  
-- Contexto/tareas: …  
-- Problemas: …   
-- Alertas/datos críticos: …  
-- Barreras: …  
+- Contexto/Tareas: El usuario se encuentra satisfecho con el diseño general y la accesibilidad de la interfaz o sistema actual. Sus tareas principales se centran en la gestión y control del sistema (probablemente de monitoreo o alarmas) y la necesidad de una mayor variedad de alertas personalizadas.
 
+- Problemas: Actualmente, el principal "problema" o área de mejora es la falta de control y gestión detallada que el usuario desearía tener sobre el sistema. También existe una limitación en la variedad y personalización de las alarmas disponibles.
+
+- Alertas/Datos Críticos: Es una necesidad crítica la implementación de una mayor variedad de alarmas que puedan adaptarse a diferentes escenarios o niveles de riesgo. El usuario requiere la capacidad de gestionar estas alertas de forma más granular.
+
+- Barreras: Las barreras identificadas son la limitación actual del sistema para ofrecer un control de gestión más profundo y la rigidez en la configuración de las opciones de alerta, impidiendo la deseada personalización.
 ---
 
 **Entrevista 2:**  
@@ -3140,11 +3133,11 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 - **Lugar de residencia (distrito/ciudad):**
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/ENTREVISTA_02.png" alt="Screenshot ENTREVISTA_02">
+<img src="assets/ENTREVISTA2.png" alt="Screenshot ENTREVISTA_02">
 
 **Enlace del video (editado único) y timing:**  
-- URL: https://…  
-- Tiempo: HH:MM:SS – HH:MM:SS
+- URL: [https://…  ]()
+- Tiempo: 
 
 **Resumen de la entrevista (8–12 líneas):**  
 - Contexto/tareas: …  
@@ -3156,24 +3149,27 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 #### Segmento: Trabajadores del sector salud UCI/Quirófano/Emergencias
 
 **Entrevista 3:**  
-- **Nombres:**  
-- **Apellidos:**  
-- **Edad:**  
-- **Rol/Área:**  
-- **Lugar de residencia (distrito/ciudad):**
+- **Nombres:** Alejandra Lucia
+- **Apellidos:** Neyra Yataco
+- **Edad:** 25
+- **Rol/Área:** Unidad de Cuidados Intensivos
+- **Lugar de residencia (distrito/ciudad):**  Jesus Maria, Lima
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/ENTREVISTA_03.png" alt="Screenshot ENTREVISTA_03">
+<img src="assets/ENTREVISTA2.png" alt="Screenshot ENTREVISTA_02">
 
 **Enlace del video (editado único) y timing:**  
-- URL: https://…  
-- Tiempo: HH:MM:SS – HH:MM:SS
+- URL: [https://…  ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/ETvFjqAj5UhFq53NQltZqOIBWIYy9497KdgDb7dMQ92eEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nMateo)
+- Tiempo: 8:05
 
 **Resumen de la entrevista (8–12 líneas):**  
-- Contexto/tareas: …  
-- Problemas: …   
-- Alertas/datos críticos: …  
-- Barreras: …  
+- Contexto/Tareas: El usuario está interactuando con una interfaz o un sistema de monitoreo de dispositivos. Su tarea principal es obtener información detallada y actualizada de estos dispositivos, ya que requiere un acceso a datos en tiempo real.
+
+- Problemas: El diseño actual presenta áreas o partes que necesitan ser mejoradas. Específicamente, el usuario percibe una falta de información suficiente o inmediata sobre el estado y rendimiento de los dispositivos conectados.
+
+- Alertas/Datos Críticos: Es un dato crítico la necesidad de que la interfaz muestre mayor información y, crucialmente, que esta información se provea a tiempo real. La inmediatez de los datos es esencial para sus operaciones o toma de decisiones.
+
+- Barreras: Las principales barreras son las deficiencias en el diseño de la interfaz (partes a mejorar) que no están priorizando o facilitando la visualización de la información relevante, y la limitación del sistema para entregar o actualizar los datos de los dispositivos de forma verdaderamente inmediata.
 
 ---
 
