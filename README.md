@@ -63,15 +63,9 @@
   </thead>
   <tbody>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Ayquipa Ubaldo, Abraham Israel 
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Ayquipa Ubaldo, Abraham Israel</td>
       <td>
         Capítulo I: Introducción <br/>
         - 1.1. Startup Profile <br/>
@@ -93,18 +87,12 @@
         - 2.2.1. Diseño de entrevistas<br/>
         - 2.2.2. Registro de entrevistas <br/>
         - 2.2.3. Análisis de entrevistas <br/>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Durand Vera, Gianfranco Angel	
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Durand Vera, Gianfranco Angel</td>
       <td>
         - 2.3. Needfinding <br>
         - 2.3.1. User Personas <br>
@@ -113,18 +101,12 @@
         - 2.3.4. Empathy Mapping <br>
         - 2.4. Big Picture EventStorming <br>
         - 2.5. Ubiquitous Language <br>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Cruz Ticona, Aarón Alejandro
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Cruz Ticona, Aarón Alejandro</td>
       <td>
         Capítulo III: Requirements Specification<br>
         - 3.1. User Stories<br>
@@ -136,18 +118,12 @@
         - 4.1.1.1. Candidate Context Discovery<br>
         - 4.1.1.2. Domain Message Flows Modeling<br>
         - 4.1.1.3. Bounded Context Canvases<br>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Ticona Panduro, Estrella del Pilar
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Ticona Panduro, Estrella del Pilar</td>
       <td>
         - 4.1.2. Context Mapping<br>
         - 4.1.3. Software Architecture<br>
@@ -158,18 +134,12 @@
         - 4.2. Tactical-Level Domain-Driven Design<br>
         - 4.2.X. Bounded Context: <Bounded Context Name><br>
         - 4.2.X.1. Domain Layer<br>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Luza Carhuamaca Jose Adrian
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Luza Carhuamaca Jose Adrian</td>
       <td>
         - 4.2.X.2. Interface Layer <br>
         - 4.2.X.3. Application Layer <br>
@@ -178,10 +148,68 @@
         - 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams <br>
         - 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams <br>
         - 4.2.X.6.2. Bounded Context Database Design Diagram <br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Ayquipa Ubaldo, Abraham Israel</td>
+      <td>
+        Capítulo VI: Product Implementation, Validation & Deployment<br>
+        - 6.2.2.4. Development Evidence for Sprint Review<br>
+        - 6.2.2.5. Testing Suite Evidence for Sprint Review<br>
+        - 6.2.2.6. Execution Evidence for Sprint Review<br>
+        - 6.2.2.7. Services Documentation Evidence for Sprint Review<br>
+        - 6.2.2.8. Software Deployment Evidence for Sprint Review<br>
+        - 6.2.2.9. Team Collaboration Insights during Sprint<br>
+        - 6.3.3. Evaluaciones según heurísticas<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Durand Vera, Gianfranco Angel</td>
+      <td>
+        - Despliegue nueva versión de Web BackEnd Applications<br>
+        - Despliegue primera versión de Aplicaciones Mobile<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Cruz Ticona, Aarón Alejandro</td>
+      <td>
+        - 6.2.2. Sprint 2<br>
+        - 6.2.2.1. Sprint Planning 2<br>
+        - 6.2.2.2. Aspect Leaders and Collaborators<br>
+        - 6.2.2.3. Sprint Backlog 2<br>
+        - 2 Entrevistas – 2do Segmento<br>
+        - Despliegue primera versión de Aplicaciones Mobile (Por Confirmar)<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Ticona Panduro, Estrella del Pilar</td>
+      <td>
+        - Despliegue nueva versión de Web Frontend Applications<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Luza Carhuamaca Jose Adrian</td>
+      <td>
+        - 6.3. Validation Interviews<br>
+        - 6.3.1. Diseño de Entrevistas<br>
+        - 6.3.2. Registro de Entrevistas<br>
+        - 6.4. Video About-the-Product<br>
+        - Despliegue nueva versión del Landing Page<br>
+        - 2 Entrevistas – 1er Segmento<br>
+      </td>
+    </tr>
   </tbody>
 </table>
-
-
 
 # Project Report Collaboration Insights
 
@@ -514,6 +542,70 @@ ABET – EAC - Student Outcome 5
 **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
 <table>
+  <tr>
+    <td><b>Criterio específico</b></td>
+    <td><b>Acciones realizadas</b></td>
+    <td><b>Conclusiones</b></td>
+  </tr>
+  <tbody>
+    <tr>
+      <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
+      <td>
+        <p><b>Abraham Ayquipa Ubaldo</b></p>
+        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.</p>
+        <p><b>TB2:</b> Lideré la documentación técnica del Sprint 2, coordinando con el equipo para consolidar las evidencias de desarrollo, testing y despliegue. Facilité la comunicación entre los equipos de frontend y backend para asegurar la coherencia en la documentación de servicios y la colaboración efectiva durante el sprint.</p>
+        <br>
+        <p><b>Aaron Cruz Ticona</b></p>
+        <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
+        <p><b>TB2:</b> Asumí el liderazgo en la planificación del Sprint 2, facilitando la definición de roles y responsabilidades mediante el documento de Aspect Leaders. Coordiné con el equipo para estructurar el Sprint Backlog de manera efectiva y conduje las entrevistas del segundo segmento objetivo, garantizando la captura de insights valiosos para validar nuestras funcionalidades.</p>
+        <br>
+        <p><b>Gianfranco Durand Vera</b></p>
+        <p><b>TB1:</b> Utilicé metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del proyecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.</p>
+        <p><b>TB2:</b> Lideré el desarrollo y despliegue del Web Backend Applications, coordinando con el equipo de frontend para asegurar la integración exitosa de servicios. También dirigí el desarrollo de la primera versión de las aplicaciones móviles, estableciendo las bases arquitectónicas y promoviendo buenas prácticas de desarrollo entre los miembros del equipo.</p>
+        <br>
+        <p><b>Jose Luza Carhuamaca</b></p>
+        <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
+        <p><b>TB2:</b> Coordiné el proceso de validación con usuarios reales, liderando el diseño y ejecución de entrevistas del primer segmento. Dirigí la producción del video About-the-Product y supervisé el despliegue actualizado del Landing Page, asegurando que todos los elementos comunicaran efectivamente la propuesta de valor del producto.</p>
+        <br>
+        <p><b>Estrella Ticona Panduro</b></p>
+        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.</p>
+        <p><b>TB2:</b> Lideré el desarrollo y despliegue de la nueva versión del Web Frontend Applications, coordinando con el equipo de backend para garantizar la integración fluida de funcionalidades. Promovi estándares de calidad en la interfaz de usuario y facilité la revisión de código entre pares para fortalecer las capacidades técnicas del equipo.</p>
+      </td>
+      <td>
+        <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
+        <p><b>TB2:</b> El equipo consolidó un modelo de liderazgo distribuido durante el Sprint 2, donde cada miembro asumió responsabilidades específicas de liderazgo en su área de expertise. La coordinación entre frontend, backend y mobile, junto con las actividades de validación y documentación, demostró nuestra capacidad para trabajar de manera integrada, tomando decisiones conjuntas que fortalecieron la calidad del producto final.</p>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
+      <td>
+        <p><b>Abraham Ayquipa Ubaldo</b></p>
+        <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
+        <p><b>TB2:</b> Establecí un sistema de seguimiento de evidencias técnicas que permitió a todos los miembros visualizar el progreso del sprint. Coordiné sesiones de revisión colaborativa donde se evaluaron las pruebas y el despliegue, asegurando que cada voz fuera escuchada y que las evaluaciones heurísticas reflejaran perspectivas diversas del equipo.</p>
+        <br>
+        <p><b>Aaron Cruz Ticona</b></p>
+        <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y también el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
+        <p><b>TB2:</b> Creé un ambiente inclusivo durante las sesiones de planificación del Sprint 2, asegurando que todos los miembros participaran en la definición de tareas y estimaciones. Establecí metas claras y alcanzables en el Sprint Backlog, y coordiné las entrevistas de validación de manera que el equipo pudiera aprender de los resultados y ajustar prioridades colaborativamente.</p>
+        <br>
+        <p><b>Gianfranco Durand Vera</b></p>
+        <p><b>TB1:</b> Creé la organización y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
+        <p><b>TB2:</b> Establecí un entorno de desarrollo consistente para backend y mobile, documentando los procesos de configuración y despliegue para que todo el equipo pudiera contribuir efectivamente. Planifiqué sprints técnicos con objetivos incrementales y promovi code reviews inclusivos que permitieron el aprendizaje mutuo entre desarrolladores de diferentes niveles.</p>
+        <br>
+        <p><b>Jose Luza Carhuamaca</b></p>
+        <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
+        <p><b>TB2:</b> Planifiqué y ejecuté las entrevistas de validación creando un protocolo inclusivo que consideró la diversidad de nuestros segmentos objetivo. Coordiné la producción del video promocional involucrando diferentes perspectivas del equipo, y supervisé el despliegue del Landing Page estableciendo checkpoints claros que permitieron al equipo colaborar efectivamente y cumplir los objetivos dentro del plazo establecido.</p>
+        <br>
+        <p><b>Estrella Ticona Panduro</b></p>
+        <p><b>TB1:</b> En esta entrega aporté con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
+        <p><b>TB2:</b> Creé un entorno colaborativo en el desarrollo frontend al establecer estándares de código compartidos y realizar sesiones de pair programming con otros miembros del equipo. Planifiqué el despliegue de la nueva versión del frontend con metas claras de funcionalidad y rendimiento, cumpliendo los objetivos técnicos mientras mantenía canales abiertos de comunicación para resolver bloqueadores de manera conjunta.</p>
+      </td>
+      <td>
+        <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
+        <p><b>TB2:</b> En el Sprint 2, el equipo demostró madurez en la creación de entornos colaborativos al implementar prácticas ágiles efectivas. La planificación detallada, las revisiones constantes y la documentación accesible permitieron que cada miembro contribuyera desde su expertise. Las metas establecidas fueron cumplidas exitosamente, evidenciando nuestra capacidad para trabajar de manera inclusiva, adaptarnos a los desafíos técnicos y entregar valor incremental al producto SmartSuite.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
   <tr>
     <td><b>Criterio específico</b></td>
     <td><b>Acciones realizadas</b></td>
