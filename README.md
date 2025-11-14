@@ -3201,10 +3201,10 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
 
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Committed on (Date)** | **Descripción** |
 |----------------|------------|---------------|-------------------|-------------------------|-----------------|
-| Frontend | main | t9a4b23 | fix: add acceptance tests for HU001 institution registration | Oct 1, 2025 | Implementación de pruebas de aceptación para el registro de instituciones con escenarios de validación exitosa y fallida usando Gherkin. |
-| Frontend | main | t7c2d14 | fix: add acceptance tests for HU003 user login | Oct 10, 2025 | Validación de inicio de sesión con credenciales correctas e incorrectas, incluyendo manejo de errores. |
-| Frontend | main | t5e8f31 | refactor: add acceptance tests for HU011 device provisioning | Oct 10, 2025 | Pruebas de alta de dispositivos IoT con validación de IDs únicos y manejo de duplicados. |
-| Frontend | main | t3g6h42 | fix: add acceptance tests for HU016 threshold configuration | Oct 09, 2025 | Validación de configuración de umbrales de temperatura y humedad por ubicación con guardado de historial de cambios. |
+| Frontend | main | t9a4b23 | fix: add acceptance tests for institution registration | Oct 1, 2025 | Implementación de pruebas de aceptación para el registro de instituciones con escenarios de validación exitosa y fallida usando Gherkin. |
+| Frontend | main | t7c2d14 | fix: add acceptance tests for user login | Oct 10, 2025 | Validación de inicio de sesión con credenciales correctas e incorrectas, incluyendo manejo de errores. |
+| Frontend | main | t5e8f31 | refactor: add acceptance tests for device provisioning | Oct 10, 2025 | Pruebas de alta de dispositivos IoT con validación de IDs únicos y manejo de duplicados. |
+| Frontend | main | t3g6h42 | fix: add acceptance tests for threshold configuration | Oct 09, 2025 | Validación de configuración de umbrales de temperatura y humedad por ubicación con guardado de historial de cambios. |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
