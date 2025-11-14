@@ -3161,9 +3161,79 @@ Repositorio Landingpage
 ![Landinpage Commits]( /assets/images/commits/Landingpage1.png )  
 
 ### 6.2.2 Sprint 2.
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2, enfocado en habilitar el flujo de autenticación e identidad institucional (registro de instituciones y usuarios), gestión básica de perfil y la primera provisión de dispositivos IoT integrada con el backend desplegado y la primera versión mobile.
+
+Se detalla el incremento funcional logrado (web + mobile), la coordinación entre frontend, backend, el uso del repositorio Git y del tablero de tareas, así como la planificación del sprint y el Sprint Backlog asociado. Este sprint permitió cerrar un primer **MVP de acceso y onboarding de dispositivos** sobre el que se construirán las siguientes funcionalidades de monitoreo y alertas.
+
+---
+
 #### 6.2.2.1 Sprint Planning 2.
+
+En el Sprint Planning 2, se definió como foco principal **la capa de identidad y provisión inicial de dispositivos IoT en el Front**, tomando historias priorizadas del Product Backlog relacionadas con registro institucional, registro de usuario, autenticación, gestión de perfil y alta de dispositivos (HU001, HU002, HU003, HU004, HU006, HU007, HU011).
+
+| Campo                              | Detalle                                                                                                                                                                                                                                                                               |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                              |
+| **Sprint Planning Background**     | Construir un primer incremento funcional que permita: registrar instituciones, registrar usuarios, iniciar/cerrar sesión de forma segura, gestionar perfil básico y dar de alta dispositivos IoT vinculados a una organización.                                                       |
+| **Date**                           | 13 de octubre de 2025                                                                                                                                                                                                                                                                 |
+| **Time**                           | 21:30 horas (GMT-5)                                                                                                                                                                                                                                                                   |
+| **Location**                       | Modalidad remota                                                                                                                                                                                                                                                                      |
+| **Prepared By**                    | Equipo del Proyecto                                                                                                                                                                                                                                    |
+| **Attendees (to planning)**        | Product Owner, UX/UI Lead, Front-End Lead, Backend Lead, Mobile Lead, QA Lead, Devs (Web, Mobile, IoT)                                                                                                                                                                                |
+| **Sprint 1 Review Summary**        | Se presentó la landing page MVP desplegada, con navegación completa, formulario de contacto funcional y métricas básicas. Se recogió feedback sobre claridad de la propuesta de valor y se identificó la necesidad de conectar la landing con el flujo de registro.                   |
+| **Sprint 2 Retrospective Summary** | Se consolidó un flujo de autenticación consistente entre web y mobile. Se mejoró la coordinación entre frontend y backend (definición clara de contratos API) y se acordó documentar los endpoints clave (login, registro, dispositivos) en un formato accesible para todo el equipo. |
+| **Sprint Goal & User Stories**     | **Goal:** Habilitar un MVP funcional de acceso e identidad institucional con registro de instituciones, usuarios y provisión básica de dispositivos IoT, integrado a backend y primera versión mobile. <br> **Historias:** HU001, HU002, HU003, HU004, HU006, HU007, HU011.           |
+| **Sprint Velocity 2**              | 20                                                                                                                                                                                                                                                                                    |
+| **Sum of Story Points**            | 22 (HU001 = 5, HU002 = 5, HU003 = 3, HU004 = 1, HU006 = 1, HU007 = 2, HU011 = 5)                                                                                                                                                                                                      |
+
+---
+
 #### 6.2.2.2 Aspect Leaders and Collaborators.
+
+Para el Sprint 2 se mantuvo la estructura de roles, reforzando la participación en backend y mobile para integrar la capa de autenticación y provisión de dispositivos.
+
+| Team Member                        | GitHub Username | Landing Page | Frontend Web | Backend | Mobile | IoT |
+| ---------------------------------- | --------------- | ------------ | ------------ | ------- | ------ | --- |
+| Cruz Ticona, Aaron Alejandro       | AaronAlejandrou | -            | C            | -       |  **L** | -   |
+| Ayquipa Ubaldo, Abraham Israel     | abrahamayquipa  | -            | C            | C       | C      | -   |
+| Luza Carhuamaca, Jose Adrian       | Adrianluza1     | -            | C            | C       | -      | **L**  |
+| Durand Vera, Gianfranco Angel      | FrancoDurand    | -            | C            | **L**   | C      | -   |
+| Ticona Panduro, Estrella del Pilar | Estrella-ticona | -            | **L**        | -       | C      | -   |
+
+Leyenda: **L = Leader**, **C = Collaborator**, **- = No participación en el sprint**.
+
+---
+
 #### 6.2.2.3 Sprint Backlog 2.
+
+**Link del Trello:**  
+Link: https://trello.com/invite/b/68e5c340ab38cc001da13a66/ATTI0adc4dbd76797a8850f7ca7d4f37b28407D0CB1C/meditrack
+
+**Vista del Sprint Backlog en Trello:**  
+![trelloSprint2.png](assets/trello-image2.png)
+
+**Tabla del Sprint Backlog 2**
+
+| **Sprint #** | **Sprint 2** |   |   |   |   |   |   |
+|--------------|--------------|---|---|---|---|---|---|
+| **User Story** | **Work-item / Task** |   |   |   |   |   |   |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation hours** | **Assigned To** | **Status To-do / In-Process / To-Review / Done** |
+| **HU001** | Registro de institución | **T14** | Modelo y API de institución | Definir modelo de datos de institución, repositorio y endpoints REST (crear/listar) en backend. | 4h | Backend Dev | Done |
+| **HU001** | Registro de institución | **T15** | Formulario de alta (web) | Crear formulario web para registrar institución (datos básicos, validación y mensajes de error). | 4h | Front-End Dev | Done |
+| **HU002** | Registro de usuario | **T16** | Endpoint de registro de usuario | Implementar endpoint REST para registro, validaciones y hash seguro de contraseña. | 4h | Backend Dev | Done |
+| **HU002** | Registro de usuario | **T17** | Pantallas de registro web/mobile | Implementar pantallas de registro (web y mobile) conectadas al backend con manejo de errores. | 5h | Front-End Dev + Mobile Dev | To-Review |
+| **HU003** | Inicio de sesión | **T18** | Login API + JWT | Implementar endpoint de login con verificación de credenciales y emisión de JWT (y refresh token si aplica). | 4h | Backend Dev | Done |
+| **HU003** | Inicio de sesión | **T19** | UI de login y sesión (web/mobile) | Implementar pantallas de login, almacenamiento de token y redirección a home autenticado. | 4h | Front-End Dev + Mobile Dev | Done |
+| **HU004** | Cerrar sesión | **T20** | Lógica de cierre de sesión (API) | Definir endpoint o mecanismo para invalidar token/refresh (si aplica) y registrar logout en backend. | 2h | Backend Dev | To-Review |
+| **HU004** | Cerrar sesión | **T21** | Logout en clientes | Implementar botón de “Cerrar sesión” en web y mobile que limpie token, estado y redirija a login. | 2h | Front-End Dev + Mobile Dev | Done |
+| **HU006** | Cambio de contraseña | **T22** | API cambio de contraseña | Implementar endpoint autenticado para cambio de contraseña con validaciones de seguridad. | 3h | Backend Dev | In-Process |
+| **HU006** | Cambio de contraseña | **T23** | Vista de cambio de contraseña | Crear pantalla de cambio de contraseña dentro de perfil, con validaciones y feedback al usuario. | 3h | Front-End Dev | In-Process |
+| **HU007** | Gestión de perfil de usuario | **T24** | API de perfil (GET/PUT) | Implementar endpoints para obtener y actualizar datos de perfil (nombre, rol visible, contacto). | 3h | Backend Dev | Done |
+| **HU007** | Gestión de perfil de usuario | **T25** | UI de perfil (web/mobile) | Crear la vista de perfil para ver/editar datos básicos, conectada a la API de perfil. | 4h | Front-End Dev + Mobile Dev | To-Review |
+| **HU011** | Alta/provisión de dispositivo IoT | **T26** | Modelo y endpoints de dispositivo | Definir entidad de dispositivo (ID, clave, tipo, estado), endpoints de alta y consulta en backend. | 5h | Backend Dev + IoT | In-Process |
+| **HU011** | Alta/provisión de dispositivo IoT | **T27** | UI de registro de dispositivo | Crear pantalla web para registrar dispositivos IoT, asociarlos a institución y ver estado básico. | 4h | Front-End Dev | To-Do |
+
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Committed on (Date)** |
