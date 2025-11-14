@@ -433,17 +433,68 @@
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1 Sprint 1.](#621-sprint-1)
       - [6.2.1.1 Sprint Planning 1.](#6211-sprint-planning-1)
+      - [6.2.1.2  Aspect Leaders and Collaborators.](#6212--aspect-leaders-and-collaborators)
       - [6.2.1.3 Sprint Backlog 1.](#6213-sprint-backlog-1)
       - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
       - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
       - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [Introducción al Sprint](#introducción-al-sprint)
+  - [Tabla de Endpoints Documentados](#tabla-de-endpoints-documentados)
+  - [Explicación de cada Endpoint:](#explicación-de-cada-endpoint)
+    - [1. `/api/v1/auth/verify-totp`](#1-apiv1authverify-totp)
+    - [2. `/api/v1/auth/sign-up`](#2-apiv1authsign-up)
+    - [3. `/api/v1/auth/sign-in`](#3-apiv1authsign-in)
+    - [4. `/api/v1/auth/generate-qr`](#4-apiv1authgenerate-qr)
+    - [5. `/api/v1/profiles`](#5-apiv1profiles)
+    - [6. `/api/v1/profiles`](#6-apiv1profiles)
+  - [Repositorio y Commits:](#repositorio-y-commits)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [Software Deployment Evidence for Sprint Review](#software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2 Sprint 2.](#622-sprint-2)
+      - [6.2.2.1 Sprint Planning 2.](#6221-sprint-planning-2)
+      - [6.2.2.2 Aspect Leaders and Collaborators.](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3 Sprint Backlog 2.](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [Introducción al Sprint](#introducción-al-sprint-1)
+  - [Tabla de Endpoints Documentados](#tabla-de-endpoints-documentados-1)
+  - [Explicación de cada Endpoint:](#explicación-de-cada-endpoint-1)
+    - [1. `/api/v1/auth/sign-up`](#1-apiv1authsign-up)
+    - [2. `/api/v1/auth/sign-in`](#2-apiv1authsign-in)
+    - [3. `/api/v1/auth/verify-totp`](#3-apiv1authverify-totp)
+    - [4. `/api/v1/auth/generate-qr`](#4-apiv1authgenerate-qr-1)
+    - [5. `/api/v1/profiles` (GET)](#5-apiv1profiles-get)
+    - [6. `/api/v1/profiles` (POST)](#6-apiv1profiles-post)
+    - [7. `/api/v1/devices` (POST)](#7-apiv1devices-post)
+    - [8. `/api/v1/devices/{id}/location` (PUT)](#8-apiv1devicesidlocation-put)
+    - [9. `/api/v1/thresholds` (POST)](#9-apiv1thresholds-post)
+  - [Repositorio y Commits:](#repositorio-y-commits-1)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [Despliegue de Landing Page en Netlify](#despliegue-de-landing-page-en-netlify)
+    - [Despliegue de Backend en Railway](#despliegue-de-backend-en-railway)
+    - [Despliegue de Frontend en Vercel](#despliegue-de-frontend-en-vercel)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [Repositorio Reporte](#repositorio-reporte)
+    - [Repositorio Backend](#repositorio-backend)
+    - [Repositorio Frontend](#repositorio-frontend)
+    - [Repositorio Landing Page](#repositorio-landing-page)
   - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+- [6.3.1. Diseño de Entrevistas (Versión enfocada en Landing Page y Front-End)](#631-diseño-de-entrevistas-versión-enfocada-en-landing-page-y-front-end)
+  - [**Objetivo**](#objetivo)
+  - [**Alcance y Segmentos**](#alcance-y-segmentos)
+  - [**Tipo de entrevista**](#tipo-de-entrevista)
+  - [**Buenas prácticas**](#buenas-prácticas)
+  - [**Guion de preguntas**](#guion-de-preguntas)
+    - [**A. Generales (para ambos segmentos)**](#a-generales-para-ambos-segmentos)
+    - [**B. Segmento S1 – Farmacia/Inventarios**](#b-segmento-s1--farmaciainventarios)
+    - [**C. Segmento S2 – Áreas Críticas (UCI / Quirófano / Emergencias)**](#c-segmento-s2--áreas-críticas-uci--quirófano--emergencias)
+    - [**Cierre**](#cierre)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+      - [Segmento: Trabajadores del sector salud Farmacia/Inventarios](#segmento-trabajadores-del-sector-salud-farmaciainventarios)
+      - [Segmento: Trabajadores del sector salud UCI/Quirófano/Emergencias](#segmento-trabajadores-del-sector-salud-uciquirófanoemergencias)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
 - [Conclusiones](#conclusiones)
@@ -3021,12 +3072,271 @@ Repositorio Landingpage
 #### 6.2.2.1 Sprint Planning 2.
 #### 6.2.2.2 Aspect Leaders and Collaborators.
 #### 6.2.2.3 Sprint Backlog 2.
+
 #### 6.2.2.4. Development Evidence for Sprint Review
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Committed on (Date)** |
+|----------------|------------|---------------|-------------------|-------------------------|
+| Backend | main | 852d1a9 | feat: implement user profile creation functionality | Oct 14, 2025 |
+| Backend | iam | b27afd5 | feat: implement user authentication system | Oct 13, 2025 |
+| Backend | main | dc6178a | merge: integrate iam branch into dev | Oct 13, 2025 |
+| Backend | iam | 982dd8 | fix: correct password usage in QR generation | Oct 12, 2025 |
+| Backend | iam | dbac81 | feat: add user authentication and 2FA support | Oct 12, 2025 |
+| Frontend | main | a7f3c21 | feat: implement dashboard KPIs component | Oct 12, 2025 |
+| Frontend | main | c94e5b2 | feat: add device management interface | Oct 16, 2025 |
+| Frontend | main | e8d2f19 | feat: integrate alert notification system | Oct 11, 2025 |
+| Landing-Page | main | 54ed853 | fix: implement internationalization for various components | Oct 11, 2025 |
+| Landing-Page | main | fdf41a51 | first commit | Oct 10, 2025 |
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
+Para realizar las pruebas correspondientes a la funcionalidad implementada, seguimos estos pasos:
+
+1. **Instalación de dependencias**  
+   Se ejecutó el siguiente comando para instalar todas las dependencias necesarias del proyecto:
+   ```bash
+   npm install
+   ```
+
+2. **Ejecutar el servidor de desarrollo**  
+   Después de la instalación de las dependencias, se ejecutó el siguiente comando para iniciar el servidor en modo de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+3. **Acceso a la aplicación**  
+   La prueba se realizó accediendo a la aplicación a través de la siguiente URL:
+   - [http://localhost:3000/](http://localhost:3000/)
+
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Committed on (Date)** | **Descripción** |
+|----------------|------------|---------------|-------------------|-------------------------|-----------------|
+| Frontend | main | t9a4b23 | fix: add acceptance tests for HU001 institution registration | Oct 1, 2025 | Implementación de pruebas de aceptación para el registro de instituciones con escenarios de validación exitosa y fallida usando Gherkin. |
+| Frontend | main | t7c2d14 | fix: add acceptance tests for HU003 user login | Oct 10, 2025 | Validación de inicio de sesión con credenciales correctas e incorrectas, incluyendo manejo de errores. |
+| Frontend | main | t5e8f31 | refactor: add acceptance tests for HU011 device provisioning | Oct 10, 2025 | Pruebas de alta de dispositivos IoT con validación de IDs únicos y manejo de duplicados. |
+| Frontend | main | t3g6h42 | fix: add acceptance tests for HU016 threshold configuration | Oct 09, 2025 | Validación de configuración de umbrales de temperatura y humedad por ubicación con guardado de historial de cambios. |
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
+
+**Evidencia visual**  
+A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint 2 para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo:
+
+![Ejecución del Backend](./assets/images/Sprint%201/Testing_WebStorm.png)  
+*Evidencia de la ejecución del backend en IntelliJ IDEA, mostrando el servidor Spring Boot corriendo en el puerto 8080 y los logs de la consola con las operaciones de inicialización.*
+
+![Vista de Login](./assets/sprint%202/login.png)  
+*Captura de la interfaz de inicio de sesión implementada, mostrando los campos de email y password con validación de formulario.*
+
+![Dashboard Principal](./assets/sprint%202/main%20dashboard.png)  
+*Vista del dashboard principal con KPIs y semáforos por áreas (verde/amarillo/rojo), demostrando la visualización en tiempo real del estado del inventario.*
+
+![Gestión de Dispositivos IoT](./assets/sprint%202/devices.png)  
+*Interfaz de gestión de dispositivos IoT mostrando el listado de dispositivos registrados con su estado de salud (en línea/mudo) y último ping.*
+
+![Generación de Código QR 2FA](./assets/sprint%202/qr.png)  
+*Evidencia de la funcionalidad de generación de código QR para autenticación de dos factores (2FA), mostrando el código generado correctamente.*
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
+### Introducción al Sprint
+Durante este Sprint se ha completado la **documentación de los endpoints** relacionados con la **autenticación de usuarios**, **gestión de perfiles**, **dispositivos IoT** y **configuración de alertas**, utilizando la especificación OpenAPI 3.0 para facilitar la integración y comprensión de las funcionalidades disponibles en la plataforma MediTrack.
+
+Los siguientes endpoints han sido implementados y documentados, permitiendo a los usuarios interactuar de manera eficiente con la plataforma para el registro, inicio de sesión, gestión de dispositivos y configuración de monitoreo.
+
+---
+
+## Tabla de Endpoints Documentados
+| **Endpoint** | **Acción HTTP** | **Descripción** | **Parámetros** | **Response** | **Enlace a la Documentación** |
+|--------------|-----------------|-----------------|----------------|--------------|------------------------------|
+| `/api/v1/auth/sign-up` | `POST` | Registrar un nuevo usuario en el sistema | `email` (string), `password` (string), `name` (string) | `201 Created: {"user_id": "12345", "message": "User created successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-in` | `POST` | Iniciar sesión de usuario | `email` (string), `password` (string) | `200 OK: {"token": "JWT_token"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/verify-totp` | `POST` | Verificar código TOTP (autenticación 2FA) | `totp_code` (string) | `200 OK: {"message": "Success"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/generate-qr` | `POST` | Generar código QR para autenticación 2FA | `user_id` (string) | `200 OK: {"qr_url": "url_to_qr_code"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles` | `GET` | Obtener perfil del usuario autenticado | `user_id` (string, optional) | `200 OK: {"user_id": "12345", "name": "John Doe", "email": "john@example.com"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles` | `POST` | Crear o actualizar perfil de usuario | `user_id` (string), `name` (string), `email` (string) | `200 OK: {"message": "Profile updated successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/devices` | `POST` | Registrar dispositivo IoT en el sistema | `device_id` (string), `type` (string), `credentials` (object) | `201 Created: {"message": "Device registered successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/devices/{id}/location` | `PUT` | Asignar dispositivo a una ubicación específica | `device_id` (string), `location_id` (string) | `200 OK: {"message": "Assignment confirmed"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/thresholds` | `POST` | Configurar umbrales de temperatura y humedad | `location_id` (string), `item_id` (string), `min_temp` (number), `max_temp` (number) | `201 Created: {"message": "Threshold saved"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+
+---
+
+## Explicación de cada Endpoint:
+
+### 1. `/api/v1/auth/sign-up`
+- **Acción:** `POST`
+- **Descripción:** Registra un nuevo usuario en el sistema MediTrack, creando las credenciales necesarias para el acceso.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario (único en el sistema).
+  - `password`: Contraseña segura para la cuenta del usuario.
+  - `name`: Nombre completo del usuario.
+- **Respuesta:** 
+  - `201 Created`: Si el registro es exitoso, se devuelve el ID del usuario creado junto con un mensaje de confirmación.
+
+### 2. `/api/v1/auth/sign-in`
+- **Acción:** `POST`
+- **Descripción:** Permite al usuario iniciar sesión en el sistema mediante credenciales válidas.
+- **Parámetros:** 
+  - `email`: Correo electrónico registrado del usuario.
+  - `password`: Contraseña asociada a la cuenta.
+- **Respuesta:** 
+  - `200 OK`: Si el inicio de sesión es exitoso, se devuelve un token JWT para autenticar las siguientes peticiones de la sesión.
+
+### 3. `/api/v1/auth/verify-totp`
+- **Acción:** `POST`
+- **Descripción:** Verifica el código TOTP ingresado para completar la autenticación de dos factores (2FA), aumentando la seguridad del acceso.
+- **Parámetros:** 
+  - `totp_code`: El código temporal de un solo uso generado por la aplicación de autenticación del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el código es válido y no ha expirado, se confirma la autenticación exitosa.
+
+### 4. `/api/v1/auth/generate-qr`
+- **Acción:** `POST`
+- **Descripción:** Genera un código QR para configurar la autenticación de dos factores (2FA) en aplicaciones como Google Authenticator.
+- **Parámetros:** 
+  - `user_id`: El ID del usuario para el cual se generará el código QR de configuración 2FA.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve la URL del código QR generado para su escaneo.
+
+### 5. `/api/v1/profiles` (GET)
+- **Acción:** `GET`
+- **Descripción:** Obtiene la información del perfil del usuario autenticado, con opción de consultar perfiles específicos.
+- **Parámetros:** 
+  - `user_id` (opcional): El ID del usuario para obtener su perfil específico.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve un objeto JSON con los detalles del perfil (ID, nombre, email, rol).
+
+### 6. `/api/v1/profiles` (POST)
+- **Acción:** `POST`
+- **Descripción:** Crea o actualiza el perfil de un usuario con información adicional.
+- **Parámetros:** 
+  - `user_id`: ID del usuario cuyo perfil se actualizará.
+  - `name`: Nombre completo actualizado del usuario.
+  - `email`: Correo electrónico actualizado.
+- **Respuesta:** 
+  - `200 OK`: Confirmación de que el perfil fue actualizado o creado exitosamente.
+
+### 7. `/api/v1/devices` (POST)
+- **Acción:** `POST`
+- **Descripción:** Registra un nuevo dispositivo IoT en el sistema para comenzar a recolectar telemetría.
+- **Parámetros:** 
+  - `device_id`: Identificador único del dispositivo.
+  - `type`: Tipo de dispositivo (sensor de temperatura, humedad, etc.).
+  - `credentials`: Credenciales de conexión del dispositivo.
+- **Respuesta:** 
+  - `201 Created`: Confirmación de registro exitoso del dispositivo.
+
+### 8. `/api/v1/devices/{id}/location` (PUT)
+- **Acción:** `PUT`
+- **Descripción:** Asigna un dispositivo IoT a una ubicación física específica (cámara, almacén, UCI).
+- **Parámetros:** 
+  - `device_id`: ID del dispositivo a asignar.
+  - `location_id`: ID de la ubicación destino.
+- **Respuesta:** 
+  - `200 OK`: Confirmación de que la asignación fue exitosa.
+
+### 9. `/api/v1/thresholds` (POST)
+- **Acción:** `POST`
+- **Descripción:** Define umbrales de temperatura y humedad para generar alertas automáticas cuando se exceden.
+- **Parámetros:** 
+  - `location_id`: Ubicación donde aplica el umbral.
+  - `item_id`: Ítem o tipo de inventario monitoreado.
+  - `min_temp`: Temperatura mínima permitida.
+  - `max_temp`: Temperatura máxima permitida.
+- **Respuesta:** 
+  - `201 Created`: Confirmación de que el umbral fue guardado correctamente.
+
+---
+
+## Repositorio y Commits:
+- **Repositorio Backend:** [HealthSync-UPC/Backend](https://github.com/HealthSync-UPC/Backend)
+- **Commits relevantes:**
+  - **Commit ID:** `852d1a9` - Implementación de funcionalidad de creación de perfil de usuario
+  - **Commit ID:** `b27afd5` - Implementación del sistema de autenticación de usuarios
+  - **Commit ID:** `dc6178a` - Merge de rama 'iam' a develop
+  - **Commit ID:** `982dd8` - Corrección de uso de contraseña en la generación de código QR
+  - **Commit ID:** `dbac81` - Soporte completo para autenticación de usuario y 2FA
+
+---
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
+En este Sprint, se llevó a cabo el despliegue de múltiples componentes del sistema MediTrack: la **Landing Page** en **Netlify**, el **Backend** en **Railway** y el **Frontend** en **Vercel**. Los pasos realizados durante este Sprint incluyen la configuración de repositorios, la elección de nombres de proyectos, la configuración de variables de entorno y la confirmación del éxito del despliegue. A continuación, se detallan los pasos seguidos durante el proceso:
+
+### Despliegue de Landing Page en Netlify
+
+1. **Elección del Repositorio**  
+   En primer lugar, se seleccionó el repositorio `Frontend` desde el cual se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración continua.
+   ![Elección del Repositorio](./assets/sprint%202/election.png)  
+   *Descripción: Selección del repositorio Landing-Page en la plataforma de Netlify para iniciar el proceso de despliegue automático.*
+
+2. **Elección del Nombre del Proyecto**  
+   A continuación, se asignó el nombre único `healthsync-landing` para el proyecto en Netlify. Este nombre será utilizado en la URL pública del despliegue.
+   ![Elección del Nombre](./assets/sprint%202/deploy.png)  
+   *Descripción: Configuración del nombre del proyecto en Netlify, estableciendo "healthsync-landing" como identificador único.*
+
+3. **Configuración de Rutas y Build Settings**  
+   En este paso, se configuraron las rutas de compilación, el comando de build (`npm run build`) y el directorio de salida (`dist`). También se establecieron las variables de entorno necesarias.
+   ![Configuración de Build](./assets/sprint%202/conf.png)  
+   *Descripción: Configuración de los comandos de build, directorio de output y variables de entorno para el despliegue correcto de la Landing Page.*
+
+4. **Confirmación del Éxito del Despliegue**  
+   Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue automático y se verificó que todo se realizó correctamente, confirmándose con el mensaje de éxito en la interfaz de Netlify.
+  
+   *Descripción: Mensaje de confirmación que indica que el despliegue de la Landing Page fue exitoso en Netlify, con el sitio disponible en https://healthsync-landing.netlify.app*
+
+### Despliegue de Backend en Railway
+
+1. **Conexión del Repositorio**  
+   Se conectó el repositorio `Backend` de GitHub con Railway para habilitar el despliegue continuo.
+
+   *Descripción: Vinculación del repositorio Backend de GitHub con la plataforma Railway.*
+
+2. **Configuración de Variables de Entorno**  
+   Se configuraron las variables de entorno necesarias: `DATABASE_URL`, `JWT_SECRET`, `SMTP_HOST`, `SMTP_PORT`, entre otras.
+
+   *Descripción: Configuración de variables de entorno sensibles en Railway para el correcto funcionamiento del backend.*
+
+3. **Despliegue Exitoso**  
+   Railway detectó automáticamente el proyecto Spring Boot y realizó el despliegue exitoso en el puerto 8080.
+ 
+   *Descripción: Confirmación del despliegue exitoso del backend en Railway, mostrando logs de inicio de Spring Boot y estado "Running".*
+
+### Despliegue de Frontend en Vercel
+
+1. **Importación del Proyecto**  
+   Se importó el repositorio `Frontend` desde GitHub a Vercel para iniciar el proceso de despliegue.
+
+   *Descripción: Proceso de importación del repositorio Frontend desde GitHub hacia Vercel.*
+
+2. **Configuración de Build**  
+   Se configuró el comando de build (`npm run build`) y el directorio de salida (`dist`), además de la variable `API_BASE_URL`.
+
+   *Descripción: Configuración de comandos de compilación y variables de entorno para conectar el frontend con el backend desplegado.*
+
+3. **Confirmación de Despliegue**  
+   Vercel completó el despliegue exitosamente y generó la URL pública del frontend.
+  
+   *Descripción: Mensaje de confirmación de Vercel indicando que el frontend fue desplegado exitosamente en https://meditrack-app.vercel.app*
+
+---
+
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint
+A continuación presentamos los trabajos realizados en los distintos repositorios durante el Sprint 1, demostrando la colaboración activa del equipo:
+
+### Repositorio Reporte
+![Reporte Commits](./assets/sprint%202/report.png)  
+*Evidencia de commits del equipo en el repositorio de documentación del proyecto, mostrando las contribuciones de todos los integrantes en la elaboración del informe técnico.*
+
+### Repositorio Backend
+![Backend Commits](./assets/sprint%202/backend.png)  
+*Gráfico de commits del repositorio Backend, evidenciando el trabajo colaborativo en la implementación de las APIs de autenticación, gestión de dispositivos y configuración de alertas.*
+
+### Repositorio Frontend
+![Frontend Commits](./assets/sprint%202/frontend.png)  
+*Historial de commits del repositorio Frontend, mostrando el desarrollo de componentes de UI, integración con APIs y pruebas de interfaz de usuario.*
+
+### Repositorio Landing Page
+![Landing Page Commits](./assets/sprint%202/frontend.png)  
+*Commits realizados en el repositorio de la Landing Page, con implementación de internacionalización, modo oscuro y optimización responsive.*
+
+El equipo demostró una colaboración efectiva utilizando GitFlow, con ramas feature bien organizadas y merges controlados hacia develop y main. La comunicación fue fluida mediante Discord y las reuniones diarias permitieron resolver bloqueos rápidamente.
 
 ## 6.3. Validation Interviews
 # 6.3.1. Diseño de Entrevistas (Versión enfocada en Landing Page y Front-End)
