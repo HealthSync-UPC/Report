@@ -63,15 +63,9 @@
   </thead>
   <tbody>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Ayquipa Ubaldo, Abraham Israel 
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Ayquipa Ubaldo, Abraham Israel</td>
       <td>
         Capítulo I: Introducción <br/>
         - 1.1. Startup Profile <br/>
@@ -93,18 +87,12 @@
         - 2.2.1. Diseño de entrevistas<br/>
         - 2.2.2. Registro de entrevistas <br/>
         - 2.2.3. Análisis de entrevistas <br/>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Durand Vera, Gianfranco Angel	
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Durand Vera, Gianfranco Angel</td>
       <td>
         - 2.3. Needfinding <br>
         - 2.3.1. User Personas <br>
@@ -113,18 +101,12 @@
         - 2.3.4. Empathy Mapping <br>
         - 2.4. Big Picture EventStorming <br>
         - 2.5. Ubiquitous Language <br>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Cruz Ticona, Aarón Alejandro
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Cruz Ticona, Aarón Alejandro</td>
       <td>
         Capítulo III: Requirements Specification<br>
         - 3.1. User Stories<br>
@@ -136,18 +118,12 @@
         - 4.1.1.1. Candidate Context Discovery<br>
         - 4.1.1.2. Domain Message Flows Modeling<br>
         - 4.1.1.3. Bounded Context Canvases<br>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Ticona Panduro, Estrella del Pilar
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Ticona Panduro, Estrella del Pilar</td>
       <td>
         - 4.1.2. Context Mapping<br>
         - 4.1.3. Software Architecture<br>
@@ -158,18 +134,12 @@
         - 4.2. Tactical-Level Domain-Driven Design<br>
         - 4.2.X. Bounded Context: <Bounded Context Name><br>
         - 4.2.X.1. Domain Layer<br>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #1 – TB1 
-      </td>
-      <td>
-        19/09/2025
-      </td>
-      <td>
-        Luza Carhuamaca Jose Adrian
-      </td>
+      <td>#1 – TB1</td>
+      <td>19/09/2025</td>
+      <td>Luza Carhuamaca Jose Adrian</td>
       <td>
         - 4.2.X.2. Interface Layer <br>
         - 4.2.X.3. Application Layer <br>
@@ -178,18 +148,12 @@
         - 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams <br>
         - 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams <br>
         - 4.2.X.6.2. Bounded Context Database Design Diagram <br>
-  </tbody>
-  <tbody>
+      </td>
+    </tr>
     <tr>
-      <td>
-        #2 – TP1 
-      </td>
-      <td>
-        09/10/2025
-      </td>
-      <td>
-        Ayquipa Ubaldo, Abraham Israel 
-      </td>
+      <td>#2 – TP1</td>
+      <td>09/10/2025</td>
+      <td>Ayquipa Ubaldo, Abraham Israel</td>
       <td>
         - 6.1. Software Configuration Management.<br>
         - 6.1.1. Software Development Environment Configuration.<br>
@@ -198,18 +162,12 @@
         - 6.1.4. Software Deployment Configuration.<br>
         - 6.2. Landing Page, Services & Applications Implementation.<br>
         - Correcion Cap I y Cap II
-  </tbody>
-  <tbody>
-    <tr>
-      <td>
-        #2 – TP1 
       </td>
-      <td>
-        09/10/2025
-      </td>
-      <td>
-        Durand Vera, Gianfranco Angel	
-      </td>
+</tr>
+<tr>
+      <td>#2 – TP1</td>
+      <td>09/10/2025</td>
+      <td>Durand Vera, Gianfranco Angel</td>
       <td>
         - 5.1. Style Guidelines.<br>
         - 5.1.1. General Style Guidelines.<br>
@@ -221,36 +179,24 @@
         - 5.2.4. Searching Systems.<br>
         - 5.2.5. Navigation Systems.<br>
         - Despliegue Backend<br>
-  </tbody>
-  <tbody>
-    <tr>
-      <td>
-        #2 – TP1 
       </td>
-      <td>
-        09/10/2025
-      </td>
-      <td>
-        Cruz Ticona, Aarón Alejandro
-      </td>
+</tr>
+<tr>
+      <td>#2 – TP1</td>
+      <td>09/10/2025</td>
+      <td>Cruz Ticona, Aarón Alejandro</td>
       <td>
         - 6.2.1. Sprint 1<br>
         - 6.2.1.1. Sprint Planning 1.<br>
         - 6.2.1.2. Aspect Leaders and Collaborators.<br>
         - 6.2.1.3. Sprint Backlog 1.<br>
         - Correcion Cap I y Cap II<br>
-  </tbody>
-  <tbody>
-    <tr>
-      <td>
-        #2 – TP1 
       </td>
-      <td>
-        09/10/2025
-      </td>
-      <td>
-        Ticona Panduro, Estrella del Pilar
-      </td>
+</tr>
+<tr>
+      <td>#2 – TP1</td>
+      <td>09/10/2025</td>
+      <td>Ticona Panduro, Estrella del Pilar</td>
       <td>
         - 5.3. Landing Page UI Design.<br>
         - 5.3.1. Landing Page Wireframe.<br>
@@ -262,18 +208,12 @@
         - 5.4.3. Applications User Flow Diagrams.<br>
         - 5.5. Applications Prototyping.<br>
         - Despliegue Frontend<br>
-  </tbody>
-  <tbody>
-    <tr>
-      <td>
-        #2 – TP1 
       </td>
-      <td>
-        09/10/2025
-      </td>
-      <td>
-        Luza Carhuamaca Jose Adrian
-      </td>
+</tr>
+<tr>
+      <td>#2 – TP1</td>
+      <td>09/10/2025</td>
+      <td>Luza Carhuamaca Jose Adrian</td>
       <td>
         - 6.2.1.4. Development Evidence for Sprint Review.<br>
         - 6.2.1.5. Testing Suite Evidence for Sprint Review.<br>
@@ -282,6 +222,67 @@
         - 6.2.1.8. Software Deployment Evidence for Sprint Review.<br>
         - 6.2.1.9. Team Collaboration Insights during Sprint.<br>
         - Correcion Cap I y Cap II<br>
+      </td>
+</tr>
+
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Ayquipa Ubaldo, Abraham Israel</td>
+      <td>
+        Capítulo VI: Product Implementation, Validation & Deployment<br>
+        - 6.2.2.4. Development Evidence for Sprint Review<br>
+        - 6.2.2.5. Testing Suite Evidence for Sprint Review<br>
+        - 6.2.2.6. Execution Evidence for Sprint Review<br>
+        - 6.2.2.7. Services Documentation Evidence for Sprint Review<br>
+        - 6.2.2.8. Software Deployment Evidence for Sprint Review<br>
+        - 6.2.2.9. Team Collaboration Insights during Sprint<br>
+        - 6.3.3. Evaluaciones según heurísticas<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Durand Vera, Gianfranco Angel</td>
+      <td>
+        - Despliegue nueva versión de Web BackEnd Applications<br>
+        - Despliegue primera versión de Aplicaciones Mobile<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Cruz Ticona, Aarón Alejandro</td>
+      <td>
+        - 6.2.2. Sprint 2<br>
+        - 6.2.2.1. Sprint Planning 2<br>
+        - 6.2.2.2. Aspect Leaders and Collaborators<br>
+        - 6.2.2.3. Sprint Backlog 2<br>
+        - 2 Entrevistas – 2do Segmento<br>
+        - Despliegue primera versión de Aplicaciones Mobile (Por Confirmar)<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Ticona Panduro, Estrella del Pilar</td>
+      <td>
+        - Despliegue nueva versión de Web Frontend Applications<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#2 – TB2</td>
+      <td>14/11/2025</td>
+      <td>Luza Carhuamaca Jose Adrian</td>
+      <td>
+        - 6.3. Validation Interviews<br>
+        - 6.3.1. Diseño de Entrevistas<br>
+        - 6.3.2. Registro de Entrevistas<br>
+        - 6.4. Video About-the-Product<br>
+        - Despliegue nueva versión del Landing Page<br>
+        - 2 Entrevistas – 1er Segmento<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -495,6 +496,36 @@
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
     - [Software Deployment Evidence for Sprint Review](#software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2 Sprint 2.](#622-sprint-2)
+      - [6.2.2.1 Sprint Planning 2.](#6221-sprint-planning-2)
+      - [6.2.2.2 Aspect Leaders and Collaborators.](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3 Sprint Backlog 2.](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [Introducción al Sprint](#introducción-al-sprint-1)
+  - [Tabla de Endpoints Documentados](#tabla-de-endpoints-documentados-1)
+  - [Explicación de cada Endpoint:](#explicación-de-cada-endpoint-1)
+    - [1. `/api/v1/auth/sign-up`](#1-apiv1authsign-up)
+    - [2. `/api/v1/auth/sign-in`](#2-apiv1authsign-in)
+    - [3. `/api/v1/auth/verify-totp`](#3-apiv1authverify-totp)
+    - [4. `/api/v1/auth/generate-qr`](#4-apiv1authgenerate-qr-1)
+    - [5. `/api/v1/profiles` (GET)](#5-apiv1profiles-get)
+    - [6. `/api/v1/profiles` (POST)](#6-apiv1profiles-post)
+    - [7. `/api/v1/devices` (POST)](#7-apiv1devices-post)
+    - [8. `/api/v1/devices/{id}/location` (PUT)](#8-apiv1devicesidlocation-put)
+    - [9. `/api/v1/thresholds` (POST)](#9-apiv1thresholds-post)
+  - [Repositorio y Commits:](#repositorio-y-commits-1)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [Despliegue de Landing Page en Netlify](#despliegue-de-landing-page-en-netlify)
+    - [Despliegue de Backend en Railway](#despliegue-de-backend-en-railway)
+    - [Despliegue de Frontend en Vercel](#despliegue-de-frontend-en-vercel)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [Repositorio Reporte](#repositorio-reporte)
+    - [Repositorio Backend](#repositorio-backend)
+    - [Repositorio Frontend](#repositorio-frontend)
+    - [Repositorio Landing Page](#repositorio-landing-page)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -529,31 +560,34 @@ ABET – EAC - Student Outcome 5
       <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
       <td>
         <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.
-        <p><b>TP1:</b> En mi rol, me enfoco en trabajar de manera conjunta con el equipo, promoviendo un liderazgo colaborativo. Durante el proceso de implementación de la página de aterrizaje, servicios y aplicaciones, me aseguré de que cada miembro del equipo tuviera las herramientas y la información necesarias para desempeñar sus funciones de manera eficiente. Además, coordiné estrechamente con otros miembros para garantizar que las tareas se completaran a tiempo, proporcionando orientación y apoyo cuando fuera necesario.</p>        
-        </p>
+        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido</p>
+        <p><b>TP1:</b> En mi rol, me enfoco en trabajar de manera conjunta con el equipo, promoviendo un liderazgo colaborativo. Durante el proceso de implementación de la página de aterrizaje, servicios y aplicaciones, me aseguré de que cada miembro del equipo tuviera las herramientas y la información necesarias para desempeñar sus funciones de manera eficiente. Además, coordiné estrechamente con otros miembros para garantizar que las tareas se completaran a tiempo, proporcionando orientación y apoyo cuando fuera necesario.</p>
+        <p><b>TB2:</b> Lideré la documentación técnica del Sprint 2, coordinando con el equipo para consolidar las evidencias de desarrollo, testing y despliegue. Facilité la comunicación entre los equipos de frontend y backend para asegurar la coherencia en la documentación de servicios y la colaboración efectiva durante el sprint.</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
         <p><b>TP1:</b> Me esfuerzo por promover un liderazgo compartido, facilitando la interacción entre los miembros del equipo durante la planificación del sprint y el establecimiento de las tareas a seguir. Me aseguré de que todas las voces fueran escuchadas y que las decisiones importantes se tomaran de forma colaborativa, manteniendo siempre el enfoque en los objetivos del sprint. Esto permitió que cada miembro sintiera que tenía un papel activo en el proceso, lo que favoreció un ambiente de trabajo más cohesivo.</p>   
+        <p><b>TB2:</b> Asumí el liderazgo en la planificación del Sprint 2, facilitando la definición de roles y responsabilidades mediante el documento de Aspect Leaders. Coordiné con el equipo para estructurar el Sprint Backlog de manera efectiva y conduje las entrevistas del segundo segmento objetivo, garantizando la captura de insights valiosos para validar nuestras funcionalidades.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
-        <p><b>TP1:</b> En esta entrega, se desarrolló la landing page, priorizando la usabilidad y la claridad en la presentación de los objetivos del sistema. Además, se avanzó significativamente en el frontend de la aplicación, integrando de manera coherente los componentes existentes, y se llevó a cabo el despliegue de todos los elementos, asegurando su correcto funcionamiento en el entorno correspondiente.
-</p>
+        <p><b>TP1:</b> En esta entrega, se desarrolló la landing page, priorizando la usabilidad y la claridad en la presentación de los objetivos del sistema. Además, se avanzó significativamente en el frontend de la aplicación, integrando de manera coherente los componentes existentes, y se llevó a cabo el despliegue de todos los elementos, asegurando su correcto funcionamiento en el entorno correspondiente.</p>
+        <p><b>TB2:</b> Lideré el desarrollo y despliegue del Web Backend Applications, coordinando con el equipo de frontend para asegurar la integración exitosa de servicios. También dirigí el desarrollo de la primera versión de las aplicaciones móviles, estableciendo las bases arquitectónicas y promoviendo buenas prácticas de desarrollo entre los miembros del equipo.</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
         <p><b>TP1:</b> Me aseguré de que el equipo tuviera las evidencias necesarias para la revisión del sprint, trabajando estrechamente con todos para garantizar que los desarrollos y las pruebas fueran documentados de manera precisa y completa. Fomenté un liderazgo colaborativo al involucrar a cada miembro en el proceso de recolección de evidencia, ayudando a solucionar problemas y optimizando el flujo de trabajo del equipo para cumplir con los plazos establecidos.</p>        
+        <p><b>TB2:</b> Coordiné el proceso de validación con usuarios reales, liderando el diseño y ejecución de entrevistas del primer segmento. Dirigí la producción del video About-the-Product y supervisé el despliegue actualizado del Landing Page, asegurando que todos los elementos comunicaran efectivamente la propuesta de valor del producto.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.
-        <p><b>TP1:</b> En el TP1, contribuí activamente al desarrollo de una aplicación web siguiendo la metodología Scrum, colaborando con el equipo en el diseño y revisión de componentes clave. Implementé funcionalidades básicas para comprender en profundidad el flujo de trabajo y la arquitectura general del proyecto. 
- </p>
+        <p><b>TP1:</b> En el TP1, contribuí activamente al desarrollo de una aplicación web siguiendo la metodología Scrum, colaborando con el equipo en el diseño y revisión de componentes clave. Implementé funcionalidades básicas para comprender en profundidad el flujo de trabajo y la arquitectura general del proyecto.</p>
+        <p><b>TB2:</b> Lideré el desarrollo y despliegue de la nueva versión del Web Frontend Applications, coordinando con el equipo de backend para garantizar la integración fluida de funcionalidades. Promovi estándares de calidad en la interfaz de usuario y facilité la revisión de código entre pares para fortalecer las capacidades técnicas del equipo.</p>
       </td>
       <td>
         <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
         <p><b>TP1:</b> El grupo demostró la capacidad de trabajar en equipo y liderar de manera conjunta, integrando ideas y esfuerzos individuales para lograr un proyecto cohesionado y bien coordinado. Cada miembro aportó desde su área, colaborando y comunicándose efectivamente para alcanzar los objetivos del grupo.</p>
+        <p><b>TB2:</b> El equipo consolidó un modelo de liderazgo distribuido durante el Sprint 2, donde cada miembro asumió responsabilidades específicas de liderazgo en su área de expertise. La coordinación entre frontend, backend y mobile, junto con las actividades de validación y documentación, demostró nuestra capacidad para trabajar de manera integrada, tomando decisiones conjuntas que fortalecieron la calidad del producto final.</p>
       </td>
     </tr>
     <tr>
@@ -562,32 +596,36 @@ ABET – EAC - Student Outcome 5
         <p><b>Abraham Ayquipa Ubaldo</b></p>
         <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
         <p><b>TP1:</b> Al crear un entorno inclusivo y colaborativo, establezco metas claras y aseguro que cada miembro esté alineado con los objetivos del proyecto. Planifiqué las tareas en conjunto con el equipo, asegurándome de que todos entendieran el alcance y los plazos. Al trabajar en equipo, busqué mantener un ambiente donde todos pudieran aportar sus ideas, lo que nos permitió cumplir con los objetivos establecidos de manera efectiva.</p>         
+        <p><b>TB2:</b> Establecí un sistema de seguimiento de evidencias técnicas que permitió a todos los miembros visualizar el progreso del sprint. Coordiné sesiones de revisión colaborativa donde se evaluaron las pruebas y el despliegue, asegurando que cada voz fuera escuchada y que las evaluaciones heurísticas reflejaran perspectivas diversas del equipo.</p>
         <br>
         <p><b>Aaron Cruz Ticona</b></p>
         <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
         <p><b>TP1:</b> A lo largo del sprint, fui responsable de crear un entorno inclusivo y de establecer metas claras para todos. Planifiqué las tareas de manera estratégica, desglosando el trabajo en pasos alcanzables y organizando las prioridades para asegurar que todos los objetivos se cumplieran. Asegurándome de que todos supieran lo que se esperaba de ellos, el equipo pudo trabajar con eficiencia y cumplir los objetivos del sprint con éxito.</p>          
+        <p><b>TB2:</b> Creé un ambiente inclusivo durante las sesiones de planificación del Sprint 2, asegurando que todos los miembros participaran en la definición de tareas y estimaciones. Establecí metas claras y alcanzables en el Sprint Backlog, y coordiné las entrevistas de validación de manera que el equipo pudiera aprender de los resultados y ajustar prioridades colaborativamente.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
         <p><b>TP1:</b> Para esta entrega, participé en la planificación y creación de wireframes y wireflows, coordinando con el equipo para definir objetivos y plazos. Se utilizó un tablero Kanban para monitorear el progreso y garantizar la entrega organizada de los entregables visuales.</p>
+        <p><b>TB2:</b> Establecí un entorno de desarrollo consistente para backend y mobile, documentando los procesos de configuración y despliegue para que todo el equipo pudiera contribuir efectivamente. Planifiqué sprints técnicos con objetivos incrementales y promovi code reviews inclusivos que permitieron el aprendizaje mutuo entre desarrolladores de diferentes niveles.</p>
         <br>
         <p><b>Jose Luza Carhuamaca</b></p>
         <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
         <p><b>TP1:</b> Al planificar y documentar las evidencias para la revisión del sprint, me aseguré de que el entorno de trabajo fuera inclusivo y transparente. Establecí metas claras para la recolección de las pruebas y me aseguré de que todos los miembros supieran qué tareas debían completar para contribuir al proceso. Esto permitió al equipo cumplir con los objetivos de la revisión del sprint de manera efectiva y sin contratiempos.</p>        
+        <p><b>TB2:</b> Planifiqué y ejecuté las entrevistas de validación creando un protocolo inclusivo que consideró la diversidad de nuestros segmentos objetivo. Coordiné la producción del video promocional involucrando diferentes perspectivas del equipo, y supervisé el despliegue del Landing Page estableciendo checkpoints claros que permitieron al equipo colaborar efectivamente y cumplir los objetivos dentro del plazo establecido.</p>
         <br>
         <p><b>Estrella Ticona Panduro</b></p>
         <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
         <p><b>TP1:</b> Durante esta fase, participé en la generación de ideas y en la creación inicial del frontend de la aplicación. Colaboré en el diseño de la interfaz y en la implementación de funcionalidades base, estableciendo la estructura visual del sistema. El seguimiento se realizó mediante indicadores y reuniones periódicas, asegurando el cumplimiento de los plazos.</p>
+        <p><b>TB2:</b> Creé un entorno colaborativo en el desarrollo frontend al establecer estándares de código compartidos y realizar sesiones de pair programming con otros miembros del equipo. Planifiqué el despliegue de la nueva versión del frontend con metas claras de funcionalidad y rendimiento, cumpliendo los objetivos técnicos mientras mantenía canales abiertos de comunicación para resolver bloqueadores de manera conjunta.</p>
       </td>
       <td>
-        <p><b>TB1:</b> Durante el desarrollo de SmartSuite, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
+        <p><b>TB1:</b> Durante el desarrollo de MediTrack, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
         <p><b>TP1:</b> El grupo mostró la capacidad de crear un entorno colaborativo e inclusivo, integrando la investigación de cada miembro para establecer metas claras, planificar tareas y desarrollar una solución tecnológica alineada con las necesidades del sector de jardinería inteligente. Gracias a la colaboración y al enfoque en objetivos comunes, el equipo pudo diseñar un sistema aplicable, eficiente y centrado en el usuario.</p>
+	<p><b>TB2:</b> En el Sprint 2, el equipo demostró madurez en la creación de entornos colaborativos al implementar prácticas ágiles efectivas. La planificación detallada, las revisiones constantes y la documentación accesible permitieron que cada miembro contribuyera desde su expertise. Las metas establecidas fueron cumplidas exitosamente, evidenciando nuestra capacidad para trabajar de manera inclusiva, adaptarnos a los desafíos técnicos y entregar valor incremental al producto MediTrack.</p>
       </td>
     </tr>
   </tbody>
 </table>
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -1279,6 +1317,8 @@ A continuación, se presentan los términos clave identificados a partir de las 
 | **Dashboard**               | Panel web/móvil que centraliza métricas, reportes y alertas para la gestión de inventario.         |
 | **Acceso autorizado**       | Control de ingreso físico o digital restringido al personal habilitado para manipular insumos.     |
 | **Integración de sistemas** | Conexión entre la solución IoT y otros sistemas de información (HIS, ERP, etc.).                   |
+
+<div style="page-break-after: always;"></div>
 
 <div style="page-break-after: always;"></div>
 
@@ -2093,182 +2133,6 @@ A continuación, se presentan los términos clave identificados a partir de las 
 </table>
 
 
-
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 18%" />
-<col style="width: 30%" />
-<col style="width: 30%" />
-<col style="width: 11%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Epic / Story ID</td>
-<td>Título</td>
-<td>Descripción</td>
-<td>Criterios de Aceptación</td>
-<td>Relación Epic ID</td>
-</tr>
-
-<tr>
-  <td colspan="5" style="padding: 15px; ">
-    <strong>Epic 6: Experiencia de Usuario (Landing &amp; Front-End)</strong>
-  </td>
-</tr>
-
-<tr>
-  <td>E6-HU033</td>
-  <td>Landing pública (estructura + hero + CTA)</td>
-  <td>
-    <strong>Como</strong> visitante,<br>
-    <strong>Quiero</strong> ver un landing claro con un bloque principal (hero) y un botón de acción,<br>
-    <strong>Para</strong> entender rápido el valor y solicitar contacto/demos
-  </td>
-  <td>
-    <strong>Escenario 1: Carga inicial</strong><br>
-    <strong>Dado</strong> que ingreso al dominio público,<br>
-    <strong>Cuando</strong> se carga la página,<br>
-    <strong>Entonces</strong> veo un hero con titular, subtítulo y CTA visible sobre el primer scroll.<br><br>
-    <strong>Escenario 2: CTA navegable</strong><br>
-    <strong>Dado</strong> que hago clic en el CTA,<br>
-    <strong>Cuando</strong> interactúo,<br>
-    <strong>Entonces</strong> soy dirigido al formulario o sección de contacto.
-  </td>
-  <td>6</td>
-</tr>
-
-<tr>
-  <td>E6-HU034</td>
-  <td>Header y navegación</td>
-  <td>
-    <strong>Como</strong> visitante,<br>
-    <strong>Quiero</strong> un encabezado con navegación sencilla,<br>
-    <strong>Para</strong> moverme entre secciones sin perderme
-  </td>
-  <td>
-    <strong>Escenario 1: Navegación</strong><br>
-    <strong>Dado</strong> el menú en el header,<br>
-    <strong>Cuando</strong> hago clic en una sección,<br>
-    <strong>Entonces</strong> el sitio navega/realiza scroll correcto a la sección.<br><br>
-    <strong>Escenario 2: Sticky</strong><br>
-    <strong>Dado</strong> que hago scroll,<br>
-    <strong>Cuando</strong> me desplazo hacia abajo,<br>
-    <strong>Entonces</strong> el header permanece accesible (sticky) en mobile/desktop.
-  </td>
-  <td>6</td>
-</tr>
-
-<tr>
-  <td>E6-HU035</td>
-  <td>Footer institucional (legal/redes/contacto)</td>
-  <td>
-    <strong>Como</strong> visitante,<br>
-    <strong>Quiero</strong> ver datos legales y enlaces de contacto/redes,<br>
-    <strong>Para</strong> validar confianza y comunicarme
-  </td>
-  <td>
-    <strong>Escenario 1: Legales</strong><br>
-    <strong>Dado</strong> el footer,<br>
-    <strong>Cuando</strong> lo reviso,<br>
-    <strong>Entonces</strong> encuentro enlaces a Términos, Privacidad y Contacto.<br><br>
-    <strong>Escenario 2: Redes</strong><br>
-    <strong>Dado</strong> los iconos de redes,<br>
-    <strong>Cuando</strong> hago clic,<br>
-    <strong>Entonces</strong> abren en nueva pestaña los perfiles oficiales.
-  </td>
-  <td>6</td>
-</tr>
-
-<tr>
-  <td>E6-HU036</td>
-  <td>Propuesta de valor &amp; Features</td>
-  <td>
-    <strong>Como</strong> visitante,<br>
-    <strong>Quiero</strong> entender beneficios y características clave,<br>
-    <strong>Para</strong> evaluar si la plataforma resuelve mi problema
-  </td>
-  <td>
-    <strong>Escenario 1: Sección de valor</strong><br>
-    <strong>Dado</strong> la sección “Por qué nosotros”,<br>
-    <strong>Cuando</strong> la visualizo,<br>
-    <strong>Entonces</strong> veo 3–6 bullets claros de beneficios.<br><br>
-    <strong>Escenario 2: Features</strong><br>
-    <strong>Dado</strong> la sección “Características”,<br>
-    <strong>Cuando</strong> la reviso,<br>
-    <strong>Entonces</strong> veo tarjetas con icono, título y breve descripción.
-  </td>
-  <td>6</td>
-</tr>
-
-<tr>
-  <td>E6-HU037</td>
-  <td>Formulario de contacto/lead (anti-spam)</td>
-  <td>
-    <strong>Como</strong> visitante,<br>
-    <strong>Quiero</strong> enviar mis datos de contacto,<br>
-    <strong>Para</strong> solicitar una demo o que me contacten
-  </td>
-  <td>
-    <strong>Escenario 1: Envío válido</strong><br>
-    <strong>Dado</strong> que completo nombre, email y mensaje válidos,<br>
-    <strong>Cuando</strong> envío el formulario,<br>
-    <strong>Entonces</strong> veo confirmación de envío en pantalla.<br><br>
-    <strong>Escenario 2: Anti-spam</strong><br>
-    <strong>Dado</strong> el honeypot/rate limit activo,<br>
-    <strong>Cuando</strong> un bot intenta enviar,<br>
-    <strong>Entonces</strong> la solicitud se rechaza sin afectar la UX.
-  </td>
-  <td>6</td>
-</tr>
-
-<tr>
-  <td>E6-HU038</td>
-  <td>SEO y metadatos (OG/Twitter, sitemap, robots)</td>
-  <td>
-    <strong>Como</strong> responsable de marketing,<br>
-    <strong>Quiero</strong> metadatos y archivos SEO,<br>
-    <strong>Para</strong> mejorar indexación y previsualizaciones
-  </td>
-  <td>
-    <strong>Escenario 1: Metadatos</strong><br>
-    <strong>Dado</strong> el head del documento,<br>
-    <strong>Cuando</strong> inspecciono,<br>
-    <strong>Entonces</strong> existen title, meta description, OG y Twitter Cards.<br><br>
-    <strong>Escenario 2: Sitemap/robots</strong><br>
-    <strong>Dado</strong> el dominio,<br>
-    <strong>Cuando</strong> accedo a <code>/sitemap.xml</code> y <code>/robots.txt</code>,<br>
-    <strong>Entonces</strong> ambos recursos se sirven correctamente.
-  </td>
-  <td>6</td>
-</tr>
-
-<tr>
-  <td>E6-HU039</td>
-  <td>Accesibilidad base (WCAG AA mínima)</td>
-  <td>
-    <strong>Como</strong> usuario con diversidad funcional,<br>
-    <strong>Quiero</strong> navegar con teclado y lectores de pantalla,<br>
-    <strong>Para</strong> acceder sin barreras
-  </td>
-  <td>
-    <strong>Escenario 1: Teclado</strong><br>
-    <strong>Dado</strong> el sitio,<br>
-    <strong>Cuando</strong> navego con teclado,<br>
-    <strong>Entonces</strong> puedo acceder a todos los enlaces/inputs con focus visible.<br><br>
-    <strong>Escenario 2: Lectores</strong><br>
-    <strong>Dado</strong> un lector de pantalla,<br>
-    <strong>Cuando</strong> anuncia los elementos,<br>
-    <strong>Entonces</strong> los controles tienen labels/roles apropiados.
-  </td>
-  <td>6</td>
-</tr>
-
-</tbody>
-</table>
-
-
-
 ## 3.2. Impact Mapping 
 
 <img src='assests/impact_mapping.png'>
@@ -2310,6 +2174,15 @@ A continuación, se presentan los términos clave identificados a partir de las 
 | 30    | HU028                           | Reporte semanal de excursiones y mermas                  | Como calidad, quiero un reporte semanal con % fuera de rango y mermas en S/. para auditorías y mejora continua.                                                    | 3            |
 | 31    | HU031                           | Gestión de calibración de sensores                       | Como ingeniería clínica, quiero registrar certificados y alertas de vencimiento de calibración para asegurar precisión de medición.                                | 5            |
 | 32    | HU032                           | Reporte de cumplimiento normativo (GDP/guías)            | Como calidad, quiero generar un informe con evidencias de cadena de frío y acciones correctivas para presentar en inspecciones regulatorias.                       | 8            |
+| 33    | HU033                           | Landing pública (estructura + hero + CTA)                | Como visitante, quiero ver un landing claro con un bloque principal (hero) y un botón de acción para entender rápido el valor y solicitar contacto/demos.               | 5            |
+| 34    | HU034                           | Header y navegación                                      | Como visitante, quiero un encabezado con navegación sencilla para moverme entre secciones sin perderme.                                                                  | 3            |
+| 35    | HU035                           | Footer institucional (legal/redes/contacto)              | Como visitante, quiero ver datos legales y enlaces de contacto/redes para validar confianza y comunicarme.                                                               | 2            |
+| 36    | HU036                           | Propuesta de valor & Features                            | Como visitante, quiero entender beneficios y características clave para evaluar si la plataforma resuelve mi problema.                                                   | 5            |
+| 37    | HU037                           | Formulario de contacto/lead (anti-spam)                  | Como visitante, quiero enviar mis datos de contacto para solicitar una demo o que me contacten, evitando envíos de bots (honeypot/rate limit).                           | 5            |
+| 38    | HU038                           | SEO y metadatos (OG/Twitter, sitemap, robots)            | Como responsable de marketing, quiero metadatos y archivos SEO para mejorar indexación y previsualizaciones.                                                             | 3            |
+| 39    | HU039                           | Accesibilidad base (WCAG AA mínima)                      | Como usuario con diversidad funcional, quiero navegar con teclado y lectores de pantalla para acceder sin barreras.                                                      | 5            |
+
+<div style="page-break-after: always;"></div>
 | 33    | HU033                           | Landing pública (estructura + hero + CTA)                | Como visitante, quiero ver un landing claro con un bloque principal (hero) y un botón de acción para entender rápido el valor y solicitar contacto/demos.               | 5            |
 | 34    | HU034                           | Header y navegación                                      | Como visitante, quiero un encabezado con navegación sencilla para moverme entre secciones sin perderme.                                                                  | 3            |
 | 35    | HU035                           | Footer institucional (legal/redes/contacto)              | Como visitante, quiero ver datos legales y enlaces de contacto/redes para validar confianza y comunicarme.                                                               | 2            |
@@ -3769,10 +3642,515 @@ Repositorio Landingpage
 
 ![Landinpage Commits](./assets/images/commits/Landingpage1.png )  
 
+### 6.2.2 Sprint 2.
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2, enfocado en habilitar el flujo de autenticación e identidad institucional (registro de instituciones y usuarios), gestión básica de perfil y la primera provisión de dispositivos IoT integrada con el backend desplegado y la primera versión mobile.
+
+Se detalla el incremento funcional logrado (web + mobile), la coordinación entre frontend, backend, el uso del repositorio Git y del tablero de tareas, así como la planificación del sprint y el Sprint Backlog asociado. Este sprint permitió cerrar un primer **MVP de acceso y onboarding de dispositivos** sobre el que se construirán las siguientes funcionalidades de monitoreo y alertas.
+
+---
+
+#### 6.2.2.1 Sprint Planning 2.
+
+En el Sprint Planning 2, se definió como foco principal **la capa de identidad y provisión inicial de dispositivos IoT en el Front**, tomando historias priorizadas del Product Backlog relacionadas con registro institucional, registro de usuario, autenticación, gestión de perfil y alta de dispositivos (HU001, HU002, HU003, HU004, HU006, HU007, HU011).
+
+| Campo                              | Detalle                                                                                                                                                                                                                                                                               |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                              |
+| **Sprint Planning Background**     | Construir un primer incremento funcional que permita: registrar instituciones, registrar usuarios, iniciar/cerrar sesión de forma segura, gestionar perfil básico y dar de alta dispositivos IoT vinculados a una organización.                                                       |
+| **Date**                           | 13 de octubre de 2025                                                                                                                                                                                                                                                                 |
+| **Time**                           | 21:30 horas (GMT-5)                                                                                                                                                                                                                                                                   |
+| **Location**                       | Modalidad remota                                                                                                                                                                                                                                                                      |
+| **Prepared By**                    | Equipo del Proyecto                                                                                                                                                                                                                                    |
+| **Attendees (to planning)**        | Product Owner, UX/UI Lead, Front-End Lead, Backend Lead, Mobile Lead, QA Lead, Devs (Web, Mobile, IoT)                                                                                                                                                                                |
+| **Sprint 1 Review Summary**        | Se presentó la landing page MVP desplegada, con navegación completa, formulario de contacto funcional y métricas básicas. Se recogió feedback sobre claridad de la propuesta de valor y se identificó la necesidad de conectar la landing con el flujo de registro.                   |
+| **Sprint 2 Retrospective Summary** | Se consolidó un flujo de autenticación consistente entre web y mobile. Se mejoró la coordinación entre frontend y backend (definición clara de contratos API) y se acordó documentar los endpoints clave (login, registro, dispositivos) en un formato accesible para todo el equipo. |
+| **Sprint Goal & User Stories**     | **Goal:** Habilitar un MVP funcional de acceso e identidad institucional con registro de instituciones, usuarios y provisión básica de dispositivos IoT, integrado a backend y primera versión mobile. <br> **Historias:** HU001, HU002, HU003, HU004, HU006, HU007, HU011.           |
+| **Sprint Velocity 2**              | 20                                                                                                                                                                                                                                                                                    |
+| **Sum of Story Points**            | 22 (HU001 = 5, HU002 = 5, HU003 = 3, HU004 = 1, HU006 = 1, HU007 = 2, HU011 = 5)                                                                                                                                                                                                      |
+
+---
+
+#### 6.2.2.2 Aspect Leaders and Collaborators.
+
+Para el Sprint 2 se mantuvo la estructura de roles, reforzando la participación en backend y mobile para integrar la capa de autenticación y provisión de dispositivos.
+
+| Team Member                        | GitHub Username | Landing Page | Frontend Web | Backend | Mobile | IoT |
+| ---------------------------------- | --------------- | ------------ | ------------ | ------- | ------ | --- |
+| Cruz Ticona, Aaron Alejandro       | AaronAlejandrou | -            | C            | -       |  **L** | -   |
+| Ayquipa Ubaldo, Abraham Israel     | abrahamayquipa  | -            | C            | C       | C      | -   |
+| Luza Carhuamaca, Jose Adrian       | Adrianluza1     | -            | C            | C       | -      | **L**  |
+| Durand Vera, Gianfranco Angel      | FrancoDurand    | -            | C            | **L**   | C      | -   |
+| Ticona Panduro, Estrella del Pilar | Estrella-ticona | -            | **L**        | -       | C      | -   |
+
+Leyenda: **L = Leader**, **C = Collaborator**, **- = No participación en el sprint**.
+
+---
+
+#### 6.2.2.3 Sprint Backlog 2.
+
+**Link del Trello:**  
+Link: https://trello.com/invite/b/68e5c340ab38cc001da13a66/ATTI0adc4dbd76797a8850f7ca7d4f37b28407D0CB1C/meditrack
+
+**Vista del Sprint Backlog en Trello:**  
+![trelloSprint2.png](assets/trello-image2.png)
+
+**Tabla del Sprint Backlog 2**
+
+| **Sprint #** | **Sprint 2** |   |   |   |   |   |   |
+|--------------|--------------|---|---|---|---|---|---|
+| **User Story** | **Work-item / Task** |   |   |   |   |   |   |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation hours** | **Assigned To** | **Status To-do / In-Process / To-Review / Done** |
+| **HU001** | Registro de institución | **T14** | Modelo y API de institución | Definir modelo de datos de institución, repositorio y endpoints REST (crear/listar) en backend. | 4h | Backend Dev | Done |
+| **HU001** | Registro de institución | **T15** | Formulario de alta (web) | Crear formulario web para registrar institución (datos básicos, validación y mensajes de error). | 4h | Front-End Dev | Done |
+| **HU002** | Registro de usuario | **T16** | Endpoint de registro de usuario | Implementar endpoint REST para registro, validaciones y hash seguro de contraseña. | 4h | Backend Dev | Done |
+| **HU002** | Registro de usuario | **T17** | Pantallas de registro web/mobile | Implementar pantallas de registro (web y mobile) conectadas al backend con manejo de errores. | 5h | Front-End Dev + Mobile Dev | To-Review |
+| **HU003** | Inicio de sesión | **T18** | Login API + JWT | Implementar endpoint de login con verificación de credenciales y emisión de JWT (y refresh token si aplica). | 4h | Backend Dev | Done |
+| **HU003** | Inicio de sesión | **T19** | UI de login y sesión (web/mobile) | Implementar pantallas de login, almacenamiento de token y redirección a home autenticado. | 4h | Front-End Dev + Mobile Dev | Done |
+| **HU004** | Cerrar sesión | **T20** | Lógica de cierre de sesión (API) | Definir endpoint o mecanismo para invalidar token/refresh (si aplica) y registrar logout en backend. | 2h | Backend Dev | To-Review |
+| **HU004** | Cerrar sesión | **T21** | Logout en clientes | Implementar botón de “Cerrar sesión” en web y mobile que limpie token, estado y redirija a login. | 2h | Front-End Dev + Mobile Dev | Done |
+| **HU006** | Cambio de contraseña | **T22** | API cambio de contraseña | Implementar endpoint autenticado para cambio de contraseña con validaciones de seguridad. | 3h | Backend Dev | In-Process |
+| **HU006** | Cambio de contraseña | **T23** | Vista de cambio de contraseña | Crear pantalla de cambio de contraseña dentro de perfil, con validaciones y feedback al usuario. | 3h | Front-End Dev | In-Process |
+| **HU007** | Gestión de perfil de usuario | **T24** | API de perfil (GET/PUT) | Implementar endpoints para obtener y actualizar datos de perfil (nombre, rol visible, contacto). | 3h | Backend Dev | Done |
+| **HU007** | Gestión de perfil de usuario | **T25** | UI de perfil (web/mobile) | Crear la vista de perfil para ver/editar datos básicos, conectada a la API de perfil. | 4h | Front-End Dev + Mobile Dev | To-Review |
+| **HU011** | Alta/provisión de dispositivo IoT | **T26** | Modelo y endpoints de dispositivo | Definir entidad de dispositivo (ID, clave, tipo, estado), endpoints de alta y consulta en backend. | 5h | Backend Dev + IoT | In-Process |
+| **HU011** | Alta/provisión de dispositivo IoT | **T27** | UI de registro de dispositivo | Crear pantalla web para registrar dispositivos IoT, asociarlos a institución y ver estado básico. | 4h | Front-End Dev | To-Do |
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Committed on (Date)** |
+|----------------|------------|---------------|-------------------|-------------------------|
+| Backend | main | 852d1a9 | feat: implement user profile creation functionality | Oct 14, 2025 |
+| Backend | iam | b27afd5 | feat: implement user authentication system | Oct 13, 2025 |
+| Backend | main | dc6178a | merge: integrate iam branch into dev | Oct 13, 2025 |
+| Backend | iam | 982dd8 | fix: correct password usage in QR generation | Oct 12, 2025 |
+| Backend | iam | dbac81 | feat: add user authentication and 2FA support | Oct 12, 2025 |
+| Frontend | main | a7f3c21 | feat: implement dashboard KPIs component | Oct 12, 2025 |
+| Frontend | main | c94e5b2 | feat: add device management interface | Oct 16, 2025 |
+| Frontend | main | e8d2f19 | feat: integrate alert notification system | Oct 11, 2025 |
+| Landing-Page | main | 54ed853 | fix: implement internationalization for various components | Oct 11, 2025 |
+| Landing-Page | main | fdf41a51 | first commit | Oct 10, 2025 |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+Para realizar las pruebas correspondientes a la funcionalidad implementada, seguimos estos pasos:
+
+1. **Instalación de dependencias**  
+   Se ejecutó el siguiente comando para instalar todas las dependencias necesarias del proyecto:
+   ```bash
+   npm install
+   ```
+
+2. **Ejecutar el servidor de desarrollo**  
+   Después de la instalación de las dependencias, se ejecutó el siguiente comando para iniciar el servidor en modo de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+3. **Acceso a la aplicación**  
+   La prueba se realizó accediendo a la aplicación a través de la siguiente URL:
+   - [http://localhost:3000/](http://localhost:3000/)
+
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Committed on (Date)** | **Descripción** |
+|----------------|------------|---------------|-------------------|-------------------------|-----------------|
+| Frontend | main | t9a4b23 | fix: add acceptance tests for institution registration | Oct 1, 2025 | Implementación de pruebas de aceptación para el registro de instituciones con escenarios de validación exitosa y fallida usando Gherkin. |
+| Frontend | main | t7c2d14 | fix: add acceptance tests for user login | Oct 10, 2025 | Validación de inicio de sesión con credenciales correctas e incorrectas, incluyendo manejo de errores. |
+| Frontend | main | t5e8f31 | refactor: add acceptance tests for device provisioning | Oct 10, 2025 | Pruebas de alta de dispositivos IoT con validación de IDs únicos y manejo de duplicados. |
+| Frontend | main | t3g6h42 | fix: add acceptance tests for threshold configuration | Oct 09, 2025 | Validación de configuración de umbrales de temperatura y humedad por ubicación con guardado de historial de cambios. |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+**Evidencia visual**  
+A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint 2 para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo:
+
+![Ejecución del Backend](./assets/images/Sprint%201/Testing_WebStorm.png)  
+*Evidencia de la ejecución del backend en IntelliJ IDEA, mostrando el servidor Spring Boot corriendo en el puerto 8080 y los logs de la consola con las operaciones de inicialización.*
+
+![Vista de Login](./assets/sprint%202/login.png)  
+*Captura de la interfaz de inicio de sesión implementada, mostrando los campos de email y password con validación de formulario.*
+
+![Dashboard Principal](./assets/sprint%202/main%20dashboard.png)  
+*Vista del dashboard principal con KPIs y semáforos por áreas (verde/amarillo/rojo), demostrando la visualización en tiempo real del estado del inventario.*
+
+![Gestión de Dispositivos IoT](./assets/sprint%202/devices.png)  
+*Interfaz de gestión de dispositivos IoT mostrando el listado de dispositivos registrados con su estado de salud (en línea/mudo) y último ping.*
+
+![Generación de Código QR 2FA](./assets/sprint%202/qr.png)  
+*Evidencia de la funcionalidad de generación de código QR para autenticación de dos factores (2FA), mostrando el código generado correctamente.*
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+### Introducción al Sprint
+Durante este Sprint se ha completado la **documentación de los endpoints** relacionados con la **autenticación de usuarios**, **gestión de perfiles**, **dispositivos IoT** y **configuración de alertas**, utilizando la especificación OpenAPI 3.0 para facilitar la integración y comprensión de las funcionalidades disponibles en la plataforma MediTrack.
+
+Los siguientes endpoints han sido implementados y documentados, permitiendo a los usuarios interactuar de manera eficiente con la plataforma para el registro, inicio de sesión, gestión de dispositivos y configuración de monitoreo.
+
+---
+
+## Tabla de Endpoints Documentados
+| **Endpoint** | **Acción HTTP** | **Descripción** | **Parámetros** | **Response** | **Enlace a la Documentación** |
+|--------------|-----------------|-----------------|----------------|--------------|------------------------------|
+| `/api/v1/auth/sign-up` | `POST` | Registrar un nuevo usuario en el sistema | `email` (string), `password` (string), `name` (string) | `201 Created: {"user_id": "12345", "message": "User created successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/sign-in` | `POST` | Iniciar sesión de usuario | `email` (string), `password` (string) | `200 OK: {"token": "JWT_token"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/verify-totp` | `POST` | Verificar código TOTP (autenticación 2FA) | `totp_code` (string) | `200 OK: {"message": "Success"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/auth/generate-qr` | `POST` | Generar código QR para autenticación 2FA | `user_id` (string) | `200 OK: {"qr_url": "url_to_qr_code"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles` | `GET` | Obtener perfil del usuario autenticado | `user_id` (string, optional) | `200 OK: {"user_id": "12345", "name": "John Doe", "email": "john@example.com"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/profiles` | `POST` | Crear o actualizar perfil de usuario | `user_id` (string), `name` (string), `email` (string) | `200 OK: {"message": "Profile updated successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/devices` | `POST` | Registrar dispositivo IoT en el sistema | `device_id` (string), `type` (string), `credentials` (object) | `201 Created: {"message": "Device registered successfully"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/devices/{id}/location` | `PUT` | Asignar dispositivo a una ubicación específica | `device_id` (string), `location_id` (string) | `200 OK: {"message": "Assignment confirmed"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+| `/api/v1/thresholds` | `POST` | Configurar umbrales de temperatura y humedad | `location_id` (string), `item_id` (string), `min_temp` (number), `max_temp` (number) | `201 Created: {"message": "Threshold saved"}` | [Documentación](https://meditrack.azurewebsites.net/swagger-ui/index.html) |
+
+---
+
+## Explicación de cada Endpoint:
+
+### 1. `/api/v1/auth/sign-up`
+- **Acción:** `POST`
+- **Descripción:** Registra un nuevo usuario en el sistema MediTrack, creando las credenciales necesarias para el acceso.
+- **Parámetros:** 
+  - `email`: Correo electrónico del usuario (único en el sistema).
+  - `password`: Contraseña segura para la cuenta del usuario.
+  - `name`: Nombre completo del usuario.
+- **Respuesta:** 
+  - `201 Created`: Si el registro es exitoso, se devuelve el ID del usuario creado junto con un mensaje de confirmación.
+
+### 2. `/api/v1/auth/sign-in`
+- **Acción:** `POST`
+- **Descripción:** Permite al usuario iniciar sesión en el sistema mediante credenciales válidas.
+- **Parámetros:** 
+  - `email`: Correo electrónico registrado del usuario.
+  - `password`: Contraseña asociada a la cuenta.
+- **Respuesta:** 
+  - `200 OK`: Si el inicio de sesión es exitoso, se devuelve un token JWT para autenticar las siguientes peticiones de la sesión.
+
+### 3. `/api/v1/auth/verify-totp`
+- **Acción:** `POST`
+- **Descripción:** Verifica el código TOTP ingresado para completar la autenticación de dos factores (2FA), aumentando la seguridad del acceso.
+- **Parámetros:** 
+  - `totp_code`: El código temporal de un solo uso generado por la aplicación de autenticación del usuario.
+- **Respuesta:** 
+  - `200 OK`: Si el código es válido y no ha expirado, se confirma la autenticación exitosa.
+
+### 4. `/api/v1/auth/generate-qr`
+- **Acción:** `POST`
+- **Descripción:** Genera un código QR para configurar la autenticación de dos factores (2FA) en aplicaciones como Google Authenticator.
+- **Parámetros:** 
+  - `user_id`: El ID del usuario para el cual se generará el código QR de configuración 2FA.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve la URL del código QR generado para su escaneo.
+
+### 5. `/api/v1/profiles` (GET)
+- **Acción:** `GET`
+- **Descripción:** Obtiene la información del perfil del usuario autenticado, con opción de consultar perfiles específicos.
+- **Parámetros:** 
+  - `user_id` (opcional): El ID del usuario para obtener su perfil específico.
+- **Respuesta:** 
+  - `200 OK`: Se devuelve un objeto JSON con los detalles del perfil (ID, nombre, email, rol).
+
+### 6. `/api/v1/profiles` (POST)
+- **Acción:** `POST`
+- **Descripción:** Crea o actualiza el perfil de un usuario con información adicional.
+- **Parámetros:** 
+  - `user_id`: ID del usuario cuyo perfil se actualizará.
+  - `name`: Nombre completo actualizado del usuario.
+  - `email`: Correo electrónico actualizado.
+- **Respuesta:** 
+  - `200 OK`: Confirmación de que el perfil fue actualizado o creado exitosamente.
+
+### 7. `/api/v1/devices` (POST)
+- **Acción:** `POST`
+- **Descripción:** Registra un nuevo dispositivo IoT en el sistema para comenzar a recolectar telemetría.
+- **Parámetros:** 
+  - `device_id`: Identificador único del dispositivo.
+  - `type`: Tipo de dispositivo (sensor de temperatura, humedad, etc.).
+  - `credentials`: Credenciales de conexión del dispositivo.
+- **Respuesta:** 
+  - `201 Created`: Confirmación de registro exitoso del dispositivo.
+
+### 8. `/api/v1/devices/{id}/location` (PUT)
+- **Acción:** `PUT`
+- **Descripción:** Asigna un dispositivo IoT a una ubicación física específica (cámara, almacén, UCI).
+- **Parámetros:** 
+  - `device_id`: ID del dispositivo a asignar.
+  - `location_id`: ID de la ubicación destino.
+- **Respuesta:** 
+  - `200 OK`: Confirmación de que la asignación fue exitosa.
+
+### 9. `/api/v1/thresholds` (POST)
+- **Acción:** `POST`
+- **Descripción:** Define umbrales de temperatura y humedad para generar alertas automáticas cuando se exceden.
+- **Parámetros:** 
+  - `location_id`: Ubicación donde aplica el umbral.
+  - `item_id`: Ítem o tipo de inventario monitoreado.
+  - `min_temp`: Temperatura mínima permitida.
+  - `max_temp`: Temperatura máxima permitida.
+- **Respuesta:** 
+  - `201 Created`: Confirmación de que el umbral fue guardado correctamente.
+
+---
+
+## Repositorio y Commits:
+- **Repositorio Backend:** [HealthSync-UPC/Backend](https://github.com/HealthSync-UPC/Backend)
+- **Commits relevantes:**
+  - **Commit ID:** `852d1a9` - Implementación de funcionalidad de creación de perfil de usuario
+  - **Commit ID:** `b27afd5` - Implementación del sistema de autenticación de usuarios
+  - **Commit ID:** `dc6178a` - Merge de rama 'iam' a develop
+  - **Commit ID:** `982dd8` - Corrección de uso de contraseña en la generación de código QR
+  - **Commit ID:** `dbac81` - Soporte completo para autenticación de usuario y 2FA
+
+---
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+En este Sprint, se llevó a cabo el despliegue de múltiples componentes del sistema MediTrack: la **Landing Page** en **Netlify**, el **Backend** en **Railway** y el **Frontend** en **Vercel**. Los pasos realizados durante este Sprint incluyen la configuración de repositorios, la elección de nombres de proyectos, la configuración de variables de entorno y la confirmación del éxito del despliegue. A continuación, se detallan los pasos seguidos durante el proceso:
+
+### Despliegue de Landing Page en Netlify
+
+1. **Elección del Repositorio**  
+   En primer lugar, se seleccionó el repositorio `Frontend` desde el cual se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración continua.
+   ![Elección del Repositorio](./assets/sprint%202/election.png)  
+   *Descripción: Selección del repositorio Landing-Page en la plataforma de Netlify para iniciar el proceso de despliegue automático.*
+
+2. **Elección del Nombre del Proyecto**  
+   A continuación, se asignó el nombre único `healthsync-landing` para el proyecto en Netlify. Este nombre será utilizado en la URL pública del despliegue.
+   ![Elección del Nombre](./assets/sprint%202/deploy.png)  
+   *Descripción: Configuración del nombre del proyecto en Netlify, estableciendo "healthsync-landing" como identificador único.*
+
+3. **Configuración de Rutas y Build Settings**  
+   En este paso, se configuraron las rutas de compilación, el comando de build (`npm run build`) y el directorio de salida (`dist`). También se establecieron las variables de entorno necesarias.
+   ![Configuración de Build](./assets/sprint%202/conf.png)  
+   *Descripción: Configuración de los comandos de build, directorio de output y variables de entorno para el despliegue correcto de la Landing Page.*
+
+4. **Confirmación del Éxito del Despliegue**  
+   Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue automático y se verificó que todo se realizó correctamente, confirmándose con el mensaje de éxito en la interfaz de Netlify.
+  
+   *Descripción: Mensaje de confirmación que indica que el despliegue de la Landing Page fue exitoso en Netlify, con el sitio disponible en https://healthsync-landing.netlify.app*
+
+### Despliegue de Backend en Railway
+
+1. **Conexión del Repositorio**  
+   Se conectó el repositorio `Backend` de GitHub con Railway para habilitar el despliegue continuo.
+
+   *Descripción: Vinculación del repositorio Backend de GitHub con la plataforma Railway.*
+
+2. **Configuración de Variables de Entorno**  
+   Se configuraron las variables de entorno necesarias: `DATABASE_URL`, `JWT_SECRET`, `SMTP_HOST`, `SMTP_PORT`, entre otras.
+
+   *Descripción: Configuración de variables de entorno sensibles en Railway para el correcto funcionamiento del backend.*
+
+3. **Despliegue Exitoso**  
+   Railway detectó automáticamente el proyecto Spring Boot y realizó el despliegue exitoso en el puerto 8080.
+ 
+   *Descripción: Confirmación del despliegue exitoso del backend en Railway, mostrando logs de inicio de Spring Boot y estado "Running".*
+
+### Despliegue de Frontend en Vercel
+
+1. **Importación del Proyecto**  
+   Se importó el repositorio `Frontend` desde GitHub a Vercel para iniciar el proceso de despliegue.
+
+   *Descripción: Proceso de importación del repositorio Frontend desde GitHub hacia Vercel.*
+
+2. **Configuración de Build**  
+   Se configuró el comando de build (`npm run build`) y el directorio de salida (`dist`), además de la variable `API_BASE_URL`.
+
+   *Descripción: Configuración de comandos de compilación y variables de entorno para conectar el frontend con el backend desplegado.*
+
+3. **Confirmación de Despliegue**  
+   Vercel completó el despliegue exitosamente y generó la URL pública del frontend.
+  
+   *Descripción: Mensaje de confirmación de Vercel indicando que el frontend fue desplegado exitosamente en https://meditrack-app.vercel.app*
+
+---
+
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+A continuación presentamos los trabajos realizados en los distintos repositorios durante el Sprint 1, demostrando la colaboración activa del equipo:
+
+### Repositorio Reporte
+![Reporte Commits](./assets/sprint%202/report.png)  
+*Evidencia de commits del equipo en el repositorio de documentación del proyecto, mostrando las contribuciones de todos los integrantes en la elaboración del informe técnico.*
+
+### Repositorio Backend
+![Backend Commits](./assets/sprint%202/backend.png)  
+*Gráfico de commits del repositorio Backend, evidenciando el trabajo colaborativo en la implementación de las APIs de autenticación, gestión de dispositivos y configuración de alertas.*
+
+### Repositorio Frontend
+![Frontend Commits](./assets/sprint%202/frontend.png)  
+*Historial de commits del repositorio Frontend, mostrando el desarrollo de componentes de UI, integración con APIs y pruebas de interfaz de usuario.*
+
+### Repositorio Landing Page
+![Landing Page Commits](./assets/sprint%202/frontend.png)  
+*Commits realizados en el repositorio de la Landing Page, con implementación de internacionalización, modo oscuro y optimización responsive.*
+
+El equipo demostró una colaboración efectiva utilizando GitFlow, con ramas feature bien organizadas y merges controlados hacia develop y main. La comunicación fue fluida mediante Discord y las reuniones diarias permitieron resolver bloqueos rápidamente.
+
 ## 6.3. Validation Interviews
-### 6.3.1. Diseño de Entrevistas
+# 6.3.1. Diseño de Entrevistas (Versión enfocada en Landing Page y Front-End)
+
+## **Objetivo**  
+Validar la usabilidad, claridad y adecuación visual del prototipo digital (landing page y front-end), identificando puntos de mejora en navegación, contenido, alertas y experiencia de usuario para los distintos perfiles del entorno hospitalario.
+
+---
+
+## **Alcance y Segmentos**  
+- **S1 – Farmacia/Inventarios:** farmacéuticos, técnicos y responsables de almacén hospitalario.  
+- **S2 – Áreas Críticas:** personal médico/enfermería en UCI, quirófano y emergencias.
+
+---
+
+## **Tipo de entrevista**  
+- Semiestructurada (10–15 min), 1 a 1, centrada en observación del uso del prototipo, con grabación previa autorización.
+
+---
+
+## **Buenas prácticas**  
+- Formular preguntas **cortas y abiertas**; evitar inducir respuestas.  
+- Solicitar ejemplos o comentarios sobre secciones específicas de la interfaz.  
+- Registrar **impresiones visuales y de navegación** (capturas o timestamps).  
+- Evitar recopilar datos personales o información sensible.
+
+---
+
+## **Guion de preguntas**
+
+> **Nota:** Iniciar con una breve introducción explicando propósito, duración y uso de la retroalimentación.
+
+### **A. Generales (para ambos segmentos)**  
+1. ¿Qué impresión le genera la página al ingresar?  
+2. ¿Entendió de inmediato para qué sirve la plataforma?  
+3. ¿La navegación entre secciones le resultó clara y rápida?  
+4. ¿Los colores, íconos o textos le parecen adecuados para su trabajo?  
+5. ¿En qué parte sintió confusión o falta de información?  
+6. ¿Qué le pareció la ubicación de botones y menús principales?  
+7. ¿Qué cambiaría para que la página sea más intuitiva?  
+8. Si tuviera que usarla en su turno, ¿qué le facilitaría o dificultaría?
+
+---
+
+### **B. Segmento S1 – Farmacia/Inventarios**  
+1. ¿La vista principal le permite ubicar fácilmente productos o alertas críticas?  
+2. ¿Entendió cómo se muestran los estados de stock y caducidad?  
+3. ¿Las alertas visuales (colores, íconos) le resultan claras?  
+4. ¿Qué información le gustaría ver en el panel o dashboard inicial?  
+5. ¿Qué notificaciones le resultarían útiles (vencimiento, sobrestock, fallos de temperatura)?  
+6. ¿Qué tres funciones considera indispensables en la pantalla de inventarios?
+
+---
+
+### **C. Segmento S2 – Áreas Críticas (UCI / Quirófano / Emergencias)**  
+1. ¿Identificó fácilmente los insumos disponibles y su ubicación?  
+2. ¿Las alertas de stock o reposición se perciben rápido durante la simulación?  
+3. ¿Qué tipo de alerta o canal (panel, app, correo) preferiría?  
+4. ¿Qué información necesita ver en tiempo real durante un procedimiento?  
+5. ¿El diseño visual le ayudaría a reducir retrasos o errores?  
+6. ¿Qué tres funciones mejorarían su flujo de trabajo desde la interfaz?
+
+---
+
+### **Cierre**  
+- ¿Qué parte del diseño mejoraría primero?  
+- ¿Le gustaría participar en pruebas de la siguiente versión del prototipo?
+
+---
+
 ### 6.3.2. Registro de Entrevistas
+
+#### Segmento: Trabajadores del sector salud Farmacia/Inventarios 
+
+**Entrevista 1:**  
+- **Nombres:** Ernie Fabian
+- **Apellidos:**  Cossio Soto
+- **Edad:** 29
+- **Rol/Área:**  Profesional enfocado en la innovación en el sector salud
+- **Lugar de residencia (distrito/ciudad):** Miraflores, Lima
+
+**Evidencia de la entrevista:**  
+<img src="assets/ENTREVISTA1.png" alt="Screenshot ENTREVISTA_01">
+
+**Enlace del video (editado único) y timing:**  
+- URL: [https://…  ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/EZC9szeFrZtMupL4tsGKpXsBT-lMubVWCdIKNAI1WW7nSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ye5lRZ)
+- Tiempo: 9:49
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/Tareas: El usuario se encuentra satisfecho con el diseño general y la accesibilidad de la interfaz o sistema actual. Sus tareas principales se centran en la gestión y control del sistema (probablemente de monitoreo o alarmas) y la necesidad de una mayor variedad de alertas personalizadas.
+
+- Problemas: Actualmente, el principal "problema" o área de mejora es la falta de control y gestión detallada que el usuario desearía tener sobre el sistema. También existe una limitación en la variedad y personalización de las alarmas disponibles.
+
+- Alertas/Datos Críticos: Es una necesidad crítica la implementación de una mayor variedad de alarmas que puedan adaptarse a diferentes escenarios o niveles de riesgo. El usuario requiere la capacidad de gestionar estas alertas de forma más granular.
+
+- Barreras: Las barreras identificadas son la limitación actual del sistema para ofrecer un control de gestión más profundo y la rigidez en la configuración de las opciones de alerta, impidiendo la deseada personalización.
+---
+
+**Entrevista 2:**  
+- **Nombres:**  
+- **Apellidos:**  
+- **Edad:**  
+- **Rol/Área:**  
+- **Lugar de residencia (distrito/ciudad):**
+
+**Evidencia de la entrevista:**  
+<img src="assets/ENTREVISTA2.png" alt="Screenshot ENTREVISTA_02">
+
+**Enlace del video (editado único) y timing:**  
+- URL: [https://…  ]()
+- Tiempo: 
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/tareas: …  
+- Problemas: …   
+- Alertas/datos críticos: …  
+- Barreras: …  
+
+---
+#### Segmento: Trabajadores del sector salud UCI/Quirófano/Emergencias
+
+**Entrevista 3:**  
+- **Nombres:** Alejandra Lucia
+- **Apellidos:** Neyra Yataco
+- **Edad:** 25
+- **Rol/Área:** Unidad de Cuidados Intensivos
+- **Lugar de residencia (distrito/ciudad):**  Jesus Maria, Lima
+
+**Evidencia de la entrevista:**  
+<img src="assets/ENTREVISTA2.png" alt="Screenshot ENTREVISTA_02">
+
+**Enlace del video (editado único) y timing:**  
+- URL: [https://…  ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/ETvFjqAj5UhFq53NQltZqOIBWIYy9497KdgDb7dMQ92eEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nMateo)
+- Tiempo: 8:05
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/Tareas: El usuario está interactuando con una interfaz o un sistema de monitoreo de dispositivos. Su tarea principal es obtener información detallada y actualizada de estos dispositivos, ya que requiere un acceso a datos en tiempo real.
+
+- Problemas: El diseño actual presenta áreas o partes que necesitan ser mejoradas. Específicamente, el usuario percibe una falta de información suficiente o inmediata sobre el estado y rendimiento de los dispositivos conectados.
+
+- Alertas/Datos Críticos: Es un dato crítico la necesidad de que la interfaz muestre mayor información y, crucialmente, que esta información se provea a tiempo real. La inmediatez de los datos es esencial para sus operaciones o toma de decisiones.
+
+- Barreras: Las principales barreras son las deficiencias en el diseño de la interfaz (partes a mejorar) que no están priorizando o facilitando la visualización de la información relevante, y la limitación del sistema para entregar o actualizar los datos de los dispositivos de forma verdaderamente inmediata.
+
+---
+
+**Entrevista 4:**  
+- **Nombres:**  
+- **Apellidos:**  
+- **Edad:**  
+- **Rol/Área:**  
+- **Lugar de residencia (distrito/ciudad):**
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/ENTREVISTA_04.png" alt="Screenshot ENTREVISTA_04">
+
+**Enlace del video (editado único) y timing:**  
+- URL: https://…  
+- Tiempo: HH:MM:SS – HH:MM:SS
+
+**Resumen de la entrevista (8–12 líneas):**  
+- Contexto/tareas: …  
+- Problemas: …   
+- Alertas/datos críticos: …  
+- Barreras: …  
+
 ### 6.3.3. Evaluaciones según heurísticas
+
+**Trazabilidad a supuestos/hipótesis:**  
+- Hypothesis/Assumption → (confirma/parcial/refuta)
 
 ## 6.4. Video About-the-Product
 
