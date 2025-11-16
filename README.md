@@ -341,73 +341,7 @@
 - [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [COURSE PROJECT](#course-project)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [Misión](#misión)
-  - [Visión](#visión)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [Antecedentes](#antecedentes)
-    - [Problemática (Método 5W y 2H)](#problemática-método-5w-y-2h)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [Problem Statement](#problem-statement)
-    - [Dominio](#dominio)
-    - [Segmentos de Clientes](#segmentos-de-clientes)
-    - [Puntos de Dolor](#puntos-de-dolor)
-    - [Visión/Estrategia](#visiónestrategia)
-    - [Segmento Inicial](#segmento-inicial)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [Features](#features)
-    - [Business Outcomes](#business-outcomes)
-    - [Users](#users)
-    - [User Outcomes \& Benefits](#user-outcomes--benefits)
-    - [Business Assumptions](#business-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [**Preguntas Generales**](#preguntas-generales)
-      - [**Preguntas segmento 1**: Farmacéuticos y responsables de inventarios hospitalarios](#preguntas-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
-      - [**Preguntas segmento 2**: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#preguntas-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [**Segmento: Farmacéuticos y responsables de inventarios hospitalarios**](#segmento-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
-      - [**Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**](#segmento-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [Análisis segmento 1: Farmacéuticos y responsables de inventarios hospitalarios](#análisis-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
-    - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
-    - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
-    - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
-    - [Necesidades prioritarias](#necesidades-prioritarias)
-  - [Análisis segmento 2: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#análisis-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
-    - [Problemas operativos actuales](#problemas-operativos-actuales)
-    - [Necesidades tecnológicas y funcionales](#necesidades-tecnológicas-y-funcionales)
-    - [Impacto esperado en la atención médica](#impacto-esperado-en-la-atención-médica)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [Interpretación](#interpretación)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
@@ -527,6 +461,7 @@
     - [5.4.1. Applications Wireframes](#541-applications-wireframes)
     - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
     - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.3.1 Applications Mobile Mock-ups](#5431-applications-mobile-mock-ups)
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
   - [5.5. Applications Prototyping](#55-applications-prototyping)
 - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
@@ -565,6 +500,7 @@
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
+
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
@@ -799,8 +735,10 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - Incremento en la satisfacción y confianza de pacientes al garantizar disponibilidad de tratamientos y materiales.  
 
 ### Users  
-- Farmacéuticos y responsables de inventarios hospitalarios que requieren herramientas precisas para control y trazabilidad.  
-- Personal médico y de enfermería en UCI, quirófanos y emergencias que dependen de la disponibilidad inmediata de insumos.
+- Farmacéuticos hospitalarios encargados del control de insumos.  
+- Personal médico y de enfermería dependiente de la disponibilidad de materiales críticos.  
+- Administradores de hospitales responsables de costos y cumplimiento normativo.  
+- Proveedores que requieren coordinación correcta con las instituciones de salud.  
 
 ### User Outcomes & Benefits  
 - Disponibilidad garantizada de insumos esenciales en cualquier momento.  
@@ -817,15 +755,21 @@ En esta parte, analizaremos las suposiciones relacionadas con nuestra solución,
 - La escalabilidad del sistema permitirá adaptarse a diferentes tamaños de instituciones (pequeñas clínicas hasta grandes hospitales).  
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-Aquí está la actualización de tus Lean UX Hypothesis Statements enfocados en los dos segmentos objetivos: farmacéuticos y responsables de inventarios hospitalarios, y personal médico/enfermería en áreas críticas (UCI, quirófanos, emergencias).
+A partir de los datos obtenidos sobre los resultados de negocio, perfiles de usuarios, beneficios esperados y funcionalidades propuestas, es posible construir nuestras hipótesis, cada una enfocada en una característica específica que se busca desarrollar.
 
-  * Creemos que la implementación de sensores IoT en áreas de almacenamiento y uso crítico de insumos médicos permitirá un monitoreo en tiempo real de condiciones esenciales (temperatura, humedad, ubicación), reduciendo significativamente las pérdidas por deterioro o caducidad, lo cual beneficiará especialmente a farmacéuticos responsables del inventario.  
-  * Creemos que farmacéuticos y administradores hospitalarios utilizarán la plataforma digital para recibir reportes automáticos y alertas tempranas, optimizando así la gestión del inventario y evitando quiebres que afecten la operación hospitalaria.  
-  * Creemos que personal médico y de enfermería en UCI, quirófanos y emergencias confiará en la solución para asegurar la disponibilidad inmediata de insumos críticos, lo que mejorará la seguridad del paciente y la eficiencia en la atención clínica.  
-  * Creemos que la integración del sistema IoT con los sistemas hospitalarios actuales (ERP, HCE) facilitará la adopción por parte de ambos segmentos, reduciendo la resistencia al cambio y evitando duplicación de labores.  
-  * Creemos que el ahorro de tiempo en tareas administrativas gracias a la automatización incrementará la satisfacción y la eficiencia operativa tanto para farmacéuticos como para el personal clínico de áreas críticas.  
-  * Creemos que la mejora en la trazabilidad y control de insumos fortalecerá la coordinación con proveedores, asegurando un suministro confiable y continuo para hospital y clínicas.  
-  * Creemos que la disponibilidad y conservación óptima de insumos delicados, lograda mediante nuestra solución, tendrá un impacto positivo directo en la seguridad del paciente y en la percepción de calidad de los servicios hospitalarios.  
+1. Creemos que **la implementación de sensores IoT en el almacenamiento y transporte de insumos médicos** permitirá monitorear en tiempo real condiciones críticas (temperatura, humedad, ubicación), lo cual reducirá significativamente las pérdidas por deterioro o caducidad.  
+
+2. Creemos que **los farmacéuticos y administradores hospitalarios** usarán la plataforma digital para obtener reportes automáticos y alertas tempranas, lo que les permitirá optimizar el control de inventarios y prevenir desabastecimientos.  
+
+3. Creemos que **los hospitales y clínicas**, al reducir pérdidas económicas y mejorar la trazabilidad, verán un retorno de inversión positivo en un periodo de corto a mediano plazo.  
+
+4. Creemos que **la integración de la plataforma IoT con sistemas de gestión hospitalaria ya existentes (ERP/HCE)** facilitará la adopción de la solución, evitando duplicidades y reduciendo la resistencia al cambio tecnológico.  
+
+5. Creemos que **el personal de salud** (farmacéuticos, enfermeras, médicos) valorará el ahorro de tiempo en tareas administrativas gracias a la automatización, lo que incrementará su satisfacción y eficiencia operacional.  
+
+6. Creemos que **los proveedores y distribuidores de insumos médicos** adoptarán la solución al percibir un aumento en la transparencia logística y una mejor coordinación con las instituciones de salud.  
+
+7. Creemos que **la mejora en la disponibilidad y conservación de insumos delicados** impactará de manera positiva en la seguridad del paciente, aumentando la confianza y la calidad percibida del servicio hospitalario.  
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -1700,7 +1644,7 @@ A continuación, se presentan los términos clave identificados a partir de las 
     <strong>Cuando</strong> el enlace se restablece,<br>
     <strong>Entonces</strong> el nodo reenvía lecturas pendientes en orden.<br><br>
     <strong>Escenario 2: Marcas de tiempo preservadas</strong><br>
-    <strong>Dado</strong> que se almacenaron lecturas en buffer,<br>  
+    <strong>Dado</strong> que se almacenaron lecturas en buffer,<br>
     <strong>Cuando</strong> se procesan en el backend,<br>
     <strong>Entonces</strong> conservan su timestamp original.
   </td>
@@ -3372,6 +3316,25 @@ Este proceso permite mantener la trazabilidad y el control de permisos según fu
 
 <img src="assets/Settings6.png"></img>
 
+### 5.4.3.1 Applications Mobile Mock-ups
+**Login**
+<img src="assets/mockupsmobile/login.jpeg"></img>
+
+**Register**
+<img src="assets/mockupsmobile/register.jpeg"></img>
+
+**Dashboard**
+<img src="assets/mockupsmobile/dashboard.jpeg"></img>
+
+**IOT Devices**
+<img src="assets/mockupsmobile/iot devices.jpeg"></img>
+
+**Add device**
+<img src="assets/mockupsmobile/add device.jpeg"></img>
+
+**Settings**
+<img src="assets/mockupsmobile/settings.jpeg"></img>
+
 ### 5.4.4. Applications User Flow Diagrams
 **User goal: Login**
 
@@ -3791,15 +3754,19 @@ Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de
 Presentamos los trabajos realizados en los distintos repositorios
 
 Repositorio Reporte
+
 ![Reporte Commits](./assets/images/commits/Reporte1.png )  
 
 Repositorio BackEnd
+
 ![BackEnd Commits](./assets/images/commits/Backend1.png )  
 
 Repositorio FrontEnd
+
 ![FrontEnd Commits](./assets/images/commits/Frontend1.png )  
 
 Repositorio Landingpage
+
 ![Landinpage Commits](./assets/images/commits/Landingpage1.png )  
 
 ## 6.3. Validation Interviews
