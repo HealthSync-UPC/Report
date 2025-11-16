@@ -347,7 +347,73 @@
 - [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+- [COURSE PROJECT](#course-project)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [Misión](#misión)
+  - [Visión](#visión)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [Antecedentes](#antecedentes)
+    - [Problemática (Método 5W y 2H)](#problemática-método-5w-y-2h)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [Problem Statement](#problem-statement)
+    - [Dominio](#dominio)
+    - [Segmentos de Clientes](#segmentos-de-clientes)
+    - [Puntos de Dolor](#puntos-de-dolor)
+    - [Visión/Estrategia](#visiónestrategia)
+    - [Segmento Inicial](#segmento-inicial)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [Features](#features)
+    - [Business Outcomes](#business-outcomes)
+    - [Users](#users)
+    - [User Outcomes \& Benefits](#user-outcomes--benefits)
+    - [Business Assumptions](#business-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [**Preguntas Generales**](#preguntas-generales)
+      - [**Preguntas segmento 1**: Farmacéuticos y responsables de inventarios hospitalarios](#preguntas-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Preguntas segmento 2**: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#preguntas-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Segmento: Farmacéuticos y responsables de inventarios hospitalarios**](#segmento-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**](#segmento-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [Análisis segmento 1: Farmacéuticos y responsables de inventarios hospitalarios](#análisis-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+    - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
+    - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
+    - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
+    - [Necesidades prioritarias](#necesidades-prioritarias)
+  - [Análisis segmento 2: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#análisis-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [Problemas operativos actuales](#problemas-operativos-actuales)
+    - [Necesidades tecnológicas y funcionales](#necesidades-tecnológicas-y-funcionales)
+    - [Impacto esperado en la atención médica](#impacto-esperado-en-la-atención-médica)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Interpretación](#interpretación)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
@@ -453,7 +519,7 @@
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
     - [5.2.2. Labeling Systems](#522-labeling-systems)
@@ -498,8 +564,17 @@
       - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
       - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [Introducción al Sprint](#introducción-al-sprint)
+  - [Tabla de Endpoints Documentados](#tabla-de-endpoints-documentados)
+  - [Explicación de cada Endpoint:](#explicación-de-cada-endpoint)
+    - [1. `/api/v1/auth/verify-totp`](#1-apiv1authverify-totp)
+    - [2. `/api/v1/auth/sign-up`](#2-apiv1authsign-up)
+    - [3. `/api/v1/auth/sign-in`](#3-apiv1authsign-in)
+    - [4. `/api/v1/auth/generate-qr`](#4-apiv1authgenerate-qr)
+    - [5. `/api/v1/profiles`](#5-apiv1profiles)
+    - [6. `/api/v1/profiles`](#6-apiv1profiles)
+  - [Repositorio y Commits:](#repositorio-y-commits)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [Software Deployment Evidence for Sprint Review](#software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
     - [6.2.2 Sprint 2.](#622-sprint-2)
       - [6.2.2.1 Sprint Planning 2.](#6221-sprint-planning-2)
@@ -532,13 +607,25 @@
     - [Repositorio Frontend](#repositorio-frontend)
     - [Repositorio Landing Page](#repositorio-landing-page)
   - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+- [6.3.1. Diseño de Entrevistas (Versión enfocada en Landing Page y Front-End)](#631-diseño-de-entrevistas-versión-enfocada-en-landing-page-y-front-end)
+  - [**Objetivo**](#objetivo)
+  - [**Alcance y Segmentos**](#alcance-y-segmentos)
+  - [**Tipo de entrevista**](#tipo-de-entrevista)
+  - [**Buenas prácticas**](#buenas-prácticas)
+  - [**Guion de preguntas**](#guion-de-preguntas)
+    - [**A. Generales (para ambos segmentos)**](#a-generales-para-ambos-segmentos)
+    - [**B. Segmento S1 – Farmacia/Inventarios**](#b-segmento-s1--farmaciainventarios)
+    - [**C. Segmento S2 – Áreas Críticas (UCI / Quirófano / Emergencias)**](#c-segmento-s2--áreas-críticas-uci--quirófano--emergencias)
+    - [**Cierre**](#cierre)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+      - [Segmento: Trabajadores del sector salud Farmacia/Inventarios](#segmento-trabajadores-del-sector-salud-farmaciainventarios)
+      - [Segmento: Trabajadores del sector salud UCI/Quirófano/Emergencias](#segmento-trabajadores-del-sector-salud-uciquirófanoemergencias)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
-
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Conclusiones](#conclusiones-1)
+  - [Recomendaciones](#recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -4085,24 +4172,24 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 ---
 
 **Entrevista 2:**  
-- **Nombres:**  
-- **Apellidos:**  
-- **Edad:**  
-- **Rol/Área:**  
-- **Lugar de residencia (distrito/ciudad):**
+- **Nombres:** Augusto Mathias  
+- **Apellidos:**  Vasquez Requejo
+- **Edad:** 20
+- **Rol/Área:** Operador Logistico
+- **Lugar de residencia (distrito/ciudad):** San Isidro
 
 **Evidencia de la entrevista:**  
-<img src="assets/ENTREVISTA2.png" alt="Screenshot ENTREVISTA_02">
+<img src="assets/ENTREVISTA2.1.png" alt="Screenshot ENTREVISTA_02">
 
 **Enlace del video (editado único) y timing:**  
-- URL: [https://…  ]()
-- Tiempo: 
+- URL: [https://…  ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/IQDYXw1FtXP3R5fhRi1u_ZwwAWYLVR1xw2a0mvoWEtyA2Y4?e=HG5ahe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Tiempo: 02:38
 
 **Resumen de la entrevista (8–12 líneas):**  
-- Contexto/tareas: …  
-- Problemas: …   
-- Alertas/datos críticos: …  
-- Barreras: …  
+- Contexto/tareas: El usuario valora la claridad visual y la organización actual del sistema, que le permite supervisar el estado general sin dificultad. Sus actividades principales giran en torno al seguimiento de eventos, revisión de notificaciones y toma de decisiones rápidas frente a incidencias. 
+- Problemas: Más que fallas graves, el usuario identifica carencias en el nivel de control disponible. Señala que le gustaría configurar con mayor detalle qué sucede ante determinadas condiciones y cómo se agrupan o priorizan las notificaciones.
+- Alertas/datos críticos: Manifiesta la necesidad de contar con tipos de alerta más específicos y escalonados (por prioridad, tipo de evento o criticidad). Además, considera clave disponer de opciones avanzadas para definir cuándo y cómo se disparan estas alertas.
+- Barreras: Las principales barreras son las restricciones actuales de la plataforma, que no permiten ajustar con precisión las reglas de alerta ni su comportamiento. Esta rigidez limita la personalización y reduce la sensación de control que el usuario espera tener sobre el sistema.
 
 ---
 #### Segmento: Trabajadores del sector salud UCI/Quirófano/Emergencias
@@ -4133,24 +4220,24 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 ---
 
 **Entrevista 4:**  
-- **Nombres:**  
-- **Apellidos:**  
-- **Edad:**  
-- **Rol/Área:**  
-- **Lugar de residencia (distrito/ciudad):**
+- **Nombres:**  Kevin 
+- **Apellidos:**  Patrick
+- **Edad:** 21
+- **Rol/Área:**  Trabajador del sector salud
+- **Lugar de residencia (distrito/ciudad):** Jesus Maria
 
 **Evidencia de la entrevista:**  
-<img src="./assets/images/interviews/ENTREVISTA_04.png" alt="Screenshot ENTREVISTA_04">
+<img src="./assets/ENTREVISTA2.2.png" alt="Screenshot ENTREVISTA_04">
 
 **Enlace del video (editado único) y timing:**  
-- URL: https://…  
-- Tiempo: HH:MM:SS – HH:MM:SS
+- [URL:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/IQAdvCeAd_HEQ7q5atgiJhJWAZsLalk59w_XJ_BAaCN_IhM?e=hAmwaw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Tiempo: 3:24
 
 **Resumen de la entrevista (8–12 líneas):**  
-- Contexto/tareas: …  
-- Problemas: …   
-- Alertas/datos críticos: …  
-- Barreras: …  
+- Contexto/tareas: El usuario trabaja con una plataforma orientada al monitoreo de dispositivos, donde su objetivo principal es consultar el estado y desempeño de cada uno. Requiere acceder a información precisa y constantemente actualizada para supervisar correctamente la operación.
+- Problemas: La versión actual de la interfaz presenta secciones que no resultan suficientemente claras o completas. El usuario percibe que, en varios puntos, la información sobre los dispositivos es escasa o no refleja con rapidez lo que está ocurriendo en el sistema. 
+- Alertas/datos críticos: Un aspecto crítico es que la vista ofrezca más datos relevantes por dispositivo y que estos se refresquen prácticamente en tiempo real. La rapidez con la que la información llega a la pantalla es clave para que sus decisiones sean oportunas.
+- Barreras: Las barreras principales se relacionan con el diseño de la interfaz, que no prioriza ni resalta adecuadamente los datos esenciales, y con la capacidad limitada del sistema para actualizar la información de manera inmediata. Esto reduce la eficiencia del monitoreo y la confianza del usuario en lo que ve.
 
 ### 6.3.3. Evaluaciones según heurísticas
 
