@@ -224,7 +224,6 @@
         - Correcion Cap I y Cap II<br>
       </td>
 </tr>
-
     <tr>
       <td>#2 – TB2</td>
       <td>14/11/2025</td>
@@ -299,6 +298,12 @@
 **TP1:**
 
 <img src="assets/tp1-insights.png" width="800px">
+
+<br>
+
+**TP2:**
+
+<img src="assets/tb2-insights.png" width="800px">
 
 <br><br>
 
@@ -4113,7 +4118,7 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 <img src="assets/ENTREVISTA2.png" alt="Screenshot ENTREVISTA_02">
 
 **Enlace del video (editado único) y timing:**  
-- URL: [https://…  ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/ETvFjqAj5UhFq53NQltZqOIBWIYy9497KdgDb7dMQ92eEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nMateo)
+- [URL:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213404_upc_edu_pe/ETvFjqAj5UhFq53NQltZqOIBWIYy9497KdgDb7dMQ92eEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nMateo)
 - Tiempo: 8:05
 
 **Resumen de la entrevista (8–12 líneas):**  
@@ -4135,7 +4140,7 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 - **Lugar de residencia (distrito/ciudad):**
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/ENTREVISTA_04.png" alt="Screenshot ENTREVISTA_04">
+<img src="./assets/images/interviews/ENTREVISTA_04.png" alt="Screenshot ENTREVISTA_04">
 
 **Enlace del video (editado único) y timing:**  
 - URL: https://…  
