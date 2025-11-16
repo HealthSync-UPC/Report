@@ -293,7 +293,15 @@
 
 <img src="assets/tb1-insights.png" width="800px">
 
+<br>
+
+**TP1:**
+
+<img src="assets/tp1-insights.png" width="800px">
+
 <br><br>
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 [Student Outcome](#student-outcome)
@@ -566,7 +574,8 @@
 [Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
- 
+
+<div style="page-break-after: always;"></div>
 
 # Student Outcome  
 ABET – EAC - Student Outcome 5
@@ -641,6 +650,8 @@ ABET – EAC - Student Outcome 5
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -842,6 +853,8 @@ Este segmento incluye a los profesionales que gestionan el almacenamiento, contr
 
   * **Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias):**  
 Este grupo está compuesto por médicos, enfermeros y técnicos que dependen de la disponibilidad inmediata de insumos críticos para la atención de pacientes. Su enfoque está en mantener la continuidad y seguridad en la atención, por lo cual requieren información fiable y oportuna sobre el stock, para evitar interrupciones y riesgos para los pacientes. La trazabilidad y el acceso rápido a datos son esenciales para este segmento.
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis 
 En este capítulo, nos centraremos en los requerimientos que necesita cumplir nuestra solución para que sea viable, y los análisis necesarios.   
@@ -1322,6 +1335,8 @@ A continuación, se presentan los términos clave identificados a partir de las 
 | **Dashboard**               | Panel web/móvil que centraliza métricas, reportes y alertas para la gestión de inventario.         |
 | **Acceso autorizado**       | Control de ingreso físico o digital restringido al personal habilitado para manipular insumos.     |
 | **Integración de sistemas** | Conexión entre la solución IoT y otros sistemas de información (HIS, ERP, etc.).                   |
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -2359,6 +2374,8 @@ A continuación, se presentan los términos clave identificados a partir de las 
 | 38    | HU038                           | SEO y metadatos (OG/Twitter, sitemap, robots)            | Como responsable de marketing, quiero metadatos y archivos SEO para mejorar indexación y previsualizaciones.                                                             | 3            |
 | 39    | HU039                           | Accesibilidad base (WCAG AA mínima)                      | Como usuario con diversidad funcional, quiero navegar con teclado y lectores de pantalla para acceder sin barreras.                                                      | 5            |
 
+<div style="page-break-after: always;"></div>
+
   # Capítulo IV: Solution Software Design
 
   ## 4.1. Strategic-Level Domain-Driven Design
@@ -3029,6 +3046,8 @@ Notifications_Component.png
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 <img src="assets/diagrams/Inventory_DatabaseDiagram.png"></img>
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines
@@ -3396,7 +3415,9 @@ Este proceso permite mantener la trazabilidad y el control de permisos según fu
 ## 5.5. Applications Prototyping
 <img src="assets/diagrama.png"></img>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq 
+[Video:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq) https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210659_upc_edu_pe/EUUrU_rJjt5CotdEjnhH1IYBntTufUD-mc53lWYjRcE9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VxwkLq 
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -3637,16 +3658,16 @@ Para realizar las pruebas correspondientes a la funcionalidad implementada, segu
 **Evidencia visual**  
    A continuación se presentan las imágenes de las pruebas realizadas durante el Sprint para demostrar que la funcionalidad fue probada correctamente en el entorno de desarrollo local:
 
-  ![Ejecucion en WebStorm](/assets/images/Sprint%201/Testing_WebStorm.png)
+  ![Ejecucion en WebStorm](./assets/images/Sprint%201/Testing_WebStorm.png)
   *Evidencia de la ejecución de la aplicación en WebStorm, mostrando el servidor en modo de desarrollo y los logs de la consola.*
 
-  ![Vista inicial Landing Page](/assets/images/Sprint%201/Evidencia1_Landing.png)  
+  ![Vista inicial Landing Page](./assets/images/Sprint%201/Evidencia1_Landing.png)  
   *Captura de la vista inicial de la Landing Page, mostrando la interfaz de usuario cargada correctamente en el navegador.*
 
-  ![Vista IoT Landing Page](/assets/images/Sprint%201/Evidencia2_Landing.png)  
+  ![Vista IoT Landing Page](./assets/images/Sprint%201/Evidencia2_Landing.png)  
   *Vista de la sección de IoT de la Landing Page, validando que la funcionalidad para mostrar productos o servicios relacionados con IoT esté operativa.*
 
-  ![Vista Contactanos Landing Page](/assets/images/Sprint%201/Evidencia3_Landing.png)  
+  ![Vista Contactanos Landing Page](./assets/images/Sprint%201/Evidencia3_Landing.png)  
   *Vista de la sección de "Contáctanos" en la Landing Page, demostrando que los formularios y botones funcionan correctamente para interactuar con los usuarios.*
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
@@ -3745,22 +3766,22 @@ En este Sprint, se llevó a cabo el despliegue de la **Landing Page** en **Netli
 
 1. **Elección del Repositorio**  
    En primer lugar, se seleccionó el repositorio desde el que se realizará el despliegue. Este es el primer paso crucial para vincular el proyecto con Netlify y empezar el proceso de integración.
-   ![Elección del Repositorio]( /assets/images/Sprint%201/DeployLanding1.png )  
+   ![Elección del Repositorio](./assets/images/Sprint%201/DeployLanding1.png )  
    *Descripción: Selección del repositorio en la plataforma de Netlify.*
 
 2. **Elección del Nombre del Proyecto**  
    A continuación, se asignó un nombre único para el proyecto en Netlify. Este nombre será el utilizado en la URL pública del despliegue.
-   ![Elección del Nombre]( /assets/images/Sprint%201/DeployLanding2.png )  
+   ![Elección del Nombre](./assets/images/Sprint%201/DeployLanding2.png )  
    *Descripción: Elección del nombre del proyecto en Netlify para su despliegue.*
 
 3. **Configuración de Rutas y Otras Opciones**  
    En este paso, se configuraron las rutas necesarias y otras opciones relevantes para el despliegue, como las variables de entorno y la configuración de compilación.
-   ![Configuración de Rutas y Opciones]( /assets/images/Sprint%201/DeployLanding3.png )  
+   ![Configuración de Rutas y Opciones](./assets/images/Sprint%201/DeployLanding3.png )  
    *Descripción: Configuración de las rutas y otras opciones necesarias para el despliegue exitoso.*
 
 4. **Confirmación del Éxito del Despliegue**  
    Finalmente, después de completar los pasos anteriores, se ejecutó el despliegue y se verificó que todo se realizó correctamente, lo cual se mostró como un éxito en la interfaz de Netlify.
-   ![Éxito del Despliegue]( /assets/images/Sprint%201/DeployLanding4.png )  
+   ![Éxito del Despliegue](./assets/images/Sprint%201/DeployLanding4.png )  
    *Descripción: Mensaje de éxito que confirma que el despliegue fue exitoso en Netlify.*
 
 Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de la **Landing Page** en **Netlify** durante este Sprint.
@@ -3770,16 +3791,16 @@ Estos pasos demuestran cómo se completó con éxito el proceso de despliegue de
 Presentamos los trabajos realizados en los distintos repositorios
 
 Repositorio Reporte
-![Reporte Commits]( /assets/images/commits/Reporte1.png )  
+![Reporte Commits](./assets/images/commits/Reporte1.png )  
 
 Repositorio BackEnd
-![BackEnd Commits]( /assets/images/commits/Backend1.png )  
+![BackEnd Commits](./assets/images/commits/Backend1.png )  
 
 Repositorio FrontEnd
-![FrontEnd Commits]( /assets/images/commits/Frontend1.png )  
+![FrontEnd Commits](./assets/images/commits/Frontend1.png )  
 
 Repositorio Landingpage
-![Landinpage Commits]( /assets/images/commits/Landingpage1.png )  
+![Landinpage Commits](./assets/images/commits/Landingpage1.png )  
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
@@ -3788,12 +3809,49 @@ Repositorio Landingpage
 
 ## 6.4. Video About-the-Product
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones
 ## Conclusiones y recomendaciones
+
+## Conclusiones
+
+- El problema está claramente definido: los hospitales y clínicas necesitan monitoreo en tiempo real y trazabilidad de insumos sensibles (cadena de frío, vencimientos), lo cual impacta directamente en la seguridad del paciente y genera pérdidas económicas.
+- El enfoque basado en IoT (sensores de temperatura, humedad y ubicación + plataforma central) es adecuado y coherente con los beneficios esperados, incluyendo alertas, reportes y analítica predictiva.
+- Las entrevistas y análisis realizados muestran consenso en priorizar alertas automáticas, generación de reportes y capacitación del personal; los principales obstáculos identificados son el costo inicial y la resistencia al cambio.
+- El proyecto presenta una estructura sólida de requisitos: las **user stories**, **epics** y el **backlog** están bien detallados, lo que facilita la planificación de un MVP con funcionalidades centrales como monitorización, alertas y gestión de inventario.
+- La estrategia competitiva definida, basada en especialización, modularidad y atención al cliente, es válida; sin embargo, se requiere evidenciar el ROI y casos de uso para reducir la barrera de adopción de la solución.
+
+## Recomendaciones
+
+1. **Priorizar un MVP claro y pequeño**: incluir un panel con monitoreo básico, alertas por umbrales y registro de lotes/vencimientos para entregar valor rápido a los farmacéuticos y demostrar ROI.
+2. **Diseñar un plan de implementación por fases** y piloto en una unidad específica (p. ej., farmacia hospitalaria o UCI), que incluya capacitación y soporte técnico para reducir la resistencia al cambio.
+3. **Incluir métricas de impacto desde el inicio**, como reducción de mermas, tiempo de respuesta a alertas y número de quiebres de stock, para generar evidencia cuantitativa que facilite la venta y adopción de la solución.
+4. **Ofrecer modelos de precios modulares** (pago por dispositivo o suscripción por módulos) y opciones de implementación por fases para mitigar la barrera del costo inicial.
+5. **Fortalecer integraciones con sistemas hospitalarios** (ERP/HCE) y documentar flujos de datos para facilitar la adopción y demostrar compatibilidad.
+6. **Preparar material de comunicación** que incluya casos de uso, demos con datos reales del piloto y guías de usuario, apoyando al equipo de ventas y clientes en la validación y escalado de la solución.
 
 ## Video About-the-Team
 
 # Bibliografía
+
+- Lee, I., & Lee, K. (2015). The Internet of Things (IoT): Applications, investments, and challenges for enterprises. Business Horizons, 58(4), 431-440. https://doi.org/10.1016/j.bushor.2015.03.008
+
+- Riaño, D., & Hussain, A. (2017). IoT-based monitoring of medical supplies in healthcare institutions. Journal of Medical Systems, 41(12), 194. https://doi.org/10.1007/s10916-017-0841-1
+
+- Zebra Technologies. (2025). Healthcare solutions: RFID and IoT in hospitals. Zebra Technologies. https://www.zebra.com/us/en/solutions/healthcare.html
+
+- Siemens Healthineers. (2025). Hospital supply chain and inventory management solutions. Siemens. https://www.siemens-healthineers.com/solutions
+
+- LogiTag Medical Solutions. (2025). IoT and RFID solutions for medical inventory management. LogiTag. https://www.logitag.com/medical-solutions
+
+- Gothelf, J., & Seiden, J. (2016). Lean UX: Designing great products with agile teams (2nd ed.). O’Reilly Media.
+
+- Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). Value proposition design: How to create products and services customers want. Wiley.
+
+- Fathalla, M., & Elhoseny, M. (2020). IoT-based smart healthcare systems: Challenges and future directions. IEEE Access, 8, 172536–172549. https://doi.org/10.1109/ACCESS.2020.3025165
+
+- Ministerio de Salud del Perú. (2023). Guía de buenas prácticas para gestión de inventarios hospitalarios. Lima: Minsa. https://www.gob.pe/minsa
 
 # Anexos
 
