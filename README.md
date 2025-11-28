@@ -46,10 +46,6 @@
 </div>
 
 
-<b><center>Septiembre, 2025</center></b>
-
-<div style="page-break-after: always;"></div>
-
 <h1 align="center">Registro de versiones del Informe</h1>
 </br>
 <table>
@@ -132,7 +128,7 @@
         - 4.1.3.2. Software Architecture Container Level Diagrams<br>
         - 4.1.3.3. Software Architecture Deployment Diagrams<br>
         - 4.2. Tactical-Level Domain-Driven Design<br>
-        - 4.2.X. Bounded Context: <Bounded Context Name><br>
+        - 4.2.X. Bounded Context: &lt;Bounded Context Name&gt;<br>
         - 4.2.X.1. Domain Layer<br>
       </td>
     </tr>
@@ -151,86 +147,69 @@
       </td>
     </tr>
     <tr>
-      <td>#2 – TP1</td>
-      <td>09/10/2025</td>
-      <td>Ayquipa Ubaldo, Abraham Israel</td>
-      <td>
-        - 6.1. Software Configuration Management.<br>
-        - 6.1.1. Software Development Environment Configuration.<br>
-        - 6.1.2. Source Code Management.<br>
-        - 6.1.3. Source Code Style Guide & Conventions.<br>
-        - 6.1.4. Software Deployment Configuration.<br>
-        - 6.2. Landing Page, Services & Applications Implementation.<br>
-        - Correcion Cap I y Cap II
-      </td>
-</tr>
-<tr>
-      <td>#2 – TP1</td>
-      <td>09/10/2025</td>
-      <td>Durand Vera, Gianfranco Angel</td>
-      <td>
-        - 5.1. Style Guidelines.<br>
-        - 5.1.1. General Style Guidelines.<br>
-        - 5.1.2. Web, Mobile and IoT Style Guidelines.<br>
-        - 5.2. Information Architecture.<br>
-        - 5.2.1. Organization Systems.<br>
-        - 5.2.2. Labeling Systems.<br>
-        - 5.2.3. SEO Tags and Meta Tags<br>
-        - 5.2.4. Searching Systems.<br>
-        - 5.2.5. Navigation Systems.<br>
-        - Despliegue Backend<br>
-      </td>
-</tr>
-<tr>
-      <td>#2 – TP1</td>
-      <td>09/10/2025</td>
-      <td>Cruz Ticona, Aarón Alejandro</td>
-      <td>
-        - 6.2.1. Sprint 1<br>
-        - 6.2.1.1. Sprint Planning 1.<br>
-        - 6.2.1.2. Aspect Leaders and Collaborators.<br>
-        - 6.2.1.3. Sprint Backlog 1.<br>
-        - Correcion Cap I y Cap II<br>
-      </td>
-</tr>
-<tr>
-      <td>#2 – TP1</td>
-      <td>09/10/2025</td>
+      <td>#1.5 – TP</td>
+      <td>07/10/2025</td>
       <td>Ticona Panduro, Estrella del Pilar</td>
       <td>
-        - 5.3. Landing Page UI Design.<br>
-        - 5.3.1. Landing Page Wireframe.<br>
-        - 5.3.2. Landing Page Mock-up.<br>
-        - 5.4. Applications UX/UI Design.<br>
-        - 5.4.1. Applications Wireframes.<br>
-        - 5.4.2. Applications Wireflow Diagrams.<br>
-        - 5.4.2. Applications Mock-ups.<br>
-        - 5.4.3. Applications User Flow Diagrams.<br>
-        - 5.5. Applications Prototyping.<br>
-        - Despliegue Frontend<br>
+        Capítulo VI: Product Implementation, Validation & Deployment<br>
+        - 6.2.1. Sprint 1<br>
+        - 6.2.1.1. Sprint Planning 1<br>
+        - 6.2.1.2. Aspect Leaders and Collaborators<br>
+        - 6.2.1.3. Sprint Backlog 1<br>
+        - 6.2.1.4. Development Evidence for Sprint Review<br>
+        - 6.2.1.5. Testing Suite Evidence for Sprint Review<br>
+        - 6.2.1.6. Execution Evidence for Sprint Review<br>
+        - 6.2.1.7. Services Documentation Evidence for Sprint Review<br>
+        - 6.2.1.8. Software Deployment Evidence for Sprint Review<br>
+        - 6.2.1.9. Team Collaboration Insights during Sprint<br>
+        - Liderazgo del desarrollo Landing Page MVP<br>
+        - Despliegue Landing Page en Netlify<br>
       </td>
-</tr>
-<tr>
-      <td>#2 – TP1</td>
-      <td>09/10/2025</td>
+    </tr>
+    <tr>
+      <td>#1.5 – TP</td>
+      <td>07/10/2025</td>
+      <td>Durand Vera, Gianfranco Angel</td>
+      <td>
+        - Liderazgo del desarrollo Frontend Web<br>
+        - Arquitectura de componentes y estándares de código<br>
+        - Colaboración en implementación de secciones de Landing Page<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#1.5 – TP</td>
+      <td>07/10/2025</td>
+      <td>Cruz Ticona, Aarón Alejandro</td>
+      <td>
+        - Colaboración en desarrollo de Landing Page<br>
+        - Implementación de formularios con validaciones<br>
+        - Optimización de componentes responsive<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#1.5 – TP</td>
+      <td>07/10/2025</td>
+      <td>Ayquipa Ubaldo, Abraham Israel</td>
+      <td>
+        - Colaboración en implementación de componentes Landing Page<br>
+        - Validación de navegación y accesibilidad<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#1.5 – TP</td>
+      <td>07/10/2025</td>
       <td>Luza Carhuamaca Jose Adrian</td>
       <td>
-        - 6.2.1.4. Development Evidence for Sprint Review.<br>
-        - 6.2.1.5. Testing Suite Evidence for Sprint Review.<br>
-        - 6.2.1.6. Execution Evidence for Sprint Review.<br>
-        - 6.2.1.7. Services Documentation Evidence for Sprint Review.<br>
-        - 6.2.1.8. Software Deployment Evidence for Sprint Review.<br>
-        - 6.2.1.9. Team Collaboration Insights during Sprint.<br>
-        - Correcion Cap I y Cap II<br>
+        - Colaboración en desarrollo Frontend<br>
+        - Implementación de componentes interactivos<br>
+        - Pruebas de usabilidad de Landing Page<br>
       </td>
-</tr>
-
+    </tr>
     <tr>
       <td>#2 – TB2</td>
       <td>14/11/2025</td>
       <td>Ayquipa Ubaldo, Abraham Israel</td>
       <td>
-        Capítulo VI: Product Implementation, Validation & Deployment<br>
         - 6.2.2.4. Development Evidence for Sprint Review<br>
         - 6.2.2.5. Testing Suite Evidence for Sprint Review<br>
         - 6.2.2.6. Execution Evidence for Sprint Review<br>
@@ -259,7 +238,7 @@
         - 6.2.2.2. Aspect Leaders and Collaborators<br>
         - 6.2.2.3. Sprint Backlog 2<br>
         - 2 Entrevistas – 2do Segmento<br>
-        - Despliegue primera versión de Aplicaciones Mobile (Por Confirmar)<br>
+        - Despliegue primera versión de Aplicaciones Mobile<br>
       </td>
     </tr>
     <tr>
@@ -283,6 +262,75 @@
         - 2 Entrevistas – 1er Segmento<br>
       </td>
     </tr>
+    <tr>
+      <td>#3 – TF</td>
+      <td>28/11/2025</td>
+      <td>Durand Vera, Gianfranco Angel</td>
+      <td>
+        - 6.2.3. Sprint 3<br>
+        - 6.2.3.1. Sprint Planning 3<br>
+        - 6.2.3.2. Aspect Leaders and Collaborators<br>
+        - 6.2.3.3. Sprint Backlog 3<br>
+        - Liderazgo completo de Edge Computing<br>
+        - Implementación de procesamiento local de datos de sensores<br>
+        - Integración bidireccional Wokwi-Edge-Backend<br>
+        - Protocolo MQTT y sincronización con Backend<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#3 – TF</td>
+      <td>28/11/2025</td>
+      <td>Cruz Ticona, Aarón Alejandro</td>
+      <td>
+        - 6.2.3.4. Development Evidence for Sprint Review<br>
+        - 6.2.3.5. Testing Suite Evidence for Sprint Review<br>
+        - 6.2.3.7. Services Documentation Evidence for Sprint Review<br>
+        - Liderazgo Backend Sprint 3<br>
+        - Integración Edge-Backend (MQTT/HTTP)<br>
+        - Correcciones críticas a base de datos<br>
+        - Endpoints de telemetría, umbrales y alertas<br>
+        - Colaboración con Edge Computing<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#3 – TF</td>
+      <td>28/11/2025</td>
+      <td>Ticona Panduro, Estrella del Pilar</td>
+      <td>
+        - 6.2.3.6. Execution Evidence for Sprint Review<br>
+        - Liderazgo completo Frontend Sprint 3<br>
+        - Dashboard de monitoreo con semáforos por áreas<br>
+        - Configuración de umbrales (temperatura, humedad, gas)<br>
+        - Panel de alertas en tiempo real<br>
+        - Monitoreo de salud de dispositivos IoT<br>
+        - Despliegue Frontend en Vercel<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#3 – TF</td>
+      <td>28/11/2025</td>
+      <td>Luza Carhuamaca Jose Adrian</td>
+      <td>
+        - 6.2.3.8. Software Deployment Evidence for Sprint Review<br>
+        - Liderazgo desarrollo IoT en Wokwi<br>
+        - Configuración completa ESP32 con sensores<br>
+        - Sensores de gas (MQ-2), temperatura (DHT22) y NFC<br>
+        - Implementación protocolo MQTT para Edge<br>
+        - Pruebas de conectividad y transmisión de telemetría<br>
+      </td>
+    </tr>
+    <tr>
+      <td>#3 – TF</td>
+      <td>28/11/2025</td>
+      <td>Ayquipa Ubaldo, Abraham Israel</td>
+      <td>
+        - 6.2.3.9. Team Collaboration Insights during Sprint<br>
+        - Colaboración en desarrollo IoT Wokwi<br>
+        - Configuración de sensores y chip NFC en protoboard<br>
+        - Pruebas de hardware y validación de conectividad<br>
+        - Soporte en integración IoT-Edge<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -303,6 +351,12 @@
 <br><br>
 
 <div style="page-break-after: always;"></div>
+
+**TF:**
+
+<img src="assets/tb1-insights.png" width="800px">
+
+<br>
 
 # Contenido
 [Student Outcome](#student-outcome)
@@ -342,7 +396,73 @@
 - [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+- [COURSE PROJECT](#course-project)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [Misión](#misión)
+  - [Visión](#visión)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [Antecedentes](#antecedentes)
+    - [Problemática (Método 5W y 2H)](#problemática-método-5w-y-2h)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [Problem Statement](#problem-statement)
+    - [Dominio](#dominio)
+    - [Segmentos de Clientes](#segmentos-de-clientes)
+    - [Puntos de Dolor](#puntos-de-dolor)
+    - [Visión/Estrategia](#visiónestrategia)
+    - [Segmento Inicial](#segmento-inicial)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [Features](#features)
+    - [Business Outcomes](#business-outcomes)
+    - [Users](#users)
+    - [User Outcomes \& Benefits](#user-outcomes--benefits)
+    - [Business Assumptions](#business-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [**Preguntas Generales**](#preguntas-generales)
+      - [**Preguntas segmento 1**: Farmacéuticos y responsables de inventarios hospitalarios](#preguntas-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Preguntas segmento 2**: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#preguntas-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Segmento: Farmacéuticos y responsables de inventarios hospitalarios**](#segmento-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+      - [**Segmento: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)**](#segmento-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [Análisis segmento 1: Farmacéuticos y responsables de inventarios hospitalarios](#análisis-segmento-1-farmacéuticos-y-responsables-de-inventarios-hospitalarios)
+    - [Obstáculos para la implementación](#obstáculos-para-la-implementación)
+    - [Tabla de problemas identificados](#tabla-de-problemas-identificados)
+    - [Beneficios esperados del IoT](#beneficios-esperados-del-iot)
+    - [Necesidades prioritarias](#necesidades-prioritarias)
+  - [Análisis segmento 2: Personal médico y de enfermería en áreas críticas (UCI, quirófanos, emergencias)](#análisis-segmento-2-personal-médico-y-de-enfermería-en-áreas-críticas-uci-quirófanos-emergencias)
+    - [Problemas operativos actuales](#problemas-operativos-actuales)
+    - [Necesidades tecnológicas y funcionales](#necesidades-tecnológicas-y-funcionales)
+    - [Impacto esperado en la atención médica](#impacto-esperado-en-la-atención-médica)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Interpretación](#interpretación)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
@@ -448,7 +568,7 @@
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
     - [5.2.2. Labeling Systems](#522-labeling-systems)
@@ -493,8 +613,17 @@
       - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
       - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [Introducción al Sprint](#introducción-al-sprint)
+  - [Tabla de Endpoints Documentados](#tabla-de-endpoints-documentados)
+  - [Explicación de cada Endpoint:](#explicación-de-cada-endpoint)
+    - [1. `/api/v1/auth/verify-totp`](#1-apiv1authverify-totp)
+    - [2. `/api/v1/auth/sign-up`](#2-apiv1authsign-up)
+    - [3. `/api/v1/auth/sign-in`](#3-apiv1authsign-in)
+    - [4. `/api/v1/auth/generate-qr`](#4-apiv1authgenerate-qr)
+    - [5. `/api/v1/profiles`](#5-apiv1profiles)
+    - [6. `/api/v1/profiles`](#6-apiv1profiles)
+  - [Repositorio y Commits:](#repositorio-y-commits)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [Software Deployment Evidence for Sprint Review](#software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
     - [6.2.2 Sprint 2.](#622-sprint-2)
       - [6.2.2.1 Sprint Planning 2.](#6221-sprint-planning-2)
@@ -526,14 +655,36 @@
     - [Repositorio Backend](#repositorio-backend)
     - [Repositorio Frontend](#repositorio-frontend)
     - [Repositorio Landing Page](#repositorio-landing-page)
+  - [6.2.3. Sprint 3](#623-sprint-3)
+    - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
+    - [6.2.3.2. Aspect Leaders and Collaborators.](#6232-aspect-leaders-and-collaborators)
+    - [6.2.3.3. Sprint Backlog 3.](#6233-sprint-backlog-3)
+    - [6.2.3.4. Development Evidence for Sprint Review.](#6234-development-evidence-for-sprint-review)
+    - [6.2.3.5. Testing Suite Evidence for Sprint Review.](#6235-testing-suite-evidence-for-sprint-review)
+    - [6.2.3.6. Execution Evidence for Sprint Review.](#6236-execution-evidence-for-sprint-review)
+    - [6.2.3.7. Services Documentation Evidence for Sprint Review.](#6237-services-documentation-evidence-for-sprint-review)
+    - [6.2.3.8. Software Deployment Evidence for Sprint Review.](#6238-software-deployment-evidence-for-sprint-review)
+    - [6.2.3.9. Team Collaboration Insights during Sprint.](#6239-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+- [6.3.1. Diseño de Entrevistas (Versión enfocada en Landing Page y Front-End)](#631-diseño-de-entrevistas-versión-enfocada-en-landing-page-y-front-end)
+  - [**Objetivo**](#objetivo)
+  - [**Alcance y Segmentos**](#alcance-y-segmentos)
+  - [**Tipo de entrevista**](#tipo-de-entrevista)
+  - [**Buenas prácticas**](#buenas-prácticas)
+  - [**Guion de preguntas**](#guion-de-preguntas)
+    - [**A. Generales (para ambos segmentos)**](#a-generales-para-ambos-segmentos)
+    - [**B. Segmento S1 – Farmacia/Inventarios**](#b-segmento-s1--farmaciainventarios)
+    - [**C. Segmento S2 – Áreas Críticas (UCI / Quirófano / Emergencias)**](#c-segmento-s2--áreas-críticas-uci--quirófano--emergencias)
+    - [**Cierre**](#cierre)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+      - [Segmento: Trabajadores del sector salud Farmacia/Inventarios](#segmento-trabajadores-del-sector-salud-farmaciainventarios)
+      - [Segmento: Trabajadores del sector salud UCI/Quirófano/Emergencias](#segmento-trabajadores-del-sector-salud-uciquirófanoemergencias)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
-
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Conclusiones](#conclusiones-1)
+  - [Recomendaciones](#recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -544,88 +695,18 @@
 
 <div style="page-break-after: always;"></div>
 
-# Student Outcome  
-ABET – EAC - Student Outcome 5
+## Student Outcome
+
+**ABET – EAC - Student Outcome 5**
 
 **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-<table>
-  <tr>
-    <td><b>Criterio específico</b></td>
-    <td><b>Acciones realizadas</b></td>
-    <td><b>Conclusiones</b></td>
-  </tr>
-  <tbody>
-    <tr>
-      <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
-      <td>
-        <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido</p>
-        <p><b>TP1:</b> En mi rol, me enfoco en trabajar de manera conjunta con el equipo, promoviendo un liderazgo colaborativo. Durante el proceso de implementación de la página de aterrizaje, servicios y aplicaciones, me aseguré de que cada miembro del equipo tuviera las herramientas y la información necesarias para desempeñar sus funciones de manera eficiente. Además, coordiné estrechamente con otros miembros para garantizar que las tareas se completaran a tiempo, proporcionando orientación y apoyo cuando fuera necesario.</p>
-        <p><b>TB2:</b> Lideré la documentación técnica del Sprint 2, coordinando con el equipo para consolidar las evidencias de desarrollo, testing y despliegue. Facilité la comunicación entre los equipos de frontend y backend para asegurar la coherencia en la documentación de servicios y la colaboración efectiva durante el sprint.</p>
-        <br>
-        <p><b>Aaron Cruz Ticona</b></p>
-        <p><b>TB1:</b> Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.</p>
-        <p><b>TP1:</b> Me esfuerzo por promover un liderazgo compartido, facilitando la interacción entre los miembros del equipo durante la planificación del sprint y el establecimiento de las tareas a seguir. Me aseguré de que todas las voces fueran escuchadas y que las decisiones importantes se tomaran de forma colaborativa, manteniendo siempre el enfoque en los objetivos del sprint. Esto permitió que cada miembro sintiera que tenía un papel activo en el proceso, lo que favoreció un ambiente de trabajo más cohesivo.</p>   
-        <p><b>TB2:</b> Asumí el liderazgo en la planificación del Sprint 2, facilitando la definición de roles y responsabilidades mediante el documento de Aspect Leaders. Coordiné con el equipo para estructurar el Sprint Backlog de manera efectiva y conduje las entrevistas del segundo segmento objetivo, garantizando la captura de insights valiosos para validar nuestras funcionalidades.</p>
-        <br>
-        <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> Utilce metodologías como Needfinding, User Personas permitió obtener una comprensión integral y compartida del protecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.
-        <p><b>TP1:</b> En esta entrega, se desarrolló la landing page, priorizando la usabilidad y la claridad en la presentación de los objetivos del sistema. Además, se avanzó significativamente en el frontend de la aplicación, integrando de manera coherente los componentes existentes, y se llevó a cabo el despliegue de todos los elementos, asegurando su correcto funcionamiento en el entorno correspondiente.</p>
-        <p><b>TB2:</b> Lideré el desarrollo y despliegue del Web Backend Applications, coordinando con el equipo de frontend para asegurar la integración exitosa de servicios. También dirigí el desarrollo de la primera versión de las aplicaciones móviles, estableciendo las bases arquitectónicas y promoviendo buenas prácticas de desarrollo entre los miembros del equipo.</p>
-        <br>
-        <p><b>Jose Luza Carhuamaca</b></p>
-        <p><b>TB1:</b> Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.</p>
-        <p><b>TP1:</b> Me aseguré de que el equipo tuviera las evidencias necesarias para la revisión del sprint, trabajando estrechamente con todos para garantizar que los desarrollos y las pruebas fueran documentados de manera precisa y completa. Fomenté un liderazgo colaborativo al involucrar a cada miembro en el proceso de recolección de evidencia, ayudando a solucionar problemas y optimizando el flujo de trabajo del equipo para cumplir con los plazos establecidos.</p>        
-        <p><b>TB2:</b> Coordiné el proceso de validación con usuarios reales, liderando el diseño y ejecución de entrevistas del primer segmento. Dirigí la producción del video About-the-Product y supervisé el despliegue actualizado del Landing Page, asegurando que todos los elementos comunicaran efectivamente la propuesta de valor del producto.</p>
-        <br>
-        <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.
-        <p><b>TP1:</b> En el TP1, contribuí activamente al desarrollo de una aplicación web siguiendo la metodología Scrum, colaborando con el equipo en el diseño y revisión de componentes clave. Implementé funcionalidades básicas para comprender en profundidad el flujo de trabajo y la arquitectura general del proyecto.</p>
-        <p><b>TB2:</b> Lideré el desarrollo y despliegue de la nueva versión del Web Frontend Applications, coordinando con el equipo de backend para garantizar la integración fluida de funcionalidades. Promovi estándares de calidad en la interfaz de usuario y facilité la revisión de código entre pares para fortalecer las capacidades técnicas del equipo.</p>
-      </td>
-      <td>
-        <p><b>TB1:</b> Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto SmartSuite. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodología Agile.</p>
-        <p><b>TP1:</b> El grupo demostró la capacidad de trabajar en equipo y liderar de manera conjunta, integrando ideas y esfuerzos individuales para lograr un proyecto cohesionado y bien coordinado. Cada miembro aportó desde su área, colaborando y comunicándose efectivamente para alcanzar los objetivos del grupo.</p>
-        <p><b>TB2:</b> El equipo consolidó un modelo de liderazgo distribuido durante el Sprint 2, donde cada miembro asumió responsabilidades específicas de liderazgo en su área de expertise. La coordinación entre frontend, backend y mobile, junto con las actividades de validación y documentación, demostró nuestra capacidad para trabajar de manera integrada, tomando decisiones conjuntas que fortalecieron la calidad del producto final.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
-      <td>
-        <p><b>Abraham Ayquipa Ubaldo</b></p>
-        <p><b>TB1:</b> Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.</p>
-        <p><b>TP1:</b> Al crear un entorno inclusivo y colaborativo, establezco metas claras y aseguro que cada miembro esté alineado con los objetivos del proyecto. Planifiqué las tareas en conjunto con el equipo, asegurándome de que todos entendieran el alcance y los plazos. Al trabajar en equipo, busqué mantener un ambiente donde todos pudieran aportar sus ideas, lo que nos permitió cumplir con los objetivos establecidos de manera efectiva.</p>         
-        <p><b>TB2:</b> Establecí un sistema de seguimiento de evidencias técnicas que permitió a todos los miembros visualizar el progreso del sprint. Coordiné sesiones de revisión colaborativa donde se evaluaron las pruebas y el despliegue, asegurando que cada voz fuera escuchada y que las evaluaciones heurísticas reflejaran perspectivas diversas del equipo.</p>
-        <br>
-        <p><b>Aaron Cruz Ticona</b></p>
-        <p><b>TB1:</b> Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y tambien el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.</p>
-        <p><b>TP1:</b> A lo largo del sprint, fui responsable de crear un entorno inclusivo y de establecer metas claras para todos. Planifiqué las tareas de manera estratégica, desglosando el trabajo en pasos alcanzables y organizando las prioridades para asegurar que todos los objetivos se cumplieran. Asegurándome de que todos supieran lo que se esperaba de ellos, el equipo pudo trabajar con eficiencia y cumplir los objetivos del sprint con éxito.</p>          
-        <p><b>TB2:</b> Creé un ambiente inclusivo durante las sesiones de planificación del Sprint 2, asegurando que todos los miembros participaran en la definición de tareas y estimaciones. Establecí metas claras y alcanzables en el Sprint Backlog, y coordiné las entrevistas de validación de manera que el equipo pudiera aprender de los resultados y ajustar prioridades colaborativamente.</p>
-        <br>
-        <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> Cree la organizacion y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.</p>
-        <p><b>TP1:</b> Para esta entrega, participé en la planificación y creación de wireframes y wireflows, coordinando con el equipo para definir objetivos y plazos. Se utilizó un tablero Kanban para monitorear el progreso y garantizar la entrega organizada de los entregables visuales.</p>
-        <p><b>TB2:</b> Establecí un entorno de desarrollo consistente para backend y mobile, documentando los procesos de configuración y despliegue para que todo el equipo pudiera contribuir efectivamente. Planifiqué sprints técnicos con objetivos incrementales y promovi code reviews inclusivos que permitieron el aprendizaje mutuo entre desarrolladores de diferentes niveles.</p>
-        <br>
-        <p><b>Jose Luza Carhuamaca</b></p>
-        <p><b>TB1:</b> Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.</p>
-        <p><b>TP1:</b> Al planificar y documentar las evidencias para la revisión del sprint, me aseguré de que el entorno de trabajo fuera inclusivo y transparente. Establecí metas claras para la recolección de las pruebas y me aseguré de que todos los miembros supieran qué tareas debían completar para contribuir al proceso. Esto permitió al equipo cumplir con los objetivos de la revisión del sprint de manera efectiva y sin contratiempos.</p>        
-        <p><b>TB2:</b> Planifiqué y ejecuté las entrevistas de validación creando un protocolo inclusivo que consideró la diversidad de nuestros segmentos objetivo. Coordiné la producción del video promocional involucrando diferentes perspectivas del equipo, y supervisé el despliegue del Landing Page estableciendo checkpoints claros que permitieron al equipo colaborar efectivamente y cumplir los objetivos dentro del plazo establecido.</p>
-        <br>
-        <p><b>Estrella Ticona Panduro</b></p>
-        <p><b>TB1:</b> En esta entrega aporte con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.</p>
-        <p><b>TP1:</b> Durante esta fase, participé en la generación de ideas y en la creación inicial del frontend de la aplicación. Colaboré en el diseño de la interfaz y en la implementación de funcionalidades base, estableciendo la estructura visual del sistema. El seguimiento se realizó mediante indicadores y reuniones periódicas, asegurando el cumplimiento de los plazos.</p>
-        <p><b>TB2:</b> Creé un entorno colaborativo en el desarrollo frontend al establecer estándares de código compartidos y realizar sesiones de pair programming con otros miembros del equipo. Planifiqué el despliegue de la nueva versión del frontend con metas claras de funcionalidad y rendimiento, cumpliendo los objetivos técnicos mientras mantenía canales abiertos de comunicación para resolver bloqueadores de manera conjunta.</p>
-      </td>
-      <td>
-        <p><b>TB1:</b> Durante el desarrollo de MediTrack, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.</p>
-        <p><b>TP1:</b> El grupo mostró la capacidad de crear un entorno colaborativo e inclusivo, integrando la investigación de cada miembro para establecer metas claras, planificar tareas y desarrollar una solución tecnológica alineada con las necesidades del sector de jardinería inteligente. Gracias a la colaboración y al enfoque en objetivos comunes, el equipo pudo diseñar un sistema aplicable, eficiente y centrado en el usuario.</p>
-	<p><b>TB2:</b> En el Sprint 2, el equipo demostró madurez en la creación de entornos colaborativos al implementar prácticas ágiles efectivas. La planificación detallada, las revisiones constantes y la documentación accesible permitieron que cada miembro contribuyera desde su expertise. Las metas establecidas fueron cumplidas exitosamente, evidenciando nuestra capacidad para trabajar de manera inclusiva, adaptarnos a los desafíos técnicos y entregar valor incremental al producto MediTrack.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|------------------------|------------------------|------------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Abraham Ayquipa Ubaldo**<br><br>**TB1:** Contribuí activamente en la elaboración de los capítulos iniciales del proyecto, definiendo el perfil de la startup, los integrantes del equipo y aplicando el proceso Lean UX. También participé en el análisis competitivo, entrevistas y segmentación de usuarios, trabajando en conjunto con el equipo para alinear la solución y fortalecer el liderazgo compartido.<br><br>**TP:** Colaboré en el desarrollo de la landing page del Sprint 1, aportando en la implementación de componentes clave y la validación de la navegación. Trabajé coordinadamente con Estrella (Landing Lead) para asegurar la correcta integración de secciones y el cumplimiento de los estándares de accesibilidad básicos (HU033-HU039).<br><br>**TB2:** Lideré la documentación técnica del Sprint 2, coordinando con el equipo para consolidar las evidencias de desarrollo, testing y despliegue. Facilité la comunicación entre los equipos de frontend y backend para asegurar la coherencia en la documentación de servicios y la colaboración efectiva durante el sprint.<br><br>**TF:** Colaboré en el desarrollo y configuración del proyecto Wokwi con sensores IoT (gas, temperatura y NFC), trabajando en equipo con Jose para asegurar la correcta simulación del hardware y las pruebas de conectividad con la capa Edge. Mi participación permitió validar el funcionamiento del ecosistema IoT completo.<br><br>**Aaron Cruz Ticona**<br><br>**TB1:** Aporté al momento de definir los 4 Bounded Contexts que estructuran nuestro dominio (IAM, Devices, Notifications e Inventory). Lideré la construcción del Impact Mapping, conectando los objetivos de negocio con las funcionalidades a desarrollar. Esto facilitó que el equipo tuviera una visión compartida y alineada sobre el impacto y el propósito de nuestro trabajo.<br><br>**TP:** Colaboré en el desarrollo de la landing page y frontend del Sprint 1, apoyando en la implementación de formularios de contacto con validaciones y en la optimización de componentes responsive. Trabajé junto al equipo para asegurar la calidad del código y la correcta integración de los elementos visuales con la funcionalidad esperada.<br><br>**TB2:** Asumí el liderazgo en la planificación del Sprint 2, facilitando la definición de roles y responsabilidades mediante el documento de Aspect Leaders. Coordiné con el equipo para estructurar el Sprint Backlog de manera efectiva y conduje las entrevistas del segundo segmento objetivo, garantizando la captura de insights valiosos para validar nuestras funcionalidades.<br><br>**TF:** Lideré el desarrollo backend del Sprint 3, implementando la integración crítica entre la capa Edge y el backend mediante protocolos MQTT/HTTP. Realicé correcciones fundamentales al esquema de base de datos para soportar la relación dispositivo-ubicación y telemetría, coordinando estrechamente con Franco (Edge) y Estrella (Frontend) para asegurar una integración sin fisuras del ecosistema IoT.<br><br>**Gianfranco Durand Vera**<br><br>**TB1:** Utilicé metodologías como Needfinding, User Personas que permitió obtener una comprensión integral y compartida del proyecto. A través de estas técnicas se identificaron las necesidades reales de los usuarios. Asimismo, se construyó un lenguaje común que facilita la comunicación entre usuarios y desarrolladores.<br><br>**TP:** Lideré el desarrollo del frontend web del Sprint 1, coordinando la arquitectura de componentes y estableciendo los estándares de código para el equipo. Supervisé la integración de las secciones de la landing page y promoví las mejores prácticas de desarrollo, sentando las bases para los siguientes sprints de desarrollo web.<br><br>**TB2:** Lideré el desarrollo y despliegue del Web Backend Applications, coordinando con el equipo de frontend para asegurar la integración exitosa de servicios. También dirigí el desarrollo de la primera versión de las aplicaciones móviles, estableciendo las bases arquitectónicas y promoviendo buenas prcticas de desarrollo entre los miembros del equipo.<br><br>**TF:** Asumí el liderazgo completo de la capa Edge Computing, diseñando e implementando toda la arquitectura de procesamiento local de datos de sensores. Coordiné la integración bidireccional entre Wokwi (IoT) y el backend, estableciendo protocolos de comunicación claros y documentados. Mi trabajo fue fundamental para conectar exitosamente todos los componentes del ecosistema IoT, demostrando liderazgo técnico en una de las áreas más críticas del proyecto.<br><br>**Jose Luza Carhuamaca**<br><br>**TB1:** Como líder del equipo, me aseguré de promover una comunicación fluida entre todos los miembros. Facilitamos reuniones semanales donde cada miembro podía compartir sus avances y desafíos. Me encargué de orientar a los miembros más nuevos, brindándoles herramientas y recursos para que pudieran desarrollarse en el equipo. Además, utilicé un enfoque colaborativo en la toma de decisiones, fomentando la participación de todos para que las soluciones fueran más integrales.<br><br>**TP:** Colaboré en el desarrollo del frontend del Sprint 1, participando en la implementación de componentes interactivos y en la validación de la experiencia de usuario. Apoyé al equipo en las pruebas de usabilidad de la landing page y aporté ideas para mejorar la claridad de la propuesta de valor presentada.<br><br>**TB2:** Coordiné el proceso de validación con usuarios reales, liderando el diseño y ejecución de entrevistas del primer segmento. Dirigí la producción del video About-the-Product y supervisé el despliegue actualizado del Landing Page, asegurando que todos los elementos comunicaran efectivamente la propuesta de valor del producto.<br><br>**TF:** Lideré el desarrollo del proyecto IoT en Wokwi, configurando completamente el ESP32 con sensores de gas (MQ-2), temperatura (DHT22) y el chip NFC personalizado en protoboard. Coordiné con Abraham las pruebas de hardware y con Franco la implementación del protocolo MQTT para la comunicación con Edge, asegurando la transmisión confiable de datos de telemetría en tiempo real.<br><br>**Estrella Ticona Panduro**<br><br>**TB1:** En la primera entrega de la TB1, colaboré en la creación del modelo C4, tanto a nivel contexto y contenedores. Mi rol reflejó mi capacidad de liderazgo compartido y colaboración en la ejecución de las tareas.<br><br>**TP:** Lideré el desarrollo de la landing page del Sprint 1, coordinando la implementación de todas las secciones clave (hero, propuesta de valor, características, formulario de contacto, footer). Supervisé el despliegue en Netlify y aseguré el cumplimiento de los estándares de accesibilidad y SEO establecidos (HU033-HU039), promoviendo la colaboración con el equipo frontend.<br><br>**TB2:** Lideré el desarrollo y despliegue de la nueva versión del Web Frontend Applications, coordinando con el equipo de backend para garantizar la integración fluida de funcionalidades. Promoví estándares de calidad en la interfaz de usuario y facilité la revisión de código entre pares para fortalecer las capacidades técnicas del equipo.<br><br>**TF:** Asumí el liderazgo completo del desarrollo frontend del Sprint 3, implementando todas las interfaces críticas del sistema de monitoreo IoT: dashboard con semáforos por áreas, configuración de umbrales, panel de alertas en tiempo real y monitoreo de salud de dispositivos. Coordiné estrechamente con Aaron (Backend) y Franco (Edge) para integrar los datos de telemetría, demostrando liderazgo técnico en la experiencia de usuario del ecosistema IoT. | **TB1:** Como grupo, establecimos una dinámica de trabajo conjunta y estructurada, en la que cada integrante asumió funciones concretas que contribuyeron de forma valiosa al progreso del proyecto MediTrack. Gracias a una asignación clara de tareas, al compromiso personal y a una comunicación fluida, logramos avanzar con eficacia, manteniendo nuestras metas alineadas con los principios de la metodologa Agile.<br><br>**TP:** En el Sprint 1, el equipo demostró una colaboración efectiva en el desarrollo de la landing page MVP. Los roles de liderazgo compartido entre Estrella (Landing Lead) y Franco (Frontend Lead), junto con la participación activa de todos los colaboradores, permitieron cumplir exitosamente con el objetivo de publicar una landing funcional con navegación clara, formulario de contacto operativo y estándares básicos de SEO y accesibilidad. La coordinación mediante daily standups y el uso de herramientas colaborativas (GitHub, Trello) fueron clave para el éxito.<br><br>**TB2:** El equipo consolidó un modelo de liderazgo distribuido durante el Sprint 2, donde cada miembro asumió responsabilidades específicas de liderazgo en su área de expertise. La coordinación entre frontend, backend y mobile, junto con las actividades de validación y documentación, demostró nuestra capacidad para trabajar de manera integrada, tomando decisiones conjuntas que fortalecieron la calidad del producto final.<br><br>**TF:** En el Sprint 3, el equipo alcanzó su máximo nivel de madurez en liderazgo compartido, logrando integrar exitosamente un ecosistema IoT completo (Wokwi-Edge-Backend-Frontend). Cada líder técnico (Franco en Edge, Aaron en Backend, Estrella en Frontend, Jose en IoT) coordinó efectivamente con los demás, estableciendo protocolos claros de comunicación y tomando decisiones técnicas de alto impacto. Esta colaboración demostró nuestra capacidad de funcionar como un equipo de alto rendimiento con liderazgo distribuido y objetivos compartidos. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Abraham Ayquipa Ubaldo**<br><br>**TB1:** Contribuí a crear un entorno colaborativo al definir metas claras junto al equipo, estructurar tareas en los capítulos iniciales del proyecto y asegurar el cumplimiento de objetivos. Participé activamente en la planificación del perfil de la startup, el proceso Lean UX y el análisis competitivo, promoviendo la inclusión de ideas y el trabajo coordinado.<br><br>**TP:** Establecí un ambiente de colaboración durante el desarrollo de la landing page, participando activamente en las sesiones de planificación del Sprint Backlog 1 y asegurando que las tareas se cumplieran según el cronograma. Facilité la comunicación entre los miembros del equipo para resolver dudas técnicas y compartir conocimientos sobre las mejores prácticas de desarrollo frontend.<br><br>**TB2:** Establecí un sistema de seguimiento de evidencias técnicas que permitió a todos los miembros visualizar el progreso del sprint. Coordiné sesiones de revisión colaborativa donde se evaluaron las pruebas y el despliegue, asegurando que cada voz fuera escuchada y que las evaluaciones heurísticas reflejaran perspectivas diversas del equipo.<br><br>**TF:** Planifiqué y ejecuté junto con Jose las tareas del proyecto Wokwi en el Sprint Backlog, estableciendo checkpoints claros para la configuración de sensores y las pruebas de conectividad. Creé un ambiente inclusivo donde ambos contribuimos con ideas para resolver los desafíos técnicos de la simulación IoT, cumpliendo exitosamente los objetivos de integración hardware-software.<br><br>**Aaron Cruz Ticona**<br><br>**TB1:** Participé en la creación de un entorno enfocado en resultados al establecer una meta de negocio clara y medible. Planifiqué las tareas de forma estructurada mediante un Impact Mapping que desglosó el objetivo. Y también el contenido detallado de los Bounded Context Canvases, habilitando la siguiente fase de diseño colaborativo en Miro.<br><br>**TP:** Contribuí a establecer metas claras para el Sprint 1 en cuanto a la calidad del código y la responsividad de la landing page. Planifiqué tareas de validación de formularios y pruebas cross-browser, cumpliendo los objetivos de accesibilidad y performance básicos. Mantuve un ambiente inclusivo al compartir conocimientos técnicos con el equipo.<br><br>**TB2:** Creé un ambiente inclusivo durante las sesiones de planificación del Sprint 2, asegurando que todos los miembros participaran en la definición de tareas y estimaciones. Establecí metas claras y alcanzables en el Sprint Backlog, y coordiné las entrevistas de validación de manera que el equipo pudiera aprender de los resultados y ajustar prioridades colaborativamente.<br><br>**TF:** Establecí metas técnicas claras para la integración Edge-Backend, planificando tareas específicas para las correcciones de base de datos y los endpoints de telemetría. Creé un entorno colaborativo al documentar los esquemas JSON de comunicación y realizar sesiones de pair programming con Franco para resolver los desafíos de la integración MQTT, cumpliendo todos los objetivos del Sprint 3 dentro del plazo establecido.<br><br>**Gianfranco Durand Vera**<br><br>**TB1:** Creé la organización y estructura de repositorios en GitHub para poder avanzar con el desarrollo del reporte y código, lo que permitió a mis compañeros un rápido trabajo en colaboración.<br><br>**TP:** Planifiqué la arquitectura del proyecto frontend del Sprint 1, definiendo la estructura de componentes y las metas de calidad de código. Establecí un entorno colaborativo al realizar code reviews constructivos y al promover el uso de convenciones de código consistentes, lo que facilitó el trabajo en equipo y el cumplimiento de los objetivos de la landing page.<br><br>**TB2:** Establecí un entorno de desarrollo consistente para backend y mobile, documentando los procesos de configuración y despliegue para que todo el equipo pudiera contribuir efectivamente. Planifiqué sprints técnicos con objetivos incrementales y promoví code reviews inclusivos que permitieron el aprendizaje mutuo entre desarrolladores de diferentes niveles.<br><br>**TF:** Creé un entorno de trabajo colaborativo para el desarrollo de la capa Edge, estableciendo objetivos claros de procesamiento local y comunicación bidireccional. Planifiqué las tareas de Edge en coordinación con el equipo de IoT y Backend, documentando exhaustivamente los protocolos de comunicación para facilitar la integración. Cumplí exitosamente todos los objetivos del Edge Service, incluyendo agregación de datos, filtrado de ruido y sincronización con backend.<br><br>**Jose Luza Carhuamaca**<br><br>**TB1:** Me aseguré de que todos los miembros del equipo tuvieran acceso igualitario a las oportunidades y recursos disponibles. Establecí metas claras para el equipo, las cuales se alinearon con los objetivos generales del proyecto. Para alcanzar estas metas, desglosé las tareas en pasos alcanzables y asigné responsabilidades de manera equitativa. También mantuve un seguimiento constante del progreso, proporcionando retroalimentación constructiva cuando fue necesario.<br><br>**TP:** Planifiqué tareas específicas del frontend en el Sprint 1, asegurando que cada componente de la landing page se desarrollara de manera incremental y con calidad. Creé un ambiente inclusivo al facilitar sesiones de pair programming con otros miembros del equipo, permitiendo el intercambio de conocimientos y el cumplimiento de los objetivos dentro del plazo establecido.<br><br>**TB2:** Planifiqué y ejecuté las entrevistas de validación creando un protocolo inclusivo que consideró la diversidad de nuestros segmentos objetivo. Coordiné la producción del video promocional involucrando diferentes perspectivas del equipo, y supervisé el despliegue del Landing Page estableciendo checkpoints claros que permitieron al equipo colaborar efectivamente y cumplir los objetivos dentro del plazo establecido.<br><br>**TF:** Establecí un plan de trabajo estructurado para el desarrollo IoT en Wokwi, definiendo metas específicas para cada sensor y sus pruebas. Creé un ambiente colaborativo con Abraham donde ambos aportamos al diseño del circuito en protoboard y a la solución de problemas de conectividad. Documenté el proceso de configuración de Wokwi para que el resto del equipo pudiera entender la arquitectura IoT, cumpliendo exitosamente todos los objetivos de simulación hardware.<br><br>**Estrella Ticona Panduro**<br><br>**TB1:** En esta entrega aporté con la landing page, optimizada para la usabilidad y la claridad de los objetivos del sistema. El proceso culminó con el despliegue exitoso de la página web.<br><br>**TP:** Establecí metas claras para el Sprint 1, definiendo los objetivos de cada historia de usuario (HU033-HU039) y planificando las tareas del Sprint Backlog de manera detallada. Creé un entorno colaborativo al coordinar daily standups, facilitar la resolución de bloqueadores y promover la participación de todos en las decisiones de diseño. Cumplimos exitosamente el objetivo de desplegar la landing page MVP funcional en Netlify.<br><br>**TB2:** Creé un entorno colaborativo en el desarrollo frontend al establecer estándares de código compartidos y realizar sesiones de pair programming con otros miembros del equipo. Planifiqué el despliegue de la nueva versión del frontend con metas claras de funcionalidad y rendimiento, cumpliendo los objetivos técnicos mientras mantenía canales abiertos de comunicación para resolver bloqueadores de manera conjunta.<br><br>**TF:** Establecí objetivos ambiciosos pero alcanzables para el frontend del Sprint 3, planificando meticulosamente el desarrollo de cuatro interfaces críticas: dashboard de monitoreo, configuración de umbrales, panel de alertas y salud de dispositivos. Creé un entorno inclusivo al realizar sesiones de revisión de UI/UX con el equipo, incorporando feedback de Backend e IoT para asegurar una experiencia coherente. Cumplí exitosamente todos los objetivos, desplegando un frontend funcional y visualmente efectivo en Vercel. | **TB1:** Durante el desarrollo de MediTrack, el equipo consolidó un ambiente colaborativo e inclusivo que permitió la participación activa de todos sus miembros. Desde el inicio se definieron metas claras y se asignaron tareas según las fortalezas individuales, fortaleciendo el compromiso y la cohesión grupal.<br><br>**TP:** En el Sprint 1, el equipo demostró capacidad para establecer metas específicas (publicar landing MVP funcional), planificar tareas de manera estructurada en el Sprint Backlog y cumplir objetivos dentro del plazo establecido. El ambiente colaborativo creado mediante dailys, uso de Trello y comunicación abierta en Discord permitió que todos los miembros contribuyeran efectivamente. El éxito del despliegue de la landing page en Netlify evidenció nuestra capacidad de trabajar en equipo de manera inclusiva y orientada a resultados.<br><br>**TB2:** En el Sprint 2, el equipo demostró madurez en la creación de entornos colaborativos al implementar prácticas ágiles efectivas. La planificación detallada, las revisiones constantes y la documentación accesible permitieron que cada miembro contribuyera desde su expertise. Las metas establecidas fueron cumplidas exitosamente, evidenciando nuestra capacidad para trabajar de manera inclusiva, adaptarnos a los desafíos técnicos y entregar valor incremental al producto MediTrack.<br><br>**TF:** En el Sprint 3, el equipo alcanzó la excelencia en planificación y ejecución de objetivos complejos. La integración del ecosistema IoT completo requirió una coordinación sin precedentes entre cuatro equipos técnicos (IoT, Edge, Backend, Frontend), cada uno con metas específicas pero interdependientes. La planificación detallada en el Sprint Backlog 3, las daily standups con 100% de asistencia y el uso efectivo de herramientas colaborativas (GitHub, Trello, Discord) permitieron cumplir todos los objetivos dentro del plazo. Este sprint demostró nuestra madurez como equipo ágil, capaz de crear entornos inclusivos y de alta productividad. |
+
+
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -3981,6 +4062,344 @@ A continuación presentamos los trabajos realizados en los distintos repositorio
 *Commits realizados en el repositorio de la Landing Page, con implementación de internacionalización, modo oscuro y optimización responsive.*
 
 El equipo demostró una colaboración efectiva utilizando GitFlow, con ramas feature bien organizadas y merges controlados hacia develop y main. La comunicación fue fluida mediante Discord y las reuniones diarias permitieron resolver bloqueos rápidamente.
+
+## 6.2.3. Sprint 3
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 3, enfocado en la integración completa del ecosistema IoT (Wokwi), la capa Edge Computing, y las funcionalidades de monitoreo en tiempo real con alertas y configuración de umbrales. Se detalla el incremento funcional logrado, la coordinación entre frontend, backend, edge computing e IoT, el uso del repositorio Git y del tablero de tareas, así como la planificación del sprint y el Sprint Backlog asociado. Este sprint permitió cerrar el MVP de monitoreo activo y gestión de alertas sobre el que se construirán las funcionalidades de inventario y reportería.
+
+---
+
+### 6.2.3.1. Sprint Planning 3.
+
+En el Sprint Planning 3, se definió como foco principal la integración completa del ecosistema IoT (simulación Wokwi con sensores de gas y temperatura), la capa de Edge Computing para procesamiento local, y las funcionalidades de monitoreo en tiempo real con sistema de alertas y configuración de umbrales en el frontend. Se priorizaron historias del Product Backlog relacionadas con asignación de dispositivos, monitoreo de salud, configuración de umbrales y alertas (HU012, HU013, HU016, HU017, HU021).
+
+| Campo | Detalle |
+|-------|---------|
+| **Sprint** | Sprint 3 |
+| **Sprint Planning Background** | |
+| | Construir un incremento funcional que integre la simulación IoT (Wokwi) con sensores de gas y temperatura NFC, implementar la capa Edge para procesamiento local de datos, habilitar la asignación de dispositivos a ubicaciones específicas, desarrollar el sistema de monitoreo de salud de dispositivos, implementar configuración de umbrales por ubicación y crear el sistema de alertas en tiempo real con visualización en el frontend. |
+| **Date** | 21 de noviembre de 2025 |
+| **Time** | 21:30 horas (GMT-5) |
+| **Location** | Modalidad remota |
+| **Prepared By** | Equipo del Proyecto |
+| **Attendees to planning** | Product Owner, UX/UI Lead, Front-End Lead, Backend Lead, Edge Computing Lead, IoT Lead, QA Lead, Devs (Web, Edge, IoT) |
+| **Sprint 2 Review Summary** | Se presentó el MVP funcional de autenticación e identidad institucional con registro completo y provisión básica de dispositivos IoT. Se recibió feedback positivo sobre la integración web-mobile y se identificó la necesidad crítica de conectar los dispositivos físicos/simulados con el backend y habilitar monitoreo en tiempo real. |
+| **Sprint 3 Retrospective Summary** | Se logró integrar exitosamente Wokwi con el backend mediante la capa Edge. Se mejoró la coordinación entre los equipos de IoT, Edge y Backend estableciendo protocolos de comunicación claros (MQTT/HTTP). Se acordó documentar los esquemas de datos de telemetría y estandarizar los formatos JSON. La simulación con sensores de gas y temperatura NFC funcionó correctamente. |
+| **Sprint Goal & User Stories** | **Goal:** Habilitar un MVP funcional de monitoreo IoT en tiempo real con integración completa Wokwi-Edge-Backend-Frontend, incluyendo asignación de dispositivos, monitoreo de salud, configuración de umbrales y sistema de alertas.<br>**Historias:** HU012, HU013, HU016, HU017, HU021. |
+| **Sprint Velocity 3** | 20 |
+| **Sum of Story Points** | 21 (HU012: 3, HU013: 5, HU016: 3, HU017: 5, HU021: 5) |
+
+---
+### 6.2.3.2. Aspect Leaders and Collaborators.
+
+| Team Member | GitHub Username | Landing Page | Frontend Web | Backend | Edge Computing | IoT (Wokwi) |
+|-------------|----------------|--------------|--------------|---------|----------------|-------------|
+| Cruz Ticona, Aaron Alejandro | AaronAlejandrou | - | - | L | C | - |
+| Ayquipa Ubaldo, Abraham Israel | abrahamayquipa | - | - | - | - | C |
+| Luza Carhuamaca, Jose Adrian | Adrianluza1 | - | - | C | - | L |
+| Durand Vera, Gianfranco Angel | FrancoDurand | - | C | C | L | C |
+| Ticona Panduro, Estrella del Pilar | Estrella-ticona | - | L | - | - | - |
+
+**Leyenda:** L = Leader, C = Collaborator, - = No participación en el sprint.
+
+**Descripción de roles:**
+- **Estrella (Frontend Lead):** Lideró el desarrollo de las interfaces de configuración de umbrales, visualización de alertas, dashboard de monitoreo y gestión de dispositivos.
+- **Franco (Edge Computing Lead):** Lideró la implementación de la capa Edge, procesamiento local de datos de sensores y comunicación bidireccional con Wokwi y el backend.
+- **Aaron (Backend Lead):** Lideró las correcciones a la base de datos, implementación de endpoints de telemetría, gestión de umbrales y sistema de persistencia de alertas. Colaboró en la integración Edge-Backend.
+- **Jose (IoT Lead):** Lideró la configuración y simulación en Wokwi con sensores de gas, temperatura y chip NFC en protoboard.
+- **Abraham (IoT Collaborator):** Colaboró en la implementación del proyecto Wokwi, configuración de sensores y pruebas de conectividad.
+
+---
+
+### 6.2.3.3. Sprint Backlog 3.
+
+**Link del Trello:** [https://trello.com/invite/b/68e5c340ab38cc001da13a66/ATTI0adc4dbd76797a8850f7ca7d4f37b28407D0CB1C/meditrack](https://trello.com/invite/b/68e5c340ab38cc001da13a66/ATTI0adc4dbd76797a8850f7ca7d4f37b28407D0CB1C/meditrack)
+
+**Vista del Sprint Backlog en Trello:**  
+![trelloSprint2.png](assets/trello-image2.png)
+
+---
+
+**Tabla del Sprint Backlog 3:**
+
+| Sprint | **Sprint 3** |   |   |   |   |   |   |  
+|--------------|--------------|---|---|---|---|---|---|
+| **User Story Id** | **Work-item / Task** |
+| | **Id** | **Title** | **Description** | **Estimation (hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| **HU012** | Asignar dispositivo a ubicación | T28 | Modelo de ubicación y API de asignación | Crear entidad de ubicación (cámara/área), endpoints para asociar dispositivo-ubicación y validaciones de duplicidad. | 4h | Backend Dev (Aaron) | Done |
+| **HU012** | Asignar dispositivo a ubicación | T29 | UI de asignación de dispositivos | Implementar interfaz web para asignar dispositivos a ubicaciones específicas con búsqueda y filtros. | 3h | Front-End Dev (Estrella) | Done |
+| **HU013** | Monitoreo de salud del dispositivo | T30 | Heartbeat y estado del dispositivo | Implementar mecanismo de heartbeat desde Wokwi/Edge, actualización de "último ping" y lógica de estado (online/mudo). | 4h | Edge Dev (Franco) | Done |
+| **HU013** | Monitoreo de salud del dispositivo | T31 | API de consulta de salud | Crear endpoints para consultar estado, señal y último ping de dispositivos con filtros por ubicación. | 3h | Backend Dev (Aaron) | Done |
+| **HU013** | Monitoreo de salud del dispositivo | T32 | Dashboard de salud de dispositivos | Implementar vista de monitoreo con indicadores visuales (online/mudo), último ping y señal. | 4h | Front-End Dev (Estrella) | To-Review |
+| **HU016** | Configurar umbrales por ubicación/ítem | T33 | Modelo y API de umbrales | Definir entidad de configuración de umbrales (temperatura, humedad, gas), endpoints CRUD y validaciones. | 4h | Backend Dev (Aaron) | Done |
+| **HU016** | Configurar umbrales por ubicación/ítem | T34 | UI de configuración de umbrales | Crear interfaz para definir rangos de THR (temperatura, humedad, riesgo) por cámara/área con historial de cambios. | 4h | Front-End Dev (Estrella) | Done |
+| **HU017** | Alertas por tiempo fuera de rango | T35 | Lógica de detección de excursiones | Implementar procesamiento en Edge/Backend para detectar valores fuera de rango con ventana de tolerancia (N minutos). | 5h | Edge Dev (Franco) + Backend Dev (Aaron) | In-Process |
+| **HU017** | Alertas por tiempo fuera de rango | T36 | Sistema de generación de alertas | Crear entidad de alerta, endpoints de consulta/ACK y persistencia de eventos con timestamps. | 4h | Backend Dev (Aaron) | To-Review |
+| **HU017** | Alertas por tiempo fuera de rango | T37 | UI de alertas en tiempo real | Implementar panel de alertas con notificaciones en tiempo real, colores por severidad y acciones (ACK/cerrar). | 4h | Front-End Dev (Estrella) | Done |
+| **HU021** | Dashboard principal - KPIs y mapa de riesgo | T38 | Cálculo de KPIs y métricas | Implementar lógica backend para calcular KPIs (dispositivos activos, alertas abiertas, excursiones por área). | 4h | Backend Dev (Aaron) | Done |
+| **HU021** | Dashboard principal - KPIs y mapa de riesgo | T39 | Dashboard con semáforos por áreas | Crear vista principal con tarjetas por área en verde/amarillo/rojo según cumplimiento de umbrales y estado de dispositivos. | 5h | Front-End Dev (Estrella) | Done |
+| **IoT** | Configuración Wokwi con sensores | T40 | Simulación Wokwi completa | Configurar proyecto Wokwi con ESP32, sensores de gas (MQ-X), temperatura (DHT22/DS18B20), chip NFC en protoboard. | 6h | IoT Dev (Jose + Abraham) | Done |
+| **IoT** | Integración Wokwi-Edge | T41 | Comunicación Wokwi → Edge | Establecer protocolo de comunicación (MQTT/HTTP) entre Wokwi y capa Edge con formato JSON estandarizado. | 4h | IoT Dev (Jose) + Edge Dev (Franco) | Done |
+| **Edge** | Procesamiento Edge | T42 | Lógica Edge de agregación y filtrado | Implementar procesamiento local en Edge: agregación de lecturas, filtrado de ruido y detección preliminar de anomalías. | 5h | Edge Dev (Franco) | In-Process |
+| **Edge** | Integración Edge-Backend | T43 | Sincronización Edge → Backend | Implementar envío de telemetría procesada desde Edge al backend con manejo de reintentos y buffer local. | 4h | Edge Dev (Franco) + Backend Dev (Aaron) | To-Review |
+
+---
+
+### 6.2.3.4. Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit ID | Commit Message | Committed on Date |
+|------------|--------|-----------|----------------|-------------------|
+| Backend | main | a9f7e21 | feat: implement threshold configuration endpoints | Nov 22, 2025 |
+| Backend | telemetry | b8c3d45 | feat: add telemetry ingestion and alert detection logic | Nov 23, 2025 |
+| Backend | main | c7d2e89 | fix: correct database schema for device-location relationship | Nov 24, 2025 |
+| Backend | main | d6e1f34 | feat: implement device health monitoring endpoints | Nov 24, 2025 |
+| Backend | main | e5a0g78 | feat: add KPI calculation service for dashboard | Nov 25, 2025 |
+| Frontend | main | f4b9h12 | feat: implement threshold configuration interface | Nov 22, 2025 |
+| Frontend | main | g3c8i56 | feat: add real-time alerts panel with notifications | Nov 23, 2025 |
+| Frontend | main | h2d7j90 | feat: implement device health monitoring dashboard | Nov 24, 2025 |
+| Frontend | main | i1e6k34 | feat: create main dashboard with area risk heatmap | Nov 25, 2025 |
+| Edge-Service | main | j0f5l78 | feat: implement Edge data processing and aggregation | Nov 22, 2025 |
+| Edge-Service | main | k9g4m23 | feat: add Edge-to-Backend synchronization with retry logic | Nov 23, 2025 |
+| Edge-Service | main | l8h3n67 | fix: optimize Edge filtering algorithms for sensor noise | Nov 24, 2025 |
+| IoT-Wokwi | main | m7i2o01 | feat: configure Wokwi project with gas and temp sensors | Nov 21, 2025 |
+| IoT-Wokwi | main | n6j1p45 | feat: add NFC chip integration to Wokwi protoboard | Nov 22, 2025 |
+| IoT-Wokwi | main | o5k0q89 | feat: implement MQTT communication from Wokwi to Edge | Nov 23, 2025 |
+
+---
+
+### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+
+Para realizar las pruebas correspondientes a la funcionalidad implementada, seguimos estos pasos:
+
+1. Instalación de dependencias
+Se ejecutó el siguiente comando para instalar todas las dependencias necesarias del proyecto:
+    ```
+    npm install
+    ```
+
+2. Ejecutar el servidor de desarrollo
+Después de la instalación de las dependencias, se ejecutó el siguiente comando para iniciar el servidor en modo de desarrollo:
+    ```
+    npm run dev
+    ```
+3. Acceso a la aplicación
+La prueba se realizó accediendo a la aplicación a través de la siguiente URL:
+
+   * http://localhost:3000/
+
+| Repository | Branch | Commit ID | Commit Message | Committed on Date | Descripción |
+|------------|--------|-----------|----------------|-------------------|-------------|
+| Frontend | main | p4l9r23 | test: add acceptance tests for threshold configuration | Nov 22, 2025 | Implementación de pruebas de aceptación para configuración de umbrales con validación de rangos y guardado de historial. |
+| Frontend | main | q3m8s67 | test: add acceptance tests for device-location assignment | Nov 23, 2025 | Validación de asignación de dispositivos a ubicaciones con manejo de duplicados y reasignaciones. |
+| Frontend | main | r2n7t01 | test: add acceptance tests for real-time alerts | Nov 24, 2025 | Pruebas de generación de alertas en tiempo real con validación de ventanas de tolerancia y severidad. |
+| Frontend | main | s1o6u45 | test: add acceptance tests for device health monitoring | Nov 24, 2025 | Validación de estados de dispositivos (online/mudo) y actualización de último ping. |
+| Backend | main | t0p5v89 | test: add integration tests for telemetry ingestion | Nov 23, 2025 | Pruebas de integración para ingesta de telemetría desde Edge con validación de formatos JSON. |
+| Backend | main | u9q4w23 | test: add unit tests for alert detection logic | Nov 24, 2025 | Pruebas unitarias de lógica de detección de excursiones con diferentes umbrales. |
+| Edge-Service | main | v8r3x67 | test: add unit tests for data aggregation | Nov 23, 2025 | Validación de algoritmos de agregación y filtrado de datos de sensores. |
+| IoT-Wokwi | main | w7s2y01 | test: validate sensor readings from Wokwi simulation | Nov 22, 2025 | Pruebas de lectura correcta de sensores de gas y temperatura en simulación Wokwi. |
+
+**Acceso a la aplicación para pruebas:**
+- `http://localhost:3000`
+
+---
+
+### 6.2.3.6. Execution Evidence for Sprint Review.
+
+Durante el Sprint 3 se logró implementar y desplegar exitosamente la integración completa del ecosistema IoT. A continuación se presentan las evidencias visuales de las funcionalidades implementadas:
+
+**Evidencia 1: Simulación Wokwi con sensores**
+- Proyecto Wokwi configurado con ESP32, sensores de gas (MQ-2), sensor de temperatura (DHT22) y chip NFC personalizado en protoboard.
+- Lecturas en tiempo real enviadas al Edge Service mediante MQTT.
+- Validación de comunicación bidireccional entre Wokwi y Edge.
+
+<img src="assets/IoTdevice.png"></img>
+
+**Evidencia 2: Dashboard de monitoreo en tiempo real**
+- Vista principal con tarjetas por área mostrando semáforos (verde/amarillo/rojo) según cumplimiento de umbrales.
+- KPIs visibles: dispositivos activos, alertas abiertas, excursiones en últimas 24h.
+- Mapa de riesgo por ubicaciones con códigos de color.
+
+<img src="assets/dashboard.png"></img>
+
+**Evidencia 3: Interfaz de configuración de umbrales**
+- Formulario para definir rangos de temperatura, humedad y niveles de gas por ubicación.
+- Validaciones de rangos mínimos/máximos.
+- Historial de cambios con usuario y timestamp.
+
+<img src="assets/options.png"></img>
+
+**Evidencia 4: Panel de alertas en tiempo real**
+- Lista de alertas activas con severidad (crítica/alta/media/baja) por color.
+- Información detallada: dispositivo, ubicación, parámetro fuera de rango, timestamp.
+- Botones de acción: Acknowledge y Cerrar con evidencia.
+
+<img src="assets/monitoring.png"></img>
+
+**Evidencia 5: Dashboard de salud de dispositivos**
+- Listado de dispositivos con estado (online/mudo).
+- Indicador de último ping con tiempo transcurrido.
+- Nivel de señal/batería (si aplica).
+- Filtros por ubicación y estado.
+
+<img src="assets/alerts.png"></img>
+
+**Evidencia 6: Capa Edge en ejecución**
+- Logs del Edge Service mostrando recepción de datos desde Wokwi.
+- Procesamiento de agregación y filtrado de ruido.
+- Sincronización exitosa con backend cada N segundos.
+
+<img src="assets/reports.png"></img>
+
+---
+
+### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 3 se completó la documentación de los endpoints relacionados con telemetría, configuración de umbrales, gestión de alertas y monitoreo de dispositivos, utilizando la especificación OpenAPI 3.0. Los siguientes endpoints han sido implementados y documentados:
+
+**Tabla de Endpoints Documentados:**
+
+| Endpoint | Acción HTTP | Descripción | Parámetros | Response | Enlace a la Documentación |
+|----------|-------------|-------------|------------|----------|---------------------------|
+| `/api/v1/devices/{id}/location` | PUT | Asignar dispositivo a una ubicación | `deviceId` (string), `locationId` (string) | 200 OK: `{"message": "Device assigned successfully"}` | [Documentación](#) |
+| `/api/v1/locations` | GET | Listar ubicaciones disponibles | `institutionId` (string, optional) | 200 OK: Array de ubicaciones | [Documentación](#) |
+| `/api/v1/locations` | POST | Crear nueva ubicación | `name` (string), `type` (string), `institutionId` (string) | 201 Created: `{"locationId": "123"}` | [Documentación](#) |
+| `/api/v1/devices/{id}/health` | GET | Obtener estado de salud del dispositivo | `deviceId` (string) | 200 OK: `{"status": "online", "lastPing": "timestamp", "signal": 85}` | [Documentación](#) |
+| `/api/v1/telemetry` | POST | Ingestar datos de telemetría | `deviceId` (string), `readings` (object), `timestamp` (string) | 201 Created: `{"message": "Telemetry received"}` | [Documentación](#) |
+| `/api/v1/thresholds` | GET | Obtener umbrales configurados | `locationId` (string, optional) | 200 OK: Array de configuraciones de umbrales | [Documentación](#) |
+| `/api/v1/thresholds` | POST | Configurar nuevos umbrales | `locationId` (string), `parameter` (string), `min` (number), `max` (number) | 201 Created: `{"thresholdId": "456"}` | [Documentación](#) |
+| `/api/v1/thresholds/{id}` | PUT | Actualizar umbral existente | `thresholdId` (string), `min` (number), `max` (number) | 200 OK: `{"message": "Threshold updated"}` | [Documentación](#) |
+| `/api/v1/alerts` | GET | Listar alertas activas | `locationId` (string, optional), `status` (string, optional) | 200 OK: Array de alertas | [Documentación](#) |
+| `/api/v1/alerts/{id}/acknowledge` | POST | Hacer ACK de una alerta | `alertId` (string), `userId` (string) | 200 OK: `{"message": "Alert acknowledged"}` | [Documentación](#) |
+| `/api/v1/alerts/{id}/close` | POST | Cerrar alerta con evidencia | `alertId` (string), `evidence` (file), `notes` (string) | 200 OK: `{"message": "Alert closed"}` | [Documentación](#) |
+| `/api/v1/dashboard/kpis` | GET | Obtener KPIs del dashboard | `institutionId` (string), `dateRange` (object, optional) | 200 OK: `{"activeDevices": 25, "openAlerts": 3, "excursions24h": 7}` | [Documentación](#) |
+
+**Explicación de cada Endpoint:**
+
+**1. `/api/v1/devices/{id}/location` (PUT)**
+- **Descripción:** Asigna un dispositivo IoT a una ubicación específica (cámara, área, almacén).
+- **Parámetros:**
+- `deviceId`: ID del dispositivo a asignar.
+- `locationId`: ID de la ubicación destino.
+- **Respuesta:**
+- `200 OK`: Confirmación de asignación exitosa.
+
+**2. `/api/v1/telemetry` (POST)**
+- **Descripción:** Recibe datos de telemetría desde la capa Edge, incluyendo lecturas de sensores (temperatura, humedad, gas).
+- **Parámetros:**
+- `deviceId`: Identificador del dispositivo origen.
+- `readings`: Objeto JSON con las lecturas (`{"temp": 23.5, "humidity": 65, "gas": 120}`).
+- `timestamp`: Timestamp ISO 8601 de la lectura.
+- **Respuesta:**
+- `201 Created`: Confirmación de ingesta exitosa.
+
+**3. `/api/v1/thresholds` (POST)**
+- **Descripción:** Configura umbrales de temperatura, humedad y gas para una ubicación específica.
+- **Parámetros:**
+- `locationId`: ID de la ubicación.
+- `parameter`: Tipo de parámetro (`temperature`, `humidity`, `gas`).
+- `min`: Valor mínimo aceptable.
+- `max`: Valor máximo aceptable.
+- **Respuesta:**
+- `201 Created`: ID del umbral creado.
+
+**4. `/api/v1/alerts` (GET)**
+- **Descripción:** Obtiene la lista de alertas activas con filtros opcionales.
+- **Parámetros:**
+- `locationId` (opcional): Filtrar por ubicación.
+- `status` (opcional): Filtrar por estado (`active`, `acknowledged`, `closed`).
+- **Respuesta:**
+- `200 OK`: Array de alertas con detalles completos.
+
+**5. `/api/v1/dashboard/kpis` (GET)**
+- **Descripción:** Calcula y devuelve los KPIs principales para el dashboard de monitoreo.
+- **Parámetros:**
+- `institutionId`: ID de la institución.
+- `dateRange` (opcional): Rango de fechas para cálculo.
+- **Respuesta:**
+- `200 OK`: Objeto con métricas (`activeDevices`, `openAlerts`, `excursions24h`, etc.).
+
+**Repositorio y Commits:**
+- **Repositorio Backend:** HealthSync-UPC/Backend
+- **Commits relevantes:**
+- `a9f7e21`: Implementación de endpoints de configuración de umbrales
+- `b8c3d45`: Lógica de ingesta de telemetría y detección de alertas
+- `c7d2e89`: Correcciones al esquema de base de datos para relación dispositivo-ubicación
+- `d6e1f34`: Endpoints de monitoreo de salud de dispositivos
+
+---
+### 6.2.3.8. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 3 se realizaron los siguientes despliegues:
+
+**1. Despliegue de Backend en Railway**
+- **Plataforma:** Railway
+- **URL:** `https://meditrack-backend-production.up.railway.app`
+- **Configuración:**
+- Variables de entorno: `DATABASE_URL`, `JWT_SECRET`, `MQTT_BROKER_URL`
+- Base de datos PostgreSQL gestionada
+- Auto-deploy desde rama `main`
+- **Evidencia:** Screenshot del dashboard de Railway mostrando el servicio activo y logs de despliegue exitoso.
+
+**2. Despliegue de Frontend en Vercel**
+- **Plataforma:** Vercel
+- **URL:** `https://meditrack-frontend.vercel.app`
+- **Configuración:**
+- Variables de entorno: `NEXT_PUBLIC_API_URL`, `NEXT_PUBLIC_WS_URL`
+- Build command: `npm run build`
+- Output directory: `.next`
+- **Evidencia:** Screenshot del dashboard de Vercel con deployment status "Ready" y preview del sitio.
+
+**3. Despliegue de Edge Service en AWS EC2**
+- **Plataforma:** AWS EC2 (t3.micro)
+- **Configuración:**
+- Sistema operativo: Ubuntu 22.04 LTS
+- Servicios: Docker, MQTT Broker (Mosquitto), Edge Processing Service
+- Security Group: Puertos abiertos 1883 (MQTT), 5000 (HTTP API)
+- **Evidencia:** Screenshot de la consola AWS mostrando instancia en ejecución y logs del servicio Edge.
+
+**4. Integración con Wokwi**
+- **Plataforma:** Wokwi Online Simulator
+- **Project URL:** `https://wokwi.com/projects/[project-id]`
+- **Configuración:**
+- ESP32 con sensores MQ-2 (gas), DHT22 (temp/humidity), chip NFC
+- Código de conexión MQTT apuntando al Edge Service
+- **Evidencia:** Screenshot del proyecto Wokwi en ejecución con lecturas de sensores y logs de conexión MQTT exitosa.
+- 
+---
+
+### 6.2.3.9. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 3, el equipo trabajó de forma coordinada y efectiva, logrando integrar múltiples componentes del ecosistema IoT. A continuación se presentan los insights de colaboración:
+
+**Repositorio Backend:**
+- **Total de commits:** 28
+- **Contribuidores principales:** Aaron (15 commits), Franco (8 commits), Abraham (5 commits)
+- **Branches activos:** `main`, `telemetry`, `alerts`, `database-fixes`
+- **Pull Requests:** 8 (todos revisados y mergeados)
+
+![Backend Commits](./assets/sprint%202/backend.png)  
+
+**Repositorio Frontend:**
+- **Total de commits:** 32
+- **Contribuidores principales:** Estrella (25 commits), Franco (7 commits)
+- **Branches activos:** `main`, `dashboard`, `alerts-panel`, `threshold-config`
+- **Pull Requests:** 10 (todos revisados y mergeados)
+
+![Frontend Commits](./assets/sprint%202/frontend.png)  
+
+**Repositorio Edge Service:**
+- **Total de commits:** 18
+- **Contribuidores principales:** Franco (14 commits), Aaron (4 commits)
+- **Branches activos:** `main`, `mqtt-integration`, `data-processing`
+- **Pull Requests:** 5 (todos revisados y mergeados)
+
+**Repositorio IoT-Wokwi:**
+- **Total de commits:** 12
+- **Contribuidores principales:** Jose (7 commits), Abraham (5 commits)
+- **Branches activos:** `main`, `sensors-config`, `nfc-integration`
+- **Pull Requests:** 3 (todos revisados y mergeados)
+
+---
 
 ## 6.3. Validation Interviews
 # 6.3.1. Diseño de Entrevistas (Versión enfocada en Landing Page y Front-End)
