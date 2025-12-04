@@ -4513,6 +4513,10 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 
 ## 6.4. Video About-the-Product
 
+<img src="assets/product.png" width="800px">
+
+[About The Product:](https://youtu.be/bvLZ6uHdSzw) https://youtu.be/bvLZ6uHdSzw
+
 <div style="page-break-after: always;"></div>
 
 # Conclusiones
@@ -4536,6 +4540,10 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 6. **Preparar material de comunicación** que incluya casos de uso, demos con datos reales del piloto y guías de usuario, apoyando al equipo de ventas y clientes en la validación y escalado de la solución.
 
 ## Video About-the-Team
+
+<img src="assets/team.png" width="800px">
+
+[About The Team:](https://youtu.be/YpFsO6sOI6s) https://youtu.be/YpFsO6sOI6s
 
 # Bibliografía
 
@@ -4566,3 +4574,9 @@ Validar la usabilidad, claridad y adecuación visual del prototipo digital (land
 [Front end:](https://meditrack-front.netlify.app/) https://meditrack-front.netlify.app/ 
 
 [Back end:](https://meditrack.azurewebsites.net/swagger-ui/index.html) https://meditrack.azurewebsites.net/swagger-ui/index.html 
+
+[About The Product:](https://youtu.be/bvLZ6uHdSzw) https://youtu.be/bvLZ6uHdSzw
+
+[About The Team:](https://youtu.be/YpFsO6sOI6s) https://youtu.be/YpFsO6sOI6s
+
+[Repositorio Edge:](https://github.com/HealthSync-UPC/Edge) https://github.com/HealthSync-UPC/Edge
